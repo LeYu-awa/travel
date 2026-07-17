@@ -1,0 +1,4 @@
+.safe-bottom.data-v-7457c90a {
+  background: #fff;
+  padding-bottom: env(safe-area-inset-bottom);
+}

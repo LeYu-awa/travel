@@ -1,0 +1,6 @@
+<view class="mid-trans data-v-0aa60a38">
+    <view class="title data-v-0aa60a38">即将离开松赞小程序</view>
+    <view class="message data-v-0aa60a38">您即将从松赞小程序跳转到外部小程序，请注意保护您的隐私安全。</view>
+    <image class="icon data-v-0aa60a38" src="{{a}}"></image>
+    <st-button bind:__l="__l" bindclick="{{b}}" class="data-v-0aa60a38" uI="0aa60a38-0" uP="{{c}}" uS="{{['d']}}" wx:if="{{c}}">跳转</st-button>
+</view>

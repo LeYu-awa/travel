@@ -1,0 +1,253 @@
+<template>
+	<!-- 支付弹窗 -->
+	<view class="popUp">
+		<view class="popUp-title">
+			<text class="title">支付</text>
+			<text class="desc">创作不易，您需支付{{watch_cost}}元，观看视频内容</text>
+			<text class="money">{{watch_cost}}元</text>
+		</view>
+		<view class="popUp-content">
+			<radio-group @change="radioChange">
+				<label class="uni-list-cell">
+					<view class="left">
+						<!-- #ifdef APP-PLUS -->
+						<image class="iconfont" src="../static/img/index/wx.png" mode=""></image>
+						<!-- #endif -->
+						<!-- #ifndef APP-PLUS -->
+						<image class="iconfont" src="/static/images/wx.png" mode=""></image>
+						<!-- #endif -->
+						<text class="name">微信支付</text>
+					</view>
+					<radio value="wechat" :checked="payType==='wechat'" />
+				</label>
+				<label class="uni-list-cell">
+					<view class="left">
+						<!-- #ifdef APP-PLUS -->
+						<image class="iconfont" src="../static/img/index/yue.png" mode=""></image>
+						<!-- #endif -->
+						<!-- #ifndef APP-PLUS -->
+						<image class="iconfont" src="/static/images/yue.png" mode=""></image>
+						<!-- #endif -->
+						<text class="name">余额支付</text>
+					</view>
+					<radio value="balance" :checked="payType==='balance'" />
+				</label>
+			</radio-group>
+			<text class="cost-btn" @click="goPay">
+				去付款
+			</text>
+		</view>
+	</view>
+</template>
+
+<script>
+	import {
+		createVideoOrder,
+		getPayStatus
+	} from '@/api/community.js';
+	import {
+		getUserInfo
+	} from '@/api/user.js';
+	export default {
+		props: {
+			// 视频id
+			video_id: {
+				type: [String, Number],
+				default: '0'
+			},
+			// 支付金额
+			watch_cost: {
+				type: [String, Number],
+				default: '0'
+			},
+			//用户账户金额
+			user_now_money: {
+				type: [String, Number],
+				default: '0'
+			}
+		},
+		data() {
+			return {
+				payType: 'wechat', //支付方式
+			}
+		},
+		methods: {
+			clickClose() {
+				this.$emit('close', false)
+			},
+			close() {
+				this.$emit('close', false)
+			},
+			radioChange: function(evt) {
+				this.payType = evt.detail.value
+			},
+			goPay() {
+				let that = this;
+				if (this.payType == 'balance' && parseFloat(this.user_now_money) < parseFloat(this.watch_cost)) {
+					uni.showToast({
+						title: '余额不足!',
+						icon: 'error',
+						duration: 2000
+					});
+					return false;
+				}
+
+				uni.showLoading({
+					title: '支付中'
+				});
+
+				createVideoOrder({
+					pay_type: this.payType,
+					video_id: this.video_id
+				}).then(res => {
+					if (res.status == 200) {
+						uni.hideLoading();
+						switch (this.payType) {
+							case 'balance':
+								uni.showModal({
+									content: "支付成功",
+									showCancel: false,
+									success: res => {
+										this.$emit('paySuccess')
+									}
+								})
+								break;
+							case 'wechat':
+								// #ifdef APP-PLUS
+								uni.requestPayment({
+									provider: 'wxpay',
+									orderInfo: res.data,
+									success: (e) => {
+										uni.showModal({
+											content: "支付成功",
+											showCancel: false,
+											success: res => {
+												this.$emit('paySuccess')
+											}
+										})
+									},
+									fail: (err) => {
+										if (err.errMsg.indexOf('取消') > -1 || err.errMsg.indexOf(
+												'cancel') > 1 || err.errMsg.indexOf('-2') > -1) {
+											this.$emit('close')
+											uni.showToast({
+												title: '支付取消',
+												icon: 'none',
+												duration: 2000
+											});
+										} else {
+											console.log(err);
+											this.$emit('close')
+											uni.showModal({
+												content: "支付遇到错误，请稍候重试",
+												showCancel: false,
+											})
+										}
+									},
+									complete: () => {
+										uni.hideLoading();
+									},
+								});
+								// #endif
+								break;
+						}
+					}
+				}).catch(err => {
+					uni.hideLoading();
+					return uni.showToast({
+						title: err,
+						icon: 'error',
+						duration: 2000
+					});
+				});
+			},
+		}
+	}
+</script>
+
+<style lang="scss" scoped>
+	.popUp {
+		width: 500rpx;
+		background-color: #fff;
+		box-sizing: border-box;
+		border-radius: 12rpx;
+		padding: 30rpx 20rpx;
+		display: flex;
+		align-items: center;
+
+		.popUp-title {
+			padding-top: 20rpx;
+			position: relative;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+
+			.title {
+				font-size: 32rpx;
+				color: #282828;
+				text-align: center;
+			}
+
+			.desc {
+				font-size: 24rpx;
+				color: #999;
+				margin-top: 30rpx;
+			}
+
+			.money {
+				color: red;
+				font-size: 40rpx;
+				font-weight: bold;
+				margin-top: 30rpx;
+			}
+		}
+
+		.popUp-content {
+			margin-top: 20rpx;
+
+			.uni-list-cell {
+				display: flex;
+				flex-flow: row wrap;
+				justify-content: space-between;
+				align-items: center;
+				padding: 10rpx 0;
+
+				.left {
+					display: flex;
+					flex-direction: row;
+					align-items: center;
+				}
+
+				.iconfont {
+					width: 44rpx;
+					height: 44rpx;
+					margin-right: 10rpx;
+				}
+
+				.name {
+					display: flex;
+					align-items: center;
+					font-size: 28rpx;
+				}
+
+			}
+
+			.cost-btn {
+				width: 400rpx;
+				height: 60rpx;
+				background: rgb(249, 98, 105);
+				color: #ffffff;
+				border-radius: 15rpx;
+				line-height: 60rpx;
+				text-align: center;
+				box-sizing: border-box;
+				font-size: 30rpx;
+				margin-top: 40rpx;
+			}
+
+
+		}
+
+
+	}
+</style>

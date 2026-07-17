@@ -1,0 +1,19 @@
+{
+  "navigationBarTitleText": "确认订单",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "bottom-dialog": "../../components/bottomDialog",
+    "calendar": "../../components/calendar",
+    "coupon-item": "../../components/couponItem",
+    "coustom-head": "../../components/coustomHead",
+    "customer-retention-dialog": "../../components/new/CustomerRetentionDialog",
+    "empty": "../../components/empty",
+    "float-button-kf": "/components/new/FloatButtonKf",
+    "kf-dialog": "../../components/kfDialog",
+    "number-transition": "../../components/new/NumberTransition",
+    "radio-box": "../../components/radioBox",
+    "retry-modal": "../../components/RetryModal",
+    "st-radio": "../../components/new/StRadio",
+    "stepper": "../../components/new/Stepper"
+  }
+}

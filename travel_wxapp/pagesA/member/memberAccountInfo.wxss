@@ -1,0 +1,155 @@
+.line-clamp-1.data-v-3e8794a8 {
+  line-clamp: 1;
+}
+.line-clamp-1.data-v-3e8794a8,
+.line-clamp-2.data-v-3e8794a8 {
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  overflow: hidden;
+  white-space: normal;
+}
+.line-clamp-2.data-v-3e8794a8 {
+  line-clamp: 2;
+}
+.line-clamp-3.data-v-3e8794a8 {
+  line-clamp: 3;
+}
+.line-clamp-3.data-v-3e8794a8,
+.line-clamp-4.data-v-3e8794a8 {
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  overflow: hidden;
+  white-space: normal;
+}
+.line-clamp-4.data-v-3e8794a8 {
+  line-clamp: 4;
+}
+.line-clamp-5.data-v-3e8794a8 {
+  line-clamp: 5;
+}
+.line-clamp-5.data-v-3e8794a8,
+.line-clamp-6.data-v-3e8794a8 {
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  overflow: hidden;
+  white-space: normal;
+}
+.line-clamp-6.data-v-3e8794a8 {
+  line-clamp: 6;
+}
+.line-clamp-7.data-v-3e8794a8 {
+  line-clamp: 7;
+}
+.line-clamp-7.data-v-3e8794a8,
+.line-clamp-8.data-v-3e8794a8 {
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  overflow: hidden;
+  white-space: normal;
+}
+.line-clamp-8.data-v-3e8794a8 {
+  line-clamp: 8;
+}
+.line-clamp-9.data-v-3e8794a8 {
+  -webkit-box-orient: vertical;
+  line-clamp: 9;
+  display: -webkit-box;
+  overflow: hidden;
+  white-space: normal;
+}
+.ui_memberAccountInfo .memberAccountInfoBox.data-v-3e8794a8 {
+  padding: 32rpx;
+}
+.ui_memberAccountInfo .contactBtn.data-v-3e8794a8 {
+  border-radius: 40rpx;
+  color: #000;
+  font-size: 28rpx;
+  height: 76rpx;
+  line-height: 76rpx;
+  margin: 48rpx auto 0;
+  position: relative;
+  text-align: center;
+  width: 272rpx;
+}
+.ui_memberAccountInfo .contactBtn.data-v-3e8794a8:after {
+  border: 1px solid #ccc;
+  border-radius: 80rpx;
+  content: "";
+  height: 200%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  transform: scale(0.5);
+  transform-origin: 0 0;
+  width: 200%;
+}
+.ui_memberAccountInfo .card.data-v-3e8794a8 {
+  background: #fff;
+  border-radius: 16rpx;
+  margin-bottom: 24rpx;
+}
+.ui_memberAccountInfo .card .row.data-v-3e8794a8 {
+  align-items: center;
+  color: #000;
+  display: flex;
+  font-size: 28rpx;
+  height: 96rpx;
+  padding: 24rpx;
+}
+.ui_memberAccountInfo .card .row .title.data-v-3e8794a8 {
+  width: 180rpx;
+}
+.ui_memberAccountInfo .card .row .desc.data-v-3e8794a8 {
+  align-items: center;
+  display: flex;
+}
+.ui_memberAccountInfo .card .row .desc .iconfont.data-v-3e8794a8 {
+  font-size: 26rpx;
+  margin-left: 6rpx;
+}
+.ui_memberAccountInfo .card .row .red.data-v-3e8794a8 {
+  color: #a43127;
+}
+.ui_memberAccountInfo .card .topBox.data-v-3e8794a8 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 64rpx 0;
+}
+.ui_memberAccountInfo .card .topBox .title.data-v-3e8794a8 {
+  color: #000;
+  font-size: 32rpx;
+  font-weight: 700;
+  margin-bottom: 48rpx;
+}
+.ui_memberAccountInfo .card .topBox .accountTitle.data-v-3e8794a8 {
+  color: #000;
+  font-size: 28rpx;
+  margin-bottom: 24rpx;
+}
+.ui_memberAccountInfo .card .topBox .price.data-v-3e8794a8 {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 40rpx;
+  font-weight: 600;
+  margin-bottom: 48rpx;
+}
+.ui_memberAccountInfo .card .topBox .priceInfo.data-v-3e8794a8 {
+  display: flex;
+}
+.ui_memberAccountInfo .card .topBox .priceInfo .priceItem.data-v-3e8794a8 {
+  color: gray;
+  font-size: 28rpx;
+}
+.ui_memberAccountInfo
+  .card
+  .topBox
+  .priceInfo
+  .priceItem.data-v-3e8794a8:nth-of-type(2) {
+  margin-left: 32rpx;
+}
+.ui_memberAccountInfo .card .topBox .breach.data-v-3e8794a8 {
+  color: gray;
+  font-size: 28rpx;
+}

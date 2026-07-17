@@ -1,0 +1,56 @@
+<view class="ui_couponInfo data-v-1fe2e8ea" hidden="{{!S}}">
+    <coustom-head bind:__l="__l" class="data-v-1fe2e8ea" uI="1fe2e8ea-0" uP="{{a}}" wx:if="{{a}}"></coustom-head>
+    <view class="couponItemBox data-v-1fe2e8ea" style="{{'max-height:'+Q+';'+'top:'+R}}">
+        <view class="topBox data-v-1fe2e8ea" id="topBox">
+            <view class="{{['couponType','data-v-1fe2e8ea',d]}}" wx:if="{{b}}">{{c}}</view>
+            <view class="couponName data-v-1fe2e8ea">{{e}}</view>
+            <view bindtap="{{h}}" class="couponSubTitle data-v-1fe2e8ea" wx:if="{{f}}"> 券号：{{g}} <view class="icon iconfont icon-a-12_fuzhi data-v-1fe2e8ea"></view>
+            </view>
+            <view class="couponSubTitle data-v-1fe2e8ea" wx:if="{{i}}"> 有效期：{{j}} 至 {{k}}</view>
+            <block wx:if="{{l}}">
+                <view class="couponPrice data-v-1fe2e8ea" wx:if="{{m}}">{{n}}折 </view>
+                <view class="couponPrice data-v-1fe2e8ea" wx:elif="{{o}}">{{p}}折 </view>
+                <view class="couponPrice data-v-1fe2e8ea" wx:else> ¥{{q}}</view>
+            </block>
+            <view class="useLimit data-v-1fe2e8ea" wx:if="{{r}}"> 满 ¥{{s}} 使用 </view>
+        </view>
+        <view class="exchangeCoupon qrCodeBox data-v-1fe2e8ea" wx:if="{{t}}">
+            <view class="couponNo data-v-1fe2e8ea" wx:if="{{v}}">
+                <view class="no data-v-1fe2e8ea">{{w}}</view>
+                <view bindtap="{{x}}" class="iconfont icon-a-12_fuzhi data-v-1fe2e8ea"></view>
+            </view>
+            <view class="travelersInfo data-v-1fe2e8ea" wx:if="{{y}}">
+                <view class="tl data-v-1fe2e8ea"> 可兑产品（限兑1个产品） </view>
+                <view bindtap="{{item.c}}" class="travelersInfo-item data-v-1fe2e8ea" wx:if="{{item.a}}" wx:for="{{z}}" wx:key="d">
+                    <view class="val data-v-1fe2e8ea">
+                        <view class="val-txt data-v-1fe2e8ea">{{item.b}}</view>
+                        <view class="iconfont icon-a-12_youlajiantou_hui data-v-1fe2e8ea"></view>
+                    </view>
+                </view>
+                <view bindtap="{{B}}" class="open-btn data-v-1fe2e8ea" wx:if="{{A}}"> 展开更多<view class="iconfont icon-a-12_xialajiantou_hei data-v-1fe2e8ea"></view>
+                </view>
+                <view bindtap="{{D}}" class="open-btn data-v-1fe2e8ea" wx:elif="{{C}}"> 收起更多<view class="iconfont icon-a-12_shanglajiantou_hei data-v-1fe2e8ea"></view>
+                </view>
+            </view>
+        </view>
+        <view class="qrCodeBox data-v-1fe2e8ea" wx:elif="{{E}}">
+            <image alt="" class="qrCode data-v-1fe2e8ea" src="{{G}}" wx:if="{{F}}"></image>
+            <image alt="" class="barcode data-v-1fe2e8ea" src="{{I}}" wx:if="{{H}}"></image>
+        </view>
+        <view class="bottomBox data-v-1fe2e8ea">
+            <view class="ruleTitle data-v-1fe2e8ea"> 使用规则 </view>
+            <view class="data-v-1fe2e8ea" wx:if="{{J}}">
+                <mp-html bind:__l="__l" class="ruleInfo data-v-1fe2e8ea" uI="1fe2e8ea-1" uP="{{K}}" wx:if="{{K}}"></mp-html>
+            </view>
+        </view>
+        <view class="exchangeBtn data-v-1fe2e8ea" wx:if="{{L}}">
+            <view bindtap="{{M}}" class="btn baseBtn data-v-1fe2e8ea"> 去兑换 </view>
+        </view>
+        <view class="exchangeBtn data-v-1fe2e8ea" wx:if="{{N}}">
+            <button class="btn baseBtn data-v-1fe2e8ea" openType="share"> 转赠好友 </button>
+        </view>
+        <view class="exchangeBtn data-v-1fe2e8ea" wx:if="{{O}}">
+            <view bindtap="{{P}}" class="btn baseBtn data-v-1fe2e8ea"> 立即领取 </view>
+        </view>
+    </view>
+</view>

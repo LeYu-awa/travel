@@ -1,0 +1,14 @@
+{
+  "enablePullDownRefresh": true,
+  "navigationBarTitleText": "个人中心",
+  "navigationStyle": "custom",
+  "onReachBottomDistance": 50,
+  "usingComponents": {
+    "bottom-nav": "../../components/bottomNav",
+    "float-button-kf": "/components/new/FloatButtonKf",
+    "kf-dialog": "../../components/kfDialog",
+    "member-center-url": "../../components/customCenter/memberCenterUrl",
+    "order-cancel-dialog": "../../components/new/OrderCancelDialog",
+    "whitespace-line": "../../components/customCenter/whitespaceLine"
+  }
+}

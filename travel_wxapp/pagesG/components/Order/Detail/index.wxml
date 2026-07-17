@@ -1,0 +1,43 @@
+<view class="detail data-v-8345966c" wx:if="{{a}}">
+    <view class="bottom-layer data-v-8345966c"></view>
+    <view class="top-layer data-v-8345966c">
+        <view class="content data-v-8345966c">
+            <custom-head bind:__l="__l" class="data-v-8345966c" uI="8345966c-0" uP="{{b}}" wx:if="{{b}}"></custom-head>
+            <view class="header data-v-8345966c" style="{{'padding-top:'+e}}">
+                <view class="sta data-v-8345966c">{{c}}</view>
+                <view class="desc data-v-8345966c">{{d}}</view>
+            </view>
+            <card bind:__l="__l" class="data-v-8345966c" uI="8345966c-1" uP="{{l}}" uS="{{['d']}}" wx:if="{{l}}">
+                <key-value bind:__l="__l" class="key-value data-v-8345966c" uI="8345966c-2,8345966c-1" uP="{{g}}" wx:if="{{f}}"></key-value>
+                <view class="data-v-8345966c" wx:if="{{h}}">
+                    <good-item bind:__l="__l" class="data-v-8345966c" uI="{{item.b}}" uP="{{item.c}}" wx:for="{{i}}" wx:key="a"></good-item>
+                </view>
+                <key-value bind:__l="__l" class="key-value data-v-8345966c" uI="8345966c-4,8345966c-1" uP="{{k}}" wx:if="{{j}}"></key-value>
+            </card>
+            <card bind:__l="__l" class="data-v-8345966c" uI="8345966c-5" uP="{{r}}" uS="{{['d']}}" wx:if="{{m}}">
+                <key-value bind:__l="__l" class="key-value data-v-8345966c" uI="8345966c-6,8345966c-5" uP="{{n}}" wx:if="{{n}}"></key-value>
+                <key-value bind:__l="__l" class="key-value data-v-8345966c" uI="8345966c-7,8345966c-5" uP="{{o}}" wx:if="{{o}}"></key-value>
+                <key-value bind:__l="__l" class="key-value data-v-8345966c" uI="8345966c-8,8345966c-5" uP="{{q}}" uS="{{['d']}}" wx:if="{{q}}">{{p}}</key-value>
+            </card>
+            <card bind:__l="__l" class="data-v-8345966c" uI="8345966c-9" uP="{{B}}" uS="{{['d']}}" wx:if="{{B}}">
+                <key-value bind:__l="__l" class="key-value data-v-8345966c" uI="8345966c-10,8345966c-9" uP="{{w}}" uS="{{['d']}}" wx:if="{{w}}">
+                    <view class="order-no data-v-8345966c">
+                        <label class="data-v-8345966c">{{s}}</label>
+                        <image alt="" bindtap="{{v}}" class="copy-img data-v-8345966c" src="{{t}}"></image>
+                    </view>
+                </key-value>
+                <key-value bind:__l="__l" class="key-value data-v-8345966c" uI="8345966c-11,8345966c-9" uP="{{x}}" wx:if="{{x}}"></key-value>
+                <key-value bind:__l="__l" class="data-v-8345966c" uI="8345966c-12,8345966c-9" uP="{{z}}" wx:if="{{y}}"></key-value>
+                <key-value bind:__l="__l" class="data-v-8345966c" uI="8345966c-13,8345966c-9" uP="{{A}}" wx:if="{{A}}"></key-value>
+            </card>
+        </view>
+        <view class="footer data-v-8345966c" wx:if="{{C}}">
+            <safe-bottom bind:__l="__l" class="data-v-8345966c" uI="8345966c-14" uS="{{['d']}}">
+                <view class="buttons data-v-8345966c">
+                    <ghost-button bind:__l="__l" bindclick="{{D}}" class="data-v-8345966c" uI="8345966c-15,8345966c-14" uS="{{['d']}}">取消服务</ghost-button>
+                    <ghost-button bind:__l="__l" bindclick="{{F}}" class="data-v-8345966c" uI="8345966c-16,8345966c-14" uP="{{G}}" uS="{{['d']}}" wx:if="{{G}}">{{E}}</ghost-button>
+                </view>
+            </safe-bottom>
+        </view>
+    </view>
+</view>

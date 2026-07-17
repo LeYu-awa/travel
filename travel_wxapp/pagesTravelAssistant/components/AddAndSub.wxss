@@ -1,0 +1,20 @@
+.number.data-v-a75d1603 {
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+}
+.number .icon-a-20_jia.data-v-a75d1603,
+.number .icon-a-20_jian.data-v-a75d1603 {
+  font-size: 40rpx;
+}
+.number .icon-a-20_jia.invalid.data-v-a75d1603,
+.number .icon-a-20_jian.invalid.data-v-a75d1603 {
+  color: #ccc;
+}
+.number .num.data-v-a75d1603 {
+  font-size: 32rpx;
+  font-weight: 400;
+  line-height: 48rpx;
+  text-align: center;
+  width: 84rpx;
+}

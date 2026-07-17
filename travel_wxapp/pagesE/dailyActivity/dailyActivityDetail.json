@@ -1,0 +1,14 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "back-to-top": "../../components/backToTop",
+    "bottom-dialog": "../../components/bottomDialog",
+    "collapse": "../../components/collapse",
+    "coustom-head": "../../components/coustomHead",
+    "daily-price": "../components/dailyPrice",
+    "error-limiting": "../../components/new/ErrorLimiting",
+    "float-button-kf": "/components/new/FloatButtonKf",
+    "kf-dialog": "../../components/kfDialog",
+    "swiper-box": "../../components/swiperBox"
+  }
+}

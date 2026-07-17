@@ -1,0 +1,53 @@
+<view class="addAddress data-v-5a91e964">
+    <coustom-head bind:__l="__l" class="data-v-5a91e964" uI="5a91e964-0" uP="{{a}}" wx:if="{{a}}"></coustom-head>
+    <view class="rowList pb data-v-5a91e964">
+        <view class="row data-v-5a91e964">
+            <view class="rowTitle data-v-5a91e964">收货人</view>
+            <view class="rowContent data-v-5a91e964">
+                <input bindinput="{{b}}" class="data-v-5a91e964" maxlength="20" placeholder="请输入收货人姓名" placeholderClass="phcolor" type="text" value="{{c}}"></input>
+            </view>
+        </view>
+        <view class="row data-v-5a91e964">
+            <view class="rowTitle data-v-5a91e964">手机号</view>
+            <view class="rowContent data-v-5a91e964">
+                <input bindinput="{{d}}" class="data-v-5a91e964" maxlength="11" placeholder="请输入手机号" placeholderClass="phcolor" type="tel" value="{{e}}"></input>
+            </view>
+        </view>
+        <view class="row data-v-5a91e964">
+            <view class="rowTitle data-v-5a91e964">所在地区</view>
+            <view bindtap="{{h}}" class="rowContent data-v-5a91e964">
+                <view class="{{['txt','data-v-5a91e964',g&&'phcolor']}}">{{f}}</view>
+                <label class="icon-a-12_dingwei iconfont data-v-5a91e964"></label>
+            </view>
+        </view>
+        <view class="row data-v-5a91e964">
+            <view class="rowTitle data-v-5a91e964">详细地址</view>
+            <view class="rowContent data-v-5a91e964">
+                <input bindinput="{{i}}" class="data-v-5a91e964" placeholder="请输入街道、门牌号等" placeholderClass="phcolor" type="text" value="{{j}}"></input>
+            </view>
+        </view>
+        <view class="quickAddressBox data-v-5a91e964">
+            <textarea bindinput="{{l}}" class="quickAddress data-v-5a91e964" placeholder="请粘贴诸如'XX省XX市XX区XXXX路XXX号,某某某,13333333333'" placeholderClass="quickAddressPlaceholder" rows="2" type="text" value="{{k}}" wx:if="{{r0}}"></textarea>
+            <view class="btns data-v-5a91e964" wx:if="{{m}}">
+                <view bindtap="{{n}}" class="clearAddress data-v-5a91e964">清空</view>
+                <view bindtap="{{o}}" class="distinguish data-v-5a91e964"> 识别 </view>
+            </view>
+        </view>
+    </view>
+    <view class="rowList data-v-5a91e964">
+        <view class="row data-v-5a91e964">
+            <view class="rowTitle data-v-5a91e964">设为默认</view>
+            <view class="rowContent ri data-v-5a91e964">
+                <view bindtap="{{q}}" class="{{['icons','data-v-5a91e964',p&&'select']}}">
+                    <view class="sw data-v-5a91e964"></view>
+                </view>
+            </view>
+        </view>
+    </view>
+    <view bindtap="{{r}}" class="saveBtn baseBtn data-v-5a91e964">保存</view>
+    <view bindtap="{{t}}" class="del data-v-5a91e964" wx:if="{{s}}">
+        <label class="iconDel icon-a-16_shanchulishijilu iconfont data-v-5a91e964"></label> 删除 </view>
+    <view class="map data-v-5a91e964" hidden="{{!B}}">
+        <map showLocation bindbegin="{{A}}" bindend="{{z}}" bindregionchange="{{y}}" class="data-v-5a91e964" id="mymap" latitude="{{w}}" longitude="{{v}}" markers="{{x}}" scale="14" style="width:100%;height:300px"></map>
+    </view>
+</view>

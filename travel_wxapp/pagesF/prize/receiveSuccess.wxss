@@ -1,0 +1,103 @@
+.line-clamp-1.data-v-b460598b {
+  line-clamp: 1;
+}
+.line-clamp-1.data-v-b460598b,
+.line-clamp-2.data-v-b460598b {
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  overflow: hidden;
+  white-space: normal;
+}
+.line-clamp-2.data-v-b460598b {
+  line-clamp: 2;
+}
+.line-clamp-3.data-v-b460598b {
+  line-clamp: 3;
+}
+.line-clamp-3.data-v-b460598b,
+.line-clamp-4.data-v-b460598b {
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  overflow: hidden;
+  white-space: normal;
+}
+.line-clamp-4.data-v-b460598b {
+  line-clamp: 4;
+}
+.line-clamp-5.data-v-b460598b {
+  line-clamp: 5;
+}
+.line-clamp-5.data-v-b460598b,
+.line-clamp-6.data-v-b460598b {
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  overflow: hidden;
+  white-space: normal;
+}
+.line-clamp-6.data-v-b460598b {
+  line-clamp: 6;
+}
+.line-clamp-7.data-v-b460598b {
+  line-clamp: 7;
+}
+.line-clamp-7.data-v-b460598b,
+.line-clamp-8.data-v-b460598b {
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  overflow: hidden;
+  white-space: normal;
+}
+.line-clamp-8.data-v-b460598b {
+  line-clamp: 8;
+}
+.line-clamp-9.data-v-b460598b {
+  -webkit-box-orient: vertical;
+  line-clamp: 9;
+  display: -webkit-box;
+  overflow: hidden;
+  white-space: normal;
+}
+.receiveSuccess .paddBox.data-v-b460598b {
+  background: hsla(0, 0%, 100%, 0);
+  height: 100vh;
+  padding-top: 200rpx;
+}
+.receiveSuccess .icon.data-v-b460598b {
+  margin-bottom: 80rpx;
+  text-align: center;
+}
+.receiveSuccess .icon .icons.data-v-b460598b {
+  color: #000;
+  font-size: 240rpx;
+}
+.receiveSuccess .sta.data-v-b460598b {
+  color: #000;
+  font-family: PingFangSC-Medium;
+  font-size: 36rpx;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 36rpx;
+  margin-bottom: 24rpx;
+  text-align: center;
+}
+.receiveSuccess .tip.data-v-b460598b {
+  color: gray;
+  font-size: 28rpx;
+  line-height: 44rpx;
+}
+.receiveSuccess .btn.data-v-b460598b,
+.receiveSuccess .tip.data-v-b460598b {
+  font-family: PingFangSC-Regular;
+  font-weight: 400;
+  letter-spacing: 0;
+  text-align: center;
+}
+.receiveSuccess .btn.data-v-b460598b {
+  background: rgba(0, 0, 0, 0.9);
+  border-radius: 8rpx;
+  color: #fff;
+  font-size: 32rpx;
+  line-height: 96rpx;
+  margin: 108rpx auto 0;
+  width: 686rpx;
+}

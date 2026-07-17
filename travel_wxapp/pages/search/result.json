@@ -1,0 +1,13 @@
+{
+  "navigationBarTitleText": "搜索结果",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "auto-complete": "../../components/search/AutoComplete",
+    "custom-navigator": "../../components/new/Navigator",
+    "float-button-kf": "/components/new/FloatButtonKf",
+    "safe-area": "../../components/new/SafeArea",
+    "search-bar": "../../components/search/SearchBar",
+    "search-result": "../../components/search/SearchResult",
+    "spin": "../../components/new/Spin"
+  }
+}

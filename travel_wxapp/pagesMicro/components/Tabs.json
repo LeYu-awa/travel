@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "comp-list": "./CompList",
+    "float-button-kf": "/components/new/FloatButtonKf"
+  }
+}

@@ -1,0 +1,18 @@
+.footer.data-v-d7b02759 {
+  align-items: center;
+  display: flex;
+  padding: 24rpx 32rpx;
+}
+.footer .chosen.data-v-d7b02759 {
+  flex-basis: 160rpx;
+  flex-shrink: 0;
+  font-size: 24rpx;
+  margin-right: 20rpx;
+  text-align: center;
+}
+.footer .chosen-label.data-v-d7b02759 {
+  margin-bottom: 16rpx;
+}
+.footer .primary.data-v-d7b02759 {
+  flex: 1;
+}

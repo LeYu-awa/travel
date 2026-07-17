@@ -1,0 +1,23 @@
+.days-add-button__wrapper.data-v-fee1b827 {
+  align-items: center;
+  display: flex;
+  padding-bottom: 32rpx;
+  padding-left: 56rpx;
+  padding-top: 40rpx;
+}
+.days-add-button__wrapper .iconfont__wrapper.data-v-fee1b827 {
+  display: flex;
+  justify-content: center;
+  margin-right: 24rpx;
+  width: 96rpx;
+}
+.days-add-button__wrapper .iconfont__wrapper .icon-a-20_jia.data-v-fee1b827 {
+  color: gray;
+  font-size: 40rpx;
+}
+.days-add-button__wrapper .text.data-v-fee1b827 {
+  color: gray;
+  font-size: 32rpx;
+  font-weight: 400;
+  height: 36rpx;
+}

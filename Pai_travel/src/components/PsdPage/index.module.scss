@@ -1,0 +1,20 @@
+.page {
+  width: 100vw;
+  min-height: 100vh;
+  background: #ffffff;
+  overflow: hidden;
+}
+
+.canvas {
+  width: 750rpx;
+  position: relative;
+  background: #ffffff;
+  overflow: hidden;
+}
+
+.image {
+  display: block;
+  width: 750rpx;
+  height: auto;
+  vertical-align: top;
+}

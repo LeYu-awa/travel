@@ -1,0 +1,13 @@
+{
+  "navigationBarTitleText": "支付订单",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "bottom-dialog": "../../components/bottomDialog",
+    "center-dialog": "../../components/centerDialog",
+    "coustom-head": "../../components/coustomHead",
+    "customer-retention-dialog": "../../components/new/CustomerRetentionDialog",
+    "float-button-kf": "/components/new/FloatButtonKf",
+    "retry-modal": "../../components/RetryModal",
+    "st-radio": "../../components/new/StRadio"
+  }
+}

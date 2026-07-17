@@ -1,0 +1,12 @@
+{
+  "component": true,
+  "usingComponents": {
+    "card": "./components/Card",
+    "custom-head": "../../../../components/coustomHead",
+    "float-button-kf": "/components/new/FloatButtonKf",
+    "ghost-button": "../../base/GhostButton/index",
+    "good-item": "./components/GoodItem",
+    "key-value": "./components/KeyValue",
+    "safe-bottom": "../../base/SafeBottom/index"
+  }
+}

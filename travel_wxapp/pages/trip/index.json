@@ -1,0 +1,12 @@
+{
+  "enablePullDownRefresh": true,
+  "navigationBarTitleText": "行程",
+  "navigationStyle": "custom",
+  "onReachBottomDistance": 50,
+  "usingComponents": {
+    "bottom-dialog": "../../components/bottomDialog",
+    "float-button-kf": "/components/new/FloatButtonKf",
+    "notice": "../../components/notice",
+    "water": "../../components/water"
+  }
+}

@@ -1,0 +1,85 @@
+.user_plant_item{
+	position: relative;
+	display: flex;
+	padding: 30rpx 20rpx;
+	background-color: #fff;
+	align-items: center;
+	&::after{
+		content: ' ';
+		position: absolute;
+		bottom: 0;
+		left: 30rpx;
+		right: 0;
+		height: 1px;
+		background: #f0f0f0;
+	}
+	image{
+		width: 120rpx;
+		height: 120rpx;
+		border-radius: 50%;
+	}
+	.info{
+		flex: 1;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		margin-left: 20rpx;
+		position: relative;
+		.name{
+			width: 410rpx;
+			font-size: 30rpx;
+			color: #282828;
+		}
+		.plant-des{
+			color: #999999;
+			font-size: 24rpx;
+			margin-top: 16rpx;
+			.des{
+				margin-right: 15rpx;
+				+.des{
+					margin-left: 15rpx;
+					&::before{
+						content: "";
+						display: inline-block;
+						width: 1rpx;
+						height: 16rpx;
+						background: #999999;
+						position: relative;
+						left: -15rpx;
+						top: -2rpx;
+					}
+				}
+				text{
+					padding-left: 8rpx;
+					&::before{
+						content: ".";
+						position: relative;
+						top: -6rpx;
+						left: -3rpx;
+					}
+				}
+			}
+		}
+		.btn{
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			position: absolute;
+			right: 0;
+			top: 50%;
+			width: 126rpx;
+			height: 50rpx;
+			transform: translateY(-50%);
+			border:1px solid #999999;
+			color: #999999;
+			border-radius: 33rpx;
+			font-size: 26rpx;
+			&.focusBtn{
+				.iconfont{
+					font-size: 20rpx;
+					margin-right: 10rpx;
+				}
+			}
+		}
+	}
+}

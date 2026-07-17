@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "松赞相册",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "coustom-head": "../../components/coustomHead",
+    "empty": "../../components/empty",
+    "float-button-kf": "/components/new/FloatButtonKf",
+    "more-text": "../../components/moreText",
+    "v-preview-image": "../components/v-previewImage"
+  }
+}

@@ -1,0 +1,55 @@
+<view class="ui_collectionCenter data-v-5efcbd53">
+    <coustom-head bind:__l="__l" class="data-v-5efcbd53" uI="5efcbd53-0" uP="{{a}}" wx:if="{{a}}"></coustom-head>
+    <view class="collect_list data-v-5efcbd53" wx:for="{{b}}" wx:key="q">
+        <view class="list_item data-v-5efcbd53">
+            <view class="data-v-5efcbd53">
+                <label class="item_name data-v-5efcbd53" wx:if="{{item.a}}">礼品券</label>
+                <label class="spend_name data-v-5efcbd53" wx:if="{{item.b}}">消费券</label>
+                <label class="tiyan_name data-v-5efcbd53" wx:if="{{item.c}}">体验券</label>
+                <label class="tdq_name data-v-5efcbd53" wx:if="{{item.d}}">通兑券</label>
+            </view>
+            <view class="item_main data-v-5efcbd53">
+                <view class="item_left data-v-5efcbd53">
+                    <view class="item_title data-v-5efcbd53" style="{{'margin-top:'+item.f}}">{{item.e}}</view>
+                    <view class="title_in data-v-5efcbd53">{{item.g}}</view>
+                    <view class="money_num data-v-5efcbd53" wx:if="{{item.h}}">{{item.i}}</view>
+                </view>
+                <view class="right data-v-5efcbd53" wx:if="{{item.j}}">
+                    <view catchtap="{{item.k}}" class="item_right data-v-5efcbd53"> 立即领取 </view>
+                </view>
+                <view class="right data-v-5efcbd53" wx:elif="{{item.l}}">
+                    <view catchtap="{{item.m}}" class="item_right data-v-5efcbd53"> 立即领取 </view>
+                </view>
+                <view catchtap="{{item.o}}" class="item_right data-v-5efcbd53" wx:elif="{{item.n}}"> 实名后领取 </view>
+                <view class="item_right-done data-v-5efcbd53" wx:else> 已领{{item.p}}</view>
+            </view>
+        </view>
+    </view>
+    <empty bind:__l="__l" class="data-v-5efcbd53" uI="5efcbd53-1" uP="{{d}}" wx:if="{{c}}"></empty>
+    <view class="receive-layer data-v-5efcbd53" wx:if="{{e}}">
+        <view class="receive-box data-v-5efcbd53">
+            <view class="head data-v-5efcbd53">{{f}} <view bindtap="{{g}}" class="iconfont icon-a-20_guanbi data-v-5efcbd53"></view>
+            </view>
+            <view class="receive_mian data-v-5efcbd53">
+                <view bindtap="{{item.j}}" class="mian_list data-v-5efcbd53" wx:for="{{h}}" wx:key="i">
+                    <view class="data-v-5efcbd53">
+                        <view class="main_title data-v-5efcbd53">{{item.a}}</view>
+                        <view class="main_text data-v-5efcbd53" wx:if="{{item.b}}">
+                            <view class="data-v-5efcbd53">
+                                <rich-text class="data-v-5efcbd53" nodes="{{item.c}}"></rich-text>
+                            </view>
+                        </view>
+                        <view class="main_title data-v-5efcbd53" wx:if="{{item.d}}">{{item.e}}积分 </view>
+                    </view>
+                    <view class="main_right data-v-5efcbd53" wx:if="{{item.f}}">
+                        <view class="icon-danxuan_weixuan iconfont data-v-5efcbd53" wx:if="{{item.g}}"></view>
+                        <view class="icon-danxuan_yixuan iconfont data-v-5efcbd53" style="color:#a43127" wx:if="{{item.h}}"></view>
+                    </view>
+                </view>
+            </view>
+            <view bindtap="{{j}}" class="btn data-v-5efcbd53" wx:if="{{i}}"> 确认领取 </view>
+        </view>
+        <view class="bg data-v-5efcbd53"></view>
+    </view>
+    <retry-modal bind:__l="__l" bindretry="{{k}}" bindupdateVisible="{{l}}" class="data-v-5efcbd53" uI="5efcbd53-2" uP="{{m}}" wx:if="{{m}}"></retry-modal>
+</view>

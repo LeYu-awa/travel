@@ -1,0 +1,13 @@
+{
+  "enablePullDownRefresh": true,
+  "navigationBarTitleText": "全部目的地",
+  "onReachBottomDistance": 50,
+  "usingComponents": {
+    "error-block": "../../components/new/ErrorBlock",
+    "float-button-kf": "/components/new/FloatButtonKf",
+    "limiting-retry": "../../components/new/LimitingRetry/index",
+    "product-card-list": "../../components/new/ProductCardList",
+    "safe-area": "../../components/new/SafeArea",
+    "spin": "../../components/new/Spin"
+  }
+}

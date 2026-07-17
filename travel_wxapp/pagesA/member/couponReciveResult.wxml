@@ -1,0 +1,14 @@
+<view class="ui_couponReciveResult data-v-7bfcb4f7">
+    <coustom-head bind:__l="__l" class="data-v-7bfcb4f7" uI="7bfcb4f7-0" uP="{{a}}" wx:if="{{a}}"></coustom-head>
+    <view class="topBox data-v-7bfcb4f7">
+        <view class="tipBox data-v-7bfcb4f7">
+            <view class="icon iconfont icon-a-120_tijiaochenggong data-v-7bfcb4f7" style="{{'margin-top:'+b}}"></view>
+            <view class="tips data-v-7bfcb4f7">领取成功</view>
+            <view class="subTips data-v-7bfcb4f7">松赞期待与您相遇，如需帮助请联系松赞客服</view>
+            <view bindtap="{{c}}" class="subTips data-v-7bfcb4f7">400-0000-830</view>
+            <view bindtap="{{d}}" class="back data-v-7bfcb4f7"> 立即查看 </view>
+            <view bindtap="{{e}}" class="back2 data-v-7bfcb4f7">前往首页</view>
+        </view>
+        <image class="authBg data-v-7bfcb4f7" mode="widthFix" src="https://dsplatweb.oss-cn-chengdu.aliyuncs.com/songzan/images/authBg.png"></image>
+    </view>
+</view>

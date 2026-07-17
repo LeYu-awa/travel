@@ -1,0 +1,11 @@
+{
+  "enablePullDownRefresh": false,
+  "navigationBarTitleText": "实名认证",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "alert": "../../components/Alert",
+    "coustom-head": "../../components/coustomHead",
+    "float-button-kf": "/components/new/FloatButtonKf",
+    "img-code": "../../components/imgCode"
+  }
+}

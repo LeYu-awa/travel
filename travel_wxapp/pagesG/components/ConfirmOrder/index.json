@@ -1,0 +1,11 @@
+{
+  "component": true,
+  "usingComponents": {
+    "bottom-button": "../../../components/bottomBtn",
+    "coustom-head": "../../../components/coustomHead",
+    "float-button-kf": "/components/new/FloatButtonKf",
+    "good-item": "../Order/Detail/components/GoodItem",
+    "key-value": "../Order/Detail/components/KeyValue",
+    "safe-bottom": "../base/SafeBottom/index"
+  }
+}

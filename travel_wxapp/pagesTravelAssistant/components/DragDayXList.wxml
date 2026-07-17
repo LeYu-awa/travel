@@ -1,0 +1,54 @@
+<view class="drag-box_dayx data-v-b17be694" style="{{d}}">
+    <uni-swipe-action bind:__l="__l" class="r data-v-b17be694" uI="b17be694-0" uR="hookUniSwipeActionDayX" uS="{{['d']}}">
+        <view bindlongpress="{{item.E}}" bindtouchend="{{item.H}}" bindtouchmove="{{item.G}}" bindtouchstart="{{item.F}}" class="{{['drag-item','data-v-b17be694',item.D&&'drag-active']}}" style="{{'top:'+item.B+';'+'height:'+item.C+';'+'transition:'+b}}" wx:for="{{a}}" wx:key="I">
+            <view class="days-list_item data-v-b17be694" wx:if="{{item.a}}">
+                <uni-swipe-action-item bind:__l="__l" class="data-v-b17be694" uI="{{item.v}}" uP="{{item.w}}" uS="{{['right','d']}}" wx:if="{{item.w}}">
+                    <view class="custom-swiper-action_delete_button__wrapper data-v-b17be694" slot="right">
+                        <view bindtap="{{item.b}}" class="swiper-action_delete_button data-v-b17be694">
+                            <view class="iconfont icon-a-16_shanchulishijilu data-v-b17be694"></view>
+                        </view>
+                    </view>
+                    <view class="days-list_item__main data-v-b17be694">
+                        <view catchtap="{{item.e}}" class="cover__wrapper data-v-b17be694">
+                            <view class="cover-place data-v-b17be694" wx:if="{{item.c}}">
+                                <view class="iconfont icon-a-20_jiesonganpai1 data-v-b17be694"></view>
+                            </view>
+                            <image class="cover-img data-v-b17be694" mode="" src="{{item.d}}" wx:else></image>
+                        </view>
+                        <view catchtap="{{item.k}}" class="destination-activity__wrapper data-v-b17be694" wx:if="{{item.f}}">
+                            <view class="destination data-v-b17be694" wx:if="{{item.g}}">抵达{{item.h}}</view>
+                            <view class="destination data-v-b17be694" wx:if="{{item.i}}">{{item.j}}离开</view>
+                            <view class="activity airport data-v-b17be694">含接机/站</view>
+                        </view>
+                        <view catchtap="{{item.o}}" class="destination-activity__wrapper data-v-b17be694" wx:if="{{item.l}}">
+                            <view class="destination data-v-b17be694">{{item.m}}</view>
+                            <view class="activity airport data-v-b17be694">预计{{item.n}}小时</view>
+                        </view>
+                        <view catchtap="{{item.s}}" class="destination-activity__wrapper data-v-b17be694" wx:elif="{{item.p}}">
+                            <view class="destination data-v-b17be694">{{item.q}}</view>
+                            <view class="activity airport data-v-b17be694">{{item.r}}</view>
+                        </view>
+                        <view catchtap="{{item.t}}" class="edit-area__wrapper data-v-b17be694">
+                            <view class="iconfont icon-a-16_bianji data-v-b17be694"></view>
+                        </view>
+                    </view>
+                </uni-swipe-action-item>
+                <view class="days-list_item__distance data-v-b17be694" wx:if="{{item.x}}">
+                    <view class="distance-icon__wrapper data-v-b17be694">
+                        <view class="distance-icon__deco top data-v-b17be694"></view>
+                        <view class="iconfont icon-car-line data-v-b17be694"></view>
+                        <view class="distance-icon__deco btm data-v-b17be694"></view>
+                    </view>
+                    <view class="distance-content__wrapper data-v-b17be694">
+                        <text class="data-v-b17be694">行车约{{item.y}}km，约{{item.z}}小时</text>
+                    </view>
+                </view>
+                <view class="days-list_item__distance data-v-b17be694" wx:if="{{item.A}}">
+                    <view class="distance-icon__wrapper data-v-b17be694">
+                        <view class="distance-icon__deco top place data-v-b17be694"></view>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </uni-swipe-action>
+</view>

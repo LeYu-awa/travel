@@ -1,0 +1,73 @@
+.container.data-v-cd7fb533 {
+  color: #fff;
+}
+.container .background.data-v-cd7fb533 {
+  height: 100vh;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+}
+.container .background-image.data-v-cd7fb533 {
+  height: 100%;
+  width: 100%;
+}
+.container .background-blur.data-v-cd7fb533 {
+  backdrop-filter: blur(40rpx);
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+.container .content.data-v-cd7fb533 {
+  padding-top: 104rpx;
+  position: relative;
+  z-index: 1;
+}
+.container .content .section-1.data-v-cd7fb533 {
+  height: calc(100vh - 174rpx);
+  height: var(--section-1-height);
+  text-align: center;
+}
+.container .content .section-1 .title.data-v-cd7fb533 {
+  margin: 0 32rpx;
+}
+.container .content .section-1 .title-image.data-v-cd7fb533 {
+  width: 100%;
+}
+.container .content .section-1 .slide-down-tip.data-v-cd7fb533 {
+  align-items: center;
+  border: 1px solid #fff;
+  border-radius: 8rpx;
+  color: #fff;
+  display: inline-flex;
+  font-size: 28rpx;
+  margin-top: 400rpx;
+  padding: 18rpx 24rpx;
+}
+.container .content .section-1 .slide-down-tip .icon.data-v-cd7fb533 {
+  animation: slide-down-icon-animation-cd7fb533 1s infinite;
+  height: 32rpx;
+  margin-right: 20rpx;
+  width: 32rpx;
+}
+.container .content .detail.data-v-cd7fb533 {
+  margin-top: 240rpx;
+  min-height: 50vh;
+  padding: 0 32rpx 32rpx;
+}
+.container .content .detail .info__image.data-v-cd7fb533 {
+  width: 100%;
+}
+@keyframes slide-down-icon-animation-cd7fb533 {
+  0% {
+    transform: translateY(-8rpx);
+  }
+  50% {
+    transform: translateY(8rpx);
+  }
+  to {
+    transform: translateY(-8rpx);
+  }
+}

@@ -1,0 +1,124 @@
+<bottom-dialog bind:__l="__l" bindopenState="{{G}}" class="hook-dialog r data-v-4f5f52fa" uI="4f5f52fa-0" uP="{{H}}" uR="hookPeopleNumDate" uS="{{['title','d']}}" wx:if="{{H}}">
+    <view class="custom-title__wrapper data-v-4f5f52fa" slot="title">
+        <view class="custom-title data-v-4f5f52fa">
+            <view class="icon-close data-v-4f5f52fa">
+                <view bindtap="{{a}}" class="icon iconfont icon-a-16_guanbi_ciji data-v-4f5f52fa"></view>
+            </view>
+            <text class="dialogday-title data-v-4f5f52fa">选择人数和日期</text>
+        </view>
+        <scroll-view scrollY class="data-v-4f5f52fa" style="{{D}}">
+            <view class="select_wrap data-v-4f5f52fa">
+                <view class="title data-v-4f5f52fa">选择人数</view>
+                <view class="select_people_num data-v-4f5f52fa">
+                    <view class="people_info data-v-4f5f52fa">
+                        <view class="info_left data-v-4f5f52fa">
+                            <view class="first data-v-4f5f52fa">成人</view>
+                            <view class="second data-v-4f5f52fa">18岁及以上</view>
+                        </view>
+                        <view class="info_right data-v-4f5f52fa">
+                            <add-and-sub bind:__l="__l" bindupdateModelValue="{{b}}" class="data-v-4f5f52fa" uI="4f5f52fa-1,4f5f52fa-0" uP="{{c}}" wx:if="{{c}}"></add-and-sub>
+                        </view>
+                    </view>
+                    <view class="people_info data-v-4f5f52fa">
+                        <view class="info_left data-v-4f5f52fa">
+                            <view class="first data-v-4f5f52fa">大童</view>
+                            <view class="second data-v-4f5f52fa">12岁(含)-18岁</view>
+                        </view>
+                        <view class="info_right data-v-4f5f52fa">
+                            <add-and-sub bind:__l="__l" bindupdateModelValue="{{d}}" class="data-v-4f5f52fa" uI="4f5f52fa-2,4f5f52fa-0" uP="{{e}}" wx:if="{{e}}"></add-and-sub>
+                        </view>
+                    </view>
+                    <view class="people_info data-v-4f5f52fa">
+                        <view class="info_left data-v-4f5f52fa">
+                            <view class="first data-v-4f5f52fa">中童</view>
+                            <view class="second data-v-4f5f52fa">6岁(含)-12岁</view>
+                        </view>
+                        <view class="info_right data-v-4f5f52fa">
+                            <add-and-sub bind:__l="__l" bindupdateModelValue="{{f}}" class="data-v-4f5f52fa" uI="4f5f52fa-3,4f5f52fa-0" uP="{{g}}" wx:if="{{g}}"></add-and-sub>
+                        </view>
+                    </view>
+                    <view class="people_info data-v-4f5f52fa">
+                        <view class="info_left data-v-4f5f52fa">
+                            <view class="first data-v-4f5f52fa">幼童</view>
+                            <view class="second data-v-4f5f52fa">未满6岁</view>
+                        </view>
+                        <view class="info_right data-v-4f5f52fa">
+                            <add-and-sub bind:__l="__l" bindupdateModelValue="{{h}}" class="data-v-4f5f52fa" uI="4f5f52fa-4,4f5f52fa-0" uP="{{i}}" wx:if="{{i}}"></add-and-sub>
+                        </view>
+                    </view>
+                </view>
+                <view class="select_in_addition data-v-4f5f52fa">
+                    <view class="people_info data-v-4f5f52fa">
+                        <view class="info_left data-v-4f5f52fa">
+                            <view class="first data-v-4f5f52fa">含老人</view>
+                            <view class="second data-v-4f5f52fa">60岁及以上</view>
+                        </view>
+                        <view class="info_right data-v-4f5f52fa">
+                            <add-and-sub bind:__l="__l" bindupdateModelValue="{{j}}" class="data-v-4f5f52fa" uI="4f5f52fa-5,4f5f52fa-0" uP="{{k}}" wx:if="{{k}}"></add-and-sub>
+                        </view>
+                    </view>
+                    <view class="people_info data-v-4f5f52fa">
+                        <view class="info_left data-v-4f5f52fa">
+                            <view class="first data-v-4f5f52fa">含港澳台人士</view>
+                        </view>
+                        <view class="info_right data-v-4f5f52fa">
+                            <add-and-sub bind:__l="__l" bindupdateModelValue="{{l}}" class="data-v-4f5f52fa" uI="4f5f52fa-6,4f5f52fa-0" uP="{{m}}" wx:if="{{m}}"></add-and-sub>
+                        </view>
+                    </view>
+                    <view class="people_info data-v-4f5f52fa">
+                        <view class="info_left data-v-4f5f52fa">
+                            <view class="first data-v-4f5f52fa">含外籍人士</view>
+                        </view>
+                        <view class="info_right data-v-4f5f52fa">
+                            <add-and-sub bind:__l="__l" bindupdateModelValue="{{n}}" class="data-v-4f5f52fa" uI="4f5f52fa-7,4f5f52fa-0" uP="{{o}}" wx:if="{{o}}"></add-and-sub>
+                        </view>
+                    </view>
+                </view>
+                <view class="title data-v-4f5f52fa">选择日期与城市</view>
+                <view class="select_date data-v-4f5f52fa">
+                    <view class="date_title data-v-4f5f52fa">抵达日期</view>
+                    <view class="date_content data-v-4f5f52fa">
+                        <picker bindchange="{{t}}" class="data-v-4f5f52fa" mode="date" start="{{s}}" value="{{r}}">
+                            <view class="date data-v-4f5f52fa">
+                                <view class="please_select data-v-4f5f52fa" wx:if="{{p}}">请选择</view>
+                                <view class="data-v-4f5f52fa" wx:else>{{q}}</view>
+                                <view class="icon iconfont icon-a-12_youlajiantou_hui data-v-4f5f52fa"></view>
+                            </view>
+                        </picker>
+                    </view>
+                </view>
+                <view class="select_city data-v-4f5f52fa">
+                    <view class="address data-v-4f5f52fa">
+                        <picker-address bind:__l="__l" bindchangeCity="{{x}}" class="data-v-4f5f52fa" style="width:100%" uI="4f5f52fa-8,4f5f52fa-0" uP="{{y}}" uS="{{['d']}}" wx:if="{{y}}">
+                            <view class="city_content data-v-4f5f52fa">
+                                <view class="city_title data-v-4f5f52fa">出发地</view>
+                                <view class="city data-v-4f5f52fa">
+                                    <view class="please_select data-v-4f5f52fa" wx:if="{{v}}">请选择</view>
+                                    <view class="data-v-4f5f52fa" wx:else>{{w}}</view>
+                                    <view class="icon iconfont icon-a-12_youlajiantou_hui data-v-4f5f52fa"></view>
+                                </view>
+                            </view>
+                        </picker-address>
+                    </view>
+                    <view class="address data-v-4f5f52fa">
+                        <picker-address bind:__l="__l" bindchangeCity="{{B}}" class="data-v-4f5f52fa" style="width:100%" uI="4f5f52fa-9,4f5f52fa-0" uP="{{C}}" uS="{{['d']}}" wx:if="{{C}}">
+                            <view class="city_content data-v-4f5f52fa">
+                                <view class="city_title data-v-4f5f52fa">返程地</view>
+                                <view class="city data-v-4f5f52fa">
+                                    <view class="please_select data-v-4f5f52fa" wx:if="{{z}}">请选择</view>
+                                    <view class="data-v-4f5f52fa" wx:else>{{A}}</view>
+                                    <view class="icon iconfont icon-a-12_youlajiantou_hui data-v-4f5f52fa"></view>
+                                </view>
+                            </view>
+                        </picker-address>
+                    </view>
+                </view>
+                <view class="prompt data-v-4f5f52fa">填写出发地与返程地，有助于顾问提供出行建议</view>
+            </view>
+        </scroll-view>
+        <view class="footer data-v-4f5f52fa">
+            <view bindtap="{{E}}" class="btn baseBtn data-v-4f5f52fa">完成</view>
+        </view>
+    </view>
+    <view class="add-one-day_dialog__main data-v-4f5f52fa"></view>
+</bottom-dialog>

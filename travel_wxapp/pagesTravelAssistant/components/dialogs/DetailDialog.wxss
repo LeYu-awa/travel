@@ -1,0 +1,95 @@
+.custom-title__wrapper.data-v-9e522052 {
+  left: 24rpx;
+  position: absolute;
+  top: 24rpx;
+  z-index: 1;
+}
+.detail-dialog_main__wrapper .cover__wrapper.data-v-9e522052 {
+  border-top-left-radius: 32rpx !important;
+  border-top-right-radius: 32rpx !important;
+  height: 564rpx;
+  position: relative;
+}
+.detail-dialog_main__wrapper .cover__wrapper .cover_image.data-v-9e522052 {
+  border-top-left-radius: 32rpx !important;
+  border-top-right-radius: 32rpx !important;
+  height: 564rpx;
+  width: 100%;
+}
+.detail-dialog_main__wrapper .content-main_scroll-view.data-v-9e522052 {
+  background-color: #fff;
+}
+.detail-dialog_main__wrapper .content-main__wrapper.data-v-9e522052 {
+  padding: 32rpx 32rpx 40rpx;
+}
+.detail-dialog_main__wrapper
+  .content-main__wrapper
+  .content-main_title.data-v-9e522052 {
+  color: #000;
+  font-size: 40rpx;
+  font-weight: 500;
+  line-height: 60rpx;
+  margin-bottom: 32rpx;
+}
+.detail-dialog_main__wrapper .content-main__wrapper .tag.data-v-9e522052 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10rpx;
+}
+.detail-dialog_main__wrapper
+  .content-main__wrapper
+  .tag
+  .tag_itme.data-v-9e522052 {
+  border: 1px solid #336735;
+  border-radius: 4rpx;
+  color: #336735;
+  font-size: 20rpx;
+  padding: 8rpx;
+}
+.detail-dialog_main__wrapper
+  .content-main__wrapper
+  .detail_info
+  .info_wrap.data-v-9e522052 {
+  display: flex;
+  margin-bottom: 16rpx;
+}
+.detail-dialog_main__wrapper
+  .content-main__wrapper
+  .detail_info
+  .info_wrap.data-v-9e522052:nth-last-child(1) {
+  margin-bottom: 0;
+}
+.detail-dialog_main__wrapper
+  .content-main__wrapper
+  .detail_info
+  .info_wrap
+  .info_title.data-v-9e522052 {
+  color: gray;
+  font-size: 32rpx;
+  line-height: 48rpx;
+}
+.detail-dialog_main__wrapper
+  .content-main__wrapper
+  .detail_info
+  .info_wrap
+  .info_text.data-v-9e522052 {
+  color: #000;
+  flex: 1;
+  font-size: 32rpx;
+  line-height: 48rpx;
+  margin-left: 16rpx;
+}
+.detail-dialog_main__wrapper
+  .content-main__wrapper
+  .tips-main_content.data-v-9e522052 {
+  color: #000;
+  font-size: 32rpx;
+  font-weight: 400;
+  line-height: 48rpx;
+  margin-top: 48rpx;
+}
+.detail-dialog_main__wrapper
+  .content-main__wrapper
+  .text_justify.data-v-9e522052 {
+  text-align: justify;
+}

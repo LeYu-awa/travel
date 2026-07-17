@@ -1,0 +1,18 @@
+{
+  "enablePullDownRefresh": true,
+  "navigationBarTitleText": "首页",
+  "navigationStyle": "custom",
+  "onReachBottomDistance": 50,
+  "usingComponents": {
+    "ad-popup": "../../components/travel/AdPopup",
+    "banner": "../../components/travel/Banner",
+    "bottom-nav": "../../components/bottomNav",
+    "error-limiting": "../../components/new/ErrorLimiting",
+    "float-button-kf": "/components/new/FloatButtonKf",
+    "safe-area": "../../components/new/SafeArea",
+    "search-bar-view": "../../components/search/SearchBarView",
+    "st-ad": "../../components/new/StAd",
+    "st-button": "../../components/new/StButton",
+    "user-agreement": "../../components/travel/UserAgreement"
+  }
+}

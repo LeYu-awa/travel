@@ -1,0 +1,73 @@
+<view class="ui_memberAccount data-v-48029448">
+    <coustom-head bind:__l="__l" class="data-v-48029448" uI="48029448-0" uP="{{a}}" wx:if="{{a}}"></coustom-head>
+    <view class="topBg data-v-48029448">
+        <view class="topInner data-v-48029448">
+            <view class="accountNumber data-v-48029448">{{b}}</view>
+            <view class="accountUnit data-v-48029448">单位 (元)</view>
+        </view>
+    </view>
+    <view class="bottomBox data-v-48029448">
+        <switch-bar bind:__l="__l" bindchangeIndex="{{c}}" class="data-v-48029448" uI="48029448-1" uP="{{d}}" wx:if="{{d}}"></switch-bar>
+        <view class="infoBox data-v-48029448">
+            <view class="operateBox data-v-48029448" wx:if="{{e}}">
+                <view bindtap="{{f}}" class="operateItem data-v-48029448">
+                    <view class="icon iconfont icon-a-20_bangding data-v-48029448"></view>绑定 </view>
+            </view>
+            <view bindtap="{{h}}" class="operateBox data-v-48029448" wx:if="{{g}}">
+                <view class="operateItem data-v-48029448">
+                    <view class="icon iconfont icon-a-20_bangding data-v-48029448"></view>绑定 </view>
+                <view class="operateItem data-v-48029448">
+                    <view class="icon iconfont icon-a-20_gouwuche data-v-48029448"></view>购买 </view>
+            </view>
+            <view class="totalRow data-v-48029448" wx:if="{{i}}">
+                <view class="total data-v-48029448">合计 ¥{{j}}</view>
+                <view bindtap="{{k}}" class="passed data-v-48029448"> 查看已过期<view class="icon iconfont icon-a-16_youlajiantou_hei data-v-48029448"></view>
+                </view>
+            </view>
+            <view bindtap="{{n}}" class="totalRow data-v-48029448" wx:if="{{l}}">
+                <view class="total data-v-48029448">合计 ¥{{m}}</view>
+                <view class="passed data-v-48029448"> 查看已过期<view class="icon iconfont icon-a-16_youlajiantou_hei data-v-48029448"></view>
+                </view>
+            </view>
+            <view class="totalRow data-v-48029448" wx:if="{{o}}">
+                <view class="total data-v-48029448">合计 ¥{{p}}</view>
+                <view bindtap="{{q}}" class="passed data-v-48029448"> 查看已过期<view class="icon iconfont icon-a-16_youlajiantou_hei data-v-48029448"></view>
+                </view>
+            </view>
+            <view class="accountList data-v-48029448" wx:if="{{r}}">
+                <view class="accountItem data-v-48029448" wx:for="{{s}}" wx:key="d">
+                    <account-item bind:__l="__l" bindchooseItem="{{item.a}}" class="data-v-48029448" uI="{{item.b}}" uP="{{item.c}}" wx:if="{{item.c}}"></account-item>
+                </view>
+                <empty bind:__l="__l" class="data-v-48029448" uI="48029448-3" uP="{{v}}" wx:if="{{t}}"></empty>
+            </view>
+            <view class="accountList data-v-48029448" wx:if="{{w}}">
+                <view class="accountItem data-v-48029448" wx:for="{{x}}" wx:key="d">
+                    <account-item bind:__l="__l" bindchooseItem="{{item.a}}" class="data-v-48029448" uI="{{item.b}}" uP="{{item.c}}" wx:if="{{item.c}}"></account-item>
+                </view>
+                <empty bind:__l="__l" class="data-v-48029448" uI="48029448-5" uP="{{z}}" wx:if="{{y}}"></empty>
+            </view>
+            <view class="accountList data-v-48029448" wx:if="{{A}}">
+                <view class="accountItem data-v-48029448" wx:for="{{B}}" wx:key="d">
+                    <account-item bind:__l="__l" bindchooseItem="{{item.a}}" class="data-v-48029448" uI="{{item.b}}" uP="{{item.c}}" wx:if="{{item.c}}"></account-item>
+                </view>
+                <empty bind:__l="__l" class="data-v-48029448" uI="48029448-7" uP="{{D}}" wx:if="{{C}}"></empty>
+            </view>
+        </view>
+    </view>
+    <bottom-dialog bind:__l="__l" class="r data-v-48029448" uI="48029448-8" uP="{{K}}" uR="bindComponent" uS="{{['d']}}" wx:if="{{K}}">
+        <view class="bindBox data-v-48029448">
+            <view class="inputBox data-v-48029448">
+                <view class="inputRow data-v-48029448">
+                    <view class="inputTitle data-v-48029448">序列号</view>
+                    <input bindinput="{{F}}" class="data-v-48029448" placeholder="请输入序列号" type="text" value="{{E}}"></input>
+                </view>
+                <view class="inputRow data-v-48029448">
+                    <view class="inputTitle data-v-48029448">兑换码</view>
+                    <input bindinput="{{H}}" class="data-v-48029448" placeholder="请输入兑换码" type="text" value="{{G}}"></input>
+                </view>
+            </view>
+            <view bindtap="{{I}}" class="bindBtn data-v-48029448">确认绑定</view>
+        </view>
+    </bottom-dialog>
+</view>
+<float-button-kf bind:__l="__l" class="data-v-48029448" uI="48029448-9"></float-button-kf>

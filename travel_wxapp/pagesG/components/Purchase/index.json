@@ -1,0 +1,11 @@
+{
+  "component": true,
+  "usingComponents": {
+    "base-header": "../base/BaseHeader/index",
+    "coustom-head": "../../../components/coustomHead",
+    "float-button-kf": "/components/new/FloatButtonKf",
+    "good-list": "../base/GoodList/index",
+    "layout": "../Layout",
+    "page-footer": "../base/PageFooter/index"
+  }
+}

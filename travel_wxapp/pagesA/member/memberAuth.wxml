@@ -1,0 +1,43 @@
+<view class="ui_memberAuth data-v-302a5ef9">
+    <coustom-head bind:__l="__l" class="data-v-302a5ef9" uI="302a5ef9-0" uP="{{a}}" wx:if="{{a}}"></coustom-head>
+    <alert bind:__l="__l" class="data-v-302a5ef9" uI="302a5ef9-1" uP="{{b}}" wx:if="{{b}}"></alert>
+    <view class="memberAuthBox data-v-302a5ef9">
+        <view class="userInfoList data-v-302a5ef9">
+            <view class="userInfoItem data-v-302a5ef9">
+                <view class="userInfoTitle data-v-302a5ef9">姓名</view>
+                <view class="userInfoDesc data-v-302a5ef9">
+                    <input bindinput="{{d}}" class="data-v-302a5ef9" placeholder="请输入您的姓名" placeholderStyle="color: #CCCCCC;" type="text" value="{{c}}"></input>
+                </view>
+            </view>
+            <view class="userInfoItem data-v-302a5ef9">
+                <view class="userInfoTitle data-v-302a5ef9">身份证</view>
+                <view class="userInfoDesc data-v-302a5ef9">
+                    <input bindinput="{{f}}" class="data-v-302a5ef9" placeholder="请输入 18 位二代身份证号" placeholderStyle="color: #CCCCCC;" type="idcard" value="{{e}}"></input>
+                </view>
+            </view>
+        </view>
+        <view class="userInfoList data-v-302a5ef9">
+            <view class="userInfoItem data-v-302a5ef9">
+                <view class="userInfoTitle data-v-302a5ef9">手机号</view>
+                <view class="userInfoDesc data-v-302a5ef9">
+                    <input bindinput="{{h}}" class="data-v-302a5ef9" maxlength="11" placeholder="请输入手机号" type="number" value="{{g}}"></input>
+                    <view bindtap="{{j}}" class="{{['btn_yanzheng','data-v-302a5ef9',k&&'disabled']}}">{{i}}</view>
+                </view>
+            </view>
+            <view class="userInfoItem data-v-302a5ef9">
+                <view class="userInfoTitle data-v-302a5ef9">验证码</view>
+                <view class="userInfoDesc data-v-302a5ef9">
+                    <input bindinput="{{m}}" class="data-v-302a5ef9" placeholder="请输入收到的验证码" placeholderStyle="color: #CCCCCC;" type="number" value="{{l}}"></input>
+                </view>
+            </view>
+        </view>
+        <view class="agreeBox data-v-302a5ef9">
+            <view catchtap="{{p}}" class="agreeDesc data-v-302a5ef9">
+                <image class="iconfont data-v-302a5ef9" mode="" src="https://dsplatweb.oss-cn-chengdu.aliyuncs.com/songzan/images/select.png" wx:if="{{n}}"></image>
+                <image class="iconfont data-v-302a5ef9" mode="" src="https://dsplatweb.oss-cn-chengdu.aliyuncs.com/songzan/images/unSelect.png" wx:else></image> 登录即代表您同意我们的<label catchtap="{{o}}" class="userRule data-v-302a5ef9">《用户协议》</label>
+            </view>
+        </view>
+        <view bindtap="{{q}}" class="authBtn data-v-302a5ef9">提交</view>
+        <img-code bind:__l="__l" bindchangeTime="{{s}}" class="r data-v-302a5ef9" uI="302a5ef9-2" uP="{{t}}" uR="imgCodeComponent" wx:if="{{t}}"></img-code>
+    </view>
+</view>

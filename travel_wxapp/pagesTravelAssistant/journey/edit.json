@@ -1,0 +1,30 @@
+{
+  "disableScroll": true,
+  "navigationBarTitleText": "行程编辑",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "add-one-day-dialog": "../components/dialogs/AddOneDayDialog",
+    "back-button": "../components/buttons/BackButton",
+    "change-place-dialog": "../components/dialogs/ChangePlaceDialog",
+    "coustom-head": "../../components/new/Navigator",
+    "days-add-button": "../components/DaysAddButton",
+    "delete-day-center-dialog": "../components/dialogs/DeleteDayCenterDialog",
+    "detail-dialog": "../components/dialogs/DetailDialog",
+    "drag-day-x-list": "../components/DragDayXList",
+    "drag-list": "../components/DragList",
+    "estimated-center-dialog": "../components/dialogs/EstimatedCenterDialog",
+    "fixed-bottom-view": "../../components/new/FixedBottomView",
+    "float-button-kf": "/components/new/FloatButtonKf",
+    "incalculable-center-dialog": "../components/dialogs/IncalculableCenterDialog",
+    "intelligence-fill-dialog": "../components/dialogs/IntelligenceFillDialog",
+    "kf-button": "../components/buttons/KfButton",
+    "kf-dialog": "../../components/kfDialog",
+    "msg-card": "../../components/Alert",
+    "no-need-steward-center-dialog": "../components/dialogs/NoNeedStewardCenterDialog",
+    "people-number-date-dialog": "../components/dialogs/PeopleNumberDateDialog",
+    "rect-tabs": "../components/RectTabs",
+    "st-button": "../../components/new/StButton",
+    "st-radio": "../../components/new/StRadio",
+    "steward-tips-dialog": "../components/dialogs/StewardTipsDialog"
+  }
+}

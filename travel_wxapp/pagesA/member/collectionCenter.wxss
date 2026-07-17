@@ -1,0 +1,357 @@
+.line-clamp-1.data-v-5efcbd53 {
+  line-clamp: 1;
+}
+.line-clamp-1.data-v-5efcbd53,
+.line-clamp-2.data-v-5efcbd53 {
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  overflow: hidden;
+  white-space: normal;
+}
+.line-clamp-2.data-v-5efcbd53 {
+  line-clamp: 2;
+}
+.line-clamp-3.data-v-5efcbd53 {
+  line-clamp: 3;
+}
+.line-clamp-3.data-v-5efcbd53,
+.line-clamp-4.data-v-5efcbd53 {
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  overflow: hidden;
+  white-space: normal;
+}
+.line-clamp-4.data-v-5efcbd53 {
+  line-clamp: 4;
+}
+.line-clamp-5.data-v-5efcbd53 {
+  line-clamp: 5;
+}
+.line-clamp-5.data-v-5efcbd53,
+.line-clamp-6.data-v-5efcbd53 {
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  overflow: hidden;
+  white-space: normal;
+}
+.line-clamp-6.data-v-5efcbd53 {
+  line-clamp: 6;
+}
+.line-clamp-7.data-v-5efcbd53 {
+  line-clamp: 7;
+}
+.line-clamp-7.data-v-5efcbd53,
+.line-clamp-8.data-v-5efcbd53 {
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  overflow: hidden;
+  white-space: normal;
+}
+.line-clamp-8.data-v-5efcbd53 {
+  line-clamp: 8;
+}
+.line-clamp-9.data-v-5efcbd53 {
+  -webkit-box-orient: vertical;
+  line-clamp: 9;
+  display: -webkit-box;
+  overflow: hidden;
+  white-space: normal;
+}
+.ui_collectionCenter.data-v-5efcbd53 {
+  padding: 32rpx;
+}
+.ui_collectionCenter .collect_list.data-v-5efcbd53 {
+  background: #fff;
+  border-radius: 16rpx;
+  margin: 0 auto 24rpx;
+  position: relative;
+}
+.ui_collectionCenter .collect_list.data-v-5efcbd53:before {
+  left: -20rpx;
+}
+.ui_collectionCenter .collect_list.data-v-5efcbd53:after,
+.ui_collectionCenter .collect_list.data-v-5efcbd53:before {
+  background: #f8f8f8;
+  border-radius: 50%;
+  content: "";
+  height: 40rpx;
+  margin-top: -20rpx;
+  position: absolute;
+  top: 50%;
+  width: 40rpx;
+}
+.ui_collectionCenter .collect_list.data-v-5efcbd53:after {
+  right: -20rpx;
+}
+.ui_collectionCenter .collect_list .list_item.data-v-5efcbd53 {
+  padding: 32rpx;
+}
+.ui_collectionCenter .collect_list .list_item .item_name.data-v-5efcbd53 {
+  background: rgba(164, 49, 39, 0.12);
+  border-radius: 8rpx;
+  color: #a43127;
+  font-size: 24rpx;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 24rpx;
+  padding: 8rpx;
+  text-align: left;
+}
+.ui_collectionCenter .collect_list .list_item .spend_name.data-v-5efcbd53 {
+  background: rgba(219, 137, 0, 0.12);
+  border-radius: 8rpx;
+  color: #db8900;
+  font-size: 24rpx;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 24rpx;
+  padding: 8rpx;
+  text-align: left;
+}
+.ui_collectionCenter .collect_list .list_item .tdq_name.data-v-5efcbd53 {
+  background: #000;
+  border-radius: 8rpx;
+  color: #fff;
+  font-size: 24rpx;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 24rpx;
+  padding: 8rpx;
+  text-align: left;
+}
+.ui_collectionCenter .collect_list .list_item .tiyan_name.data-v-5efcbd53 {
+  background: rgba(0, 67, 85, 0.12);
+  border-radius: 8rpx;
+  color: #004355;
+  font-size: 24rpx;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 24rpx;
+  padding: 8rpx;
+  text-align: left;
+}
+.ui_collectionCenter .collect_list .list_item .item_main.data-v-5efcbd53 {
+  align-items: flex-end;
+  display: flex;
+}
+.ui_collectionCenter
+  .collect_list
+  .list_item
+  .item_main
+  .item_left.data-v-5efcbd53 {
+  flex: 1;
+  margin-right: 20rpx;
+}
+.ui_collectionCenter
+  .collect_list
+  .list_item
+  .item_main
+  .item_title.data-v-5efcbd53 {
+  color: #000;
+  font-size: 32rpx;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 32rpx;
+  margin: 32rpx auto 24rpx;
+  text-align: left;
+}
+.ui_collectionCenter
+  .collect_list
+  .list_item
+  .item_main
+  .title_in.data-v-5efcbd53 {
+  color: gray;
+  font-size: 24rpx;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 24rpx;
+  padding-bottom: 32rpx;
+  text-align: left;
+}
+.ui_collectionCenter
+  .collect_list
+  .list_item
+  .item_main
+  .money_num.data-v-5efcbd53 {
+  color: #a43127;
+  font-size: 48rpx;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 48rpx;
+  text-align: left;
+}
+.ui_collectionCenter
+  .collect_list
+  .list_item
+  .item_main
+  .item_right.data-v-5efcbd53 {
+  background: #000;
+  background-image: url(https://dsplatweb.oss-cn-chengdu.aliyuncs.com/songzan/images/btnBlack.png);
+  background-repeat: repeat;
+  background-size: 80rpx 75rpx;
+  color: #fff;
+  justify-content: center;
+  padding: 16rpx 24rpx;
+}
+.ui_collectionCenter
+  .collect_list
+  .list_item
+  .item_main
+  .item_right-done.data-v-5efcbd53,
+.ui_collectionCenter
+  .collect_list
+  .list_item
+  .item_main
+  .item_right.data-v-5efcbd53 {
+  align-items: center;
+  border-radius: 8rpx;
+  display: flex;
+  font-size: 28rpx;
+  font-weight: 400;
+  height: 60rpx;
+  letter-spacing: 0;
+  line-height: 60rpx;
+  margin-left: auto;
+  min-width: 160rpx;
+  text-align: center;
+  white-space: nowrap;
+}
+.ui_collectionCenter
+  .collect_list
+  .list_item
+  .item_main
+  .item_right-done.data-v-5efcbd53 {
+  background: #eee;
+  color: #ccc;
+  padding: 16rpx 38rpx;
+}
+.ui_collectionCenter .receive-layer.data-v-5efcbd53 {
+  bottom: 0;
+  height: 100vh;
+  left: 0;
+  position: fixed;
+  width: 100vw;
+}
+.ui_collectionCenter .receive-layer .title.data-v-5efcbd53 {
+  color: #000;
+  font-size: 36rpx;
+  font-weight: 700;
+  padding: 32rpx 32rpx 0;
+}
+.ui_collectionCenter .receive-layer .receive-box.data-v-5efcbd53 {
+  background: #f8f8f8;
+  border-radius: 32rpx 32rpx 0 0;
+  bottom: 0;
+  height: calc(100% - 140rpx);
+  left: 0;
+  overflow-y: auto;
+  position: absolute;
+  width: 100%;
+  z-index: 2;
+}
+.ui_collectionCenter .receive-layer .receive-box .head.data-v-5efcbd53 {
+  background: #fff;
+  border-bottom: 0 solid #eee;
+  display: flex;
+  font-size: 36rpx;
+  font-weight: 600;
+  justify-content: center;
+  padding: 38rpx 0;
+  position: relative;
+}
+.ui_collectionCenter
+  .receive-layer
+  .receive-box
+  .head
+  .icon-a-20_guanbi.data-v-5efcbd53 {
+  font-size: 40rpx;
+  left: 28rpx;
+  position: absolute;
+  top: 38rpx;
+}
+.ui_collectionCenter .receive-layer .receive-box .receive_mian.data-v-5efcbd53 {
+  margin: 32rpx;
+}
+.ui_collectionCenter
+  .receive-layer
+  .receive-box
+  .receive_mian
+  .mian_list.data-v-5efcbd53 {
+  align-items: center;
+  background: #fff;
+  border-radius: 16rpx;
+  display: flex;
+  margin-bottom: 24rpx;
+  padding: 32rpx 24rpx;
+}
+.ui_collectionCenter
+  .receive-layer
+  .receive-box
+  .receive_mian
+  .mian_list
+  .main_title.data-v-5efcbd53 {
+  color: #000;
+  font-size: 32rpx;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 32rpx;
+  margin-left: 24rpx;
+  text-align: left;
+}
+.ui_collectionCenter
+  .receive-layer
+  .receive-box
+  .receive_mian
+  .mian_list
+  .main_text.data-v-5efcbd53 {
+  color: gray;
+  font-size: 24rpx;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 32rpx;
+  margin-left: 24rpx;
+  margin-top: 24rpx;
+  text-align: left;
+}
+.ui_collectionCenter
+  .receive-layer
+  .receive-box
+  .receive_mian
+  .main_right.data-v-5efcbd53 {
+  margin-left: auto;
+  margin-right: 24rpx;
+}
+.ui_collectionCenter
+  .receive-layer
+  .receive-box
+  .receive_mian
+  .main_right
+  .iconfont.data-v-5efcbd53 {
+  font-size: 40rpx;
+}
+.ui_collectionCenter .receive-layer .receive-box .btn.data-v-5efcbd53 {
+  background: #000;
+  background-image: url(https://dsplatweb.oss-cn-chengdu.aliyuncs.com/songzan/images/btnBlack.png);
+  background-repeat: repeat;
+  background-size: 80rpx 75rpx;
+  border-radius: 8rpx;
+  bottom: 68rpx;
+  color: #fff;
+  font-size: 32rpx;
+  height: 96rpx;
+  left: 0;
+  line-height: 96rpx;
+  margin: 24rpx 32rpx;
+  position: fixed;
+  text-align: center;
+  width: 696rpx;
+  z-index: 10;
+}
+.ui_collectionCenter .bg.data-v-5efcbd53 {
+  background: rgba(0, 0, 0, 0.76);
+  height: 100%;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}

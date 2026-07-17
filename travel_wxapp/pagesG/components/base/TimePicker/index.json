@@ -1,0 +1,9 @@
+{
+  "component": true,
+  "usingComponents": {
+    "bottom-btn": "../../../../components/bottomBtn",
+    "bottom-dialog": "../../../../components/bottomDialog",
+    "float-button-kf": "/components/new/FloatButtonKf",
+    "pick-trigger": "../PickTrigger/index"
+  }
+}

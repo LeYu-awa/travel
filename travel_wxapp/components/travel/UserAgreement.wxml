@@ -1,0 +1,8 @@
+<view class="user-agreement data-v-e3c594ea">
+    <st-dialog bind:__l="__l" bindcancel="{{e}}" bindconfirm="{{f}}" class="data-v-e3c594ea" uI="e3c594ea-0" uP="{{g}}" uS="{{['message']}}" wx:if="{{g}}">
+        <view class="user-agreement-content data-v-e3c594ea" slot="message"> 亲爱的用户，请仔细阅读<text bindtap="{{b}}" class="user-agreement-link data-v-e3c594ea"> 《{{a}}》 </text>和<text bindtap="{{d}}" class="user-agreement-link data-v-e3c594ea"> 《{{c}}》 </text>特向您说明如下：<view class="data-v-e3c594ea"></view> 1. 为向您提供注册、旅游预订、交易支付等服务，我们可能会收集您的个人信息；<view class="data-v-e3c594ea"></view> 2. 我们会采用先进的安全措施保护您的信息安全；<view class="data-v-e3c594ea"></view> 3. 未经您同意，我们不会从第三方获取、共享或向其提供您的任何信息；<view class="data-v-e3c594ea"></view> 4. 您可以查询、更新、删除您的个人信息；<view class="data-v-e3c594ea"></view> 5. 您授权并同意松赞向您的电子邮箱、手机、通信地址等发送商业信息，包括但不限于松赞旅行产品信息、促销信息等。<view class="data-v-e3c594ea"></view> 如果您希望为您的出行人订阅松赞的商业信息请您确保已获得出行人的明确授权。您确认已获得此授权，并同意松赞根据您提供的出行人联系方式向其发送上述商业信息。<view class="data-v-e3c594ea"></view> 若您同意上述条款内容，请点击“同意并继续”并开始使用我们的产品和服务。 </view>
+    </st-dialog>
+    <st-dialog bind:__l="__l" bindcancel="{{h}}" bindconfirm="{{i}}" class="data-v-e3c594ea" uI="e3c594ea-1" uP="{{j}}" uS="{{['message']}}" wx:if="{{j}}">
+        <view class="user-agreement-content data-v-e3c594ea" slot="message" style="text-align:center"> 如需继续使用松赞小程序，请同意隐私政策 </view>
+    </st-dialog>
+</view>

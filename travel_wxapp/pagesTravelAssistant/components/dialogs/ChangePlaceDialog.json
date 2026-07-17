@@ -1,0 +1,10 @@
+{
+  "component": true,
+  "usingComponents": {
+    "bottom-dialog": "./BottomDialog",
+    "fixed-bottom-view": "../../../components/new/FixedBottomView",
+    "float-button-kf": "/components/new/FloatButtonKf",
+    "st-button": "../../../components/new/StButton",
+    "st-radio": "../../../components/new/StRadio"
+  }
+}

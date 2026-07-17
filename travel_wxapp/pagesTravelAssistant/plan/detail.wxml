@@ -1,0 +1,190 @@
+<view class="data-v-8190e512">
+    <coustom-head bind:__l="__l" class="data-v-8190e512" uI="8190e512-0" uP="{{g}}" uS="{{['actions','extra']}}" wx:if="{{g}}">
+        <view class="custom-title__wrapper data-v-8190e512" slot="actions">
+            <back-button bind:__l="__l" bindonClick="{{b}}" class="data-v-8190e512" uI="8190e512-1,8190e512-0" uP="{{c}}" wx:if="{{a}}"></back-button>
+            <home-button bind:__l="__l" class="data-v-8190e512" uI="8190e512-2,8190e512-0" wx:else></home-button>
+        </view>
+        <view class="custom-title__wrapper data-v-8190e512" slot="extra">
+            <share-button bind:__l="__l" bindonClick="{{e}}" class="share-icon data-v-8190e512" style="{{d}}" uI="8190e512-3,8190e512-0" uP="{{f}}" wx:if="{{f}}"></share-button>
+        </view>
+    </coustom-head>
+    <view class="top-title__wrapper data-v-8190e512">
+        <view class="top-title_cover__wrapper data-v-8190e512">
+            <image class="top-title_cover data-v-8190e512" mode="" src="{{h}}"></image>
+            <view bindtap="{{i}}" class="to-map-btn data-v-8190e512">
+                <view class="icon iconfont icon-a-20_hangchengxiangqing data-v-8190e512"></view>
+                <text class="to-map-btn_text data-v-8190e512">地图</text>
+            </view>
+        </view>
+        <view class="top-title data-v-8190e512">
+            <view class="title-collect_num data-v-8190e512" wx:if="{{j}}">已被{{k}}人收藏</view>
+            <view class="{{['creater__wrapper','data-v-8190e512',x]}}" wx:if="{{l}}">
+                <view class="creater-main data-v-8190e512">
+                    <image class="avatar data-v-8190e512" src="{{m}}"></image>
+                    <text class="nickname data-v-8190e512">{{n}}</text>
+                    <text class="create-date data-v-8190e512">创建于{{o}}</text>
+                </view>
+                <view bindtap="{{w}}" class="collect-main data-v-8190e512" wx:if="{{p}}">
+                    <view class="iconfont icon-a-20_shoucang_yishoucang icon-collect data-v-8190e512" hidden="{{!q}}"></view>
+                    <view class="iconfont icon-a-20_shoucang_weishoucang icon-collect data-v-8190e512" hidden="{{!r}}"></view>
+                    <text class="{{['collect-num','data-v-8190e512',v]}}" wx:if="{{s}}">{{t}}</text>
+                </view>
+            </view>
+            <view class="{{['title','data-v-8190e512',z]}}">{{y}}</view>
+            <view class="{{['title-info','data-v-8190e512',C]}}" wx:if="{{A}}">{{B}}</view>
+            <view bindtap="{{F}}" class="top-advice-no__wrapper data-v-8190e512" wx:if="{{D}}">
+                <text class="text data-v-8190e512">咨询单号：{{E}}</text>
+                <view class="iconfont icon-a-12_fuzhi data-v-8190e512"></view>
+            </view>
+            <view class="top-price__wrapper data-v-8190e512">
+                <view class="data-info data-v-8190e512" wx:if="{{G}}">
+                    <view class="price-text data-v-8190e512">以顾问报价为准</view>
+                    <view class="left-price_tips data-v-8190e512">
+                        <view bindtap="{{H}}" class="iconfont icon-a-20_hangchengbangzhu1 data-v-8190e512"></view>
+                    </view>
+                </view>
+                <view class="data-info data-v-8190e512" wx:else>
+                    <view class="price-text data-v-8190e512">¥{{I}}</view>
+                    <view class="rise data-v-8190e512">/人起</view>
+                    <view class="left-price_tips data-v-8190e512">
+                        <view bindtap="{{J}}" class="iconfont icon-a-20_hangchengbangzhu1 icon-position data-v-8190e512"></view>
+                    </view>
+                </view>
+                <view class="renew data-v-8190e512" wx:if="{{K}}">{{L}}更新于{{M}}</view>
+            </view>
+        </view>
+    </view>
+    <view class="{{['diy-main__wrapper','data-v-8190e512',Y]}}">
+        <view class="diy-tabs-days__wrapper data-v-8190e512" wx:if="{{N}}">
+            <view class="tabs__wrapper data-v-8190e512" style="{{'top:'+R}}">
+                <rect-tabs bind:__l="__l" bindchange="{{O}}" bindupdateModelValue="{{P}}" class="hook-rect-tabs data-v-8190e512" uI="8190e512-4" uP="{{Q}}" wx:if="{{Q}}"></rect-tabs>
+            </view>
+            <view class="days-list__wrapper data-v-8190e512" hidden="{{!T}}">
+                <view class="days-list_item data-v-8190e512" wx:for="{{S}}" wx:key="g">
+                    <view class="days-list_item__main data-v-8190e512">
+                        <view class="days__wrapper data-v-8190e512">
+                            <view class="days-label data-v-8190e512">{{item.a}}</view>
+                            <view class="days-value data-v-8190e512">{{item.b}}</view>
+                        </view>
+                        <view class="destination-activity__wrapper data-v-8190e512">
+                            <view class="destination data-v-8190e512">{{item.c}}</view>
+                            <view class="activity data-v-8190e512" wx:if="{{item.d}}">{{item.e}}</view>
+                        </view>
+                    </view>
+                    <view class="days-list_item__distance data-v-8190e512" wx:if="{{item.f}}">
+                        <view class="distance-icon__wrapper data-v-8190e512">
+                            <view class="distance-icon__deco top data-v-8190e512"></view>
+                        </view>
+                    </view>
+                </view>
+            </view>
+            <view class="days-list__wrapper data-v-8190e512" hidden="{{!W}}">
+                <view class="rsv-day_title data-v-8190e512">{{U}}</view>
+                <view class="days-list_item data-v-8190e512" wx:if="{{item.a}}" wx:for="{{V}}" wx:key="A">
+                    <view catchtap="{{item.v}}" class="days-list_item__main data-v-8190e512">
+                        <view class="cover__wrapper data-v-8190e512">
+                            <view class="cover-place data-v-8190e512" wx:if="{{item.b}}">
+                                <view class="iconfont icon-a-20_jiesonganpai1 data-v-8190e512"></view>
+                            </view>
+                            <image class="cover-img data-v-8190e512" mode="" src="{{item.c}}" wx:else></image>
+                        </view>
+                        <view class="destination-activity__wrapper data-v-8190e512" wx:if="{{item.d}}">
+                            <view class="destination data-v-8190e512" wx:if="{{item.e}}">抵达{{item.f}}</view>
+                            <view class="destination data-v-8190e512" wx:if="{{item.g}}">离开{{item.h}}</view>
+                            <view class="activity black data-v-8190e512">含接机/站</view>
+                            <view class="desc data-v-8190e512" wx:if="{{item.i}}">{{item.j}}</view>
+                        </view>
+                        <view class="destination-activity__wrapper data-v-8190e512" wx:if="{{item.k}}">
+                            <view class="destination data-v-8190e512">{{item.l}}</view>
+                            <view class="activity black data-v-8190e512">预计{{item.m}}小时</view>
+                            <view class="desc data-v-8190e512" wx:if="{{item.n}}">{{item.o}}</view>
+                        </view>
+                        <view class="destination-activity__wrapper data-v-8190e512" wx:elif="{{item.p}}">
+                            <view class="destination data-v-8190e512">{{item.q}}</view>
+                            <view class="activity black data-v-8190e512">{{item.r}}</view>
+                            <view class="desc data-v-8190e512" wx:if="{{item.s}}">{{item.t}}</view>
+                        </view>
+                    </view>
+                    <view class="days-list_item__distance data-v-8190e512" wx:if="{{item.w}}">
+                        <view class="distance-icon__wrapper data-v-8190e512">
+                            <view class="distance-icon__deco top data-v-8190e512"></view>
+                            <view class="iconfont icon-car-line data-v-8190e512"></view>
+                            <view class="distance-icon__deco btm data-v-8190e512"></view>
+                        </view>
+                        <view class="distance-content__wrapper data-v-8190e512">
+                            <text class="data-v-8190e512">行车约{{item.x}}km，约{{item.y}}小时</text>
+                        </view>
+                    </view>
+                    <view class="days-list_item__distance data-v-8190e512" wx:if="{{item.z}}">
+                        <view class="distance-icon__wrapper data-v-8190e512">
+                            <view class="distance-icon__deco top place data-v-8190e512"></view>
+                        </view>
+                    </view>
+                </view>
+            </view>
+        </view>
+        <view class="diy-tabs-days__wrapper data-v-8190e512" wx:else>
+            <view class="days-list__wrapper freedom data-v-8190e512" wx:for="{{X}}" wx:for-item="itm" wx:key="h">
+                <view class="rsv-day_title data-v-8190e512" wx:if="{{itm.a}}">{{itm.b}} · {{itm.c}}</view>
+                <view class="rsv-day_title data-v-8190e512" wx:else>{{itm.d}}{{itm.e}}日 · {{itm.f}}</view>
+                <view class="days-list_item data-v-8190e512" wx:if="{{item.a}}" wx:for="{{itm.g}}" wx:key="r">
+                    <view catchtap="{{item.p}}" class="days-list_item__main data-v-8190e512">
+                        <view class="cover__wrapper data-v-8190e512">
+                            <view class="cover-place data-v-8190e512" wx:if="{{item.b}}">
+                                <view class="iconfont icon-a-20_jiesonganpai1 data-v-8190e512"></view>
+                            </view>
+                            <image class="cover-img data-v-8190e512" mode="" src="{{item.c}}" wx:else></image>
+                        </view>
+                        <view class="destination-activity__wrapper data-v-8190e512" wx:if="{{item.d}}">
+                            <view class="destination data-v-8190e512" wx:if="{{item.e}}">抵达{{item.f}}</view>
+                            <view class="destination data-v-8190e512" wx:if="{{item.g}}">离开{{item.h}}</view>
+                            <view class="activity black data-v-8190e512">含接机/站</view>
+                            <view class="desc data-v-8190e512" wx:if="{{item.i}}">{{item.j}}</view>
+                        </view>
+                        <view class="destination-activity__wrapper data-v-8190e512" wx:elif="{{item.k}}">
+                            <view class="destination data-v-8190e512">{{item.l}}</view>
+                            <view class="activity black data-v-8190e512">{{item.m}}</view>
+                            <view class="desc data-v-8190e512" wx:if="{{item.n}}">{{item.o}}</view>
+                        </view>
+                    </view>
+                    <view class="days-list_item__distance data-v-8190e512" wx:if="{{item.q}}">
+                        <view class="distance-icon__wrapper data-v-8190e512">
+                            <view class="distance-icon__deco top data-v-8190e512"></view>
+                        </view>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+    <fixed-bottom-view bind:__l="__l" class="data-v-8190e512" uI="8190e512-5" uP="{{al}}" uS="{{['d']}}" wx:if="{{al}}">
+        <view class="footer-price__wrapper data-v-8190e512" wx:if="{{Z}}">
+            <view class="footer-left_price other data-v-8190e512">
+                <view bindtap="{{aa}}" class="to-btn data-v-8190e512">
+                    <view class="icon iconfont icon-a-20_kefu data-v-8190e512"></view>
+                    <view class="btn_text data-v-8190e512">顾问</view>
+                </view>
+            </view>
+            <view class="footer-right_btn data-v-8190e512">
+                <st-button bind:__l="__l" class="data-v-8190e512" uI="8190e512-6,8190e512-5" uP="{{ad}}" uS="{{['d']}}" wx:if="{{ab}}">{{ac}}</st-button>
+                <st-button bind:__l="__l" bindclick="{{ae}}" class="data-v-8190e512" uI="8190e512-7,8190e512-5" uP="{{af||''}}" uS="{{['d']}}" wx:else>提交咨询</st-button>
+            </view>
+        </view>
+        <view class="footer-price__wrapper data-v-8190e512" wx:else>
+            <view class="footer-left_price other data-v-8190e512">
+                <view bindtap="{{ag}}" class="to-btn data-v-8190e512">
+                    <view class="icon iconfont icon-a-20_kefu data-v-8190e512"></view>
+                    <view class="btn_text data-v-8190e512">顾问</view>
+                </view>
+            </view>
+            <view class="footer-right_btn data-v-8190e512">
+                <st-button bind:__l="__l" bindclick="{{ah}}" class="data-v-8190e512" uI="8190e512-8,8190e512-5" uP="{{ai}}" uS="{{['d']}}" wx:if="{{ai}}">使用此模版</st-button>
+                <st-button bind:__l="__l" bindclick="{{aj}}" class="data-v-8190e512" uI="8190e512-9,8190e512-5" uP="{{ak}}" uS="{{['d']}}" wx:if="{{ak}}">提交咨询</st-button>
+            </view>
+        </view>
+    </fixed-bottom-view>
+    <estimated-center-dialog bind:__l="__l" bindupdateModelValue="{{am}}" class="data-v-8190e512" uI="8190e512-10" uP="{{an}}" wx:if="{{an}}"></estimated-center-dialog>
+    <kf-dialog bind:__l="__l" class="r data-v-8190e512" uI="8190e512-11" uP="{{ap}}" uR="kf" wx:if="{{ap}}"></kf-dialog>
+    <confirmation-dialog bind:__l="__l" bindconfirm="{{aq}}" bindupdateModelValue="{{ar}}" class="data-v-8190e512" uI="8190e512-12" uP="{{as}}" wx:if="{{as}}"></confirmation-dialog>
+    <collect-success bind:__l="__l" bindjumpTo="{{at}}" bindupdateModelValue="{{av}}" class="data-v-8190e512" uI="8190e512-13" uP="{{aw}}" wx:if="{{aw}}"></collect-success>
+    <detail-dialog bind:__l="__l" bindupdateModelValue="{{ax}}" class="data-v-8190e512" uI="8190e512-14" uP="{{ay}}" wx:if="{{ay}}"></detail-dialog>
+</view>

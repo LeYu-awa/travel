@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "松赞行程助手使用指南",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "coustom-head": "../../components/coustomHead",
+    "float-button-kf": "/components/new/FloatButtonKf"
+  }
+}

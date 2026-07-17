@@ -1,0 +1,9 @@
+<view class="ui_setting data-v-13a00f21">
+    <coustom-head bind:__l="__l" class="data-v-13a00f21" uI="13a00f21-0" uP="{{a}}" wx:if="{{a}}"></coustom-head>
+    <view class="settingBox data-v-13a00f21">
+        <view class="card data-v-13a00f21" wx:for="{{b}}" wx:for-item="group" wx:key="b">
+            <link-item bind:__l="__l" bindchooseLink="{{menu.b}}" class="data-v-13a00f21" uI="{{menu.c}}" uP="{{menu.d}}" wx:for="{{group.a}}" wx:for-item="menu" wx:key="a"></link-item>
+        </view>
+    </view>
+</view>
+<float-button-kf bind:__l="__l" class="data-v-13a00f21" uI="13a00f21-2"></float-button-kf>

@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "地图",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "coustom-head": "../../components/coustomHead",
+    "float-button-kf": "/components/new/FloatButtonKf",
+    "rect-tabs": "../components/RectTabs"
+  }
+}

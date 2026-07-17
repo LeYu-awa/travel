@@ -1,0 +1,295 @@
+{
+    "name" : "派旅行",
+    "appid" : "__UNI__BB3488C",
+    "description" : "",
+    "versionName" : "1.0.9",
+    "versionCode" : 127,
+    "transformPx" : false,
+    "sassImplementationName" : "node-sass",
+    /* 5+App特有相关 */
+    "app-plus" : {
+        "softinputMode" : "adjustResize",
+        "titleNView" : true,
+        "usingComponents" : true,
+        "nvueCompiler" : "uni-app",
+        "nvueStyleCompiler" : "uni-app",
+        "screenOrientation" : [
+            "portrait-primary",
+            "portrait-secondary",
+            "landscape-primary",
+            "landscape-secondary"
+        ],
+        "video" : {
+            "hardwareDecoder" : "auto"
+        },
+        "compilerVersion" : 3,
+        "splashscreen" : {
+            "alwaysShowBeforeRender" : true,
+            "waiting" : true,
+            "autoclose" : true,
+            "delay" : 0
+        },
+        "compatible" : {
+            "ignoreVersion" : true
+        },
+        /* 模块配置 */
+        "modules" : {
+            "Camera" : {},
+            "LivePusher" : {},
+            "Record" : {},
+            "VideoPlayer" : {},
+            "renderer" : "native",
+            "nvueCompiler" : "uni-app",
+            "LiveEngine" : {
+                "version" : "3.5.2",
+                "provider" : "uni-cloud"
+            },
+            "Share" : {},
+            "Payment" : {},
+            "OAuth" : {},
+            "Maps" : {},
+            "Geolocation" : {}
+        },
+        "safearea" : {
+            "bottom" : {
+                "offset" : "none"
+            }
+        },
+        /* 应用发布信息 */
+        "distribute" : {
+            /* android打包配置 */
+            "android" : {
+                "permissions" : [
+                    "<uses-feature android:name=\"android.hardware.camera\"/>",
+                    "<uses-feature android:name=\"android.hardware.camera.autofocus\"/>",
+                    "<uses-permission android:name=\"android.permission.ACCESS_COARSE_LOCATION\"/>",
+                    "<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.ACCESS_WIFI_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.CAMERA\"/>",
+                    "<uses-permission android:name=\"android.permission.CHANGE_NETWORK_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.CHANGE_WIFI_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.FLASHLIGHT\"/>",
+                    "<uses-permission android:name=\"android.permission.GET_ACCOUNTS\"/>",
+                    "<uses-permission android:name=\"android.permission.INTERNET\"/>",
+                    "<uses-permission android:name=\"android.permission.MODIFY_AUDIO_SETTINGS\"/>",
+                    "<uses-permission android:name=\"android.permission.MOUNT_UNMOUNT_FILESYSTEMS\"/>",
+                    "<uses-permission android:name=\"android.permission.READ_LOGS\"/>",
+                    "<uses-permission android:name=\"android.permission.READ_PHONE_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.RECORD_AUDIO\"/>",
+                    "<uses-permission android:name=\"android.permission.VIBRATE\"/>",
+                    "<uses-permission android:name=\"android.permission.WAKE_LOCK\"/>",
+                    "<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\"/>",
+                    "<uses-permission android:name=\"android.permission.WRITE_SETTINGS\"/>"
+                ],
+                "abiFilters" : [ "armeabi-v7a", "arm64-v8a", "x86" ],
+                "permissionExternalStorage" : {
+                    "request" : "none",
+                    "prompt" : "应用保存运行状态等信息，需要获取读写手机存储（系统提示为访问设备上的照片、媒体内容和文件）权限，请允许。"
+                },
+                "permissionPhoneState" : {
+                    "request" : "none" //拨打电话权限关闭
+                },
+                "schemes" : "st7039722911f3f5db",
+                "targetSdkVersion" : 28,
+                "manifest" : {
+                    "application" : {
+                        // 禁用临时兼容（强制适配分区存储，长期解决方案）
+                        "android:requestLegacyExternalStorage" : "false",
+                        // 可选：声明支持分区存储（Android 11+）
+                        "android:preserveLegacyExternalStorage" : "false"
+                    }
+                }
+            },
+            /* ios打包配置 */
+            "ios" : {
+                "privacyDescription" : {
+                    "NSPhotoLibraryUsageDescription" : "上传用户头像保存分享海报",
+                    "NSPhotoLibraryAddUsageDescription" : "上传用户头像保存分享海报",
+                    "NSCameraUsageDescription" : "上传用户头像保存分享海报",
+                    "NSLocationWhenInUseUsageDescription" : "根据客户地理位置推荐最近门店",
+                    "NSLocationAlwaysUsageDescription" : "根据客户地理位置推荐最近门店"
+                },
+                "idfa" : false,
+                "dSYMs" : false,
+                "capabilities" : {
+                    "entitlements" : {
+                        "com.apple.developer.associated-domains" : [
+                            "applinks:static-mp-6f722249-536e-48a3-a5e3-6e467cf4a7b8.next.bspapp.com"
+                        ]
+                    }
+                }
+            },
+            /* SDK配置 */
+            "sdkConfigs" : {
+                "maps" : {
+                    "tencent" : {
+                        "key" : "74MBZ-IFM3K-FCOJR-AYE6G-HXIHH-ISBZM"
+                    }
+                },
+                "payment" : {
+                    "alipay" : {
+                        "__platform__" : [ "ios", "android" ]
+                    },
+                    "weixin" : {
+                        "__platform__" : [ "ios", "android" ],
+                        "appid" : "wx8a4d24e8aca2e851",
+                        "appsecret" : "2b02d8608c141c23a4f1034411161dd6",
+                        "UniversalLinks" : "https://static-mp-6f722249-536e-48a3-a5e3-6e467cf4a7b8.next.bspapp.com/uni-universallinks/__UNI__E428401/"
+                    }
+                },
+                "share" : {
+                    "weixin" : {
+                        "appid" : "wx8a4d24e8aca2e851",
+                        "UniversalLinks" : "https://static-mp-6f722249-536e-48a3-a5e3-6e467cf4a7b8.next.bspapp.com/uni-universallinks/__UNI__E428401/"
+                    }
+                },
+                "geolocation" : {
+                    "system" : {
+                        "__platform__" : [ "ios", "android" ]
+                    },
+                    "tencent" : {
+                        "__platform__" : [ "ios", "android" ],
+                        "apikey_ios" : "74MBZ-IFM3K-FCOJR-AYE6G-HXIHH-ISBZM",
+                        "apikey_android" : "74MBZ-IFM3K-FCOJR-AYE6G-HXIHH-ISBZM"
+                    }
+                },
+                "push" : {},
+                "oauth" : {
+                    "apple" : {},
+                    "weixin" : {
+                        "appid" : "wx8a4d24e8aca2e851",
+                        "appsecret" : "2b02d8608c141c23a4f1034411161dd6",
+                        "UniversalLinks" : "https://static-mp-6f722249-536e-48a3-a5e3-6e467cf4a7b8.next.bspapp.com/uni-universallinks/__UNI__E428401/"
+                    }
+                },
+                "ad" : {}
+            },
+            "icons" : {
+                "android" : {
+                    "hdpi" : "unpackage/res/icons/72x72.png",
+                    "xhdpi" : "unpackage/res/icons/96x96.png",
+                    "xxhdpi" : "unpackage/res/icons/144x144.png",
+                    "xxxhdpi" : "unpackage/res/icons/192x192.png"
+                },
+                "ios" : {
+                    "appstore" : "unpackage/res/icons/1024x1024.png",
+                    "ipad" : {
+                        "app" : "unpackage/res/icons/76x76.png",
+                        "app@2x" : "unpackage/res/icons/152x152.png",
+                        "notification" : "unpackage/res/icons/20x20.png",
+                        "notification@2x" : "unpackage/res/icons/40x40.png",
+                        "proapp@2x" : "unpackage/res/icons/167x167.png",
+                        "settings" : "unpackage/res/icons/29x29.png",
+                        "settings@2x" : "unpackage/res/icons/58x58.png",
+                        "spotlight" : "unpackage/res/icons/40x40.png",
+                        "spotlight@2x" : "unpackage/res/icons/80x80.png"
+                    },
+                    "iphone" : {
+                        "app@2x" : "unpackage/res/icons/120x120.png",
+                        "app@3x" : "unpackage/res/icons/180x180.png",
+                        "notification@2x" : "unpackage/res/icons/40x40.png",
+                        "notification@3x" : "unpackage/res/icons/60x60.png",
+                        "settings@2x" : "unpackage/res/icons/58x58.png",
+                        "settings@3x" : "unpackage/res/icons/87x87.png",
+                        "spotlight@2x" : "unpackage/res/icons/80x80.png",
+                        "spotlight@3x" : "unpackage/res/icons/120x120.png"
+                    }
+                }
+            },
+            "splashscreen" : {
+                "useOriginalMsgbox" : true
+            }
+        },
+        "nativePlugins" : {
+            "shoot-sharetrace" : {
+                "sharetrace-appkey" : "7039722911f3f5db",
+                "sharetrace-server" : "",
+                "__plugin_info__" : {
+                    "name" : "sharetrace 免填邀请码",
+                    "description" : "sharetrace 携带参数安装，免填写邀请码，自动绑定邀请关系，渠道统计，一键拉起",
+                    "platforms" : "Android,iOS",
+                    "url" : "https://ext.dcloud.net.cn/plugin?id=1893",
+                    "android_package_name" : "",
+                    "ios_bundle_id" : "",
+                    "isCloud" : true,
+                    "bought" : 1,
+                    "pid" : "1893",
+                    "parameters" : {
+                        "sharetrace-appkey" : {
+                            "des" : "sharetrace appkey",
+                            "key" : "com.sharetrace.APP_KEY",
+                            "value" : ""
+                        },
+                        "sharetrace-server" : {
+                            "des" : "sharetrace server (注:如未启用,请勿填写)",
+                            "key" : "com.sharetrace.SERVER_DOMAIN",
+                            "value" : ""
+                        }
+                    }
+                }
+            }
+        }
+    },
+    /* 快应用特有相关 */
+    "quickapp" : {},
+    /* 小程序特有相关 */
+    "mp-weixin" : {
+        "appid" : "wx50c3e7254e207972",
+        "setting" : {
+            "urlCheck" : false,
+            "minified" : true,
+            "postcss" : false,
+            "es6" : true
+        },
+        "permission" : {
+            "scope.userLocation" : {
+                "desc" : "获取您的位置"
+            }
+        },
+        "requiredPrivateInfos" : [ "getLocation", "chooseAddress" ],
+        "usingComponents" : true
+    },
+    "mp-alipay" : {
+        "usingComponents" : true
+    },
+    "mp-baidu" : {
+        "usingComponents" : true
+    },
+    "mp-toutiao" : {
+        "usingComponents" : true
+    },
+    "h5" : {
+        "devServer" : {
+            "https" : false,
+            "disableHostCheck" : true,
+            "proxy" : {
+                "/api" : {
+                    "target" : "http://app.pailvxing.com",
+                    "changeOrigin" : true,
+                    "secure" : false,
+                    "pathRewrite" : {
+                        "^/api" : "/api"
+                    }
+                }
+            }
+        },
+        "router" : {
+            "mode" : "history",
+            "base" : ""
+        },
+        "domain" : "",
+        "sdkConfigs" : {
+            "maps" : {
+                "qqmap" : {
+                    "key" : "SMJBZ-WCHK4-ZPZUA-DSIXI-XDDVQ-XWFX7"
+                },
+                "tencent" : {
+                    "key" : "BYCBZ-XQFEW-H62R2-YK7K5-BQVNV-AFFQS"
+                }
+            }
+        },
+        "title" : "加载中...",
+        "template" : "template.h5.html"
+    },
+    "_spaceID" : "mp-6f722249-536e-48a3-a5e3-6e467cf4a7b8"
+}

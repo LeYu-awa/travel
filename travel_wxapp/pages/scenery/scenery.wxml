@@ -1,0 +1,71 @@
+<coustom-head bind:__l="__l" class="data-v-3a6d1b11" uI="3a6d1b11-0" uP="{{b}}" wx:if="{{a}}"></coustom-head>
+<view class="scenery_ui data-v-3a6d1b11">
+    <view class="swiper-box data-v-3a6d1b11">
+        <swiper-box bind:__l="__l" class="data-v-3a6d1b11" uI="3a6d1b11-1" uP="{{c}}" wx:if="{{c}}"></swiper-box>
+    </view>
+    <view class="nav-warp data-v-3a6d1b11" wx:if="{{d}}">
+        <view class="nav-list data-v-3a6d1b11">
+            <view bindtap="{{item.d}}" class="nav data-v-3a6d1b11" wx:for="{{e}}" wx:key="c">
+                <image class="img data-v-3a6d1b11" src="{{item.a}}"></image>
+                <view class="txt data-v-3a6d1b11">{{item.b}}</view>
+            </view>
+        </view>
+    </view>
+    <view class="notice data-v-3a6d1b11">
+        <notice bind:__l="__l" class="r data-v-3a6d1b11" uI="3a6d1b11-2" uP="{{g}}" uR="noticeRef" wx:if="{{g}}"></notice>
+    </view>
+    <block wx:if="{{h}}">
+        <view class="title-main data-v-3a6d1b11">活动专区</view>
+        <view class="ad-banner data-v-3a6d1b11">
+            <view class="ad-swiper data-v-3a6d1b11" wx:if="{{i}}">
+                <swiper-box bind:__l="__l" class="data-v-3a6d1b11" uI="3a6d1b11-3" uP="{{j}}" wx:if="{{j}}"></swiper-box>
+            </view>
+            <view class="ad-banner-rt data-v-3a6d1b11" wx:if="{{k}}">
+                <view bindtap="{{item.h}}" class="ad-banner-img data-v-3a6d1b11" wx:for="{{l}}" wx:key="g">
+                    <image class="img data-v-3a6d1b11" mode="aspectFill" src="{{item.a}}"></image>
+                    <view class="info data-v-3a6d1b11" wx:if="{{item.b}}">
+                        <view class="title data-v-3a6d1b11" wx:if="{{item.c}}">{{item.d}}</view>
+                        <view class="subTitle data-v-3a6d1b11" wx:if="{{item.e}}">{{item.f}}<view class="iconfont icon-a-12_youlajiantou_hei data-v-3a6d1b11"></view>
+                        </view>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </block>
+    <view class="tabs data-v-3a6d1b11" id="tabs">
+        <view class="tabs_inner data-v-3a6d1b11" wx:if="{{m}}">
+            <view class="tabs_inner_box data-v-3a6d1b11" wx:if="{{n}}"></view>
+        </view>
+        <view class="{{['tabs_warp','data-v-3a6d1b11',r&&'fixed']}}" style="{{'top:'+s}}">
+            <tabs bind:__l="__l" bindclickTab="{{p}}" class="data-v-3a6d1b11" uI="3a6d1b11-4" uP="{{q}}" wx:if="{{o}}"></tabs>
+        </view>
+    </view>
+    <view class="product-list data-v-3a6d1b11">
+        <view bindtap="{{item.h}}" class="product-item data-v-3a6d1b11" wx:for="{{t}}" wx:key="g">
+            <view class="product-img data-v-3a6d1b11">
+                <image class="img data-v-3a6d1b11" mode="aspectFill" src="{{item.a}}"></image>
+            </view>
+            <view class="product-info data-v-3a6d1b11">
+                <view class="product-name data-v-3a6d1b11">{{item.b}}</view>
+                <view class="subTitle data-v-3a6d1b11" wx:if="{{item.c}}">{{item.d}}</view>
+                <view class="product-bt data-v-3a6d1b11">
+                    <view class="product-price data-v-3a6d1b11"> ¥{{item.e}}</view>
+                    <view class="product-btn baseBtn red data-v-3a6d1b11" wx:if="{{item.f}}"> 预购 </view>
+                    <view class="product-btn baseBtn data-v-3a6d1b11" wx:else>购买</view>
+                </view>
+            </view>
+        </view>
+    </view>
+    <empty bind:__l="__l" class="data-v-3a6d1b11" uI="3a6d1b11-5" uP="{{w}}" wx:if="{{v}}"></empty>
+    <view bindtap="{{E}}" class="footer-ad data-v-3a6d1b11" wx:if="{{x}}">
+        <image class="footer-img data-v-3a6d1b11" mode="aspectFill" src="{{y}}"></image>
+        <view class="info data-v-3a6d1b11">
+            <view class="desc data-v-3a6d1b11">{{z}}</view>
+            <view class="product-btn baseBtn data-v-3a6d1b11" wx:if="{{A}}">{{B}}</view>
+            <view class="phoneNumber data-v-3a6d1b11" wx:if="{{C}}">
+                <view class="iconfont icon-a-12_dianhua data-v-3a6d1b11"></view> {{D}}</view>
+        </view>
+    </view>
+    <bottom-nav bind:__l="__l" class="data-v-3a6d1b11" uI="3a6d1b11-6"></bottom-nav>
+    <float-button-kf bind:__l="__l" class="data-v-3a6d1b11" uI="3a6d1b11-7"></float-button-kf>
+</view>

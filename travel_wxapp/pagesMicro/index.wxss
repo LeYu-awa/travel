@@ -1,0 +1,20 @@
+.micro-page.data-v-d966c3e7 {
+  background-color: #fff;
+  min-height: 100vh;
+  min-height: 100dvh;
+  position: relative;
+}
+.micro-page--loading.data-v-d966c3e7 {
+  align-items: center;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  left: 0;
+  padding-bottom: 20%;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+.micro-page--empty.data-v-d966c3e7 {
+  padding-top: 20vh;
+}

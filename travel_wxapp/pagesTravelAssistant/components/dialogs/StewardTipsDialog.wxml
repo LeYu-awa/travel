@@ -1,0 +1,20 @@
+<bottom-dialog bind:__l="__l" bindopenState="{{d}}" class="hook-dialog r data-v-0b580299" uI="0b580299-0" uP="{{e}}" uR="hookDialog" uS="{{['title','d']}}" wx:if="{{e}}">
+    <view class="custom-title__wrapper data-v-0b580299" slot="title">
+        <close-button bind:__l="__l" bindonClick="{{a}}" class="data-v-0b580299" uI="0b580299-1,0b580299-0"></close-button>
+    </view>
+    <view class="steward-tips_dialog__wrapper data-v-0b580299">
+        <view class="cover__wrapper data-v-0b580299">
+            <image class="cover-img data-v-0b580299" src="https://songtsam-internal-static.oss-cn-chengdu.aliyuncs.com/mobile/assets/travel-assistant/steward_info_cover.png"></image>
+        </view>
+        <scroll-view scrollY class="data-v-0b580299" style="{{b}}">
+            <view class="tips-main__wrapper data-v-0b580299">
+                <view class="tips-main_title data-v-0b580299">管家服务</view>
+                <view class="tips-main_content data-v-0b580299">
+                    <view class="content data-v-0b580299">松赞旅行管家是旅途中可靠的陪伴者和领路人。</view>
+                    <view class="content data-v-0b580299">他们大都由对在地文化有着深入了解的本地人担任，以更好地诠释松赞旅行，提供超越期待的目的地探享体验。 </view>
+                    <view class="content data-v-0b580299">每一位松赞旅行管家都深谙户外旅行操作。跟随管家的讲解，您将更加轻松地了解并体验到藏区神秘而异彩纷呈的文化内涵， 在多元丰富的自然人文景观中，获得内心充盈的归属感。</view>
+                </view>
+            </view>
+        </scroll-view>
+    </view>
+</bottom-dialog>

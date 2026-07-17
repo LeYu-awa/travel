@@ -1,0 +1,255 @@
+<view class="ui_takeInfo data-v-b4d0b4ea">
+    <coustom-head bind:__l="__l" class="data-v-b4d0b4ea" uI="b4d0b4ea-0" uP="{{a}}" wx:if="{{a}}"></coustom-head>
+    <view class="tips data-v-b4d0b4ea" wx:if="{{b}}">
+        <view class="icon-a-12_tishi_bai iconfont data-v-b4d0b4ea"></view>如需修改提交后的接送信息，请联系顾问或管家。 </view>
+    <block wx:for="{{c}}" wx:key="x">
+        <view class="pick-up data-v-b4d0b4ea" wx:if="{{item.a}}">
+            <view class="pick-up-tl data-v-b4d0b4ea">
+                <view class="iconfont icon-a-20_jiesonganpai data-v-b4d0b4ea"></view>抵达接站安排<block wx:if="{{item.b}}">{{item.c}}</block>
+            </view>
+            <view class="pick-up-info data-v-b4d0b4ea" wx:if="{{item.d}}">
+                <view class="left-part data-v-b4d0b4ea">
+                    <view class="pick-up-label data-v-b4d0b4ea">接送车辆</view>
+                    <view class="pick-up-keynote data-v-b4d0b4ea">{{item.e}}</view>
+                    <view class="pick-up-desc data-v-b4d0b4ea" wx:if="{{item.f}}">{{item.g}}</view>
+                </view>
+                <view class="right-part data-v-b4d0b4ea">
+                    <view class="pick-up-label data-v-b4d0b4ea">约定时间地点</view>
+                    <view class="pick-up-keynote data-v-b4d0b4ea">{{item.h}}{{item.i}}</view>
+                    <view class="pick-up-desc data-v-b4d0b4ea" wx:if="{{item.j}}">{{item.k}}</view>
+                </view>
+            </view>
+            <view class="pick-up-info data-v-b4d0b4ea" wx:else>
+                <view class="no-carNo data-v-b4d0b4ea">接送车辆及时间地点待安排</view>
+            </view>
+            <view class="pick-up-info-list data-v-b4d0b4ea">
+                <view class="pick-up-item data-v-b4d0b4ea">
+                    <view class="pick-up-item-label data-v-b4d0b4ea">需接送人</view>
+                    <view class="pick-up-item-val data-v-b4d0b4ea">
+                        <view class="guest data-v-b4d0b4ea" wx:for="{{item.l}}" wx:for-item="guest" wx:key="b">{{guest.a}}</view>
+                    </view>
+                </view>
+                <view class="pick-up-item data-v-b4d0b4ea">
+                    <view class="pick-up-item-label data-v-b4d0b4ea">抵达方式</view>
+                    <view class="pick-up-item-val data-v-b4d0b4ea">{{item.m}} {{item.n}}</view>
+                </view>
+                <view class="pick-up-item data-v-b4d0b4ea" wx:if="{{item.o}}">
+                    <view class="pick-up-item-label data-v-b4d0b4ea">联系人</view>
+                    <view class="pick-up-item-val data-v-b4d0b4ea">{{item.p}} {{item.q}} <view bindtap="{{item.r}}" class="iconfont icon-a-12_fuzhi data-v-b4d0b4ea"></view>
+                        <view bindtap="{{item.s}}" class="iconfont icon-a-28_dianhua data-v-b4d0b4ea"></view>
+                    </view>
+                </view>
+            </view>
+        </view>
+        <view class="pick-up data-v-b4d0b4ea" wx:else>
+            <view class="pick-up-tl data-v-b4d0b4ea">
+                <view class="iconfont icon-a-20_jiesonganpai data-v-b4d0b4ea"></view>抵达接站安排<block wx:if="{{item.t}}">{{item.v}}</block>
+            </view>
+            <view class="pick-up-info-list data-v-b4d0b4ea">
+                <view class="pick-up-item data-v-b4d0b4ea">
+                    <view class="pick-up-item-label data-v-b4d0b4ea">需接送人</view>
+                    <view class="pick-up-item-val data-v-b4d0b4ea">
+                        <view class="guest data-v-b4d0b4ea" wx:for="{{item.w}}" wx:for-item="guest" wx:key="b">{{guest.a}}</view>
+                    </view>
+                </view>
+                <view class="pick-up-item data-v-b4d0b4ea">
+                    <view class="pick-up-item-label data-v-b4d0b4ea">接送方式</view>
+                    <view class="pick-up-item-val data-v-b4d0b4ea">无需接送</view>
+                </view>
+            </view>
+        </view>
+    </block>
+    <block wx:for="{{d}}" wx:key="x">
+        <view class="pick-up data-v-b4d0b4ea" wx:if="{{item.a}}">
+            <view class="pick-up-tl data-v-b4d0b4ea">
+                <view class="iconfont icon-a-20_jiesonganpai data-v-b4d0b4ea"></view>返程送站安排<block wx:if="{{item.b}}">{{item.c}}</block>
+            </view>
+            <view class="pick-up-info data-v-b4d0b4ea" wx:if="{{item.d}}">
+                <view class="left-part data-v-b4d0b4ea">
+                    <view class="pick-up-label data-v-b4d0b4ea">接送车辆</view>
+                    <view class="pick-up-keynote data-v-b4d0b4ea">{{item.e}}</view>
+                    <view class="pick-up-desc data-v-b4d0b4ea" wx:if="{{item.f}}">{{item.g}}</view>
+                </view>
+                <view class="right-part data-v-b4d0b4ea">
+                    <view class="pick-up-label data-v-b4d0b4ea">约定时间地点</view>
+                    <view class="pick-up-keynote data-v-b4d0b4ea">{{item.h}}{{item.i}}</view>
+                    <view class="pick-up-desc data-v-b4d0b4ea" wx:if="{{item.j}}">{{item.k}}</view>
+                </view>
+            </view>
+            <view class="pick-up-info data-v-b4d0b4ea" wx:else>
+                <view class="no-carNo data-v-b4d0b4ea">接送车辆及时间地点待安排</view>
+            </view>
+            <view class="pick-up-info-list data-v-b4d0b4ea">
+                <view class="pick-up-item data-v-b4d0b4ea">
+                    <view class="pick-up-item-label data-v-b4d0b4ea">需接送人</view>
+                    <view class="pick-up-item-val data-v-b4d0b4ea">
+                        <view class="guest data-v-b4d0b4ea" wx:for="{{item.l}}" wx:for-item="guest" wx:key="b">{{guest.a}}</view>
+                    </view>
+                </view>
+                <view class="pick-up-item data-v-b4d0b4ea">
+                    <view class="pick-up-item-label data-v-b4d0b4ea">抵达方式</view>
+                    <view class="pick-up-item-val data-v-b4d0b4ea">{{item.m}} {{item.n}}</view>
+                </view>
+                <view class="pick-up-item data-v-b4d0b4ea" wx:if="{{item.o}}">
+                    <view class="pick-up-item-label data-v-b4d0b4ea">联系人</view>
+                    <view class="pick-up-item-val data-v-b4d0b4ea">{{item.p}} {{item.q}} <view bindtap="{{item.r}}" class="iconfont icon-a-12_fuzhi data-v-b4d0b4ea"></view>
+                        <view bindtap="{{item.s}}" class="iconfont icon-a-28_dianhua data-v-b4d0b4ea"></view>
+                    </view>
+                </view>
+            </view>
+        </view>
+        <view class="pick-up data-v-b4d0b4ea" wx:else>
+            <view class="pick-up-tl data-v-b4d0b4ea">
+                <view class="iconfont icon-a-20_jiesonganpai data-v-b4d0b4ea"></view>返程送站安排<block wx:if="{{item.t}}">{{item.v}}</block>
+            </view>
+            <view class="pick-up-info-list data-v-b4d0b4ea">
+                <view class="pick-up-item data-v-b4d0b4ea">
+                    <view class="pick-up-item-label data-v-b4d0b4ea">需接送人</view>
+                    <view class="pick-up-item-val data-v-b4d0b4ea">
+                        <view class="guest data-v-b4d0b4ea" wx:for="{{item.w}}" wx:for-item="guest" wx:key="b">{{guest.a}}</view>
+                    </view>
+                </view>
+                <view class="pick-up-item data-v-b4d0b4ea">
+                    <view class="pick-up-item-label data-v-b4d0b4ea">接送方式</view>
+                    <view class="pick-up-item-val data-v-b4d0b4ea">无需接送</view>
+                </view>
+            </view>
+        </view>
+    </block>
+    <view class="form-infos data-v-b4d0b4ea" wx:for="{{e}}" wx:key="az">
+        <view class="form-info data-v-b4d0b4ea">
+            <view class="tl data-v-b4d0b4ea" wx:if="{{item.a}}"> 抵达接站信息<block wx:if="{{item.b}}">{{item.c}}</block>
+                <view bindtap="{{item.e}}" class="iconfont icon-a-20_jian_fangxing data-v-b4d0b4ea" wx:if="{{item.d}}"></view>
+            </view>
+            <view class="tl data-v-b4d0b4ea" wx:if="{{item.f}}"> 返程送站信息<block wx:if="{{item.g}}">{{item.h}}</block>
+                <view bindtap="{{item.j}}" class="iconfont icon-a-20_jian_fangxing data-v-b4d0b4ea" wx:if="{{item.i}}"></view>
+            </view>
+            <view class="form-inline data-v-b4d0b4ea">
+                <view class="label data-v-b4d0b4ea">接送人</view>
+                <view class="val data-v-b4d0b4ea">
+                    <view class="radio-box data-v-b4d0b4ea" wx:if="{{item.k}}">
+                        <view bindtap="{{guest.e}}" class="{{['radio-item','data-v-b4d0b4ea',guest.c&&'active',guest.d&&'activeNotCan']}}" wx:for="{{item.l}}" wx:for-item="guest" wx:key="b">{{guest.a}} <view class="icon-a-16_xuanzhongjiaobiao_youxiajiao_hongse iconfont data-v-b4d0b4ea"></view>
+                        </view>
+                    </view>
+                    <view class="radio-box data-v-b4d0b4ea" wx:if="{{item.m}}">
+                        <view bindtap="{{guest.e}}" class="{{['radio-item','data-v-b4d0b4ea',guest.c&&'active',guest.d&&'activeNotCan']}}" wx:for="{{item.n}}" wx:for-item="guest" wx:key="b">{{guest.a}} <view class="icon-a-16_xuanzhongjiaobiao_youxiajiao_hongse iconfont data-v-b4d0b4ea"></view>
+                        </view>
+                    </view>
+                </view>
+            </view>
+            <view class="form-inline data-v-b4d0b4ea">
+                <view class="label data-v-b4d0b4ea" wx:if="{{item.o}}">接站需求</view>
+                <view class="label data-v-b4d0b4ea" wx:if="{{item.p}}">送站需求</view>
+                <view class="val data-v-b4d0b4ea">
+                    <view class="select-box data-v-b4d0b4ea">
+                        <picker bindchange="{{item.v}}" class="data-v-b4d0b4ea" range="{{f}}" rangeKey="name" value="{{item.t}}">
+                            <view class="picker-box data-v-b4d0b4ea">
+                                <view class="data-v-b4d0b4ea" wx:if="{{item.q}}">{{item.r}}</view>
+                                <view class="grey data-v-b4d0b4ea" wx:else>
+                                    <block wx:if="{{item.s}}">请选择接站需求</block>
+                                    <block wx:else>请选择送站需求</block>
+                                </view>
+                                <view class="iconfont icon-a-16_youlajiantou_hei data-v-b4d0b4ea"></view>
+                            </view>
+                        </picker>
+                    </view>
+                </view>
+            </view>
+            <block wx:if="{{item.w}}">
+                <view class="form-inline data-v-b4d0b4ea">
+                    <view class="label data-v-b4d0b4ea" wx:if="{{item.x}}">抵达方式</view>
+                    <view class="label data-v-b4d0b4ea" wx:if="{{item.y}}">返程方式</view>
+                    <view class="val data-v-b4d0b4ea">
+                        <view class="select-box data-v-b4d0b4ea">
+                            <picker bindchange="{{item.F}}" class="data-v-b4d0b4ea" range="{{item.E}}" rangeKey="descript" value="{{item.D}}">
+                                <view class="picker-box data-v-b4d0b4ea">
+                                    <view class="data-v-b4d0b4ea" wx:if="{{item.z}}">{{item.A}}</view>
+                                    <view class="grey data-v-b4d0b4ea" wx:else>
+                                        <block wx:if="{{item.B}}"> 请选择抵达交通方式 </block>
+                                        <block wx:if="{{item.C}}"> 请选择返程交通方式 </block>
+                                    </view>
+                                    <view class="iconfont icon-a-16_youlajiantou_hei data-v-b4d0b4ea"></view>
+                                </view>
+                            </picker>
+                        </view>
+                    </view>
+                </view>
+                <view class="form-inline data-v-b4d0b4ea" wx:if="{{item.G}}">
+                    <view class="label data-v-b4d0b4ea" wx:if="{{item.H}}"> 航班号 </view>
+                    <view class="label data-v-b4d0b4ea" wx:if="{{item.I}}">列车号</view>
+                    <view class="val data-v-b4d0b4ea">
+                        <input bindinput="{{item.L}}" class="input-text data-v-b4d0b4ea" placeholder="请输入航班号，如有中转请填末班" placeholderStyle="color: #CCCCCC;" type="text" value="{{item.K}}" wx:if="{{item.J}}"></input>
+                        <input bindinput="{{item.O}}" class="input-text data-v-b4d0b4ea" maxlength="11" placeholder="请输入列车号，如有中转请填首班" placeholderStyle="color: #CCCCCC;" type="text" value="{{item.N}}" wx:if="{{item.M}}"></input>
+                    </view>
+                </view>
+                <view class="form-inline data-v-b4d0b4ea" wx:if="{{item.P}}">
+                    <view class="label data-v-b4d0b4ea" wx:if="{{item.Q}}">抵达站点</view>
+                    <view class="label data-v-b4d0b4ea" wx:if="{{item.R}}">返程站点</view>
+                    <view class="val data-v-b4d0b4ea">
+                        <input bindinput="{{item.U}}" class="input-text data-v-b4d0b4ea" placeholder="请输入地点名称" placeholderStyle="color: #CCCCCC;" type="text" value="{{item.T}}" wx:if="{{item.S}}"></input>
+                        <input bindinput="{{item.X}}" class="input-text data-v-b4d0b4ea" placeholder="请输入机场名称" placeholderStyle="color: #CCCCCC;" type="text" value="{{item.W}}" wx:if="{{item.V}}"></input>
+                        <input bindinput="{{item.aa}}" class="input-text data-v-b4d0b4ea" maxlength="11" placeholder="请输入火车站名称" placeholderStyle="color: #CCCCCC;" type="text" value="{{item.Z}}" wx:if="{{item.Y}}"></input>
+                    </view>
+                </view>
+                <view class="form-inline data-v-b4d0b4ea">
+                    <view class="label data-v-b4d0b4ea" wx:if="{{item.ab}}">抵达日期</view>
+                    <view class="label data-v-b4d0b4ea" wx:if="{{item.ac}}">返程日期</view>
+                    <view class="val data-v-b4d0b4ea">
+                        <view class="select-box data-v-b4d0b4ea">
+                            <picker bindchange="{{item.ak}}" class="data-v-b4d0b4ea" end="{{item.aj}}" mode="date" start="{{item.ai}}" value="{{item.ah}}">
+                                <view class="picker-box data-v-b4d0b4ea">
+                                    <view class="data-v-b4d0b4ea" wx:if="{{item.ad}}">{{item.ae}}</view>
+                                    <view class="grey data-v-b4d0b4ea" wx:else>
+                                        <block wx:if="{{item.af}}"> 请选择抵达日期 </block>
+                                        <block wx:if="{{item.ag}}"> 请选择返程日期 </block>
+                                    </view>
+                                    <view class="iconfont icon-a-16_youlajiantou_hei data-v-b4d0b4ea"></view>
+                                </view>
+                            </picker>
+                        </view>
+                    </view>
+                </view>
+                <view class="form-inline data-v-b4d0b4ea" wx:if="{{item.al}}">
+                    <view class="label data-v-b4d0b4ea" wx:if="{{item.am}}">抵达时间</view>
+                    <view class="label data-v-b4d0b4ea" wx:if="{{item.an}}">返程时间</view>
+                    <view class="val data-v-b4d0b4ea">
+                        <view class="select-box data-v-b4d0b4ea">
+                            <picker bindchange="{{item.at}}" class="data-v-b4d0b4ea" mode="time" value="{{item.as}}">
+                                <view class="picker-box data-v-b4d0b4ea">
+                                    <view class="data-v-b4d0b4ea" wx:if="{{item.ao}}">{{item.ap}}</view>
+                                    <view class="grey data-v-b4d0b4ea" wx:else>
+                                        <block wx:if="{{item.aq}}"> 请选择抵达时间 </block>
+                                        <block wx:if="{{item.ar}}"> 请选择返程时间 </block>
+                                    </view>
+                                    <view class="iconfont icon-a-16_youlajiantou_hei data-v-b4d0b4ea"></view>
+                                </view>
+                            </picker>
+                        </view>
+                    </view>
+                </view>
+                <view class="form-inline data-v-b4d0b4ea">
+                    <view class="label data-v-b4d0b4ea">联系电话</view>
+                    <view class="val data-v-b4d0b4ea">
+                        <input bindinput="{{item.aw}}" class="input-text data-v-b4d0b4ea" cursorSpacing="40" maxlength="11" placeholder="请输入联系电话" placeholderStyle="color: #CCCCCC;" type="text" value="{{item.av}}"></input>
+                    </view>
+                </view>
+                <view class="form-inline data-v-b4d0b4ea">
+                    <view class="label data-v-b4d0b4ea">备注</view>
+                    <view class="val data-v-b4d0b4ea">
+                        <input bindinput="{{item.ay}}" class="input-text data-v-b4d0b4ea" placeholder="如有更多说明，请填写备注" placeholderStyle="color: #CCCCCC;" type="text" value="{{item.ax}}"></input>
+                    </view>
+                </view>
+            </block>
+        </view>
+    </view>
+    <view class="take-btns data-v-b4d0b4ea">
+        <view bindtap="{{h}}" class="btn data-v-b4d0b4ea" wx:if="{{g}}">
+            <view class="iconfont icon-a-20_jia_fangxing data-v-b4d0b4ea"></view>添加抵达接送 </view>
+        <view bindtap="{{j}}" class="btn data-v-b4d0b4ea" wx:if="{{i}}">
+            <view class="iconfont icon-a-20_jia_fangxing data-v-b4d0b4ea"></view>添加返程接送 </view>
+    </view>
+    <view class="footer data-v-b4d0b4ea" wx:if="{{k}}">
+        <view bindtap="{{l}}" class="btn-def baseBtn data-v-b4d0b4ea">提交</view>
+    </view>
+</view>
+<float-button-kf bind:__l="__l" class="data-v-b4d0b4ea" uI="b4d0b4ea-1"></float-button-kf>

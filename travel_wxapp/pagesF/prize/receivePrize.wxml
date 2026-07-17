@@ -1,0 +1,69 @@
+<view class="receivePrize data-v-26fa2152">
+    <coustom-head bind:__l="__l" class="data-v-26fa2152" uI="26fa2152-0" uP="{{a}}" wx:if="{{a}}"></coustom-head>
+    <view class="paddBox data-v-26fa2152">
+        <view class="prizeBase data-v-26fa2152">
+            <view class="prizeImg data-v-26fa2152">
+                <image alt="" class="prizeImgs data-v-26fa2152" src="{{b}}"></image>
+            </view>
+            <view class="prizeInfo data-v-26fa2152">
+                <view class="prizeName data-v-26fa2152">{{c}}</view>
+                <view class="prizeDesc data-v-26fa2152">{{d}}</view>
+                <view class="prizeTime data-v-26fa2152">中奖时间：{{e}}</view>
+            </view>
+        </view>
+        <view bindtap="{{l}}" class="address data-v-26fa2152" wx:if="{{f}}">
+            <view class="row data-v-26fa2152">
+                <view class="addressTitle data-v-26fa2152">收件地址</view>
+                <view class="selectAdd data-v-26fa2152">{{g}} <label class="icons iconfont icon-a-12_youlajiantou_hei data-v-26fa2152"></label>
+                </view>
+            </view>
+            <view class="row data-v-26fa2152" wx:if="{{h}}">
+                <view class="addressTitle data-v-26fa2152"></view>
+                <view class="selectAdd data-v-26fa2152">
+                    <view class="desc data-v-26fa2152">{{i}} {{j}}****{{k}}</view>
+                </view>
+            </view>
+        </view>
+        <view class="address data-v-26fa2152" wx:if="{{m}}">
+            <view class="row data-v-26fa2152">
+                <view class="icon data-v-26fa2152">收</view>
+                <view class="selectAdd addressInfo data-v-26fa2152">
+                    <view class="addressTitle addressInfo data-v-26fa2152">{{n}}</view>
+                    <view class="desc data-v-26fa2152">{{o}} {{p}}****{{q}}</view>
+                    <view class="desc data-v-26fa2152">{{r}} {{s}} {{t}} {{v}}</view>
+                </view>
+            </view>
+        </view>
+        <view class="logisticsBox data-v-26fa2152" wx:if="{{w}}">
+            <view class="logisticsName data-v-26fa2152">
+                <image alt="" class="logisticsImg data-v-26fa2152" src="{{x}}"></image> {{y}} {{z}}</view>
+            <view class="logisticsList data-v-26fa2152">
+                <view class="logisticsInfo data-v-26fa2152" wx:for="{{A}}" wx:key="d">
+                    <view class="logisticsTitle data-v-26fa2152">
+                        <view class="yuan data-v-26fa2152"></view>
+                        <view class="title data-v-26fa2152">
+                            <label class="city data-v-26fa2152">{{item.a}}</label>
+                            <label class="time data-v-26fa2152">{{item.b}}</label>
+                        </view>
+                    </view>
+                    <view class="logisticsContent data-v-26fa2152">{{item.c}}</view>
+                </view>
+            </view>
+            <view class="row data-v-26fa2152">
+                <view class="icon shou data-v-26fa2152">收</view>
+                <view class="selectAdd addressInfo data-v-26fa2152">
+                    <view class="addressTitle addressInfo data-v-26fa2152">{{B}}</view>
+                    <view class="desc data-v-26fa2152">{{C}} {{D}}****{{E}}</view>
+                    <view class="desc data-v-26fa2152">{{F}} {{G}} {{H}} {{I}}</view>
+                </view>
+            </view>
+        </view>
+        <view class="tip data-v-26fa2152" wx:if="{{J}}"> 我们将尽快发出，如需帮助请联系客服。<label catchtap="{{K}}" class="kefu data-v-26fa2152">联系客服 > </label>
+        </view>
+        <view class="tip data-v-26fa2152" wx:if="{{L}}"> 如需帮助请联系客服。<label catchtap="{{M}}" class="kefu data-v-26fa2152">联系客服 > </label>
+        </view>
+        <view class="btn noClick data-v-26fa2152" wx:if="{{N}}"> 已提交领取申请 </view>
+        <view bindtap="{{P}}" class="btn data-v-26fa2152" wx:if="{{O}}"> 提交 </view>
+        <kf-dialog bind:__l="__l" class="r data-v-26fa2152" uI="26fa2152-1" uP="{{R}}" uR="kf" wx:if="{{R}}"></kf-dialog>
+    </view>
+</view>

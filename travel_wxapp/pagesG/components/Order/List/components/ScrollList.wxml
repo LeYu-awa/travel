@@ -1,0 +1,6 @@
+<scroll-view refresherEnabled scrollY bindrefresherrefresh="{{e}}" bindscrolltolower="{{c}}" class="scroll-view data-v-cc77ac15" refresherTriggered="{{d}}">
+    <view class="list data-v-cc77ac15">
+        <card bind:__l="__l" class="data-v-cc77ac15" uI="{{item.b}}" uP="{{item.c}}" wx:for="{{a}}" wx:key="a"></card>
+    </view>
+    <view class="empty data-v-cc77ac15" wx:if="{{b}}"> 暂无数据 </view>
+</scroll-view>

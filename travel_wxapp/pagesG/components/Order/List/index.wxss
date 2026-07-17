@@ -1,0 +1,9 @@
+.page.data-v-cc22906b {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.page .swiper.data-v-cc22906b {
+  flex: 1;
+  overflow: hidden;
+}

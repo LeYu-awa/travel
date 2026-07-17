@@ -1,0 +1,108 @@
+<scroll-view bindscroll="{{aL}}" class="data-v-1f5db7ec" scrollY="{{aK}}" style="height:100vh">
+    <coustom-head bind:__l="__l" class="data-v-1f5db7ec" uI="1f5db7ec-0" uP="{{f}}" uS="{{['actions','extra']}}" wx:if="{{f}}">
+        <view class="custom-title__wrapper data-v-1f5db7ec" hidden="{{!c}}" slot="actions">
+            <back-button bind:__l="__l" bindonClick="{{a}}" class="data-v-1f5db7ec" uI="1f5db7ec-1,1f5db7ec-0" uP="{{b}}" wx:if="{{b}}"></back-button>
+        </view>
+        <view class="custom-title__wrapper data-v-1f5db7ec" hidden="{{!e}}" slot="extra">
+            <kf-button bind:__l="__l" bindonClick="{{d}}" class="data-v-1f5db7ec" uI="1f5db7ec-2,1f5db7ec-0"></kf-button>
+        </view>
+    </coustom-head>
+    <view class="top-title__wrapper data-v-1f5db7ec">
+        <image class="top-title_cover data-v-1f5db7ec" mode="" src="{{g}}"></image>
+        <view class="top-title data-v-1f5db7ec">
+            <view class="title data-v-1f5db7ec">{{h}}</view>
+            <view bindtap="{{i}}" class="to-map-btn data-v-1f5db7ec">
+                <view class="icon iconfont icon-a-20_hangchengxiangqing1 data-v-1f5db7ec"></view>
+                <text class="to-map-btn_text data-v-1f5db7ec">地图</text>
+            </view>
+        </view>
+    </view>
+    <view class="diy-main__wrapper data-v-1f5db7ec">
+        <view class="diy-steward__wrapper data-v-1f5db7ec">
+            <view class="diy-steward data-v-1f5db7ec">
+                <view catchtap="{{k}}" class="steward-checkbox data-v-1f5db7ec">
+                    <view class="icon data-v-1f5db7ec">
+                        <st-radio bind:__l="__l" class="data-v-1f5db7ec" uI="1f5db7ec-3" uP="{{j}}" wx:if="{{j}}"></st-radio>
+                    </view>
+                    <view class="steward-checkbox_label data-v-1f5db7ec">需要管家</view>
+                </view>
+                <view bindtap="{{l}}" class="icon iconfont icon-a-20_hangchengbangzhu1 data-v-1f5db7ec"></view>
+            </view>
+            <view bindtap="{{o}}" class="diy-select-date data-v-1f5db7ec">
+                <text class="data-v-1f5db7ec" wx:if="{{m}}">请选择人数和抵达日期</text>
+                <text class="black data-v-1f5db7ec" wx:else>{{n}}</text>
+                <view class="iconfont icon-a-16_youlajiantou_hei data-v-1f5db7ec"></view>
+            </view>
+        </view>
+        <view class="diy-tabs-days__wrapper data-v-1f5db7ec">
+            <view class="tabs__wrapper data-v-1f5db7ec" style="{{'top:'+s}}">
+                <rect-tabs bind:__l="__l" bindchange="{{p}}" bindupdateModelValue="{{q}}" class="hook-rect-tabs data-v-1f5db7ec" uI="1f5db7ec-4" uP="{{r}}" wx:if="{{r}}"></rect-tabs>
+            </view>
+            <view class="days-list__wrapper data-v-1f5db7ec" hidden="{{!D}}">
+                <view class="msg-card__wrapper data-v-1f5db7ec" wx:if="{{t}}">
+                    <msg-card bind:__l="__l" bindclose="{{v}}" class="data-v-1f5db7ec" uI="1f5db7ec-5" uP="{{w}}" uS="{{['prefix']}}" wx:if="{{w}}">
+                        <view class="iconfont icon-a-16_tishi_huangse data-v-1f5db7ec" slot="prefix"></view>
+                    </msg-card>
+                </view>
+                <drag-list bind:__l="__l" bindchange="{{y}}" binddeleteOneDay="{{z}}" binddrag="{{x}}" class="data-v-1f5db7ec" uI="1f5db7ec-6" uP="{{A}}" wx:if="{{A}}"></drag-list>
+                <days-add-button bind:__l="__l" bindonClick="{{C}}" class="data-v-1f5db7ec" uI="1f5db7ec-7" wx:if="{{B}}"></days-add-button>
+            </view>
+            <view class="days-list__wrapper data-v-1f5db7ec" hidden="{{!P}}">
+                <view class="rsv-day_title data-v-1f5db7ec">{{E}}</view>
+                <drag-day-x-list bind:__l="__l" bindchange="{{H}}" binddeleteActivity="{{I}}" binddrag="{{G}}" bindtapDayXImage="{{K}}" bindtapDayXItem="{{J}}" class="r data-v-1f5db7ec" uI="1f5db7ec-8" uP="{{L}}" uR="hookDayXDragSort" wx:if="{{L}}"></drag-day-x-list>
+                <days-add-button bind:__l="__l" bindonClick="{{N}}" class="data-v-1f5db7ec" uI="1f5db7ec-9" uP="{{O}}" wx:if="{{M}}"></days-add-button>
+            </view>
+        </view>
+    </view>
+    <fixed-bottom-view bind:__l="__l" class="data-v-1f5db7ec" uI="1f5db7ec-10" uP="{{ae}}" uS="{{['d']}}" wx:if="{{ae}}">
+        <view class="footer-price__wrapper data-v-1f5db7ec">
+            <view class="footer-left_price data-v-1f5db7ec" wx:if="{{Q}}">
+                <view class="left-price_tips data-v-1f5db7ec">
+                    <text class="left-price_tips__label data-v-1f5db7ec">该行程暂无法估价</text>
+                    <view class="left-price_tips__icon data-v-1f5db7ec">
+                        <view bindtap="{{R}}" class="iconfont icon-a-20_hangchengbangzhu1 data-v-1f5db7ec"></view>
+                    </view>
+                </view>
+                <view bindtap="{{S}}" class="left-price_nums data-v-1f5db7ec">
+                    <text class="left-price_nums__error data-v-1f5db7ec">使用推荐行程</text>
+                    <view class="iconfont icon-a-16_youlajiantou_hei data-v-1f5db7ec"></view>
+                </view>
+            </view>
+            <view class="footer-left_price data-v-1f5db7ec" wx:else>
+                <view class="left-price_tips data-v-1f5db7ec">
+                    <text class="left-price_tips__label data-v-1f5db7ec">预估人均价格</text>
+                    <view class="left-price_tips__icon data-v-1f5db7ec">
+                        <view bindtap="{{T}}" class="iconfont icon-a-20_hangchengbangzhu1 data-v-1f5db7ec"></view>
+                    </view>
+                </view>
+                <view class="left-price_nums data-v-1f5db7ec">
+                    <text class="left-price_nums__error data-v-1f5db7ec" wx:if="{{U}}">以顾问报价为准</text>
+                    <text class="left-price_nums__error data-v-1f5db7ec" wx:elif="{{V}}">填写人数后可见</text>
+                    <view class="left-price_nums__price data-v-1f5db7ec" wx:else>
+                        <text class="unit data-v-1f5db7ec">￥</text>
+                        <text class="data-v-1f5db7ec">{{W}}</text>
+                        <text class="flag data-v-1f5db7ec">/人起</text>
+                    </view>
+                </view>
+            </view>
+            <view class="footer-right_btn data-v-1f5db7ec" wx:if="{{X}}">
+                <st-button bind:__l="__l" bindclick="{{Y}}" class="data-v-1f5db7ec" uI="1f5db7ec-11,1f5db7ec-10" uP="{{Z}}" uS="{{['d']}}" wx:if="{{Z}}">下一步</st-button>
+            </view>
+            <view class="footer-right_btn data-v-1f5db7ec" wx:else>
+                <st-button bind:__l="__l" class="data-v-1f5db7ec" uI="1f5db7ec-12,1f5db7ec-10" uP="{{ab}}" uS="{{['d']}}" wx:if="{{aa}}">下一步</st-button>
+                <st-button bind:__l="__l" bindclick="{{ac}}" class="data-v-1f5db7ec" uI="1f5db7ec-13,1f5db7ec-10" uP="{{ad||''}}" uS="{{['d']}}" wx:else>下一步</st-button>
+            </view>
+        </view>
+    </fixed-bottom-view>
+    <add-one-day-dialog bind:__l="__l" bindcomplete="{{af}}" bindupdateModelValue="{{ag}}" class="data-v-1f5db7ec" uI="1f5db7ec-14" uP="{{ah}}" wx:if="{{ah}}"></add-one-day-dialog>
+    <delete-day-center-dialog bind:__l="__l" bindconfirm="{{ai}}" bindupdateModelValue="{{aj}}" class="data-v-1f5db7ec" uI="1f5db7ec-15" uP="{{ak}}" wx:if="{{ak}}"></delete-day-center-dialog>
+    <change-place-dialog bind:__l="__l" bindconfirm="{{al}}" bindupdateModelValue="{{am}}" class="data-v-1f5db7ec" uI="1f5db7ec-16" uP="{{an}}" wx:if="{{an}}"></change-place-dialog>
+    <people-number-date-dialog bind:__l="__l" bindpostData="{{ao}}" bindupdateModelValue="{{ap}}" class="data-v-1f5db7ec" uI="1f5db7ec-17" uP="{{aq}}" wx:if="{{aq}}"></people-number-date-dialog>
+    <intelligence-fill-dialog bind:__l="__l" bindcancel="{{as}}" bindconfirm="{{ar}}" bindupdateModelValue="{{at}}" class="data-v-1f5db7ec" uI="1f5db7ec-18" uP="{{av}}" wx:if="{{av}}"></intelligence-fill-dialog>
+    <steward-tips-dialog bind:__l="__l" bindupdateModelValue="{{aw}}" class="data-v-1f5db7ec" uI="1f5db7ec-19" uP="{{ax}}" wx:if="{{ax}}"></steward-tips-dialog>
+    <detail-dialog bind:__l="__l" bindupdateModelValue="{{ay}}" class="data-v-1f5db7ec" uI="1f5db7ec-20" uP="{{az}}" wx:if="{{az}}"></detail-dialog>
+    <incalculable-center-dialog bind:__l="__l" bindupdateModelValue="{{aA}}" class="data-v-1f5db7ec" uI="1f5db7ec-21" uP="{{aB}}" wx:if="{{aB}}"></incalculable-center-dialog>
+    <estimated-center-dialog bind:__l="__l" bindupdateModelValue="{{aC}}" class="data-v-1f5db7ec" uI="1f5db7ec-22" uP="{{aD}}" wx:if="{{aD}}"></estimated-center-dialog>
+    <no-need-steward-center-dialog bind:__l="__l" bindconfirm="{{aE}}" bindupdateModelValue="{{aF}}" class="data-v-1f5db7ec" uI="1f5db7ec-23" uP="{{aG}}" wx:if="{{aG}}"></no-need-steward-center-dialog>
+    <kf-dialog bind:__l="__l" bindopenState="{{aI}}" class="r data-v-1f5db7ec" uI="1f5db7ec-24" uP="{{aJ}}" uR="kf" wx:if="{{aJ}}"></kf-dialog>
+</scroll-view>

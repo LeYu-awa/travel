@@ -1,0 +1,12 @@
+.st-close-button__wrapper.data-v-e648f339 {
+  background-color: #ccc;
+  border-radius: 50%;
+  height: 64rpx;
+  line-height: 64rpx;
+  text-align: center;
+  width: 64rpx;
+}
+.st-close-button__wrapper .icon-a-20_fanhuianniu.data-v-e648f339 {
+  color: #000;
+  line-height: 64rpx;
+}

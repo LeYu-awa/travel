@@ -1,0 +1,21 @@
+<view class="ui_tradeInfo data-v-bfdb9a33">
+    <coustom-head bind:__l="__l" class="data-v-bfdb9a33" uI="bfdb9a33-0" uP="{{a}}" wx:if="{{a}}"></coustom-head>
+    <view class="bottomBox data-v-bfdb9a33">
+        <view class="switchBarBox data-v-bfdb9a33">
+            <switch-bar bind:__l="__l" bindchangeIndex="{{b}}" class="data-v-bfdb9a33" uI="bfdb9a33-1" uP="{{c}}" wx:if="{{c}}"></switch-bar>
+        </view>
+        <view class="pointList data-v-bfdb9a33">
+            <view class="pointItem data-v-bfdb9a33" wx:for="{{d}}" wx:for-item="account" wx:key="d">
+                <view class="leftPart data-v-bfdb9a33">
+                    <view class="title data-v-bfdb9a33">{{account.a}}</view>
+                    <view class="time data-v-bfdb9a33">{{account.b}}</view>
+                </view>
+                <view class="rightPart data-v-bfdb9a33">
+                    <view class="pointChange data-v-bfdb9a33">{{account.c}}</view>
+                </view>
+            </view>
+        </view>
+        <empty bind:__l="__l" class="data-v-bfdb9a33" uI="bfdb9a33-2" wx:if="{{e}}"></empty>
+        <last-text bind:__l="__l" class="data-v-bfdb9a33" uI="bfdb9a33-3" uP="{{g}}" wx:if="{{f}}"></last-text>
+    </view>
+</view>

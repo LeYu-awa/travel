@@ -1,0 +1,9 @@
+{
+  "component": true,
+  "usingComponents": {
+    "bottom-btn": "../../../../components/bottomBtn",
+    "chosen-dialog": "../ChosenDialog/index",
+    "float-button-kf": "/components/new/FloatButtonKf",
+    "safe-bottom": "../SafeBottom/index"
+  }
+}

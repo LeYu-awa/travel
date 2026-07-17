@@ -1,0 +1,15 @@
+{
+  "navigationBarTitleText": "券包",
+  "navigationStyle": "custom",
+  "onReachBottomDistance": 30,
+  "usingComponents": {
+    "banner-swiper": "../../components/bannerSwiper",
+    "bottom-dialog": "../../components/bottomDialog",
+    "coupon-item": "../../components/couponItem",
+    "coustom-head": "../../components/coustomHead",
+    "empty": "../../components/empty",
+    "float-button-kf": "/components/new/FloatButtonKf",
+    "kf-dialog": "../../components/kfDialog",
+    "switch-bar": "../../components/switchBar"
+  }
+}

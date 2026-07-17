@@ -1,0 +1,9 @@
+<view class="ui_couponHistory data-v-fba16d39">
+    <coustom-head bind:__l="__l" class="data-v-fba16d39" uI="fba16d39-0" uP="{{a}}" wx:if="{{a}}"></coustom-head>
+    <view class="listBox data-v-fba16d39">
+        <view class="listItem data-v-fba16d39" wx:for="{{b}}" wx:for-item="coupon" wx:key="d">
+            <coupon-item bind:__l="__l" bindchooseCoupon="{{coupon.a}}" class="data-v-fba16d39" uI="{{coupon.b}}" uP="{{coupon.c}}" wx:if="{{coupon.c}}"></coupon-item>
+        </view>
+    </view>
+    <empty bind:__l="__l" class="data-v-fba16d39" uI="fba16d39-2" uP="{{d}}" wx:if="{{c}}"></empty>
+</view>

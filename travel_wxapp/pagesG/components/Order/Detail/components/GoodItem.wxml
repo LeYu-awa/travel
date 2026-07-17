@@ -1,0 +1,12 @@
+<view class="good-item data-v-89121a4c">
+    <view class="image data-v-89121a4c">
+        <image alt="" class="img data-v-89121a4c" src="{{a}}"></image>
+    </view>
+    <view class="info data-v-89121a4c">
+        <view class="top data-v-89121a4c">
+            <view class="name data-v-89121a4c">{{b}}</view>
+            <view class="amount data-v-89121a4c">x{{c}}</view>
+        </view>
+        <view class="price data-v-89121a4c">{{d}}</view>
+    </view>
+</view>

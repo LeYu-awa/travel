@@ -1,0 +1,13 @@
+{
+  "navigationBarTitleText": "行程详情",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "bottom-dialog": "../../components/bottomDialog",
+    "coustom-head": "../../components/coustomHead",
+    "float-button-kf": "/components/new/FloatButtonKf",
+    "more-text": "../../components/moreText",
+    "swiper-box": "../../components/swiperBox",
+    "trip-nav": "../../components/tripNav",
+    "v-preview-image": "../components/v-previewImage"
+  }
+}

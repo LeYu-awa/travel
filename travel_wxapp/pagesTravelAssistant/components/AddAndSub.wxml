@@ -1,0 +1,6 @@
+<view class="number data-v-a75d1603">
+    <view bindtap="{{b}}" class="{{['iconfont','icon-a-20_jian','data-v-a75d1603',a&&'invalid']}}"></view>
+    <slot wx:if="{{$slots.d}}"></slot>
+    <view class="num data-v-a75d1603" wx:else>{{c}}</view>
+    <view bindtap="{{e}}" class="{{['iconfont','icon-a-20_jia','data-v-a75d1603',d&&'invalid']}}"></view>
+</view>

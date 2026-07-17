@@ -1,0 +1,10 @@
+<view bindtap="{{d}}" class="trigger data-v-4430a3e7">
+    <view class="left data-v-4430a3e7">
+        <view class="title data-v-4430a3e7">{{a}}</view>
+        <view class="data-v-4430a3e7">
+            <label class="placeholder data-v-4430a3e7" wx:if="{{b}}">{{c}}</label>
+            <slot name="display" wx:else></slot>
+        </view>
+    </view>
+    <view class="iconfont icon-a-16_youlajiantou_hei data-v-4430a3e7"></view>
+</view>

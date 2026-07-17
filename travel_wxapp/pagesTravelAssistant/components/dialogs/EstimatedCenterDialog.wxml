@@ -1,0 +1,8 @@
+<center-dialog bind:__l="__l" bindopenState="{{c}}" bindupdateModelValue="{{d}}" class="hook-dialog r data-v-328c7b03" uI="328c7b03-0" uP="{{e}}" uR="hookEstimatedDialog" uS="{{['d']}}" wx:if="{{e}}">
+    <view class="content__wrapper data-v-328c7b03">
+        <view class="content data-v-328c7b03"> 预估价格不含抵达前费用，具体价格以顾问确认后为准。 </view>
+        <view class="dialog-footer data-v-328c7b03">
+            <view bindtap="{{a}}" class="cancel-btn data-v-328c7b03">我知道了</view>
+        </view>
+    </view>
+</center-dialog>

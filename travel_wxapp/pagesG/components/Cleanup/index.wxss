@@ -1,0 +1,31 @@
+.content.data-v-bd43be4a {
+  height: 100%;
+  padding: 20rpx;
+}
+.row.data-v-bd43be4a {
+  background: #fff;
+  border-radius: 16rpx;
+  margin-bottom: 24rpx;
+  padding: 32rpx 24rpx;
+}
+.row.data-v-bd43be4a:last-of-type {
+  margin-bottom: 64rpx;
+}
+.room-info.data-v-bd43be4a {
+  display: flex;
+}
+.room-info .label.data-v-bd43be4a {
+  margin-right: 92rpx;
+}
+.row-title.data-v-bd43be4a {
+  margin-bottom: 24rpx;
+}
+.textarea.data-v-bd43be4a {
+  width: auto;
+}
+.count-tip.data-v-bd43be4a {
+  color: #999;
+  display: block;
+  font-size: 24rpx;
+  text-align: right;
+}

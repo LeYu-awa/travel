@@ -1,0 +1,30 @@
+<view class="drag-box data-v-9cf6a14e" style="{{e}}">
+    <uni-swipe-action bind:__l="__l" class="r data-v-9cf6a14e" uI="9cf6a14e-0" uR="hookUniSwipeAction" uS="{{['d']}}">
+        <view bindlongpress="{{item.l}}" bindtouchend="{{item.o}}" bindtouchmove="{{item.n}}" bindtouchstart="{{item.m}}" class="{{['drag-item','data-v-9cf6a14e',item.k&&'drag-active']}}" style="{{'top:'+item.i+';'+'height:'+item.j+';'+'transition:'+c}}" wx:for="{{a}}" wx:key="p">
+            <view class="days-list_item data-v-9cf6a14e">
+                <uni-swipe-action-item bind:__l="__l" class="data-v-9cf6a14e" uI="{{item.g}}" uP="{{b}}" uS="{{['right','d']}}" wx:if="{{b}}">
+                    <view class="custom-swiper-action_delete_button__wrapper data-v-9cf6a14e" slot="right">
+                        <view bindtap="{{item.a}}" class="swiper-action_delete_button data-v-9cf6a14e">
+                            <view class="iconfont icon-a-16_shanchulishijilu data-v-9cf6a14e"></view>
+                        </view>
+                    </view>
+                    <view class="days-list_item__main data-v-9cf6a14e">
+                        <view class="days__wrapper data-v-9cf6a14e">
+                            <view class="days-label data-v-9cf6a14e">{{item.b}}</view>
+                            <view class="days-value data-v-9cf6a14e">{{item.c}}</view>
+                        </view>
+                        <view class="destination-activity__wrapper data-v-9cf6a14e">
+                            <view class="destination data-v-9cf6a14e">{{item.d}}</view>
+                            <view class="activity data-v-9cf6a14e" wx:if="{{item.e}}">{{item.f}}</view>
+                        </view>
+                    </view>
+                </uni-swipe-action-item>
+                <view class="days-list_item__distance data-v-9cf6a14e" wx:if="{{item.h}}">
+                    <view class="distance-icon__wrapper data-v-9cf6a14e">
+                        <view class="distance-icon__deco top data-v-9cf6a14e"></view>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </uni-swipe-action>
+</view>

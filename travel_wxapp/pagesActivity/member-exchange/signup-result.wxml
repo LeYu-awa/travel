@@ -1,0 +1,65 @@
+<view class="page data-v-e3f8a420">
+    <navigator bind:__l="__l" class="data-v-e3f8a420" uI="e3f8a420-0" uP="{{a}}" wx:if="{{a}}"></navigator>
+    <view class="error data-v-e3f8a420" wx:if="{{b}}">
+        <error-block bind:__l="__l" class="data-v-e3f8a420" uI="e3f8a420-1" uP="{{e}}" uS="{{['bottom']}}" wx:if="{{e}}">
+            <view bindtap="{{d}}" class="error-button data-v-e3f8a420" slot="bottom">
+                <st-button bind:__l="__l" class="data-v-e3f8a420" uI="e3f8a420-2,e3f8a420-1" uP="{{c}}" uS="{{['d']}}" wx:if="{{c}}">刷新</st-button>
+            </view>
+        </error-block>
+    </view>
+    <view class="data-v-e3f8a420" style="{{'opacity:'+w}}" wx:elif="{{f}}">
+        <view class="top-bg data-v-e3f8a420"></view>
+        <view class="content data-v-e3f8a420">
+            <view class="header data-v-e3f8a420">
+                <view class="title data-v-e3f8a420">恭喜您成为松赞会员</view>
+                <view class="subtitle data-v-e3f8a420">您的松赞会员等级为{{g}}</view>
+            </view>
+            <view class="member-card data-v-e3f8a420">
+                <view class="member-card__info data-v-e3f8a420">
+                    <image class="image data-v-e3f8a420" src="{{h}}"></image>
+                    <view class="name data-v-e3f8a420">{{i}}</view>
+                    <view class="tip data-v-e3f8a420" wx:if="{{j}}">匹配时间：{{k}}</view>
+                </view>
+            </view>
+            <view class="member-rights data-v-e3f8a420">
+                <view class="header data-v-e3f8a420">
+                    <view class="title data-v-e3f8a420">会员权益</view>
+                    <view bindtap="{{l}}" class="extra data-v-e3f8a420">
+                        <text class="data-v-e3f8a420">会员政策</text>
+                        <view class="iconfont icon-a-16_youlajiantou_hei icon data-v-e3f8a420"></view>
+                    </view>
+                </view>
+                <view class="list data-v-e3f8a420">
+                    <view class="item data-v-e3f8a420" wx:for="{{m}}" wx:key="d">
+                        <view class="item-icon data-v-e3f8a420">
+                            <image class="item-icon__image data-v-e3f8a420" mode="aspectFill" src="{{item.a}}"></image>
+                        </view>
+                        <view class="data-v-e3f8a420">
+                            <view class="item-title data-v-e3f8a420">{{item.b}}</view>
+                            <view class="item-subtitle data-v-e3f8a420">{{item.c}}</view>
+                        </view>
+                    </view>
+                </view>
+            </view>
+        </view>
+        <safe-area bind:__l="__l" class="data-v-e3f8a420" uI="e3f8a420-3" uP="{{n}}" wx:if="{{n}}"></safe-area>
+        <fixed-bottom-view bind:__l="__l" class="data-v-e3f8a420" uI="e3f8a420-4" uP="{{q}}" uS="{{['d']}}" wx:if="{{q}}">
+            <st-button bind:__l="__l" bindclick="{{o}}" class="data-v-e3f8a420" uI="e3f8a420-5,e3f8a420-4" uP="{{p}}" uS="{{['d']}}" wx:if="{{p}}">联系会员中心</st-button>
+        </fixed-bottom-view>
+        <page-container round bindbeforeleave="{{v}}" class="data-v-e3f8a420" show="{{t}}">
+            <view class="popup data-v-e3f8a420">
+                <view class="header data-v-e3f8a420">
+                    <view bindtap="{{r}}" class="iconfont icon-a-20_guanbi header-close data-v-e3f8a420"></view>
+                    <view class="header-title data-v-e3f8a420">联系会员中心</view>
+                </view>
+                <view class="body data-v-e3f8a420">
+                    <view class="qrcode data-v-e3f8a420">
+                        <image showMenuByLongpress class="qrcode-image data-v-e3f8a420" src="https://songtsam-internal-static.oss-cn-chengdu.aliyuncs.com/mobile/member-service-code.png"></image>
+                    </view>
+                    <view class="tip data-v-e3f8a420">长按扫码联系客服</view>
+                    <safe-area bind:__l="__l" class="data-v-e3f8a420" uI="e3f8a420-6" uP="{{s}}" wx:if="{{s}}"></safe-area>
+                </view>
+            </view>
+        </page-container>
+    </view>
+</view>

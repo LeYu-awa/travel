@@ -1,0 +1,21 @@
+.test .card.data-v-0d986a7d {
+  margin: 32rpx;
+}
+.test .card-title.data-v-0d986a7d {
+  font-size: 32rpx;
+  font-weight: 700;
+  margin-bottom: 16rpx;
+  padding-left: 16rpx;
+}
+.test .card-content.data-v-0d986a7d {
+  background-color: #fff;
+  border-radius: 16rpx;
+}
+.test .card-content .card-item.data-v-0d986a7d:not(:last-of-type):after {
+  background-color: #f0f0f0;
+  content: "";
+  display: block;
+  height: 1px;
+  margin: 0 auto;
+  width: 95%;
+}

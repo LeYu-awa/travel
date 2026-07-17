@@ -1,0 +1,8 @@
+<center-dialog bind:__l="__l" bindopenState="{{c}}" bindupdateModelValue="{{d}}" class="hook-dialog r data-v-3dd900e2" uI="3dd900e2-0" uP="{{e}}" uR="hookIncalculableDialog" uS="{{['d']}}" wx:if="{{e}}">
+    <view class="content__wrapper data-v-3dd900e2">
+        <view class="content data-v-3dd900e2"> 由于您选择的行程不具备可到达性，无法预估价格，建议使用推荐行程。 </view>
+        <view class="dialog-footer data-v-3dd900e2">
+            <view bindtap="{{a}}" class="cancel-btn data-v-3dd900e2">我知道了</view>
+        </view>
+    </view>
+</center-dialog>

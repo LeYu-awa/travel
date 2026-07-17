@@ -1,0 +1,28 @@
+<view class="ui_couponList data-v-d4bd4e53">
+    <coustom-head bind:__l="__l" class="data-v-d4bd4e53" uI="d4bd4e53-0" uP="{{a}}" wx:if="{{a}}"></coustom-head>
+    <banner-swiper bind:__l="__l" class="data-v-d4bd4e53" uI="d4bd4e53-1" uP="{{b}}" wx:if="{{b}}"></banner-swiper>
+    <view class="switchBox data-v-d4bd4e53">
+        <switch-bar bind:__l="__l" bindchangeIndex="{{c}}" class="data-v-d4bd4e53" uI="d4bd4e53-2" uP="{{d}}" wx:if="{{d}}"></switch-bar>
+    </view>
+    <view class="listBox data-v-d4bd4e53">
+        <view class="listItem couponTrack data-v-d4bd4e53" data-tracker-params="{{coupon.e}}" wx:for="{{e}}" wx:for-item="coupon" wx:key="d">
+            <coupon-item bind:__l="__l" bindchooseCoupon="{{coupon.a}}" class="data-v-d4bd4e53" uI="{{coupon.b}}" uP="{{coupon.c}}" wx:if="{{coupon.c}}"></coupon-item>
+        </view>
+    </view>
+    <empty bind:__l="__l" class="data-v-d4bd4e53" uI="d4bd4e53-4" uP="{{g}}" wx:if="{{f}}"></empty>
+    <view bindtap="{{i}}" class="historyBtn data-v-d4bd4e53" wx:if="{{h}}"> 查看历史券包 </view>
+    <view class="bottom_exchange data-v-d4bd4e53">
+        <view bindtap="{{j}}" class="btn data-v-d4bd4e53">
+            <view class="iconfont icon-a-16_bianji data-v-d4bd4e53"></view> 兑换码领券 </view>
+        <view bindtap="{{k}}" class="btn data-v-d4bd4e53">
+            <view class="iconfont icon-a-20_saoyisao data-v-d4bd4e53"></view> 扫码领券 </view>
+    </view>
+</view>
+<bottom-dialog bind:__l="__l" class="r data-v-d4bd4e53" uI="d4bd4e53-5" uP="{{p}}" uR="exchangeBox" uS="{{['d']}}" wx:if="{{p}}">
+    <view class="exchangeBox data-v-d4bd4e53">
+        <input bindinput="{{m}}" class="input-text data-v-d4bd4e53" placeholder="请输入兑换码" placeholderStyle="color: #CCCCCC;" type="text" value="{{l}}"></input>
+        <view bindtap="{{n}}" class="btn-def baseBtn data-v-d4bd4e53"> 确认兑换 </view>
+    </view>
+</bottom-dialog>
+<kf-dialog bind:__l="__l" class="r data-v-d4bd4e53" uI="d4bd4e53-6" uP="{{r}}" uR="kf" wx:if="{{r}}"></kf-dialog>
+<float-button-kf bind:__l="__l" class="data-v-d4bd4e53" uI="d4bd4e53-7"></float-button-kf>

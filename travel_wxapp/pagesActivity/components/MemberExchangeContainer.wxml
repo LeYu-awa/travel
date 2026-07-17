@@ -1,0 +1,24 @@
+<view class="container data-v-cd7fb533" style="{{p}}">
+    <view class="background data-v-cd7fb533">
+        <image binderror="{{d}}" bindload="{{c}}" class="background-image data-v-cd7fb533" mode="aspectFill" src="{{b}}" wx:if="{{a}}"></image>
+        <view class="background-blur data-v-cd7fb533" style="{{'opacity:'+e}}"></view>
+    </view>
+    <view class="content data-v-cd7fb533">
+        <view class="section-1 data-v-cd7fb533">
+            <view class="slide-down-tip data-v-cd7fb533" role="button" style="{{'opacity:'+g}}">
+                <image class="icon data-v-cd7fb533" src="{{f}}"></image>
+                <text class="data-v-cd7fb533">滑动查看详情</text>
+            </view>
+        </view>
+        <view class="detail data-v-cd7fb533" id="member-exchange-detail" style="{{'opacity:'+j}}">
+            <mp-html bind:__l="__l" class="data-v-cd7fb533" uI="cd7fb533-0" uP="{{i}}" wx:if="{{h}}"></mp-html>
+        </view>
+    </view>
+    <safe-area bind:__l="__l" class="data-v-cd7fb533" uI="cd7fb533-1" uP="{{k}}" wx:if="{{k}}"></safe-area>
+    <fixed-bottom-view bind:__l="__l" class="data-v-cd7fb533" uI="cd7fb533-2" uP="{{o}}" uS="{{['d']}}" wx:if="{{o}}">
+        <slot name="bottom" wx:if="{{$slots.bottom}}"></slot>
+        <block wx:else>
+            <st-button bind:__l="__l" bindclick="{{m}}" class="data-v-cd7fb533" uI="cd7fb533-3,cd7fb533-2" uP="{{n}}" uS="{{['d']}}" wx:if="{{n}}">{{l}}</st-button>
+        </block>
+    </fixed-bottom-view>
+</view>

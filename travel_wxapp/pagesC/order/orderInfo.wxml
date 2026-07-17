@@ -1,0 +1,191 @@
+<view class="ui_orderInfo data-v-5e969fe2" wx:if="{{a}}">
+    <coustom-head bind:__l="__l" class="data-v-5e969fe2" uI="5e969fe2-0" uP="{{b}}" wx:if="{{b}}"></coustom-head>
+    <view class="{{['order-sta','data-v-5e969fe2',e&&'cancelSta']}}" style="{{'padding-top:'+f}}">
+        <view class="sta data-v-5e969fe2">{{c}}</view>
+        <view class="desc data-v-5e969fe2">{{d}}</view>
+    </view>
+    <view class="travel-info data-v-5e969fe2">
+        <view class="travel-img data-v-5e969fe2">
+            <image class="logo data-v-5e969fe2" mode="aspectFill" src="{{g}}"></image>
+        </view>
+        <view class="travel-rt data-v-5e969fe2">
+            <view class="travel-name data-v-5e969fe2">{{h}}</view>
+            <view class="travel-desc data-v-5e969fe2">{{i}}</view>
+            <view class="travel-time data-v-5e969fe2">{{j}}- {{k}}，{{l}}晚 </view>
+        </view>
+    </view>
+    <view class="travelersInfo data-v-5e969fe2">
+        <view class="tl data-v-5e969fe2">订房信息</view>
+        <view class="checkInInfo data-v-5e969fe2">
+            <view class="label data-v-5e969fe2">房间数</view>
+            <view class="occupant data-v-5e969fe2">{{m}}间</view>
+        </view>
+        <view class="checkInInfo top data-v-5e969fe2" wx:for="{{n}}" wx:for-item="guest" wx:key="f">
+            <view class="label data-v-5e969fe2">{{guest.a}}</view>
+            <view class="occupant data-v-5e969fe2">
+                <view class="name data-v-5e969fe2">{{guest.b}}</view>
+                <view class="id-card data-v-5e969fe2">{{guest.c}}  {{guest.d}}</view>
+                <view class="phone data-v-5e969fe2">{{guest.e}}</view>
+            </view>
+        </view>
+        <view class="checkInInfo data-v-5e969fe2">
+            <view class="label data-v-5e969fe2">预计到店</view>
+            <view class="occupant data-v-5e969fe2">{{o}}</view>
+        </view>
+    </view>
+    <view class="travelersInfo data-v-5e969fe2">
+        <view class="tl data-v-5e969fe2">费用明细</view>
+        <view class="travelersInfo-list data-v-5e969fe2">
+            <block wx:if="{{p}}">
+                <view class="travelersInfo-item data-v-5e969fe2">
+                    <view class="label data-v-5e969fe2">计价组合</view>
+                    <view class="val data-v-5e969fe2">全现金</view>
+                </view>
+                <view class="travelersInfo-item data-v-5e969fe2">
+                    <view class="label data-v-5e969fe2">订单总价</view>
+                    <view class="val data-v-5e969fe2"> ¥{{q}}<block wx:if="{{r}}">+积分{{s}}</block>
+                    </view>
+                </view>
+            </block>
+            <view class="info-more data-v-5e969fe2" wx:if="{{t}}">
+                <view class="price-box data-v-5e969fe2">
+                    <view class="travelersInfo-item total-price data-v-5e969fe2">
+                        <view class="label data-v-5e969fe2">订单总价</view>
+                        <view class="val data-v-5e969fe2"> ¥{{v}}<block wx:if="{{w}}">+积分{{x}}</block>
+                        </view>
+                    </view>
+                    <view class="travelersInfo-item data-v-5e969fe2">
+                        <view class="label data-v-5e969fe2">计价组合</view>
+                        <view class="val data-v-5e969fe2" wx:if="{{y}}">全现金</view>
+                        <view class="val data-v-5e969fe2" wx:elif="{{z}}"> 现金+积分 </view>
+                        <view class="val data-v-5e969fe2" wx:elif="{{A}}"> 全积分 </view>
+                    </view>
+                    <view class="travelersInfo-item data-v-5e969fe2" wx:if="{{B}}">
+                        <view class="label data-v-5e969fe2"> 基本房费<label class="sub data-v-5e969fe2" wx:if="{{C}}">({{D}})</label>
+                        </view>
+                        <view class="val data-v-5e969fe2">¥{{E}}</view>
+                    </view>
+                    <view class="travelersInfo-item data-v-5e969fe2" wx:if="{{F}}">
+                        <view class="label data-v-5e969fe2">单房差</view>
+                        <view class="val data-v-5e969fe2">¥{{G}}</view>
+                    </view>
+                    <view class="travelersInfo-item data-v-5e969fe2" wx:if="{{H}}">
+                        <view class="label data-v-5e969fe2">加床费</view>
+                        <view class="val data-v-5e969fe2">¥{{I}}</view>
+                    </view>
+                    <view class="travelersInfo-item data-v-5e969fe2" wx:if="{{J}}">
+                        <view class="label data-v-5e969fe2">加早费</view>
+                        <view class="val data-v-5e969fe2">¥{{K}}</view>
+                    </view>
+                    <view class="travelersInfo-item data-v-5e969fe2" wx:if="{{L}}">
+                        <view class="label data-v-5e969fe2">升级房型费</view>
+                        <view class="val data-v-5e969fe2">¥{{M}}</view>
+                    </view>
+                </view>
+                <view class="price-box data-v-5e969fe2" wx:if="{{N}}">
+                    <view class="travelersInfo-item total-price data-v-5e969fe2">
+                        <view class="label data-v-5e969fe2">权益抵扣</view>
+                        <view class="val price red data-v-5e969fe2"> -¥{{O}}</view>
+                    </view>
+                    <block wx:if="{{P}}">
+                        <view class="travelersInfo-item data-v-5e969fe2" wx:for="{{Q}}" wx:for-item="coupon" wx:key="e">
+                            <view class="label data-v-5e969fe2">{{coupon.a}}<block wx:if="{{coupon.b}}">x{{coupon.c}}</block>
+                            </view>
+                            <view class="val data-v-5e969fe2">-¥{{coupon.d}}</view>
+                        </view>
+                    </block>
+                    <view class="travelersInfo-item data-v-5e969fe2" wx:if="{{R}}">
+                        <view class="label data-v-5e969fe2">顾问调整</view>
+                        <view class="val data-v-5e969fe2">-¥{{S}}</view>
+                    </view>
+                </view>
+                <view class="price-box data-v-5e969fe2">
+                    <view class="travelersInfo-item total-price data-v-5e969fe2">
+                        <view class="label data-v-5e969fe2">订单金额</view>
+                        <view class="val price data-v-5e969fe2">¥{{T}}</view>
+                    </view>
+                    <view class="travelersInfo-item data-v-5e969fe2" wx:if="{{U}}">
+                        <view class="label data-v-5e969fe2">使用积分</view>
+                        <view class="val price red data-v-5e969fe2">{{V}}积分</view>
+                    </view>
+                    <view class="travelersInfo-item data-v-5e969fe2" wx:if="{{W}}">
+                        <view class="label data-v-5e969fe2">已支付</view>
+                        <view class="val price red data-v-5e969fe2"> ¥{{X}}</view>
+                    </view>
+                    <view class="travelersInfo-item data-v-5e969fe2" wx:if="{{Y}}">
+                        <view class="label data-v-5e969fe2">待支付</view>
+                        <view class="val price red data-v-5e969fe2"> ¥{{Z}}</view>
+                    </view>
+                </view>
+                <view class="price-box data-v-5e969fe2" wx:if="{{aa}}">
+                    <view class="travelersInfo-item total-price data-v-5e969fe2">
+                        <view class="label data-v-5e969fe2">退款相关</view>
+                        <view class="val price data-v-5e969fe2">{{ab}}</view>
+                    </view>
+                    <view class="travelersInfo-item data-v-5e969fe2">
+                        <view class="label data-v-5e969fe2">违约金</view>
+                        <view class="val price red data-v-5e969fe2">¥{{ac}}</view>
+                    </view>
+                </view>
+            </view>
+        </view>
+        <view bindtap="{{ae}}" class="open-btn data-v-5e969fe2" wx:if="{{ad}}"> 展开更多<view class="iconfont icon-a-12_xialajiantou_hei data-v-5e969fe2"></view>
+        </view>
+        <view bindtap="{{af}}" class="open-btn data-v-5e969fe2" wx:else> 收起更多<view class="iconfont icon-a-12_shanglajiantou_hei data-v-5e969fe2"></view>
+        </view>
+    </view>
+    <view class="travelersInfo data-v-5e969fe2">
+        <view class="tl data-v-5e969fe2">订单信息</view>
+        <view class="travelersInfo-item data-v-5e969fe2">
+            <view class="label data-v-5e969fe2">订单号</view>
+            <view bindtap="{{ah}}" class="val data-v-5e969fe2">{{ag}}<view class="iconfont icon-a-12_fuzhi data-v-5e969fe2"></view>
+            </view>
+        </view>
+        <view class="travelersInfo-item data-v-5e969fe2">
+            <view class="label data-v-5e969fe2">下单时间</view>
+            <view class="val data-v-5e969fe2">{{ai}}</view>
+        </view>
+        <view class="travelersInfo-item data-v-5e969fe2">
+            <view class="label data-v-5e969fe2">支付时间</view>
+            <view class="val data-v-5e969fe2">{{aj}}</view>
+        </view>
+        <view class="travelersInfo-item data-v-5e969fe2">
+            <view class="label data-v-5e969fe2">联系人</view>
+            <view class="val data-v-5e969fe2">{{ak}}  {{al}}</view>
+        </view>
+    </view>
+    <view class="travelersInfo data-v-5e969fe2" wx:if="{{am}}">
+        <view class="tl data-v-5e969fe2">订单附件</view>
+        <view class="annex-list data-v-5e969fe2">
+            <view bindtap="{{annexItem.c}}" class="annex-item data-v-5e969fe2" wx:for="{{an}}" wx:for-item="annexItem" wx:key="b">
+                <view class="iconfont icon-a-12_fujian data-v-5e969fe2"></view>{{annexItem.a}}.pdf </view>
+        </view>
+    </view>
+    <view class="card data-v-5e969fe2">
+        <link-item bind:__l="__l" bindchooseLink="{{listItem.b}}" class="data-v-5e969fe2" uI="{{listItem.c}}" uP="{{listItem.d}}" wx:for="{{ao}}" wx:for-item="listItem" wx:key="a"></link-item>
+    </view>
+    <view class="footer data-v-5e969fe2" wx:if="{{ap}}">
+        <view class="btns data-v-5e969fe2">
+            <view bindtap="{{aq}}" class="btn-def data-v-5e969fe2">取消订单</view>
+            <view bindtap="{{as}}" class="btn-def baseBtn data-v-5e969fe2" wx:if="{{ar}}"> 确认支付 </view>
+        </view>
+    </view>
+    <view class="footer data-v-5e969fe2" wx:if="{{at}}">
+        <view class="btns data-v-5e969fe2">
+            <view bindtap="{{av}}" class="btn-def data-v-5e969fe2">在线客服</view>
+        </view>
+    </view>
+    <view class="footer data-v-5e969fe2" wx:if="{{aw}}">
+        <view class="btns data-v-5e969fe2">
+            <view bindtap="{{ax}}" class="btn-def data-v-5e969fe2">在线客服</view>
+            <view bindtap="{{az}}" class="btn-def baseBtn data-v-5e969fe2" wx:if="{{ay}}"> 申请开票 </view>
+        </view>
+    </view>
+    <bottom-dialog bind:__l="__l" class="r data-v-5e969fe2" uI="5e969fe2-2" uP="{{aC}}" uR="ruleCompent" uS="{{['d']}}" wx:if="{{aC}}">
+        <view class="ruleBox data-v-5e969fe2">
+            <mp-html bind:__l="__l" class="data-v-5e969fe2" uI="5e969fe2-3,5e969fe2-2" uP="{{aA}}" wx:if="{{aA}}"></mp-html>
+        </view>
+    </bottom-dialog>
+    <kf-dialog bind:__l="__l" class="r data-v-5e969fe2" uI="5e969fe2-4" uP="{{aE}}" uR="kf" wx:if="{{aE}}"></kf-dialog>
+    <order-cancel-dialog bind:__l="__l" bindupdateShow="{{aF}}" class="data-v-5e969fe2" uI="5e969fe2-5" uP="{{aG}}" wx:if="{{aG}}"></order-cancel-dialog>
+</view>

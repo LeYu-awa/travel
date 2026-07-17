@@ -1,0 +1,9 @@
+<center-dialog bind:__l="__l" bindopenState="{{e}}" bindupdateModelValue="{{f}}" class="hook-dialog r data-v-5cef8201" uI="5cef8201-0" uP="{{g}}" uR="hookDelDayDialog" uS="{{['d']}}" wx:if="{{g}}">
+    <view class="content__wrapper data-v-5cef8201">
+        <view class="content data-v-5cef8201">{{a}}</view>
+        <view class="dialog-footer data-v-5cef8201">
+            <view bindtap="{{b}}" class="confirm-btn data-v-5cef8201">确认删除</view>
+            <view bindtap="{{c}}" class="cancel-btn data-v-5cef8201">我再想想</view>
+        </view>
+    </view>
+</center-dialog>

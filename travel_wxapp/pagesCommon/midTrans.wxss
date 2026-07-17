@@ -1,0 +1,21 @@
+.mid-trans.data-v-0aa60a38 {
+  padding: 32rpx;
+}
+.mid-trans .title.data-v-0aa60a38 {
+  color: #000;
+  font-size: 40rpx;
+  font-weight: 700;
+  line-height: 60rpx;
+}
+.mid-trans .message.data-v-0aa60a38 {
+  color: gray;
+  font-size: 28rpx;
+  line-height: 44rpx;
+  margin-top: 16rpx;
+}
+.mid-trans .icon.data-v-0aa60a38 {
+  display: block;
+  height: 240rpx;
+  margin: 176rpx auto;
+  width: 240rpx;
+}

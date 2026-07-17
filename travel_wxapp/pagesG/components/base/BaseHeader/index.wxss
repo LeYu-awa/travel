@@ -1,0 +1,20 @@
+.head-content.data-v-5ee053ed {
+  bottom: 0;
+  padding: 48rpx 32rpx;
+  position: absolute;
+}
+.head-content .top.data-v-5ee053ed {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+.head-content .title.data-v-5ee053ed {
+  font-size: 40rpx;
+  font-weight: 700;
+  line-height: 60rpx;
+  margin-bottom: 16rpx;
+}
+.head-content .desc.data-v-5ee053ed {
+  font-size: 28rpx;
+  line-height: 44rpx;
+}

@@ -1,0 +1,10 @@
+{
+  "component": true,
+  "usingComponents": {
+    "fixed-bottom-view": "../../components/new/FixedBottomView",
+    "float-button-kf": "/components/new/FloatButtonKf",
+    "mp-html": "../../uni_modules/mp-html/components/mp-html/mp-html",
+    "safe-area": "../../components/new/SafeArea",
+    "st-button": "../../components/new/StButton"
+  }
+}

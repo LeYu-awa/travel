@@ -1,0 +1,57 @@
+.ui_accountItem.data-v-f125c8af {
+  background: #fff;
+  border-radius: 16rpx;
+  margin-bottom: 24rpx;
+  overflow: hidden;
+}
+.ui_accountItem.isHistory .price.data-v-f125c8af,
+.ui_accountItem.isHistory .title.data-v-f125c8af {
+  color: gray;
+}
+.ui_accountItem .logo.data-v-f125c8af {
+  height: 384rpx;
+  width: 100%;
+}
+.ui_accountItem .innerBox.data-v-f125c8af {
+  padding: 32rpx 24rpx;
+  position: relative;
+}
+.ui_accountItem .innerBox .history.data-v-f125c8af {
+  color: #a43127;
+  font-size: 28rpx;
+  position: absolute;
+  right: 24rpx;
+  top: 24rpx;
+}
+.ui_accountItem .title.data-v-f125c8af {
+  color: #000;
+  font-size: 32rpx;
+  font-weight: 700;
+  margin-bottom: 24rpx;
+}
+.ui_accountItem .time.data-v-f125c8af {
+  color: gray;
+  font-size: 24rpx;
+  margin-bottom: 44rpx;
+}
+.ui_accountItem .accountDesc.data-v-f125c8af {
+  color: gray;
+  font-size: 24rpx;
+  margin-bottom: 16rpx;
+}
+.ui_accountItem .price.data-v-f125c8af {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 32rpx;
+  font-weight: 600;
+}
+.ui_accountItem .infoBtn.data-v-f125c8af {
+  border: 1px solid #a0a0a0;
+  border-radius: 8rpx;
+  bottom: 32rpx;
+  color: #000;
+  font-size: 28rpx;
+  padding: 16rpx 24rpx;
+  position: absolute;
+  right: 24rpx;
+}

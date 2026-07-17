@@ -1,0 +1,3 @@
+<button bindtap="{{b}}" class="st-share-button__wrapper data-v-cec008ec" openType="{{a}}">
+    <view class="iconfont icon-a-20_fenxianganniu_bai data-v-cec008ec"></view>
+</button>

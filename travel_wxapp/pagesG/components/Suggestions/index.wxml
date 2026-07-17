@@ -1,0 +1,30 @@
+<coustom-head bind:__l="__l" class="data-v-72efa162" uI="72efa162-0" uP="{{a}}" wx:if="{{a}}"></coustom-head>
+<layout bind:__l="__l" class="data-v-72efa162" uI="72efa162-1" uP="{{n}}" uS="{{['header','d']}}" wx:if="{{n}}">
+    <base-header bind:__l="__l" class="data-v-72efa162" slot="header" uI="72efa162-2,72efa162-1" uP="{{b}}"></base-header>
+    <view class="content data-v-72efa162">
+        <view class="body data-v-72efa162">
+            <view class="row data-v-72efa162">
+                <view class="room-info data-v-72efa162">
+                    <view class="label data-v-72efa162">房间号</view>
+                    <view class="data-v-72efa162">{{c}} {{d}}</view>
+                </view>
+            </view>
+            <view class="row data-v-72efa162">
+                <base-picker bind:__l="__l" bindupdateModelValue="{{e}}" class="data-v-72efa162" uI="72efa162-3,72efa162-1" uP="{{f}}" wx:if="{{f}}"></base-picker>
+            </view>
+            <view class="row detail data-v-72efa162">
+                <view class="data-v-72efa162">详细说明</view>
+                <textarea bindinput="{{h}}" class="textarea data-v-72efa162" maxlength="300" placeholder="请输入意见内容" value="{{g}}" wx:if="{{r0}}"></textarea>
+                <label class="count-tip data-v-72efa162"> ({{i}}/300) </label>
+            </view>
+            <view class="row data-v-72efa162">
+                <image-picker bind:__l="__l" bindupdateModelValue="{{j}}" class="data-v-72efa162" uI="72efa162-4,72efa162-1" uP="{{k}}" wx:if="{{k}}"></image-picker>
+            </view>
+        </view>
+        <safe-bottom bind:__l="__l" class="data-v-72efa162" uI="72efa162-5,72efa162-1" uS="{{['d']}}">
+            <view class="footer data-v-72efa162">
+                <bottom-btn bind:__l="__l" bindclick="{{l}}" class="data-v-72efa162" uI="72efa162-6,72efa162-5" uP="{{m}}" uS="{{['d']}}" wx:if="{{m}}"> 提交 </bottom-btn>
+            </view>
+        </safe-bottom>
+    </view>
+</layout>

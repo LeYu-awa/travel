@@ -1,0 +1,5 @@
+<view class="{{['data-v-2d45ed34','kv',d&&'separate']}}">
+    <view class="label data-v-2d45ed34">{{a}}</view>
+    <view class="{{['data-v-2d45ed34',c&&'flex']}}">{{b}} <slot></slot>
+    </view>
+</view>

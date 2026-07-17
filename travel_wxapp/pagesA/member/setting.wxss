@@ -1,0 +1,67 @@
+.line-clamp-1.data-v-13a00f21 {
+  line-clamp: 1;
+}
+.line-clamp-1.data-v-13a00f21,
+.line-clamp-2.data-v-13a00f21 {
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  overflow: hidden;
+  white-space: normal;
+}
+.line-clamp-2.data-v-13a00f21 {
+  line-clamp: 2;
+}
+.line-clamp-3.data-v-13a00f21 {
+  line-clamp: 3;
+}
+.line-clamp-3.data-v-13a00f21,
+.line-clamp-4.data-v-13a00f21 {
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  overflow: hidden;
+  white-space: normal;
+}
+.line-clamp-4.data-v-13a00f21 {
+  line-clamp: 4;
+}
+.line-clamp-5.data-v-13a00f21 {
+  line-clamp: 5;
+}
+.line-clamp-5.data-v-13a00f21,
+.line-clamp-6.data-v-13a00f21 {
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  overflow: hidden;
+  white-space: normal;
+}
+.line-clamp-6.data-v-13a00f21 {
+  line-clamp: 6;
+}
+.line-clamp-7.data-v-13a00f21 {
+  line-clamp: 7;
+}
+.line-clamp-7.data-v-13a00f21,
+.line-clamp-8.data-v-13a00f21 {
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  overflow: hidden;
+  white-space: normal;
+}
+.line-clamp-8.data-v-13a00f21 {
+  line-clamp: 8;
+}
+.line-clamp-9.data-v-13a00f21 {
+  -webkit-box-orient: vertical;
+  line-clamp: 9;
+  display: -webkit-box;
+  overflow: hidden;
+  white-space: normal;
+}
+.ui_setting .settingBox.data-v-13a00f21 {
+  padding: 32rpx;
+}
+.ui_setting .card.data-v-13a00f21 {
+  background: #fff;
+  border-radius: 8rpx;
+  margin-bottom: 24rpx;
+}

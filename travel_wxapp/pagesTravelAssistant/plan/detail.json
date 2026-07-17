@@ -1,0 +1,19 @@
+{
+  "navigationBarTitleText": "行程计划",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "back-button": "../components/buttons/BackButton",
+    "collect-success": "../components/CollectSuccess",
+    "confirmation-dialog": "../components/dialogs/ConfirmationDialog",
+    "coustom-head": "../../components/new/Navigator",
+    "detail-dialog": "../components/dialogs/DetailDialog",
+    "estimated-center-dialog": "../components/dialogs/EstimatedCenterDialog",
+    "fixed-bottom-view": "../../components/new/FixedBottomView",
+    "float-button-kf": "/components/new/FloatButtonKf",
+    "home-button": "../components/buttons/HomeButton",
+    "kf-dialog": "../../components/kfDialog",
+    "rect-tabs": "../components/RectTabs",
+    "share-button": "../components/buttons/ShareButton",
+    "st-button": "../../components/new/StButton"
+  }
+}

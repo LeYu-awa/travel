@@ -1,0 +1,8 @@
+<view class="head-content data-v-5ee053ed">
+    <view class="top data-v-5ee053ed">
+        <view class="title data-v-5ee053ed">{{a}}</view>
+        <slot name="corner"></slot>
+    </view>
+    <view class="desc data-v-5ee053ed">{{b}}</view>
+    <view class="desc data-v-5ee053ed" wx:if="{{c}}">服务提供时间：{{d}}，如有需求请联系前台</view>
+</view>

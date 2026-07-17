@@ -1,0 +1,35 @@
+<view class="data-v-c8be1778">
+    <view class="detail data-v-c8be1778" wx:if="{{a}}">
+        <view class="bottom-layer data-v-c8be1778"></view>
+        <view class="top-layer data-v-c8be1778">
+            <view class="content data-v-c8be1778">
+                <custom-head bind:__l="__l" class="data-v-c8be1778" uI="c8be1778-0" uP="{{b}}" wx:if="{{b}}"></custom-head>
+                <view class="header data-v-c8be1778" style="{{'padding-top:'+e}}">
+                    <view class="sta data-v-c8be1778">{{c}}</view>
+                    <view class="desc data-v-c8be1778">{{d}}</view>
+                </view>
+                <card bind:__l="__l" class="data-v-c8be1778" uI="c8be1778-1" uP="{{j}}" uS="{{['d']}}" wx:if="{{j}}">
+                    <key-value bind:__l="__l" class="key-value data-v-c8be1778" uI="c8be1778-2,c8be1778-1" uP="{{f}}" wx:if="{{f}}"></key-value>
+                    <key-value bind:__l="__l" class="key-value data-v-c8be1778" uI="c8be1778-3,c8be1778-1" uP="{{g}}" wx:if="{{g}}"></key-value>
+                    <block wx:if="{{h}}">
+                        <view class="label data-v-c8be1778">相关图片</view>
+                        <view class="data-v-c8be1778">
+                            <image alt="" bindtap="{{url.c}}" class="detailImg data-v-c8be1778" src="{{url.b}}" wx:for="{{i}}" wx:for-item="url" wx:key="a"></image>
+                        </view>
+                    </block>
+                </card>
+                <card bind:__l="__l" class="data-v-c8be1778" uI="c8be1778-4" uP="{{m}}" uS="{{['d']}}" wx:if="{{m}}">
+                    <key-value bind:__l="__l" class="key-value data-v-c8be1778" uI="c8be1778-5,c8be1778-4" uP="{{k}}" wx:if="{{k}}"></key-value>
+                    <key-value bind:__l="__l" class="data-v-c8be1778" uI="c8be1778-6,c8be1778-4" uP="{{l}}" wx:if="{{l}}"></key-value>
+                </card>
+            </view>
+            <view class="footer data-v-c8be1778">
+                <safe-bottom bind:__l="__l" class="data-v-c8be1778" uI="c8be1778-7" uS="{{['d']}}">
+                    <view class="buttons data-v-c8be1778">
+                        <ghost-button bind:__l="__l" bindclick="{{n}}" class="data-v-c8be1778" uI="c8be1778-8,c8be1778-7" uS="{{['d']}}">联系前台</ghost-button>
+                    </view>
+                </safe-bottom>
+            </view>
+        </view>
+    </view>
+</view>

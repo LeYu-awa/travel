@@ -1,0 +1,15 @@
+.card.data-v-6b4f02e0 {
+  background: #fff;
+  border-radius: 16rpx;
+  margin-bottom: 24rpx;
+}
+.head.data-v-6b4f02e0 {
+  border-bottom: 1px solid #eee;
+  font-size: 28rpx;
+  font-weight: 700;
+  line-height: 28rpx;
+  padding: 32rpx 24rpx;
+}
+.body.data-v-6b4f02e0 {
+  padding: 32rpx 24rpx;
+}

@@ -1,0 +1,58 @@
+<view class="ui_memberInfo data-v-a123631d">
+    <coustom-head bind:__l="__l" class="data-v-a123631d" uI="a123631d-0" uP="{{a}}" wx:if="{{a}}"></coustom-head>
+    <view class="memberInfoBox data-v-a123631d">
+        <view class="userInfoList data-v-a123631d">
+            <view class="userInfoItem big data-v-a123631d">
+                <view class="userInfoTitle data-v-a123631d">头像</view>
+                <button bindchooseavatar="{{c}}" class="userInfoDesc arrow data-v-a123631d" openType="chooseAvatar">
+                    <image alt="" class="avatar data-v-a123631d" src="{{b}}"></image>
+                </button>
+            </view>
+            <view class="userInfoItem data-v-a123631d">
+                <view class="userInfoTitle data-v-a123631d">昵称</view>
+                <input bindconfirm="{{e}}" bindinput="{{g}}" class="userInfoDesc data-v-a123631d" confirmType="done" placeholder="填写真实姓名" placeholderClass="placeholder" type="text" value="{{f}}" wx:if="{{d}}"></input>
+                <view class="userInfoDesc data-v-a123631d" wx:else>{{h}}</view>
+            </view>
+            <view class="userInfoItem data-v-a123631d">
+                <view class="userInfoTitle data-v-a123631d">性别</view>
+                <view class="{{['userInfoDesc','data-v-a123631d',o&&'arrow',p&&'tofill']}}">
+                    <picker bindchange="{{k}}" class="data-v-a123631d" range="{{m}}" rangeKey="name" value="{{l}}" wx:if="{{i}}">
+                        <view class="pickerDesc data-v-a123631d">{{j}}</view>
+                    </picker>
+                    <view class="data-v-a123631d" wx:else>{{n}}</view>
+                </view>
+            </view>
+            <view class="userInfoItem data-v-a123631d">
+                <view class="userInfoTitle data-v-a123631d">生日</view>
+                <view class="{{['userInfoDesc','data-v-a123631d',y&&'arrow',z&&'tofill']}}">
+                    <picker bindchange="{{w}}" class="data-v-a123631d" end="{{v}}" mode="date" start="{{t}}" value="{{s}}" wx:if="{{q}}">
+                        <view class="pickerDesc data-v-a123631d">{{r}}</view>
+                    </picker>
+                    <view class="data-v-a123631d" wx:else>{{x}}</view>
+                </view>
+            </view>
+        </view>
+        <view class="userInfoList data-v-a123631d">
+            <view class="userInfoItem data-v-a123631d">
+                <view class="userInfoTitle data-v-a123631d">手机号</view>
+                <view class="userInfoDesc data-v-a123631d">{{A}}</view>
+            </view>
+            <view class="userInfoItem data-v-a123631d">
+                <view class="userInfoTitle data-v-a123631d">邮箱</view>
+                <view class="userInfoDesc data-v-a123631d">
+                    <input bindconfirm="{{C}}" bindinput="{{E}}" class="data-v-a123631d" confirmType="done" placeholder="请输入邮箱" type="text" value="{{D}}" wx:if="{{B}}"></input>
+                    <view class="data-v-a123631d" wx:else>{{F}}</view>
+                </view>
+            </view>
+        </view>
+        <view class="userInfoList data-v-a123631d">
+            <view bindtap="{{J}}" class="userInfoItem data-v-a123631d">
+                <view class="userInfoTitle data-v-a123631d">实名认证</view>
+                <view class="{{['userInfoDesc','data-v-a123631d',H&&'unAuth',I&&'arrow']}}">{{G}}</view>
+            </view>
+        </view>
+        <view class="tips data-v-a123631d">{{K}}</view>
+        <view bindtap="{{L}}" class="saveUserInfo data-v-a123631d">保存</view>
+    </view>
+</view>
+<float-button-kf bind:__l="__l" class="data-v-a123631d" uI="a123631d-1"></float-button-kf>

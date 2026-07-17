@@ -1,0 +1,42 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+*.egg
+.Python
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build outputs
+Pai_travel/dist/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# MCP
+.pai/
+
+# Large assets (PSD files - 4GB+)
+app/
+
+# MCP
+feishu-mcp-server/

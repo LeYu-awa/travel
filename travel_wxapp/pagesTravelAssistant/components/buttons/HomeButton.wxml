@@ -1,0 +1,3 @@
+<view bindtap="{{a}}" class="st-home-button__wrapper data-v-8019ee4d" style="{{'background-color:'+b}}">
+    <view class="iconfont icon-home-line data-v-8019ee4d"></view>
+</view>

@@ -1,0 +1,6 @@
+page.data-v-fa13934e {
+  height: 100vh;
+}
+.data-v-fa13934e .trigger {
+  padding: 0 !important;
+}

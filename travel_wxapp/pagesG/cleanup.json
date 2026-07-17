@@ -1,0 +1,7 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "cleanup": "./components/Cleanup/index",
+    "float-button-kf": "/components/new/FloatButtonKf"
+  }
+}

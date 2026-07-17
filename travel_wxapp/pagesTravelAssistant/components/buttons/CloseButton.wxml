@@ -1,0 +1,3 @@
+<view bindtap="{{a}}" class="st-close-button__wrapper data-v-a0530123">
+    <view class="iconfont icon-a-20_guanbi data-v-a0530123"></view>
+</view>

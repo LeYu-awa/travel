@@ -1,0 +1,19 @@
+<view class="data-v-422ebb8f">
+    <pick-trigger bind:__l="__l" bindclick="{{b}}" class="data-v-422ebb8f" uI="422ebb8f-0" uP="{{c}}" uS="{{['display']}}" wx:if="{{c}}">
+        <label class="display data-v-422ebb8f" slot="display">{{a}}</label>
+    </pick-trigger>
+    <bottom-dialog bind:__l="__l" bindopenState="{{j}}" class="data-v-422ebb8f" uI="422ebb8f-1" uP="{{k}}" uS="{{['d']}}" wx:if="{{k}}">
+        <picker-view bindchange="{{g}}" class="picker-view data-v-422ebb8f" value="{{h}}" wx:if="{{r0}}">
+            <picker-view-column class="data-v-422ebb8f">
+                <view class="item data-v-422ebb8f" wx:for="{{d}}" wx:key="b">{{item.a}}</view>
+            </picker-view-column>
+            <picker-view-column class="data-v-422ebb8f">
+                <view class="item data-v-422ebb8f" wx:for="{{e}}" wx:key="b">{{item.a}}</view>
+            </picker-view-column>
+            <picker-view-column class="data-v-422ebb8f">
+                <view class="item data-v-422ebb8f" wx:for="{{f}}" wx:key="b">{{item.a}}</view>
+            </picker-view-column>
+        </picker-view>
+        <bottom-btn bind:__l="__l" bindclick="{{i}}" class="data-v-422ebb8f" uI="422ebb8f-2,422ebb8f-1" uS="{{['d']}}">完成</bottom-btn>
+    </bottom-dialog>
+</view>

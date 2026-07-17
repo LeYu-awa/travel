@@ -1,0 +1,22 @@
+<view bindtap="{{l}}" class="card data-v-31768aa9">
+    <view class="head data-v-31768aa9">
+        <view class="top data-v-31768aa9">
+            <view class="room-no data-v-31768aa9">{{a}} {{b}}</view>
+            <view class="status data-v-31768aa9">{{c}}</view>
+        </view>
+        <view class="service data-v-31768aa9">
+            <image alt="" class="icon data-v-31768aa9" src="{{d}}"></image>
+            <label class="service-name data-v-31768aa9">{{e}}</label>
+        </view>
+        <view class="body data-v-31768aa9">
+            <block wx:if="{{f}}">
+                <key-value bind:__l="__l" class="data-v-31768aa9" uI="{{item.b}}" uP="{{item.c}}" wx:for="{{g}}" wx:key="a"></key-value>
+                <key-value bind:__l="__l" class="data-v-31768aa9" uI="31768aa9-1" uP="{{h}}" wx:if="{{h}}"></key-value>
+            </block>
+            <key-value bind:__l="__l" class="data-v-31768aa9" uI="31768aa9-2" uP="{{i}}" wx:if="{{i}}"></key-value>
+        </view>
+        <view class="footer data-v-31768aa9" wx:if="{{j}}">
+            <button catchtap="{{k}}" class="button data-v-31768aa9">取消服务</button>
+        </view>
+    </view>
+</view>

@@ -1,0 +1,89 @@
+<view class="memberCenter_wrap data-v-a85b30f1">
+    <coustom-head bind:__l="__l" class="data-v-a85b30f1" uI="a85b30f1-0" uP="{{a}}" wx:if="{{a}}"></coustom-head>
+    <image class="memberCenterBg data-v-a85b30f1" mode="widthFix" src="{{b}}" style="height:160px"></image>
+    <view class="cardContent data-v-a85b30f1">
+        <swiper bindchange="{{e}}" circular="{{false}}" class="userCard memberCardList data-v-a85b30f1" current="{{d}}" id="tabContent" nextMargin="36rpx" previousMargin="36rpx">
+            <swiper-item class="swiper-box-item data-v-a85b30f1" wx:for="{{c}}" wx:key="p">
+                <view class="swiper_contant data-v-a85b30f1">
+                    <image alt="" class="swipe_img data-v-a85b30f1" src="{{item.a}}"></image>
+                    <view class="text_position data-v-a85b30f1">
+                        <view class="cardName data-v-a85b30f1">{{item.b}}</view>
+                        <view class="currentLevel data-v-a85b30f1">
+                            <label class="data-v-a85b30f1" wx:if="{{item.c}}">{{item.d}}</label>
+                            <label class="data-v-a85b30f1" wx:else>{{item.e}}</label>
+                        </view>
+                        <view class="cardLimit data-v-a85b30f1">
+                            <view class="on_row data-v-a85b30f1" wx:if="{{item.f}}">
+                                <view class="on_row data-v-a85b30f1" wx:if="{{item.g}}"> 您已成为 <label class="data-v-a85b30f1">{{item.h}}</label> 会员 <label class="data-v-a85b30f1">{{item.i}}</label> 天 </view>
+                                <view class="on_row data-v-a85b30f1" wx:else>{{item.j}}</view>
+                            </view>
+                            <view class="data-v-a85b30f1" wx:else>
+                                <view class="on_row data-v-a85b30f1" wx:if="{{item.k}}">{{item.l}}</view>
+                                <view class="on_row data-v-a85b30f1" wx:else>{{item.m}}</view>
+                            </view>
+                        </view>
+                        <view class="cardProcess data-v-a85b30f1" wx:if="{{item.n}}">
+                            <view class="process data-v-a85b30f1" style="{{item.o}}"></view>
+                        </view>
+                    </view>
+                </view>
+            </swiper-item>
+        </swiper>
+    </view>
+    <view class="contant_wrap data-v-a85b30f1">
+        <view class="member_center data-v-a85b30f1">
+            <view class="member_wrap data-v-a85b30f1">
+                <view class="member_title data-v-a85b30f1">会员权益</view>
+                <view bindtap="{{f}}" class="member_more data-v-a85b30f1"> 会员政策 <view class="icon_more iconfont icon-a-12_youlajiantou_hui data-v-a85b30f1"></view>
+                </view>
+            </view>
+            <view class="member_list data-v-a85b30f1">
+                <view catchtap="{{right.d}}" class="list_item data-v-a85b30f1" wx:for="{{g}}" wx:for-item="right" wx:key="e">
+                    <view class="item_in data-v-a85b30f1">
+                        <image alt="" class="left_img data-v-a85b30f1" src="{{right.a}}"></image>
+                        <view class="right_cont data-v-a85b30f1">
+                            <view class="right_tit data-v-a85b30f1">{{right.b}}</view>
+                            <view class="right_text data-v-a85b30f1">{{right.c}}</view>
+                        </view>
+                    </view>
+                </view>
+            </view>
+        </view>
+        <view bindtap="{{h}}" class="coupon_center data-v-a85b30f1">领券中心</view>
+        <view class="member_task data-v-a85b30f1" wx:if="{{i}}">
+            <view class="task_title data-v-a85b30f1">会员任务</view>
+            <view bindtap="{{item.d}}" class="task_wrap data-v-a85b30f1" wx:for="{{j}}" wx:key="e">
+                <view class="task_main data-v-a85b30f1">
+                    <view class="confirm data-v-a85b30f1">{{item.a}}</view>
+                    <view class="num data-v-a85b30f1">+{{item.b}}积分</view>
+                </view>
+                <view class="go_finish data-v-a85b30f1">
+                    <view class="has_confirm data-v-a85b30f1" wx:if="{{item.c}}">已认证</view>
+                    <view class="go_confirm data-v-a85b30f1" wx:else>未认证</view>
+                </view>
+            </view>
+        </view>
+        <bottom-dialog bind:__l="__l" class="r data-v-a85b30f1" uI="a85b30f1-1" uP="{{q}}" uR="checkIn" uS="{{['d']}}" wx:if="{{q}}">
+            <view class="receive-box data-v-a85b30f1">
+                <view class="receive_mian data-v-a85b30f1">
+                    <view class="icon_wrap data-v-a85b30f1">
+                        <image alt="" class="right_icon data-v-a85b30f1" src="{{k}}"></image>
+                    </view>
+                    <view class="cont_title data-v-a85b30f1">{{l}}</view>
+                    <view class="cont_text data-v-a85b30f1">{{m}}</view>
+                    <view class="use_type data-v-a85b30f1">
+                        <view class="use_left data-v-a85b30f1">使用方式</view>
+                        <view class="use_right data-v-a85b30f1">
+                            <rich-text class="data-v-a85b30f1" nodes="{{n}}"></rich-text>
+                        </view>
+                    </view>
+                    <view class="use_tip data-v-a85b30f1">
+                        <rich-text class="data-v-a85b30f1" nodes="{{o}}"></rich-text>
+                    </view>
+                </view>
+            </view>
+        </bottom-dialog>
+    </view>
+    <view class="zhanWei data-v-a85b30f1"></view>
+</view>
+<float-button-kf bind:__l="__l" class="data-v-a85b30f1" uI="a85b30f1-2"></float-button-kf>

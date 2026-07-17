@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "积分",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "center-dialog": "../../components/centerDialog",
+    "coustom-head": "../../components/coustomHead",
+    "empty": "../../components/empty",
+    "float-button-kf": "/components/new/FloatButtonKf",
+    "last-text": "../../components/lastText",
+    "switch-bar": "../../components/switchBar"
+  }
+}

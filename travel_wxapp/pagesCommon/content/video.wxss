@@ -1,0 +1,117 @@
+.header.data-v-3c1ed642 {
+  background-color: initial;
+  height: 180rpx;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 91111;
+}
+.header .header-img.data-v-3c1ed642 {
+  font-size: 38rpx;
+  font-size: 30rpx;
+  font-size: 42rpx;
+  height: 40rpx;
+  left: 26rpx;
+  line-height: 40rpx;
+  position: absolute;
+  top: 100rpx;
+}
+.collection.data-v-3c1ed642 {
+  align-items: center;
+  background: #343434;
+  border-radius: 8rpx;
+  bottom: 15%;
+  display: flex;
+  justify-content: space-between;
+  left: 30rpx;
+  padding: 24rpx 20rpx;
+  position: fixed;
+  width: 91%;
+  z-index: 100000;
+}
+.collection .colon-flex.data-v-3c1ed642 {
+  align-items: center;
+  color: #fff;
+  display: flex;
+  font-size: 26rpx;
+}
+.collection .colon-flex .left.data-v-3c1ed642 {
+  font-size: 24rpx;
+  margin-left: 12rpx;
+}
+.collection .colon-flex .right.data-v-3c1ed642 {
+  font-size: 24rpx;
+  margin-right: 12rpx;
+}
+.video.data-v-3c1ed642 {
+  background: #000;
+  bottom: 0;
+  height: 100%;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+.video .myVideo.data-v-3c1ed642 {
+  height: 90%;
+  width: 100%;
+}
+.video-bun.data-v-3c1ed642 {
+  align-items: center;
+  background-color: #000;
+  bottom: 0;
+  display: flex;
+  height: 11%;
+  justify-content: space-between;
+  padding: 20rpx 40rpx;
+  position: fixed;
+  width: 100%;
+  z-index: 10000000;
+}
+.video-bun .but-title.data-v-3c1ed642 {
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  color: #fff;
+  display: -webkit-box;
+  font-size: 24rpx;
+  line-height: 42rpx;
+  overflow: hidden;
+  width: 300rpx;
+}
+.video-bun .but-right.data-v-3c1ed642 {
+  align-items: center;
+  display: flex;
+  margin-left: -10rpx;
+}
+.video-bun .but-right .but-con.data-v-3c1ed642 {
+  align-items: flex-start;
+  color: #fff;
+  display: flex;
+  font-size: 42rpx;
+  margin-left: 10rpx;
+}
+.video-bun .but-right .but-con .but-share.data-v-3c1ed642 {
+  background-color: initial;
+  border: none;
+}
+.video-bun .but-right .but-con .con-number.data-v-3c1ed642 {
+  font-size: 24rpx;
+}
+.video-bun .but-right .but-con .con-number .number-left.data-v-3c1ed642 {
+  font-size: 22rpx;
+}
+.play-bu.data-v-3c1ed642 {
+  color: #fff;
+  font-size: 110rpx;
+  left: 50%;
+  position: fixed;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
+}
+.play-bu .icon-a-20_bofang.data-v-3c1ed642,
+.play-bu .icon-a-20_zanting.data-v-3c1ed642 {
+  font-size: 110rpx;
+}

@@ -1,0 +1,13 @@
+{
+  "component": true,
+  "usingComponents": {
+    "base-header": "../base/BaseHeader/index",
+    "base-picker": "../base/BasePicker/index",
+    "bottom-btn": "../../../components/bottomBtn",
+    "coustom-head": "../../../components/coustomHead",
+    "float-button-kf": "/components/new/FloatButtonKf",
+    "image-picker": "./ImagePicker",
+    "layout": "../Layout",
+    "safe-bottom": "../base/SafeBottom/index"
+  }
+}

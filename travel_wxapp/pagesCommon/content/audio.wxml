@@ -1,0 +1,76 @@
+<coustom-head bind:__l="__l" uI="7e5d34b2-0" uP="{{a}}" wx:if="{{a}}"></coustom-head>
+<view style="{{'height:'+b}}"></view>
+<view class="audio">
+    <view class="audio-flex">
+        <image class="audio-image" src="{{c}}"></image>
+        <view class="audio-title">{{d}}</view>
+        <view class="audio-second">{{e}} · {{f}}分钟 </view>
+        <view bindtap="{{h}}" class="audio-bn">
+            <block wx:if="{{g}}">
+                <view class="no-icon">
+                    <view class="iconfont icon-a-20_bofang"></view>
+                </view>
+                <view class="no-title">播放</view>
+            </block>
+            <block wx:else>
+                <view class="no-icon">
+                    <view class="iconfont icon-a-20_zanting"></view>
+                </view>
+                <view class="no-title">暂停</view>
+            </block>
+        </view>
+        <view class="but-right">
+            <view bindtap="{{s}}" class="but-con">
+                <view>
+                    <view class="iconfont icon-a-20_shoucang_yishoucang" style="color:#a43127" wx:if="{{i}}"></view>
+                    <view class="iconfont icon-a-20_shoucang_weishoucang" wx:else></view>
+                </view>
+                <view class="con-number">
+                    <text class="number-left" wx:if="{{j}}">收藏</text>
+                    <text class="number-left" wx:if="{{k}}">{{l}}</text>
+                    <text class="number-left" wx:if="{{m}}">{{n}}千</text>
+                    <text class="number-left" wx:if="{{o}}">{{p}}万</text>
+                    <text class="number-left" wx:if="{{q}}">{{r}}万</text>
+                </view>
+            </view>
+            <view class="but-con">
+                <button class="but-share" data-name="shareBtn" openType="share" type="default">
+                    <view class="iconfont icon-a-20_shaixuan1" style="color:#000000"></view>
+                </button>
+            </view>
+        </view>
+    </view>
+</view>
+<movable-area class="movableArea">
+    <movable-view class="movableView" direction="all" x="600rpx" y="800rpx">
+        <view class="notification" wx:if="{{t}}">
+            <image class="ion-image" src="{{v}}"></image>
+            <view class="ioc-flex">
+                <view bindtap="{{x}}">
+                    <view wx:if="{{w}}">
+                        <view class="iconfont icon-a-20_zanting"></view>
+                    </view>
+                    <dvi bind:__l="__l" uI="7e5d34b2-1" uS="{{['d']}}" wx:else>
+                        <view class="iconfont icon-a-20_bofang"></view>
+                    </dvi>
+                </view>
+                <view bindtap="{{y}}">
+                    <view class="iconfont icon-a-20_guanbi"></view>
+                </view>
+            </view>
+        </view>
+    </movable-view>
+</movable-area>
+<view class="rich">
+    <rich-text nodes="{{z}}"></rich-text>
+</view>
+<view bindtap="{{B}}" class="collection" wx:if="{{A}}">
+    <view class="colon-flex">
+        <view class="iconfont icon-a-16_quangou" style="color:#fff"></view>
+        <view class="left">已加入我的收藏-内容</view>
+    </view>
+    <view class="colon-flex">
+        <view class="right">去看看</view>
+        <view class="iconfont icon-a-12_youlajiantou_hui" style="color:#fff"></view>
+    </view>
+</view>

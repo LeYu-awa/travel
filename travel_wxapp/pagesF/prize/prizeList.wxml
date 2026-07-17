@@ -1,0 +1,19 @@
+<view class="prizeList data-v-336bdc45">
+    <coustom-head bind:__l="__l" class="data-v-336bdc45" uI="336bdc45-0" uP="{{a}}" wx:if="{{a}}"></coustom-head>
+    <view class="paddTop data-v-336bdc45" style="{{'height:'+b}}"></view>
+    <view class="prize data-v-336bdc45" wx:for="{{c}}" wx:key="l">
+        <view bindtap="{{item.e}}" class="prizeInfo data-v-336bdc45">
+            <image alt="" class="prizeImg data-v-336bdc45" src="{{item.a}}"></image>
+            <view class="info data-v-336bdc45">
+                <view class="prizeName data-v-336bdc45">{{item.b}}</view>
+                <view class="prizeDesc data-v-336bdc45">{{item.c}}</view>
+                <view class="prizeTime data-v-336bdc45">中奖时间：{{item.d}}</view>
+            </view>
+        </view>
+        <view class="btnGroup data-v-336bdc45">
+            <view bindtap="{{item.h}}" class="btn giftGet data-v-336bdc45" wx:if="{{item.f}}">{{item.g}}</view>
+            <view bindtap="{{item.j}}" class="{{['btn','giftGot','data-v-336bdc45',item.k&&'sta']}}" wx:else>{{item.i}}</view>
+        </view>
+    </view>
+    <empty bind:__l="__l" class="data-v-336bdc45" uI="336bdc45-1" uP="{{e}}" wx:if="{{d}}"></empty>
+</view>

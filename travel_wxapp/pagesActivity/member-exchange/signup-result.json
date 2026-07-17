@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "error-block": "../../components/new/ErrorBlock",
+    "fixed-bottom-view": "../../components/new/FixedBottomView",
+    "float-button-kf": "/components/new/FloatButtonKf",
+    "navigator": "../../components/new/Navigator",
+    "safe-area": "../../components/new/SafeArea",
+    "st-button": "../../components/new/StButton"
+  }
+}

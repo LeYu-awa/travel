@@ -1,0 +1,682 @@
+.baseBtn.data-v-ea272749 {
+  background-color: #000;
+  background-image: url(https://dsplatweb.oss-cn-chengdu.aliyuncs.com/songzan/images/btnBlack.png);
+  color: #fff;
+}
+.baseBtn.data-v-ea272749,
+.w-baseBtn.data-v-ea272749 {
+  background-repeat: repeat;
+  background-size: 80rpx 75rpx;
+  border-radius: 8rpx;
+  text-align: center;
+}
+.w-baseBtn.data-v-ea272749 {
+  background-color: #fff;
+  background-image: url(https://dsplatweb.oss-cn-chengdu.aliyuncs.com/songzan/images/btnWhite.png);
+  color: #000;
+}
+.w-baseBtn[disabled].data-v-ea272749 {
+  color: #000 !important;
+  opacity: 0.8;
+}
+.textHidden.data-v-ea272749 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.expandClick.data-v-ea272749 {
+  position: relative;
+}
+.expandClick.data-v-ea272749:after {
+  bottom: -60rpx;
+  content: "";
+  left: -60rpx;
+  position: absolute;
+  right: -60rpx;
+  top: -60rpx;
+  z-index: 9;
+}
+.line-clamp-1.data-v-ea272749 {
+  line-clamp: 1;
+}
+.line-clamp-1.data-v-ea272749,
+.line-clamp-2.data-v-ea272749 {
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  overflow: hidden;
+  white-space: normal;
+}
+.line-clamp-2.data-v-ea272749 {
+  line-clamp: 2;
+}
+.line-clamp-3.data-v-ea272749 {
+  line-clamp: 3;
+}
+.line-clamp-3.data-v-ea272749,
+.line-clamp-4.data-v-ea272749 {
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  overflow: hidden;
+  white-space: normal;
+}
+.line-clamp-4.data-v-ea272749 {
+  line-clamp: 4;
+}
+.line-clamp-5.data-v-ea272749 {
+  line-clamp: 5;
+}
+.line-clamp-5.data-v-ea272749,
+.line-clamp-6.data-v-ea272749 {
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  overflow: hidden;
+  white-space: normal;
+}
+.line-clamp-6.data-v-ea272749 {
+  line-clamp: 6;
+}
+.line-clamp-7.data-v-ea272749 {
+  line-clamp: 7;
+}
+.line-clamp-7.data-v-ea272749,
+.line-clamp-8.data-v-ea272749 {
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  overflow: hidden;
+  white-space: normal;
+}
+.line-clamp-8.data-v-ea272749 {
+  line-clamp: 8;
+}
+.line-clamp-9.data-v-ea272749 {
+  -webkit-box-orient: vertical;
+  line-clamp: 9;
+  display: -webkit-box;
+  overflow: hidden;
+  white-space: normal;
+}
+.orderDetail_ui.data-v-ea272749 {
+  line-height: 1;
+  padding-bottom: 220rpx;
+}
+.orderDetail_ui .order-sta.data-v-ea272749 {
+  background-color: #000;
+  background-image: url(https://dsplatweb.oss-cn-chengdu.aliyuncs.com/songzan/images/btnBlack.png);
+  background-repeat: repeat;
+  background-size: 80rpx 75rpx;
+  padding: 150rpx 32rpx 124rpx;
+}
+.orderDetail_ui .order-sta.cancelSta.data-v-ea272749 {
+  background-color: #7f7d75;
+}
+.orderDetail_ui .order-sta .sta.data-v-ea272749 {
+  color: #fff;
+  font-size: 40rpx;
+  font-weight: 500;
+}
+.orderDetail_ui .order-sta .desc.data-v-ea272749 {
+  color: #fff;
+  font-size: 28rpx;
+  margin-top: 24rpx;
+  opacity: 0.8;
+}
+.orderDetail_ui .travel-info.data-v-ea272749 {
+  background: #fff;
+  border-radius: 16rpx;
+  display: flex;
+  margin: -92rpx 32rpx 0;
+  padding: 32rpx 24rpx;
+}
+.orderDetail_ui .travel-info .travel-img.data-v-ea272749 {
+  height: 160rpx;
+  margin-right: 24rpx;
+  width: 160rpx;
+}
+.orderDetail_ui .travel-info .travel-img .travel-img-img.data-v-ea272749 {
+  border-radius: 8rpx;
+  height: 100%;
+  width: 100%;
+}
+.orderDetail_ui .travel-info .travel-rt.data-v-ea272749 {
+  flex: 1;
+  font-size: 28rpx;
+  line-height: 36rpx;
+}
+.orderDetail_ui .travel-info .travel-rt .travel-name.data-v-ea272749 {
+  color: #000;
+  font-size: 28rpx;
+  font-weight: 700;
+  line-height: 44rpx;
+}
+.orderDetail_ui .travel-info .travel-rt .travel-desc.data-v-ea272749 {
+  color: gray;
+  line-height: inherit;
+  margin-top: 8rpx;
+}
+.orderDetail_ui
+  .travel-info
+  .travel-rt
+  .travel-desc
+  .peopleNum.data-v-ea272749 {
+  display: inline-block;
+}
+.orderDetail_ui
+  .travel-info
+  .travel-rt
+  .travel-desc
+  .skuInfoStr.data-v-ea272749 {
+  display: inline-block;
+  margin-right: 20rpx;
+}
+.orderDetail_ui .travel-info .travel-rt .travel-num.data-v-ea272749,
+.orderDetail_ui .travel-info .travel-rt .travel-time.data-v-ea272749 {
+  color: gray;
+  line-height: inherit;
+  margin-top: 8rpx;
+}
+.orderDetail_ui .travelersInfo.data-v-ea272749 {
+  background: #fff;
+  border-radius: 16rpx;
+  margin: 24rpx 32rpx 0;
+  padding: 32rpx 0;
+}
+.orderDetail_ui .travelersInfo .tl.data-v-ea272749 {
+  border-bottom: 0.5px solid #eee;
+  color: #000;
+  font-size: 28rpx;
+  font-style: normal;
+  font-weight: 500;
+  padding-bottom: 32rpx;
+  padding-left: 24rpx;
+}
+.orderDetail_ui .travelersInfo .tl .groupPt.data-v-ea272749 {
+  background: rgba(219, 137, 0, 0.12);
+  border-radius: 8rpx;
+  color: #db8900;
+  display: inline-block;
+  font-size: 24rpx;
+  margin-left: 10rpx;
+  padding: 8rpx;
+}
+.orderDetail_ui .travelersInfo .counponList.data-v-ea272749 {
+  margin: 0 24rpx;
+}
+.orderDetail_ui .travelersInfo .counponList .counpon.data-v-ea272749 {
+  background: #f8f8f8;
+  border-radius: 24rpx;
+  margin-top: 32rpx;
+  padding: 32rpx 48rpx;
+}
+.orderDetail_ui
+  .travelersInfo
+  .counponList
+  .counpon
+  .counpon-box.data-v-ea272749 {
+  display: flex;
+  justify-content: center;
+}
+.orderDetail_ui
+  .travelersInfo
+  .counponList
+  .counpon
+  .counpon-box.pack.data-v-ea272749 {
+  justify-content: flex-start;
+}
+.orderDetail_ui .travelersInfo .counponList .counpon .product.data-v-ea272749 {
+  margin-top: 24rpx;
+}
+.orderDetail_ui
+  .travelersInfo
+  .counponList
+  .counpon
+  .product
+  .product-tl.data-v-ea272749 {
+  color: gray;
+  font-size: 28rpx;
+}
+.orderDetail_ui .travelersInfo .counponList .counpon .couponNo.data-v-ea272749 {
+  align-items: center;
+  display: flex;
+}
+.orderDetail_ui
+  .travelersInfo
+  .counponList
+  .counpon
+  .couponNo.invalid
+  .no.data-v-ea272749 {
+  color: #ccc;
+  text-decoration: line-through;
+}
+.orderDetail_ui
+  .travelersInfo
+  .counponList
+  .counpon
+  .couponNo.invalid
+  .tag.data-v-ea272749 {
+  color: #ccc;
+}
+.orderDetail_ui
+  .travelersInfo
+  .counponList
+  .counpon
+  .couponNo.invalid
+  .invalid-desc.data-v-ea272749 {
+  color: #ccc;
+  font-size: 24rpx;
+  margin-left: 16rpx;
+}
+.orderDetail_ui
+  .travelersInfo
+  .counponList
+  .counpon
+  .couponNo
+  .tag.data-v-ea272749 {
+  color: gray;
+  font-size: 24rpx;
+  margin-right: 16rpx;
+}
+.orderDetail_ui
+  .travelersInfo
+  .counponList
+  .counpon
+  .couponNo
+  .no.data-v-ea272749 {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 36rpx;
+  font-weight: 400;
+}
+.orderDetail_ui
+  .travelersInfo
+  .counponList
+  .counpon
+  .couponNo
+  .iconfont.data-v-ea272749 {
+  color: #000;
+  font-size: 24rpx;
+  margin-left: 8rpx;
+}
+.orderDetail_ui .travelersInfo .all-copy-box.data-v-ea272749 {
+  display: flex;
+  justify-content: center;
+  margin-top: 32rpx;
+}
+.orderDetail_ui .travelersInfo .all-copy.data-v-ea272749 {
+  border: 1px solid #ccc;
+  border-radius: 340rpx;
+  color: #000;
+  font-size: 28rpx;
+  padding: 24rpx 80rpx;
+}
+.orderDetail_ui .travelersInfo .explain-item.data-v-ea272749 {
+  color: gray;
+  font-family: PingFang SC;
+  font-size: 24rpx;
+  font-style: normal;
+  line-height: 36rpx;
+  margin: 32rpx 24rpx 0;
+}
+.orderDetail_ui .travelersInfo .explain-item .desc.data-v-ea272749 {
+  max-height: 180rpx;
+  overflow: hidden;
+}
+.orderDetail_ui .travelersInfo .explain-item .desc.open.data-v-ea272749 {
+  max-height: none;
+}
+.orderDetail_ui .travelersInfo .hotel-info.data-v-ea272749 {
+  line-height: 1;
+  padding: 0 24rpx;
+}
+.orderDetail_ui .travelersInfo .hotel-info-item.data-v-ea272749 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 32rpx;
+}
+.orderDetail_ui .travelersInfo .hotel-info-item__hotel.data-v-ea272749 {
+  text-align: right;
+}
+.orderDetail_ui .travelersInfo .hotel-info-item .hotel-date.data-v-ea272749,
+.orderDetail_ui .travelersInfo .hotel-info-item .hotel-title.data-v-ea272749 {
+  font-size: 28rpx;
+}
+.orderDetail_ui .travelersInfo .hotel-info-item .hotel-night.data-v-ea272749,
+.orderDetail_ui .travelersInfo .hotel-info-item .hotel-room.data-v-ea272749 {
+  color: gray;
+  font-size: 24rpx;
+  margin-top: 16rpx;
+}
+.orderDetail_ui .travelersInfo .guest-wrap.data-v-ea272749 {
+  padding: 0 24rpx;
+}
+.orderDetail_ui .travelersInfo .line-info.data-v-ea272749 {
+  display: flex;
+  font-size: 28rpx;
+  justify-content: space-between;
+  margin-top: 32rpx;
+}
+.orderDetail_ui
+  .travelersInfo
+  .line-info--style-1
+  .line-info__label.data-v-ea272749 {
+  color: #000;
+}
+.orderDetail_ui
+  .travelersInfo
+  .line-info--style-2
+  .line-info__value.data-v-ea272749 {
+  color: #a43127;
+}
+.orderDetail_ui .travelersInfo .line-info__label.data-v-ea272749 {
+  color: gray;
+}
+.orderDetail_ui .travelersInfo .check-travel-info.data-v-ea272749 {
+  align-items: center;
+  color: #db8900;
+  display: flex;
+  font-size: 28rpx;
+  line-height: 1;
+  margin: 32rpx 32rpx 0;
+}
+.orderDetail_ui .travelersInfo .check-travel-info .iconfont.data-v-ea272749 {
+  margin-right: 8rpx;
+}
+.orderDetail_ui .travelersInfo .travelersInfo-item2.data-v-ea272749 {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 16rpx;
+}
+.orderDetail_ui .travelersInfo .travelersInfo-item2 .label.data-v-ea272749 {
+  color: gray;
+  font-size: 28rpx;
+  line-height: 44rpx;
+  margin-right: 100rpx;
+  white-space: nowrap;
+}
+.orderDetail_ui .travelersInfo .travelersInfo-item2 .val.data-v-ea272749 {
+  align-items: center;
+  color: #000;
+  display: flex;
+  font-size: 28rpx;
+  line-height: 44rpx;
+}
+.orderDetail_ui
+  .travelersInfo
+  .travelersInfo-item2
+  .val
+  .val-txt.data-v-ea272749 {
+  flex: 1;
+  height: 44rpx;
+  line-height: 44rpx;
+  overflow: hidden;
+}
+.orderDetail_ui
+  .travelersInfo
+  .travelersInfo-item2
+  .val
+  .icon-a-12_youlajiantou_hui.data-v-ea272749 {
+  font-size: 24rpx;
+  margin-left: 10rpx;
+}
+.orderDetail_ui .travelersInfo .travelersInfo-item2 .val.price.data-v-ea272749 {
+  font-family: Montserrat;
+  font-size: 32rpx;
+  font-weight: 600;
+}
+.orderDetail_ui .travelersInfo .travelersInfo-item2 .val.red.data-v-ea272749 {
+  color: #a43127;
+}
+.orderDetail_ui
+  .travelersInfo
+  .travelersInfo-item2
+  .val
+  .icon-a-12_fuzhi.data-v-ea272749 {
+  margin-left: 10rpx;
+}
+.orderDetail_ui .travelersInfo .travelersInfo-list.data-v-ea272749 {
+  padding: 16rpx 0 0;
+}
+.orderDetail_ui .travelersInfo .price-box.data-v-ea272749 {
+  padding: 16rpx 0;
+  position: relative;
+}
+.orderDetail_ui .travelersInfo .price-box.data-v-ea272749:after {
+  border-bottom: 0.5px solid #eee;
+  bottom: 0;
+  content: "";
+  left: 24rpx;
+  position: absolute;
+  right: 24rpx;
+}
+.orderDetail_ui .travelersInfo .price-box.data-v-ea272749:first-child {
+  padding-top: 0;
+}
+.orderDetail_ui .travelersInfo .price-box.data-v-ea272749:last-child {
+  padding-bottom: 0;
+}
+.orderDetail_ui .travelersInfo .price-box.data-v-ea272749:last-child:after {
+  display: none;
+}
+.orderDetail_ui .travelersInfo .travelersInfo-item.data-v-ea272749 {
+  display: flex;
+  justify-content: space-between;
+  padding: 8rpx 24rpx;
+}
+.orderDetail_ui
+  .travelersInfo
+  .travelersInfo-item.total-price
+  .label.data-v-ea272749 {
+  color: #000;
+  font-weight: 600;
+}
+.orderDetail_ui
+  .travelersInfo
+  .travelersInfo-item.total-price
+  .val.data-v-ea272749 {
+  font-family: Montserrat;
+  font-size: 32rpx;
+  font-weight: 600;
+}
+.orderDetail_ui
+  .travelersInfo
+  .travelersInfo-item.exchangeInfo
+  .val.data-v-ea272749 {
+  text-align: left;
+}
+.orderDetail_ui .travelersInfo .travelersInfo-item .label.data-v-ea272749 {
+  color: gray;
+  flex: 1;
+  font-size: 28rpx;
+  line-height: 44rpx;
+  margin-right: 40rpx;
+  min-width: 4em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.orderDetail_ui .travelersInfo .travelersInfo-item .val.data-v-ea272749 {
+  align-items: center;
+  color: #000;
+  display: flex;
+  font-size: 28rpx;
+  line-height: 44rpx;
+  text-align: right;
+}
+.orderDetail_ui
+  .travelersInfo
+  .travelersInfo-item
+  .val
+  .val-txt.data-v-ea272749 {
+  flex: 1;
+  height: 44rpx;
+  line-height: 44rpx;
+  overflow: hidden;
+}
+.orderDetail_ui
+  .travelersInfo
+  .travelersInfo-item
+  .val
+  .icon-a-12_youlajiantou_hui.data-v-ea272749 {
+  font-size: 24rpx;
+  margin-left: 10rpx;
+}
+.orderDetail_ui .travelersInfo .travelersInfo-item .val.price.data-v-ea272749 {
+  font-family: Montserrat;
+  font-size: 32rpx;
+  font-weight: 600;
+}
+.orderDetail_ui .travelersInfo .travelersInfo-item .val.red.data-v-ea272749 {
+  color: #a43127;
+}
+.orderDetail_ui
+  .travelersInfo
+  .travelersInfo-item
+  .val
+  .icon-a-12_fuzhi.data-v-ea272749 {
+  margin-left: 10rpx;
+}
+.orderDetail_ui .travelersInfo .open-btn.data-v-ea272749 {
+  align-items: center;
+  color: gray;
+  display: flex;
+  font-size: 28rpx;
+  justify-content: center;
+  margin-top: 24rpx;
+}
+.orderDetail_ui
+  .travelersInfo
+  .open-btn
+  .icon-a-12_shanglajiantou_hei.data-v-ea272749,
+.orderDetail_ui
+  .travelersInfo
+  .open-btn
+  .icon-a-12_xialajiantou_hei.data-v-ea272749 {
+  font-size: 30rpx;
+  margin-left: 10rpx;
+}
+.orderDetail_ui .travelersInfo .annex-list.data-v-ea272749 {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 16rpx 8rpx 0 24rpx;
+}
+.orderDetail_ui .travelersInfo .annex-list .annex-item.data-v-ea272749 {
+  border: 1px solid #ccc;
+  border-radius: 8rpx;
+  color: #000;
+  display: flex;
+  font-size: 24rpx;
+  margin-left: 16rpx;
+  margin-top: 16rpx;
+  padding: 16rpx 32rpx;
+}
+.orderDetail_ui
+  .travelersInfo
+  .annex-list
+  .annex-item
+  .icon-a-12_fujian.data-v-ea272749 {
+  margin-right: 10rpx;
+}
+.orderDetail_ui .footer.data-v-ea272749 {
+  background: #fff;
+  border-top: 1px solid #eee;
+  bottom: 0;
+  display: flex;
+  justify-content: flex-end;
+  left: 0;
+  padding: 24rpx 32rpx calc(env(safe-area-inset-bottom) + 24rpx);
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+}
+.orderDetail_ui .footer .btns.data-v-ea272749 {
+  display: flex;
+}
+.orderDetail_ui .footer .btns .btn-def.data-v-ea272749 {
+  align-items: center;
+  border: 0.5px solid #1e1e1e;
+  border-radius: 8rpx;
+  display: flex;
+  flex: 1;
+  font-size: 28rpx;
+  height: 76rpx;
+  justify-content: center;
+  margin: 0 16rpx;
+  padding: 0 32rpx;
+}
+.orderDetail_ui .card.data-v-ea272749 {
+  background: #fff;
+  border-radius: 16rpx;
+  margin: 24rpx auto 0;
+  width: calc(100% - 64rpx);
+}
+.orderDetail_ui .card .linkItem.data-v-ea272749 {
+  align-items: center;
+  display: flex;
+  height: 96rpx;
+  justify-content: space-between;
+  padding: 0 24rpx;
+  position: relative;
+}
+.orderDetail_ui .card .linkItem.arrow.data-v-ea272749:after {
+  left: calc(100% - 24rpx);
+}
+.orderDetail_ui .card .linkItem .title.data-v-ea272749 {
+  color: #000;
+  font-size: 28rpx;
+}
+.orderDetail_ui .cancel-dialog-wrapper.data-v-ea272749 {
+  background-color: #f8f8f8;
+  color: #000;
+}
+.orderDetail_ui .cancel-dialog-wrapper__content.data-v-ea272749 {
+  background-color: #fff;
+  border-radius: 16rpx;
+  margin: 32rpx;
+}
+.orderDetail_ui .cancel-dialog-wrapper__content__reason.data-v-ea272749 {
+  align-items: center;
+  display: flex;
+  font-size: 28rpx;
+  font-weight: 400;
+  height: 96rpx;
+  justify-content: space-between;
+  line-height: 96rpx;
+  padding: 0 24rpx;
+}
+.orderDetail_ui
+  .cancel-dialog-wrapper__content__reason
+  .iconfont.data-v-ea272749 {
+  color: #a43127;
+  font-size: 32rpx;
+}
+.orderDetail_ui .cancel-dialog-wrapper__content__textarea.data-v-ea272749 {
+  padding: 0 32rpx 32rpx;
+}
+.orderDetail_ui
+  .cancel-dialog-wrapper__content__textarea__count.data-v-ea272749 {
+  color: gray;
+  font-size: 24rpx;
+  text-align: right;
+}
+.orderDetail_ui .cancel-dialog-wrapper__footer.data-v-ea272749 {
+  background-color: #fff;
+  bottom: 0;
+  height: 212rpx;
+  padding-bottom: calc(env(safe-area-inset-bottom) + 24rpx);
+  position: absolute;
+  width: 100%;
+  z-index: 110;
+}
+.orderDetail_ui .cancel-dialog-wrapper__footer__btn.data-v-ea272749 {
+  margin: 24rpx 32rpx;
+}
+.orderDetail_ui .otherReasons.data-v-ea272749 {
+  border-top: 1rpx solid #eee;
+  font-size: 28rpx;
+  height: 192rpx;
+  padding-top: 32rpx;
+  width: 100%;
+}
+.orderDetail_ui .otherReasonsPlaceholder.data-v-ea272749 {
+  color: #ccc;
+  font-size: 28rpx;
+}

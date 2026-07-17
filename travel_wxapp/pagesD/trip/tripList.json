@@ -1,0 +1,13 @@
+{
+  "enablePullDownRefresh": true,
+  "navigationBarTitleText": "全部行程",
+  "navigationStyle": "custom",
+  "onReachBottomDistance": 50,
+  "usingComponents": {
+    "coustom-head": "../../components/coustomHead",
+    "empty": "../../components/empty",
+    "float-button-kf": "/components/new/FloatButtonKf",
+    "my-trip-page": "../components/myTrip",
+    "switch-bar": "../../components/switchBar"
+  }
+}

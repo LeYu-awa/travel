@@ -1,0 +1,143 @@
+.line-clamp-1.data-v-1b3f426b {
+  line-clamp: 1;
+}
+.line-clamp-1.data-v-1b3f426b,
+.line-clamp-2.data-v-1b3f426b {
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  overflow: hidden;
+  white-space: normal;
+}
+.line-clamp-2.data-v-1b3f426b {
+  line-clamp: 2;
+}
+.line-clamp-3.data-v-1b3f426b {
+  line-clamp: 3;
+}
+.line-clamp-3.data-v-1b3f426b,
+.line-clamp-4.data-v-1b3f426b {
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  overflow: hidden;
+  white-space: normal;
+}
+.line-clamp-4.data-v-1b3f426b {
+  line-clamp: 4;
+}
+.line-clamp-5.data-v-1b3f426b {
+  line-clamp: 5;
+}
+.line-clamp-5.data-v-1b3f426b,
+.line-clamp-6.data-v-1b3f426b {
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  overflow: hidden;
+  white-space: normal;
+}
+.line-clamp-6.data-v-1b3f426b {
+  line-clamp: 6;
+}
+.line-clamp-7.data-v-1b3f426b {
+  line-clamp: 7;
+}
+.line-clamp-7.data-v-1b3f426b,
+.line-clamp-8.data-v-1b3f426b {
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  overflow: hidden;
+  white-space: normal;
+}
+.line-clamp-8.data-v-1b3f426b {
+  line-clamp: 8;
+}
+.line-clamp-9.data-v-1b3f426b {
+  -webkit-box-orient: vertical;
+  line-clamp: 9;
+  display: -webkit-box;
+  overflow: hidden;
+  white-space: normal;
+}
+.ui_authSucceed.data-v-1b3f426b {
+  background: #f8f8f8;
+  min-height: 100vh;
+}
+.ui_authSucceed .topBox.data-v-1b3f426b {
+  background: #fff;
+  position: relative;
+}
+.ui_authSucceed .topBox .tipBox.data-v-1b3f426b {
+  align-items: center;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.ui_authSucceed .topBox .tipBox .iconfont.data-v-1b3f426b {
+  font-size: 240rpx;
+}
+.ui_authSucceed .topBox .tipBox .tips.data-v-1b3f426b {
+  color: #000;
+  font-size: 36rpx;
+  font-weight: 700;
+  margin-top: 60rpx;
+}
+.ui_authSucceed .topBox .tipBox .subTips.data-v-1b3f426b {
+  color: gray;
+  font-size: 28rpx;
+  margin-top: 20rpx;
+}
+.ui_authSucceed .topBox .authBg.data-v-1b3f426b {
+  height: 750rpx;
+  width: 100%;
+}
+.ui_authSucceed .bottomBox.data-v-1b3f426b {
+  padding: 32rpx;
+}
+.ui_authSucceed .bottomBox .innerBox.data-v-1b3f426b {
+  background: #fff;
+  border-radius: 8rpx;
+  margin-bottom: 32rpx;
+}
+.ui_authSucceed .bottomBox .innerBox .topArea.data-v-1b3f426b {
+  align-items: center;
+  border-bottom: 1px solid #eee;
+  color: #000;
+  display: flex;
+  font-size: 28rpx;
+  font-weight: 700;
+  height: 92rpx;
+  padding: 0 24rpx;
+}
+.ui_authSucceed .bottomBox .innerBox .bottomArea.data-v-1b3f426b {
+  padding: 24rpx;
+}
+.ui_authSucceed .bottomBox .innerBox .bottomArea .row.data-v-1b3f426b {
+  align-items: center;
+  display: flex;
+  height: 60rpx;
+  justify-content: space-between;
+}
+.ui_authSucceed .bottomBox .innerBox .bottomArea .row .title.data-v-1b3f426b {
+  color: gray;
+  font-size: 28rpx;
+}
+.ui_authSucceed .bottomBox .innerBox .bottomArea .row .desc.data-v-1b3f426b {
+  color: #000;
+  font-size: 28rpx;
+}
+.ui_authSucceed .back.data-v-1b3f426b {
+  background-color: #000;
+  background-image: url(https://dsplatweb.oss-cn-chengdu.aliyuncs.com/songzan/images/btnBlack.png);
+  background-repeat: repeat;
+  background-size: 80rpx 75rpx;
+  border-radius: 8rpx;
+  color: #fff;
+  font-size: 32rpx;
+  height: 96rpx;
+  line-height: 96rpx;
+  text-align: center;
+  width: 100%;
+}

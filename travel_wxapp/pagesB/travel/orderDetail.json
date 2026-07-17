@@ -1,0 +1,13 @@
+{
+  "navigationBarTitleText": "订单详情",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "collapse": "../../components/collapse",
+    "coustom-head": "../../components/coustomHead",
+    "exchange-dialog": "../../components/exchangeDialog",
+    "float-button-kf": "/components/new/FloatButtonKf",
+    "kf-dialog": "../../components/kfDialog",
+    "order-cancel-dialog": "../../components/new/OrderCancelDialog",
+    "st-button": "../../components/new/StButton"
+  }
+}

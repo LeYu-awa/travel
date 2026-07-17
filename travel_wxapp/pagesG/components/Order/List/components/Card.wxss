@@ -1,0 +1,46 @@
+.card.data-v-31768aa9 {
+  background: #fff;
+  border-radius: 16rpx;
+  margin-bottom: 24rpx;
+  padding: 32rpx 24rpx;
+}
+.top.data-v-31768aa9 {
+  align-content: center;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 32rpx;
+}
+.service.data-v-31768aa9 {
+  align-items: center;
+  display: flex;
+  margin-bottom: 48rpx;
+}
+.service .icon.data-v-31768aa9 {
+  height: 32rpx;
+  margin-right: 8rpx;
+  width: 32rpx;
+}
+.service .service-name.data-v-31768aa9 {
+  font-size: 32rpx;
+  line-height: 48rpx;
+}
+.body.data-v-31768aa9 {
+  margin-bottom: 48rpx;
+}
+.body.data-v-31768aa9 .label {
+  flex-basis: auto;
+}
+.footer.data-v-31768aa9 {
+  text-align: right;
+}
+.button.data-v-31768aa9 {
+  background: #fff;
+  border-radius: 8rpx;
+  display: inline-block;
+  font-size: 28rpx;
+  line-height: 28rpx;
+  padding: 16rpx 24rpx;
+}
+.button.data-v-31768aa9:after {
+  border-color: #000;
+}

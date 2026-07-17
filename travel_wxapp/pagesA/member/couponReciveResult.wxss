@@ -1,0 +1,132 @@
+.line-clamp-1.data-v-7bfcb4f7 {
+  line-clamp: 1;
+}
+.line-clamp-1.data-v-7bfcb4f7,
+.line-clamp-2.data-v-7bfcb4f7 {
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  overflow: hidden;
+  white-space: normal;
+}
+.line-clamp-2.data-v-7bfcb4f7 {
+  line-clamp: 2;
+}
+.line-clamp-3.data-v-7bfcb4f7 {
+  line-clamp: 3;
+}
+.line-clamp-3.data-v-7bfcb4f7,
+.line-clamp-4.data-v-7bfcb4f7 {
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  overflow: hidden;
+  white-space: normal;
+}
+.line-clamp-4.data-v-7bfcb4f7 {
+  line-clamp: 4;
+}
+.line-clamp-5.data-v-7bfcb4f7 {
+  line-clamp: 5;
+}
+.line-clamp-5.data-v-7bfcb4f7,
+.line-clamp-6.data-v-7bfcb4f7 {
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  overflow: hidden;
+  white-space: normal;
+}
+.line-clamp-6.data-v-7bfcb4f7 {
+  line-clamp: 6;
+}
+.line-clamp-7.data-v-7bfcb4f7 {
+  line-clamp: 7;
+}
+.line-clamp-7.data-v-7bfcb4f7,
+.line-clamp-8.data-v-7bfcb4f7 {
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  overflow: hidden;
+  white-space: normal;
+}
+.line-clamp-8.data-v-7bfcb4f7 {
+  line-clamp: 8;
+}
+.line-clamp-9.data-v-7bfcb4f7 {
+  -webkit-box-orient: vertical;
+  line-clamp: 9;
+  display: -webkit-box;
+  overflow: hidden;
+  white-space: normal;
+}
+.ui_couponReciveResult.data-v-7bfcb4f7 {
+  background: #fff;
+  min-height: 100vh;
+}
+.ui_couponReciveResult .topBox.data-v-7bfcb4f7 {
+  background: #fff;
+  position: relative;
+}
+.ui_couponReciveResult .topBox .tipBox.data-v-7bfcb4f7 {
+  align-items: center;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.ui_couponReciveResult .topBox .tipBox .iconfont.data-v-7bfcb4f7 {
+  font-size: 240rpx;
+}
+.ui_couponReciveResult .topBox .tipBox .tips.data-v-7bfcb4f7 {
+  color: #000;
+  font-size: 36rpx;
+  font-weight: 700;
+  margin-top: 60rpx;
+}
+.ui_couponReciveResult .topBox .tipBox .subTips.data-v-7bfcb4f7 {
+  color: gray;
+  font-size: 28rpx;
+  margin-top: 20rpx;
+}
+.ui_couponReciveResult .topBox .tipBox .back.data-v-7bfcb4f7 {
+  background-color: #000;
+  background-image: url(https://dsplatweb.oss-cn-chengdu.aliyuncs.com/songzan/images/btnBlack.png);
+  background-repeat: repeat;
+  background-size: 80rpx 75rpx;
+  border-radius: 8rpx;
+  color: #fff;
+  height: 96rpx;
+  line-height: 96rpx;
+  margin: 60rpx auto 0;
+  text-align: center;
+  width: calc(100vw - 60rpx);
+}
+.ui_couponReciveResult .topBox .tipBox .back2.data-v-7bfcb4f7 {
+  border-radius: 8rpx;
+  color: #000;
+  font-size: 32rpx;
+  height: 96rpx;
+  line-height: 96rpx;
+  margin-top: 24rpx;
+  position: relative;
+  text-align: center;
+  width: calc(100vw - 60rpx);
+}
+.ui_couponReciveResult .topBox .tipBox .back2.data-v-7bfcb4f7:after {
+  border: 1px solid #000;
+  border-radius: 16rpx;
+  content: "";
+  height: 200%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  transform: scale(0.5);
+  transform-origin: 0 0;
+  width: 200%;
+}
+.ui_couponReciveResult .topBox .authBg.data-v-7bfcb4f7 {
+  height: 750rpx;
+  pointer-events: none;
+  width: 100%;
+}

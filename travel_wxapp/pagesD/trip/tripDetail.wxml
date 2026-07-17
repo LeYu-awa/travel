@@ -1,0 +1,226 @@
+<view class="tripDetail_ui data-v-af9c5e6e">
+    <coustom-head bind:__l="__l" class="data-v-af9c5e6e" uI="af9c5e6e-0" uP="{{a}}" wx:if="{{a}}"></coustom-head>
+    <view class="header data-v-af9c5e6e">
+        <view class="welcome data-v-af9c5e6e">欢迎来到</view>
+        <view class="name data-v-af9c5e6e">{{b}}</view>
+        <view class="time data-v-af9c5e6e">{{c}}</view>
+        <image class="bg data-v-af9c5e6e" mode="aspectFill" src="{{d}}"></image>
+    </view>
+    <view class="nav-warp data-v-af9c5e6e" wx:if="{{e}}">
+        <trip-nav bind:__l="__l" bindfinish="{{g}}" class="r data-v-af9c5e6e" uI="af9c5e6e-1" uP="{{h}}" uR="tripNavRef" wx:if="{{h}}"></trip-nav>
+    </view>
+    <view class="data-v-af9c5e6e" style="height:20px" wx:if="{{i}}"></view>
+    <image alt="" class="loadingImg data-v-af9c5e6e" mode="widthFix" src="https://dsplatweb.oss-cn-chengdu.aliyuncs.com/songzan/images/skeleton/travel.jpg" wx:if="{{j}}"></image>
+    <block wx:else>
+        <view bindtap="{{l}}" class="title data-v-af9c5e6e" wx:if="{{k}}"> 行程酒店<view class="iconfont icon-a-16_youlajiantou_hei data-v-af9c5e6e"></view>
+        </view>
+        <view class="room-box data-v-af9c5e6e" wx:if="{{m}}">
+            <swiper-box bind:__l="__l" class="data-v-af9c5e6e" uI="af9c5e6e-2" uP="{{o}}" uS="{{['item']}}" wx:if="{{o}}">
+                <view slot="{{v0.i}}" wx:for="{{n}}" wx:for-item="v0" wx:key="h">
+                    <view class="room-item data-v-af9c5e6e">
+                        <view bindtap="{{v0.g}}" class="room data-v-af9c5e6e">
+                            <view class="left-part data-v-af9c5e6e">
+                                <image class="img data-v-af9c5e6e" src="{{v0.a}}"></image>
+                            </view>
+                            <view class="right-part data-v-af9c5e6e">
+                                <view class="info data-v-af9c5e6e">
+                                    <view class="time data-v-af9c5e6e">{{v0.b}}入住 - {{v0.c}}退房 </view>
+                                    <view class="name data-v-af9c5e6e">{{v0.d}}</view>
+                                    <view class="desc data-v-af9c5e6e">{{v0.e}}</view>
+                                </view>
+                                <view catchtap="{{v0.f}}" class="iconfont icon-a-28_dianhua data-v-af9c5e6e"></view>
+                            </view>
+                        </view>
+                    </view>
+                </view>
+            </swiper-box>
+        </view>
+        <view class="title data-v-af9c5e6e" id="trip-detail">每日行程</view>
+        <view class="routes-list data-v-af9c5e6e" wx:if="{{p}}">
+            <view class="routes data-v-af9c5e6e">
+                <view bindtap="{{r}}" class="{{['route','all-route','data-v-af9c5e6e',q&&'active']}}">
+                    <view class="all-txt data-v-af9c5e6e">总览</view>
+                </view>
+                <view bindtap="{{item.g}}" class="{{['route','data-v-af9c5e6e',item.f&&'active']}}" wx:for="{{s}}" wx:key="e">
+                    <view class="label data-v-af9c5e6e">{{item.a}}</view>
+                    <view class="val data-v-af9c5e6e">
+                        <block wx:if="{{item.b}}">各地 - </block>{{item.c}}<block wx:if="{{item.d}}"> - 各地</block>
+                    </view>
+                </view>
+            </view>
+        </view>
+        <view class="journey-form data-v-af9c5e6e" wx:if="{{t}}">
+            <view class="journey-hd data-v-af9c5e6e">
+                <view class="iconfont icon-a-20_jiesonganpai data-v-af9c5e6e"></view> 抵达接站安排 </view>
+            <view class="info data-v-af9c5e6e">
+                <view class="info-lf data-v-af9c5e6e">本行程包含接送服务，请尽快录入航班/列车信息</view>
+                <view bindtap="{{v}}" class="btn baseBtn data-v-af9c5e6e">填接送信息</view>
+            </view>
+        </view>
+        <block wx:else>
+            <view class="pick-up data-v-af9c5e6e" wx:if="{{item.a}}" wx:for="{{w}}" wx:key="z">
+                <view class="pick-up-tl data-v-af9c5e6e">
+                    <view class="iconfont icon-a-20_jiesonganpai data-v-af9c5e6e"></view>抵达接站安排<block wx:if="{{item.b}}">{{item.c}}</block>
+                </view>
+                <view class="pick-up-info data-v-af9c5e6e" wx:if="{{item.d}}">
+                    <view class="left-part data-v-af9c5e6e">
+                        <view class="pick-up-label data-v-af9c5e6e">接送车辆</view>
+                        <view class="pick-up-keynote data-v-af9c5e6e">{{item.e}}</view>
+                        <view class="pick-up-desc data-v-af9c5e6e" wx:if="{{item.f}}">{{item.g}}</view>
+                    </view>
+                    <view class="right-part data-v-af9c5e6e">
+                        <view class="pick-up-label data-v-af9c5e6e">约定时间地点</view>
+                        <view class="pick-up-keynote data-v-af9c5e6e">{{item.h}}{{item.i}}</view>
+                        <view class="pick-up-desc data-v-af9c5e6e" wx:if="{{item.j}}">{{item.k}}</view>
+                    </view>
+                </view>
+                <view class="pick-up-info data-v-af9c5e6e" wx:else>
+                    <view class="no-carNo data-v-af9c5e6e">接送车辆及时间地点待安排</view>
+                </view>
+                <view class="pick-up-info-list data-v-af9c5e6e">
+                    <view class="pick-up-item data-v-af9c5e6e">
+                        <view class="pick-up-item-label data-v-af9c5e6e">需接送人</view>
+                        <view class="pick-up-item-val data-v-af9c5e6e">
+                            <view class="guest data-v-af9c5e6e" wx:for="{{item.l}}" wx:for-item="guest" wx:key="b">{{guest.a}}</view>
+                        </view>
+                    </view>
+                    <view class="pick-up-item data-v-af9c5e6e">
+                        <view class="pick-up-item-label data-v-af9c5e6e">抵达方式</view>
+                        <view class="pick-up-item-val data-v-af9c5e6e">{{item.m}} {{item.n}}</view>
+                    </view>
+                    <view class="pick-up-item data-v-af9c5e6e" wx:if="{{item.o}}">
+                        <view class="pick-up-item-label data-v-af9c5e6e">联系人</view>
+                        <view class="pick-up-item-val pick-up-item-phone-val data-v-af9c5e6e" wx:if="{{item.p}}">
+                            <view class="houseKeepInfo data-v-af9c5e6e">{{item.q}} {{item.r}} <view bindtap="{{item.s}}" class="iconfont icon-a-12_fuzhi data-v-af9c5e6e"></view>
+                            </view>
+                            <view bindtap="{{item.t}}" class="iconfont icon-a-28_dianhua data-v-af9c5e6e"></view>
+                        </view>
+                        <view class="pick-up-item-val pick-up-item-phone-val data-v-af9c5e6e" wx:else>
+                            <view class="houseKeepInfo data-v-af9c5e6e">{{item.v}} {{item.w}} <view bindtap="{{item.x}}" class="iconfont icon-a-12_fuzhi data-v-af9c5e6e"></view>
+                            </view>
+                            <view bindtap="{{item.y}}" class="iconfont icon-a-28_dianhua data-v-af9c5e6e"></view>
+                        </view>
+                    </view>
+                </view>
+            </view>
+        </block>
+        <view class="data-v-af9c5e6e">
+            <view class="tips data-v-af9c5e6e" wx:if="{{x}}">
+                <view class="iconfont icon-a-12_tishi data-v-af9c5e6e"></view>如需修改接送信息，请联系您的顾问或管家。 </view>
+        </view>
+        <view class="trip-date data-v-af9c5e6e" wx:if="{{y}}">
+            <view bindtap="{{item.l}}" class="trip-date-item data-v-af9c5e6e" wx:for="{{z}}" wx:key="k">
+                <view class="left-part data-v-af9c5e6e">
+                    <view class="left-part-box data-v-af9c5e6e">
+                        <view class="moon data-v-af9c5e6e">{{item.a}}月</view>
+                        <view class="day data-v-af9c5e6e">{{item.b}}</view>
+                    </view>
+                </view>
+                <view class="right-part data-v-af9c5e6e">
+                    <view class="head data-v-af9c5e6e">
+                        <block wx:if="{{item.c}}">各地 > </block>
+                        <block wx:elif="{{item.d}}">{{item.e}} > </block>{{item.f}}<block wx:if="{{item.g}}"> > 各地</block>
+                    </view>
+                    <view class="center data-v-af9c5e6e" wx:if="{{item.h}}"> 入住{{item.i}}</view>
+                    <view class="footer data-v-af9c5e6e">{{item.j}}</view>
+                </view>
+            </view>
+        </view>
+        <view class="trip-detail data-v-af9c5e6e" wx:else>
+            <view class="trip-detail-item data-v-af9c5e6e" wx:for="{{A}}" wx:key="f">
+                <view class="trip-detail-time data-v-af9c5e6e" wx:if="{{time.a}}" wx:for="{{item.a}}" wx:for-item="time" wx:key="d">
+                    <view class="{{['data-v-af9c5e6e',time.b]}}"></view>{{time.c}}</view>
+                <view class="trip-detail-info data-v-af9c5e6e">
+                    <view class="iconfont icon-a-20_hangchengleixing_jingdian data-v-af9c5e6e"></view>
+                    <view bindtap="{{item.e}}" class="rt-part data-v-af9c5e6e">
+                        <view class="rt-part-info data-v-af9c5e6e">
+                            <view class="activeName data-v-af9c5e6e">{{item.b}}</view>
+                            <view class="activeTime data-v-af9c5e6e">约 {{item.c}}</view>
+                        </view>
+                        <view class="bg data-v-af9c5e6e"></view>
+                        <image class="active-img data-v-af9c5e6e" mode="aspectFill" src="{{item.d}}"></image>
+                    </view>
+                </view>
+            </view>
+        </view>
+        <view class="journey-form data-v-af9c5e6e" wx:if="{{B}}">
+            <view class="journey-hd data-v-af9c5e6e">
+                <view class="iconfont icon-a-20_jiesonganpai data-v-af9c5e6e"></view> 返程送站安排 </view>
+            <view class="info data-v-af9c5e6e">
+                <view class="info-lf data-v-af9c5e6e">本行程包含接送服务，请尽快录入航班/列车信息</view>
+                <view bindtap="{{C}}" class="btn baseBtn data-v-af9c5e6e">填接送信息</view>
+            </view>
+        </view>
+        <block wx:else>
+            <view class="pick-up data-v-af9c5e6e" wx:if="{{item.a}}" wx:for="{{D}}" wx:key="z">
+                <view class="pick-up-tl data-v-af9c5e6e">
+                    <view class="iconfont icon-a-20_jiesonganpai data-v-af9c5e6e"></view>返程送站安排<block wx:if="{{item.b}}">{{item.c}}</block>
+                </view>
+                <view class="pick-up-info data-v-af9c5e6e" wx:if="{{item.d}}">
+                    <view class="left-part data-v-af9c5e6e">
+                        <view class="pick-up-label data-v-af9c5e6e">接送车辆</view>
+                        <view class="pick-up-keynote data-v-af9c5e6e">{{item.e}}</view>
+                        <view class="pick-up-desc data-v-af9c5e6e" wx:if="{{item.f}}">{{item.g}}</view>
+                    </view>
+                    <view class="right-part data-v-af9c5e6e">
+                        <view class="pick-up-label data-v-af9c5e6e">约定时间地点</view>
+                        <view class="pick-up-keynote data-v-af9c5e6e">{{item.h}}{{item.i}}</view>
+                        <view class="pick-up-desc data-v-af9c5e6e" wx:if="{{item.j}}">{{item.k}}</view>
+                    </view>
+                </view>
+                <view class="pick-up-info data-v-af9c5e6e" wx:else>
+                    <view class="no-carNo data-v-af9c5e6e">接送车辆及时间地点待安排</view>
+                </view>
+                <view class="pick-up-info-list data-v-af9c5e6e">
+                    <view class="pick-up-item data-v-af9c5e6e">
+                        <view class="pick-up-item-label data-v-af9c5e6e">需接送人</view>
+                        <view class="pick-up-item-val data-v-af9c5e6e">
+                            <view class="guest data-v-af9c5e6e" wx:for="{{item.l}}" wx:for-item="guest" wx:key="b">{{guest.a}}</view>
+                        </view>
+                    </view>
+                    <view class="pick-up-item data-v-af9c5e6e">
+                        <view class="pick-up-item-label data-v-af9c5e6e">抵达方式</view>
+                        <view class="pick-up-item-val data-v-af9c5e6e">{{item.m}} {{item.n}}</view>
+                    </view>
+                    <view class="pick-up-item data-v-af9c5e6e" wx:if="{{item.o}}">
+                        <view class="pick-up-item-label data-v-af9c5e6e">联系人</view>
+                        <view class="pick-up-item-val pick-up-item-phone-val data-v-af9c5e6e" wx:if="{{item.p}}">
+                            <view class="houseKeepInfo data-v-af9c5e6e">{{item.q}} {{item.r}} <view bindtap="{{item.s}}" class="iconfont icon-a-12_fuzhi data-v-af9c5e6e"></view>
+                            </view>
+                            <view bindtap="{{item.t}}" class="iconfont icon-a-28_dianhua data-v-af9c5e6e"></view>
+                        </view>
+                        <view class="pick-up-item-val pick-up-item-phone-val data-v-af9c5e6e" wx:else>
+                            <view class="houseKeepInfo data-v-af9c5e6e">{{item.v}} {{item.w}} <view bindtap="{{item.x}}" class="iconfont icon-a-12_fuzhi data-v-af9c5e6e"></view>
+                            </view>
+                            <view bindtap="{{item.y}}" class="iconfont icon-a-28_dianhua data-v-af9c5e6e"></view>
+                        </view>
+                    </view>
+                </view>
+            </view>
+        </block>
+        <view class="album data-v-af9c5e6e" wx:if="{{E}}">
+            <view bindtap="{{F}}" class="album-head data-v-af9c5e6e">
+                <view class="album-tl data-v-af9c5e6e"> 松赞相册 <view class="iconfont icon-a-16_youlajiantou_hei data-v-af9c5e6e"></view>
+                </view>
+                <view class="desc data-v-af9c5e6e">您可以将相册中的照片进行下载分享</view>
+            </view>
+            <view class="album-list data-v-af9c5e6e">
+                <image bindtap="{{item.c}}" class="img data-v-af9c5e6e" src="{{item.b}}" wx:for="{{G}}" wx:key="a"></image>
+            </view>
+        </view>
+    </block>
+    <bottom-dialog bind:__l="__l" class="r data-v-af9c5e6e" uI="af9c5e6e-3" uP="{{M}}" uR="album" uS="{{['d']}}" wx:if="{{M}}">
+        <view class="albumDetail data-v-af9c5e6e">
+            <view class="album-title data-v-af9c5e6e">{{H}}</view>
+            <view class="moreText data-v-af9c5e6e" wx:if="{{I}}">
+                <more-text bind:__l="__l" class="data-v-af9c5e6e" uI="af9c5e6e-4,af9c5e6e-3" uP="{{J}}" wx:if="{{J}}"></more-text>
+            </view>
+            <view class="img-list data-v-af9c5e6e">
+                <view class="img-item data-v-af9c5e6e" wx:for="{{K}}" wx:key="b">
+                    <image class="album-item data-v-af9c5e6e" mode="aspectFill" src="{{item.a}}"></image>
+                </view>
+            </view>
+        </view>
+    </bottom-dialog>
+    <v-preview-image bind:__l="__l" class="r data-v-af9c5e6e" uI="af9c5e6e-5" uP="{{O}}" uR="previewImageBox" wx:if="{{O}}"></v-preview-image>
+</view>

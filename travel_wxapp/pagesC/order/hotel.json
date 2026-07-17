@@ -1,0 +1,20 @@
+{
+  "navigationBarTitleText": "酒店详情",
+  "navigationStyle": "custom",
+  "onReachBottomDistance": 30,
+  "usingComponents": {
+    "back-to-top": "../../components/backToTop",
+    "bottom-dialog": "../../components/bottomDialog",
+    "calendar": "../../components/calendar",
+    "coustom-head": "../../components/coustomHead",
+    "daily-price": "../components/dailyPrice",
+    "empty": "../../components/empty",
+    "error-limiting": "../../components/new/ErrorLimiting",
+    "float-button-kf": "/components/new/FloatButtonKf",
+    "kf-dialog": "../../components/kfDialog",
+    "mp-html": "../../uni_modules/mp-html/components/mp-html/mp-html",
+    "product-card-list": "../../components/new/ProductCardList",
+    "room-list": "../../components/roomList",
+    "swiper-box": "../../components/swiperBox"
+  }
+}

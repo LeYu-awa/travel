@@ -1,0 +1,8 @@
+<view class="tabs">
+    <view class="tabs_inner" wx:if="{{a}}">
+        <view class="tabs_inner_box" wx:if="{{b}}"></view>
+    </view>
+    <view class="{{['tabs_warp',f&&'fixed']}}" style="{{'top:'+g}}">
+        <line-tabs bind:__l="__l" bindclickTab="{{d}}" uI="55fad92a-0" uP="{{e}}" wx:if="{{c}}"></line-tabs>
+    </view>
+</view>

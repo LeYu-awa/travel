@@ -1,0 +1,6 @@
+<view class="card data-v-6b4f02e0">
+    <view class="head data-v-6b4f02e0">{{a}}</view>
+    <view class="body data-v-6b4f02e0">
+        <slot></slot>
+    </view>
+</view>

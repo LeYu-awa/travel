@@ -1,0 +1,47 @@
+<view class="ui_invoiceDetails data-v-80db6fed">
+    <coustom-head bind:__l="__l" class="data-v-80db6fed" uI="80db6fed-0" uP="{{a}}" wx:if="{{a}}"></coustom-head>
+    <view class="data-v-80db6fed">
+        <view class="status_wrap data-v-80db6fed">
+            <view class="status_left data-v-80db6fed">开票进度</view>
+            <view class="status_right data-v-80db6fed" wx:if="{{b}}">开票中</view>
+            <view class="status_right data-v-80db6fed" wx:if="{{c}}">已开票</view>
+        </view>
+        <view class="list_wrap data-v-80db6fed">
+            <view class="list_title data-v-80db6fed">开票信息</view>
+            <view class="list_item data-v-80db6fed">
+                <view class="item_in data-v-80db6fed">
+                    <view class="item_left data-v-80db6fed">发票类型</view>
+                    <view class="item_right data-v-80db6fed">增值税普通发票</view>
+                </view>
+                <view class="item_in data-v-80db6fed">
+                    <view class="item_left data-v-80db6fed">发票抬头</view>
+                    <view class="item_right data-v-80db6fed">{{d}}</view>
+                </view>
+                <view class="item_in data-v-80db6fed" wx:if="{{e}}">
+                    <view class="item_left data-v-80db6fed">税号</view>
+                    <view class="item_right data-v-80db6fed">{{f}}</view>
+                </view>
+                <view class="item_in data-v-80db6fed">
+                    <view class="item_left data-v-80db6fed">发票形式</view>
+                    <view class="item_right data-v-80db6fed">{{g}}</view>
+                </view>
+                <view class="item_in data-v-80db6fed" wx:if="{{h}}">
+                    <view class="item_left data-v-80db6fed">电子邮箱</view>
+                    <view class="item_right data-v-80db6fed">{{i}}</view>
+                </view>
+                <view class="item_in data-v-80db6fed" wx:if="{{j}}">
+                    <view class="item_left data-v-80db6fed">收件地址</view>
+                    <view class="item_right data-v-80db6fed">
+                        <view class="data-v-80db6fed">{{k}}</view>
+                        <view class="data-v-80db6fed">{{l}} {{m}}****{{n}}</view>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+    <view class="zhanwei data-v-80db6fed"></view>
+    <view bindtap="{{o}}" class="footer data-v-80db6fed">
+        <view class="order-btn data-v-80db6fed">联系客服</view>
+    </view>
+    <kf-dialog bind:__l="__l" class="r data-v-80db6fed" uI="80db6fed-1" uP="{{q}}" uR="kf" wx:if="{{q}}"></kf-dialog>
+</view>

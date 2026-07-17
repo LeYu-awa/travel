@@ -1,0 +1,7 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "borrowing": "./components/Borrowing/index",
+    "float-button-kf": "/components/new/FloatButtonKf"
+  }
+}

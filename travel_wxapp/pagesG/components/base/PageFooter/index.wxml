@@ -1,0 +1,12 @@
+<safe-bottom bind:__l="__l" class="data-v-d7b02759" uI="d7b02759-0" uS="{{['d']}}">
+    <view class="footer data-v-d7b02759">
+        <view bindtap="{{b}}" class="chosen data-v-d7b02759">
+            <view class="chosen-label data-v-d7b02759">已选</view>
+            <view class="data-v-d7b02759">{{a}}</view>
+        </view>
+        <view class="primary data-v-d7b02759">
+            <bottom-btn bind:__l="__l" bindclick="{{d}}" class="data-v-d7b02759" uI="d7b02759-1,d7b02759-0" uP="{{e}}" uS="{{['d']}}" wx:if="{{e}}">{{c}}</bottom-btn>
+        </view>
+    </view>
+    <chosen-dialog bind:__l="__l" bindclose="{{f}}" class="data-v-d7b02759" uI="d7b02759-2,d7b02759-0" uP="{{g}}" wx:if="{{g}}"></chosen-dialog>
+</safe-bottom>

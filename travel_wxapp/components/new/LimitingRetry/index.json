@@ -1,0 +1,8 @@
+{
+  "component": true,
+  "usingComponents": {
+    "error-block": "../ErrorBlock",
+    "float-button-kf": "/components/new/FloatButtonKf",
+    "st-button": "../StButton"
+  }
+}

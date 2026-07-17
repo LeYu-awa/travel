@@ -1,0 +1,17 @@
+<view class="base-picker data-v-4ccc7ea7">
+    <view bindtap="{{c}}" class="data-v-4ccc7ea7">
+        <pick-trigger bind:__l="__l" class="data-v-4ccc7ea7" uI="4ccc7ea7-0" uP="{{b}}" uS="{{['display']}}" wx:if="{{b}}">
+            <label class="display data-v-4ccc7ea7" slot="display">{{a}}</label>
+        </pick-trigger>
+    </view>
+    <bottom-dialog bind:__l="__l" bindopenState="{{f}}" class="data-v-4ccc7ea7" uI="4ccc7ea7-1" uP="{{g}}" uS="{{['d']}}" wx:if="{{g}}">
+        <view class="pop-content data-v-4ccc7ea7">
+            <view class="body data-v-4ccc7ea7">
+                <button bindtap="{{item.c}}" class="row data-v-4ccc7ea7" wx:for="{{d}}" wx:key="b">{{item.a}}</button>
+            </view>
+            <safe-bottom bind:__l="__l" class="data-v-4ccc7ea7" uI="4ccc7ea7-2,4ccc7ea7-1" uS="{{['d']}}">
+                <button bindtap="{{e}}" class="button data-v-4ccc7ea7">取消</button>
+            </safe-bottom>
+        </view>
+    </bottom-dialog>
+</view>

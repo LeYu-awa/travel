@@ -1,0 +1,22 @@
+<bottom-dialog bind:__l="__l" bindopenState="{{h}}" class="intelligence-fill_dialog__wrapper r data-v-a3b3197d" uI="a3b3197d-0" uP="{{i}}" uR="hookIntelFillDialog" uS="{{['d']}}" wx:if="{{i}}">
+    <view class="intelligence-fill_dialog__main data-v-a3b3197d">
+        <view class="tips data-v-a3b3197d">所选目的地车程较长，建议增加途径地中转休息，以获得更舒适的旅行体验。</view>
+        <view class="fill-list__wrapper data-v-a3b3197d">
+            <scroll-view scrollY class="data-v-a3b3197d" style="{{b}}">
+                <view class="list-item__wrapper data-v-a3b3197d">
+                    <view class="list-item data-v-a3b3197d" wx:for="{{a}}" wx:key="c">
+                        <image class="list-item_cover data-v-a3b3197d" src="{{item.a}}"></image>
+                        <view class="list-item_title data-v-a3b3197d">{{item.b}}</view>
+                    </view>
+                </view>
+            </scroll-view>
+        </view>
+    </view>
+    <view class="fixed-placeholder data-v-a3b3197d"></view>
+    <fixed-bottom-view bind:__l="__l" class="data-v-a3b3197d" uI="a3b3197d-1,a3b3197d-0" uP="{{f}}" uS="{{['d']}}" wx:if="{{f}}">
+        <view class="footer-right_btn data-v-a3b3197d">
+            <view bindtap="{{c}}" class="cancel-btn data-v-a3b3197d">暂不需要</view>
+            <st-button bind:__l="__l" bindclick="{{d}}" class="fill-btn data-v-a3b3197d" uI="a3b3197d-2,a3b3197d-1" uP="{{e}}" uS="{{['d']}}" wx:if="{{e}}">为我填充</st-button>
+        </view>
+    </fixed-bottom-view>
+</bottom-dialog>

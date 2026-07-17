@@ -1,0 +1,15 @@
+{
+  "navigationBarTitleText": "确认订单",
+  "navigationStyle": "custom",
+  "onReachBottomDistance": 30,
+  "usingComponents": {
+    "bottom-dialog": "../../components/bottomDialog",
+    "coupon-item": "../../components/couponItem",
+    "coustom-head": "../../components/coustomHead",
+    "customer-retention-dialog": "../../components/new/CustomerRetentionDialog",
+    "empty": "../../components/empty",
+    "float-button-kf": "/components/new/FloatButtonKf",
+    "mp-html": "../../uni_modules/mp-html/components/mp-html/mp-html",
+    "retry-modal": "../../components/RetryModal"
+  }
+}

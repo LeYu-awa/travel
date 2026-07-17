@@ -1,0 +1,554 @@
+.line-clamp-1.data-v-26fa2152 {
+  line-clamp: 1;
+}
+.line-clamp-1.data-v-26fa2152,
+.line-clamp-2.data-v-26fa2152 {
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  overflow: hidden;
+  white-space: normal;
+}
+.line-clamp-2.data-v-26fa2152 {
+  line-clamp: 2;
+}
+.line-clamp-3.data-v-26fa2152 {
+  line-clamp: 3;
+}
+.line-clamp-3.data-v-26fa2152,
+.line-clamp-4.data-v-26fa2152 {
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  overflow: hidden;
+  white-space: normal;
+}
+.line-clamp-4.data-v-26fa2152 {
+  line-clamp: 4;
+}
+.line-clamp-5.data-v-26fa2152 {
+  line-clamp: 5;
+}
+.line-clamp-5.data-v-26fa2152,
+.line-clamp-6.data-v-26fa2152 {
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  overflow: hidden;
+  white-space: normal;
+}
+.line-clamp-6.data-v-26fa2152 {
+  line-clamp: 6;
+}
+.line-clamp-7.data-v-26fa2152 {
+  line-clamp: 7;
+}
+.line-clamp-7.data-v-26fa2152,
+.line-clamp-8.data-v-26fa2152 {
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  overflow: hidden;
+  white-space: normal;
+}
+.line-clamp-8.data-v-26fa2152 {
+  line-clamp: 8;
+}
+.line-clamp-9.data-v-26fa2152 {
+  -webkit-box-orient: vertical;
+  line-clamp: 9;
+  display: -webkit-box;
+  overflow: hidden;
+  white-space: normal;
+}
+.receivePrize .paddBox.data-v-26fa2152 {
+  background-color: #f5f5f5;
+  min-height: 100vh;
+  padding: 32rpx;
+}
+.receivePrize .prizeBase.data-v-26fa2152 {
+  background-color: #fff;
+  border-radius: 16rpx;
+  display: flex;
+  margin-bottom: 24rpx;
+  padding: 32rpx 24rpx;
+}
+.receivePrize .prizeBase .prizeImg.data-v-26fa2152 {
+  height: 184rpx;
+  margin-right: 16rpx;
+  width: 244rpx;
+}
+.receivePrize .prizeBase .prizeImg image.data-v-26fa2152,
+.receivePrize .prizeBase .prizeImg img.data-v-26fa2152 {
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+}
+.receivePrize .prizeBase .prizeInfo .prizeName.data-v-26fa2152 {
+  color: #000;
+  font-family: PingFangSC-Medium;
+  font-size: 32rpx;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 48rpx;
+  margin-bottom: 8rpx;
+}
+.receivePrize .prizeBase .prizeInfo .prizeDesc.data-v-26fa2152 {
+  color: gray;
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 24rpx;
+  margin-bottom: 32rpx;
+}
+.receivePrize .prizeBase .prizeInfo .prizeTime.data-v-26fa2152 {
+  color: gray;
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 36rpx;
+}
+.receivePrize .address.data-v-26fa2152 {
+  background-color: #fff;
+  border-radius: 16rpx;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 32rpx;
+  padding: 24rpx;
+}
+.receivePrize .address .row.data-v-26fa2152 {
+  align-items: flex-start;
+  display: flex;
+  margin-bottom: 16rpx;
+  min-height: 36rpx;
+}
+.receivePrize .address .row.data-v-26fa2152:last-of-type {
+  margin-bottom: 0;
+}
+.receivePrize .address .row .icon.data-v-26fa2152 {
+  background: #a43127;
+  background-color: rgba(164, 49, 39, 0.12);
+  border-radius: 50%;
+  color: #a43127;
+  font-family: PingFangSC-Regular;
+  font-size: 20rpx;
+  font-weight: 400;
+  height: 32rpx;
+  letter-spacing: 0;
+  line-height: 32rpx;
+  margin-right: 24rpx;
+  text-align: center;
+  width: 32rpx;
+}
+.receivePrize .address .row .icon.shou.data-v-26fa2152 {
+  margin-left: -4rpx;
+}
+.receivePrize .address .addressTitle.data-v-26fa2152 {
+  color: #000;
+  font-family: PingFangSC-Regular;
+  font-size: 28rpx;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 28rpx;
+  margin-right: 100rpx;
+  width: 116rpx;
+}
+.receivePrize .address .addressTitle.addressInfo.data-v-26fa2152 {
+  color: #000;
+  font-family: PingFangSC-Medium;
+  font-size: 32rpx;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 32rpx;
+  margin-bottom: 16rpx;
+  width: calc(100% - 80rpx);
+}
+.receivePrize .address .selectAdd.data-v-26fa2152 {
+  align-items: flex-start;
+  background-color: #fff;
+  color: #999;
+  color: #000;
+  display: flex;
+  font-family: PingFangSC-Regular;
+  font-size: 28rpx;
+  font-weight: 400;
+  justify-content: space-between;
+  letter-spacing: 0;
+  line-height: 36rpx;
+  width: calc(100% - 220rpx);
+}
+.receivePrize .address .selectAdd .icons.data-v-26fa2152 {
+  color: #000;
+  font-family: PingFangSC-Regular;
+  font-size: 28rpx;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 28rpx;
+}
+.receivePrize .address .selectAdd .desc.data-v-26fa2152 {
+  color: #999;
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 36rpx;
+}
+.receivePrize .address .selectAdd.addressInfo.data-v-26fa2152 {
+  flex-direction: column;
+  width: calc(100% - 80rpx);
+}
+.receivePrize .tip.data-v-26fa2152 {
+  color: gray;
+  text-align: justify;
+}
+.receivePrize .tip .kefu.data-v-26fa2152,
+.receivePrize .tip.data-v-26fa2152 {
+  font-family: PingFangSC-Regular;
+  font-size: 28rpx;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 28rpx;
+}
+.receivePrize .tip .kefu.data-v-26fa2152 {
+  color: #000;
+}
+.receivePrize .btn.data-v-26fa2152 {
+  background: rgba(0, 0, 0, 0.9);
+  border-radius: 8rpx;
+  color: #fff;
+  font-family: PingFangSC-Regular;
+  font-size: 32rpx;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 96rpx;
+  margin: 152rpx auto 0;
+  text-align: center;
+}
+.receivePrize .btn.noClick.data-v-26fa2152 {
+  background: hsla(0, 0%, 93%, 0.9);
+  border-radius: 8rpx;
+  color: #ccc;
+  margin-top: 64rpx;
+}
+.receivePrize .addRessList.data-v-26fa2152 {
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+}
+.receivePrize .logisticsBox.data-v-26fa2152 {
+  background: #fff;
+  border-radius: 8rpx;
+  margin-bottom: 32rpx;
+  padding: 32rpx 24rpx;
+}
+.receivePrize .logisticsBox .logisticsName.data-v-26fa2152 {
+  align-items: center;
+  color: gray;
+  display: flex;
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 24rpx;
+  margin-bottom: 48rpx;
+}
+.receivePrize .logisticsBox .logisticsName .logisticsImg.data-v-26fa2152 {
+  display: inline-block;
+  height: 32rpx;
+  margin-right: 24rpx;
+  width: 32rpx;
+}
+.receivePrize
+  .logisticsBox
+  .logisticsList
+  .logisticsInfo
+  .logisticsTitle.data-v-26fa2152 {
+  align-items: center;
+  display: flex;
+  margin-bottom: 14rpx;
+}
+.receivePrize
+  .logisticsBox
+  .logisticsList
+  .logisticsInfo
+  .logisticsTitle
+  .yuan.data-v-26fa2152 {
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  height: 24rpx;
+  margin-right: 24rpx;
+  width: 24rpx;
+}
+.receivePrize
+  .logisticsBox
+  .logisticsList
+  .logisticsInfo
+  .logisticsTitle
+  .title.data-v-26fa2152 {
+  color: #ccc;
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 36rpx;
+}
+.receivePrize
+  .logisticsBox
+  .logisticsList
+  .logisticsInfo
+  .logisticsTitle
+  .title
+  .city.data-v-26fa2152 {
+  color: #ccc;
+  font-family: PingFangSC-Medium;
+  font-size: 32rpx;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 32rpx;
+  margin-right: 16rpx;
+}
+.receivePrize
+  .logisticsBox
+  .logisticsList
+  .logisticsInfo
+  .logisticsTitle
+  .title
+  .time.data-v-26fa2152 {
+  color: #ccc;
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 24rpx;
+}
+.receivePrize
+  .logisticsBox
+  .logisticsList
+  .logisticsInfo
+  .logisticsContent.data-v-26fa2152 {
+  border-left: 1px solid #ccc;
+  color: #ccc;
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 36rpx;
+  margin-bottom: 14rpx;
+  margin-left: 10rpx;
+  padding-left: 32rpx;
+  width: calc(100% - 10rpx);
+}
+.receivePrize
+  .logisticsBox
+  .logisticsList
+  .logisticsInfo:last-of-type
+  .logisticsTitle
+  .yuan.data-v-26fa2152 {
+  background-color: #a43127;
+}
+.receivePrize
+  .logisticsBox
+  .logisticsList
+  .logisticsInfo:last-of-type
+  .logisticsTitle
+  .city.data-v-26fa2152,
+.receivePrize
+  .logisticsBox
+  .logisticsList
+  .logisticsInfo:last-of-type
+  .logisticsTitle
+  .time.data-v-26fa2152 {
+  color: #a43127;
+}
+.receivePrize
+  .logisticsBox
+  .logisticsList
+  .logisticsInfo:last-of-type
+  .logisticsContent.data-v-26fa2152 {
+  border-left: 1px dashed #a43127;
+  color: gray;
+}
+.receivePrize
+  .logisticsBox
+  .logisticsList
+  .logisticsInfo
+  .logisticsLeft.data-v-26fa2152 {
+  margin-right: 24rpx;
+  padding-top: 6rpx;
+}
+.receivePrize
+  .logisticsBox
+  .logisticsList
+  .logisticsInfo
+  .logisticsLeft
+  .yuan.data-v-26fa2152 {
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  height: 24rpx;
+  width: 24rpx;
+}
+.receivePrize
+  .logisticsBox
+  .logisticsList
+  .logisticsInfo
+  .logisticsLeft
+  .line.data-v-26fa2152 {
+  background-color: #ccc;
+  height: auto;
+  width: 1px;
+}
+.receivePrize
+  .logisticsBox
+  .logisticsList
+  .logisticsInfo
+  .logisticsRight
+  .logisticsRightRow.data-v-26fa2152 {
+  color: #ccc;
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 36rpx;
+  margin-bottom: 14rpx;
+}
+.receivePrize
+  .logisticsBox
+  .logisticsList
+  .logisticsInfo
+  .logisticsRight
+  .logisticsRightRow.m22.data-v-26fa2152 {
+  min-height: 84rpx;
+}
+.receivePrize
+  .logisticsBox
+  .logisticsList
+  .logisticsInfo
+  .logisticsRight
+  .logisticsRightRow
+  .line.data-v-26fa2152 {
+  height: 100%;
+  width: 1px;
+}
+.receivePrize
+  .logisticsBox
+  .logisticsList
+  .logisticsInfo
+  .logisticsRight
+  .logisticsRightRow
+  .city.data-v-26fa2152 {
+  color: #ccc;
+  font-family: PingFangSC-Medium;
+  font-size: 32rpx;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 32rpx;
+  margin-right: 16rpx;
+}
+.receivePrize
+  .logisticsBox
+  .logisticsList
+  .logisticsInfo
+  .logisticsRight
+  .logisticsRightRow
+  .time.data-v-26fa2152 {
+  color: #ccc;
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 24rpx;
+}
+.receivePrize
+  .logisticsBox
+  .logisticsList
+  .logisticsInfo
+  .logisticsRight
+  .logisticsRightRow
+  .logisticsRightRowTitle.data-v-26fa2152 {
+  font-size: 32rpx;
+  letter-spacing: 0;
+  line-height: 32rpx;
+}
+.receivePrize .logisticsBox .row.data-v-26fa2152 {
+  align-items: flex-start;
+  display: flex;
+  margin-bottom: 16rpx;
+  min-height: 36rpx;
+}
+.receivePrize .logisticsBox .row.data-v-26fa2152:last-of-type {
+  margin-bottom: 0;
+}
+.receivePrize .logisticsBox .row .icon.data-v-26fa2152 {
+  background: #a43127;
+  background-color: rgba(164, 49, 39, 0.12);
+  border-radius: 50%;
+  color: #a43127;
+  font-family: PingFangSC-Regular;
+  font-size: 20rpx;
+  font-weight: 400;
+  height: 32rpx;
+  letter-spacing: 0;
+  line-height: 20rpx;
+  line-height: 32rpx;
+  margin-right: 24rpx;
+  text-align: center;
+  width: 32rpx;
+}
+.receivePrize .logisticsBox .row .icon.shou.data-v-26fa2152 {
+  margin-left: -4rpx;
+}
+.receivePrize .logisticsBox .row .addressTitle.data-v-26fa2152 {
+  color: #000;
+  font-family: PingFangSC-Regular;
+  font-size: 28rpx;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 28rpx;
+  margin-right: 100rpx;
+  width: 116rpx;
+}
+.receivePrize .logisticsBox .row .addressTitle.addressInfo.data-v-26fa2152 {
+  color: #000;
+  font-family: PingFangSC-Medium;
+  font-size: 32rpx;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 32rpx;
+  margin-bottom: 16rpx;
+  width: calc(100% - 80rpx);
+}
+.receivePrize .logisticsBox .row .selectAdd.data-v-26fa2152 {
+  align-items: flex-start;
+  background-color: #fff;
+  color: #999;
+  display: flex;
+  font-family: PingFangSC-Regular;
+  font-size: 28rpx;
+  font-weight: 400;
+  justify-content: space-between;
+  letter-spacing: 0;
+  line-height: 36rpx;
+  width: calc(100% - 220rpx);
+}
+.receivePrize .logisticsBox .row .selectAdd .icons.data-v-26fa2152 {
+  color: #000;
+  font-family: PingFangSC-Regular;
+  font-size: 28rpx;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 28rpx;
+}
+.receivePrize .logisticsBox .row .selectAdd .desc.data-v-26fa2152 {
+  color: #999;
+  font-family: PingFangSC-Regular;
+  font-size: 24rpx;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 36rpx;
+}
+.receivePrize .logisticsBox .row .selectAdd.addressInfo.data-v-26fa2152 {
+  flex-direction: column;
+  width: calc(100% - 80rpx);
+}

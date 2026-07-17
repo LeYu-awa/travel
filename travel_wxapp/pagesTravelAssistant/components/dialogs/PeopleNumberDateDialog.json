@@ -1,0 +1,9 @@
+{
+  "component": true,
+  "usingComponents": {
+    "add-and-sub": "../AddAndSub",
+    "bottom-dialog": "./BottomDialog",
+    "float-button-kf": "/components/new/FloatButtonKf",
+    "picker-address": "../PickerAddress"
+  }
+}

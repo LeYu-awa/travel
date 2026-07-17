@@ -1,0 +1,41 @@
+<view class="ui_memberAccountInfo data-v-3e8794a8">
+    <coustom-head bind:__l="__l" class="data-v-3e8794a8" uI="3e8794a8-0" uP="{{a}}" wx:if="{{a}}"></coustom-head>
+    <view class="memberAccountInfoBox data-v-3e8794a8">
+        <view class="card data-v-3e8794a8">
+            <view class="topBox data-v-3e8794a8">
+                <view class="title data-v-3e8794a8">{{b}}</view>
+                <view class="accountTitle data-v-3e8794a8">余额</view>
+                <view class="price data-v-3e8794a8">¥{{c}}</view>
+                <view class="priceInfo data-v-3e8794a8" wx:if="{{d}}">
+                    <view class="priceItem data-v-3e8794a8">本金¥{{e}}</view>
+                    <view class="priceItem data-v-3e8794a8">赠送金¥{{f}}</view>
+                </view>
+                <view class="breach data-v-3e8794a8" wx:if="{{g}}"> 含违约金¥{{h}}</view>
+            </view>
+        </view>
+        <view class="card data-v-3e8794a8">
+            <view class="row data-v-3e8794a8">
+                <view class="title data-v-3e8794a8">状态</view>
+                <view bindtap="{{j}}" class="desc red data-v-3e8794a8" wx:if="{{i}}"> 已过期<view class="icon iconfont icon-a-12_tishi_hong data-v-3e8794a8"></view>
+                </view>
+                <view class="desc data-v-3e8794a8" wx:else> 正常 </view>
+            </view>
+            <view class="row data-v-3e8794a8">
+                <view class="title data-v-3e8794a8">有效期</view>
+                <view class="desc data-v-3e8794a8">{{k}} 至 {{l}}</view>
+            </view>
+            <view class="row data-v-3e8794a8">
+                <view class="title data-v-3e8794a8">序列号</view>
+                <view class="desc data-v-3e8794a8">{{m}}</view>
+            </view>
+        </view>
+        <view class="card data-v-3e8794a8">
+            <link-item bind:__l="__l" bindchooseLink="{{listItem.b}}" class="data-v-3e8794a8" uI="{{listItem.c}}" uP="{{listItem.d}}" wx:for="{{n}}" wx:for-item="listItem" wx:key="a"></link-item>
+        </view>
+        <view class="card data-v-3e8794a8">
+            <link-item bind:__l="__l" bindchooseLink="{{listItem.b}}" class="data-v-3e8794a8" uI="{{listItem.c}}" uP="{{listItem.d}}" wx:for="{{o}}" wx:for-item="listItem" wx:key="a"></link-item>
+        </view>
+        <view bindtap="{{p}}" class="contactBtn data-v-3e8794a8">联系客服</view>
+    </view>
+    <kf-dialog bind:__l="__l" class="r data-v-3e8794a8" uI="3e8794a8-3" uP="{{r}}" uR="kf" wx:if="{{r}}"></kf-dialog>
+</view>

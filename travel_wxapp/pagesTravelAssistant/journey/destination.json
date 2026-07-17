@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "选择目的地",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "coustom-head": "../../components/coustomHead",
+    "detail-dialog": "../components/dialogs/DetailDialog",
+    "float-button-kf": "/components/new/FloatButtonKf",
+    "line-tabs": "../components/LineTabs"
+  }
+}

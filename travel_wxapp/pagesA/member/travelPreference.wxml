@@ -1,0 +1,22 @@
+<view class="ui_travelPreference data-v-e20df15b">
+    <coustom-head bind:__l="__l" class="data-v-e20df15b" uI="e20df15b-0" uP="{{a}}" wx:if="{{a}}"></coustom-head>
+    <view class="travelPreferenceBox data-v-e20df15b">
+        <view class="card data-v-e20df15b" wx:for="{{b}}" wx:for-item="preference" wx:key="d">
+            <view class="bigTitle data-v-e20df15b">{{preference.a}}</view>
+            <view class="subBox data-v-e20df15b">
+                <view class="chooseList data-v-e20df15b">
+                    <view bindtap="{{tag.g}}" class="{{['chooseItem','data-v-e20df15b',tag.e&&'two',tag.f&&'active']}}" wx:if="{{tag.a}}" wx:for="{{preference.b}}" wx:for-item="tag" wx:key="h">
+                        <view class="desc data-v-e20df15b">{{tag.b}}</view>
+                        <view class="subDesc data-v-e20df15b" wx:if="{{tag.c}}">{{tag.d}}</view>
+                    </view>
+                    <view class="subTitleBox data-v-e20df15b" wx:if="{{tag.a}}" wx:for="{{preference.c}}" wx:for-item="tag" wx:key="f">
+                        <view class="title data-v-e20df15b" wx:if="{{tag.b}}">{{tag.c}}</view>
+                        <input bindinput="{{tag.e}}" class="theInput data-v-e20df15b" placeholder="请输入" type="text" value="{{tag.d}}"></input>
+                    </view>
+                </view>
+            </view>
+        </view>
+        <bottom-btn bind:__l="__l" bindclick="{{d}}" class="data-v-e20df15b" uI="e20df15b-1" uS="{{['d']}}">{{c}}</bottom-btn>
+    </view>
+</view>
+<float-button-kf bind:__l="__l" class="data-v-e20df15b" uI="e20df15b-2"></float-button-kf>

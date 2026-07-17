@@ -1,0 +1,9 @@
+{
+  "component": true,
+  "usingComponents": {
+    "coustom-head": "../../../../components/coustomHead",
+    "float-button-kf": "/components/new/FloatButtonKf",
+    "scroll-list": "./components/ScrollList",
+    "tabs": "../../../../components/tabs"
+  }
+}

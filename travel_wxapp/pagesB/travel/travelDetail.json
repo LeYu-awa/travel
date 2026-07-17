@@ -1,0 +1,21 @@
+{
+  "navigationBarTitleText": "产品详情",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "back-to-top": "../../components/backToTop",
+    "bottom-dialog": "../../components/bottomDialog",
+    "category-sub-info": "../components/travel/CategorySubInfo",
+    "collapse": "../../components/collapse",
+    "coustom-head": "../../components/coustomHead",
+    "daily-price": "../components/dailyPrice",
+    "error-limiting": "../../components/new/ErrorLimiting",
+    "float-button-kf": "/components/new/FloatButtonKf",
+    "kf-dialog": "../../components/kfDialog",
+    "limiting-retry-dialog": "../../components/new/LimitingRetry/LimitingRetryDialog",
+    "mp-html": "../../uni_modules/mp-html/components/mp-html/mp-html",
+    "no-data": "../../components/noData",
+    "share": "../../components/share",
+    "stepper": "../../components/new/Stepper",
+    "swiper-box": "../../components/swiperBox"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "component": true,
+  "usingComponents": {
+    "float-button": "./FloatButton",
+    "float-button-kf": "/components/new/FloatButtonKf",
+    "kf-dialog": "../kfDialog"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "component": true,
+  "usingComponents": {
+    "float-button-kf": "/components/new/FloatButtonKf",
+    "spin": "./Spin",
+    "st-button": "./StButton",
+    "st-dialog": "./StDialog"
+  }
+}

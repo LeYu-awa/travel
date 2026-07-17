@@ -1,0 +1,27 @@
+<view catchtouchmove="{{s}}" class="{{['st-dialog','data-v-182a0a39',p]}}" style="{{'z-index:'+q+';'+r}}">
+    <view catchtap="{{a}}" class="st-dialog__mark data-v-182a0a39"></view>
+    <view class="{{['st-dialog__body','data-v-182a0a39',o]}}">
+        <slot name="body" wx:if="{{$slots.body}}"></slot>
+        <block wx:else>
+            <view class="st-dialog__content data-v-182a0a39" style="{{d}}">
+                <view class="st-dialog__content-title data-v-182a0a39">
+                    <slot name="title" wx:if="{{$slots.title}}"></slot>
+                    <text class="st-dialog__content-title-default data-v-182a0a39" wx:else>{{b}}</text>
+                </view>
+                <view class="st-dialog__content-message data-v-182a0a39">
+                    <slot name="message" wx:if="{{$slots.message}}"></slot>
+                    <text class="st-dialog__content-message-default data-v-182a0a39" wx:else>{{c}}</text>
+                </view>
+            </view>
+            <view class="st-dialog__footer data-v-182a0a39">
+                <view class="st-dialog__footer-default hairline--top data-v-182a0a39">
+                    <slot name="footer" wx:if="{{$slots.footer}}"></slot>
+                    <block wx:else>
+                        <view bindtap="{{i}}" class="{{['st-dialog-action','st-dialog-action--cancel','data-v-182a0a39',g]}}" style="{{h}}" wx:if="{{e}}">{{f}}</view>
+                        <view bindtap="{{n}}" class="{{['st-dialog-action','st-dialog-action--confirm','data-v-182a0a39',l]}}" style="{{m}}" wx:if="{{j}}">{{k}}</view>
+                    </block>
+                </view>
+            </view>
+        </block>
+    </view>
+</view>

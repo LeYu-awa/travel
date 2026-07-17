@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "探索更多体验",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "float-button-kf": "/components/new/FloatButtonKf",
+    "tabs": "../../components/tabs"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "component": true,
+  "usingComponents": {
+    "base-header": "../base/BaseHeader/index",
+    "bottom-btn": "../../../components/bottomBtn",
+    "coustom-head": "../../../components/coustomHead",
+    "float-button-kf": "/components/new/FloatButtonKf",
+    "layout": "../Layout",
+    "time-picker": "../base/TimePicker/index"
+  }
+}

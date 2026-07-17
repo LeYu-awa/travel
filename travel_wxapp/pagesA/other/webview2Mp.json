@@ -1,0 +1,8 @@
+{
+  "enablePullDownRefresh": false,
+  "navigationBarTitleText": "跳转中",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "float-button-kf": "/components/new/FloatButtonKf"
+  }
+}

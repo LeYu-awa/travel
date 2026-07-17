@@ -1,0 +1,21 @@
+<view class="wrapper data-v-cfc40ed5">
+    <view class="search-field data-v-cfc40ed5">
+        <view class="iconfont icon-a-16_sousuo_hui data-v-cfc40ed5"></view>
+        <input bindinput="{{b}}" class="input data-v-cfc40ed5" placeholder="搜索" type="text" value="{{a}}"></input>
+        <view bindtap="{{d}}" class="iconfont icon-a-20_guanbi data-v-cfc40ed5" wx:if="{{c}}"></view>
+    </view>
+    <view class="empty data-v-cfc40ed5" wx:if="{{e}}">
+        <image alt="" class="empty-img data-v-cfc40ed5" src="{{f}}"></image>
+        <view class="empty-txt data-v-cfc40ed5">没有符合条件的物品</view>
+    </view>
+    <view class="good-list data-v-cfc40ed5">
+        <view class="categories data-v-cfc40ed5" wx:if="{{g}}">
+            <view bindtap="{{cate.d}}" class="{{['data-v-cfc40ed5','category',cate.c&&'active']}}" wx:for="{{h}}" wx:for-item="cate" wx:key="b">{{cate.a}}</view>
+        </view>
+        <scroll-view scrollWithAnimation scrollY bindscroll="{{j}}" class="items data-v-cfc40ed5" ref="goodsWrapper" scrollTop="{{k}}">
+            <view class="data-v-cfc40ed5" wx:for="{{i}}" wx:for-item="good" wx:key="e">
+                <good-item bind:__l="__l" binddecrease="{{good.b}}" bindincrease="{{good.a}}" class="data-v-cfc40ed5" uI="{{good.c}}" uP="{{good.d}}" wx:if="{{good.d}}"></good-item>
+            </view>
+        </scroll-view>
+    </view>
+</view>

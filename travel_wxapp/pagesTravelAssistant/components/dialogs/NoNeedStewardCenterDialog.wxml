@@ -1,0 +1,9 @@
+<center-dialog bind:__l="__l" bindopenState="{{d}}" bindupdateModelValue="{{e}}" class="hook-dialog r data-v-d3afff67" uI="d3afff67-0" uP="{{f}}" uR="hookNoNeedStewardDialog" uS="{{['d']}}" wx:if="{{f}}">
+    <view class="content__wrapper data-v-d3afff67">
+        <view class="content data-v-d3afff67"> 是否确认不需要管家，进行自由行，我们将取消您已经添加的活动 </view>
+        <view class="dialog-footer data-v-d3afff67">
+            <view bindtap="{{a}}" class="confirm-btn data-v-d3afff67">确认不需要</view>
+            <view bindtap="{{b}}" class="cancel-btn data-v-d3afff67">我再想想</view>
+        </view>
+    </view>
+</center-dialog>

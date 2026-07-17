@@ -1,0 +1,27 @@
+<view class="ui_invoiceInfoList data-v-67ad8d41">
+    <coustom-head bind:__l="__l" class="data-v-67ad8d41" uI="67ad8d41-0" uP="{{a}}" wx:if="{{a}}"></coustom-head>
+    <view class="info-list data-v-67ad8d41">
+        <view bindtap="{{invoice.f}}" class="info-item data-v-67ad8d41" wx:for="{{b}}" wx:for-item="invoice" wx:key="g">
+            <view class="info-item-lf data-v-67ad8d41">
+                <view class="info-item-lf-info data-v-67ad8d41">
+                    <view class="info-item-name data-v-67ad8d41">{{invoice.a}}</view>
+                    <view class="data-v-67ad8d41" wx:if="{{invoice.b}}">
+                        <view class="info-item-id-card data-v-67ad8d41"> 身份证 {{invoice.c}}****{{invoice.d}}</view>
+                        <view class="info-item-id-card no_padding data-v-67ad8d41">类型 个人</view>
+                    </view>
+                    <view class="data-v-67ad8d41" wx:else>
+                        <view class="info-item-id-card data-v-67ad8d41">税号 {{invoice.e}}</view>
+                        <view class="info-item-id-card no_padding data-v-67ad8d41">类型 公司</view>
+                    </view>
+                </view>
+            </view>
+            <view class="iconfont icon-a-16_bianji data-v-67ad8d41"></view>
+        </view>
+    </view>
+    <empty bind:__l="__l" class="data-v-67ad8d41" uI="67ad8d41-1" uP="{{d}}" wx:if="{{c}}"></empty>
+    <view class="bottom_dis data-v-67ad8d41"></view>
+    <view class="footer data-v-67ad8d41">
+        <view bindtap="{{e}}" class="order-btn data-v-67ad8d41"> 新增 </view>
+    </view>
+</view>
+<float-button-kf bind:__l="__l" class="data-v-67ad8d41" uI="67ad8d41-2"></float-button-kf>

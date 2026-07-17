@@ -1,0 +1,84 @@
+<template>
+	<view>
+		<!-- 开播前配置信息与开播后修改信息 -->
+		<view class="keyboard-popup" @touchmove.prevent>
+			<view class="keyboard-popup_input">
+				<textarea placeholder="说点什么" focus auto-height :adjust-position="false" auto-blur></textarea>
+			</view>
+			<view class="keyboard-popup_send">发送</view>
+		</view>
+	</view>
+</template>
+
+<script>
+export default {
+	data() {
+		return {
+			keyword: 'drawer',
+			configShow: true,
+			windowInfo: {}
+		};
+	},
+	mounted() {
+		// #ifdef APP-PLUS
+		const subNVue = uni.getSubNVueById('subNVueDrawer');
+		// #endif
+	
+	},
+	methods: {
+		// 关闭subNVue
+		hideSubNVue(type, data) {
+			let params = {
+				type: type,
+				configInfo: data
+			};
+			uni.$emit('hideSubNVue', params);
+		}
+	}
+};
+</script>
+
+<style lang="scss">
+.keyboard-popup {
+	width: 750rpx;
+	height: 100rpx;
+	background-color: #ffffff;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	z-index: 9999;
+}
+.keyboard-popup_input {
+	flex: 1;
+	padding: 0 30rpx;
+	height: 80rpx;
+	border: 1px solid #ccc;
+	border-radius: 50rpx;
+	color: #222222;
+	
+}
+.keyboard-popup_input textarea {
+	width: 100%;
+	height: 100%;
+	color: #222222;
+}
+.keyboard-popup_send {
+	width: 150rpx;
+	height: 80rpx;
+	background-color: #fd502f;
+	border-radius: 50%;
+	margin-left: 20rpx;
+	text-align: center;
+	line-height: 80rpx;
+	font-size: 32rpx;
+	color: #ffffff;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+</style>

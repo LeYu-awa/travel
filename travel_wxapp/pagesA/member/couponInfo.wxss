@@ -1,0 +1,352 @@
+.baseBtn.data-v-1fe2e8ea {
+  background-color: #000;
+  background-image: url(https://dsplatweb.oss-cn-chengdu.aliyuncs.com/songzan/images/btnBlack.png);
+  color: #fff;
+}
+.baseBtn.data-v-1fe2e8ea,
+.w-baseBtn.data-v-1fe2e8ea {
+  background-repeat: repeat;
+  background-size: 80rpx 75rpx;
+  border-radius: 8rpx;
+  text-align: center;
+}
+.w-baseBtn.data-v-1fe2e8ea {
+  background-color: #fff;
+  background-image: url(https://dsplatweb.oss-cn-chengdu.aliyuncs.com/songzan/images/btnWhite.png);
+  color: #000;
+}
+.w-baseBtn[disabled].data-v-1fe2e8ea {
+  color: #000 !important;
+  opacity: 0.8;
+}
+.textHidden.data-v-1fe2e8ea {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.expandClick.data-v-1fe2e8ea {
+  position: relative;
+}
+.expandClick.data-v-1fe2e8ea:after {
+  bottom: -60rpx;
+  content: "";
+  left: -60rpx;
+  position: absolute;
+  right: -60rpx;
+  top: -60rpx;
+  z-index: 9;
+}
+.line-clamp-1.data-v-1fe2e8ea {
+  line-clamp: 1;
+}
+.line-clamp-1.data-v-1fe2e8ea,
+.line-clamp-2.data-v-1fe2e8ea {
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  overflow: hidden;
+  white-space: normal;
+}
+.line-clamp-2.data-v-1fe2e8ea {
+  line-clamp: 2;
+}
+.line-clamp-3.data-v-1fe2e8ea {
+  line-clamp: 3;
+}
+.line-clamp-3.data-v-1fe2e8ea,
+.line-clamp-4.data-v-1fe2e8ea {
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  overflow: hidden;
+  white-space: normal;
+}
+.line-clamp-4.data-v-1fe2e8ea {
+  line-clamp: 4;
+}
+.line-clamp-5.data-v-1fe2e8ea {
+  line-clamp: 5;
+}
+.line-clamp-5.data-v-1fe2e8ea,
+.line-clamp-6.data-v-1fe2e8ea {
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  overflow: hidden;
+  white-space: normal;
+}
+.line-clamp-6.data-v-1fe2e8ea {
+  line-clamp: 6;
+}
+.line-clamp-7.data-v-1fe2e8ea {
+  line-clamp: 7;
+}
+.line-clamp-7.data-v-1fe2e8ea,
+.line-clamp-8.data-v-1fe2e8ea {
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  overflow: hidden;
+  white-space: normal;
+}
+.line-clamp-8.data-v-1fe2e8ea {
+  line-clamp: 8;
+}
+.line-clamp-9.data-v-1fe2e8ea {
+  -webkit-box-orient: vertical;
+  line-clamp: 9;
+  display: -webkit-box;
+  overflow: hidden;
+  white-space: normal;
+}
+.ui_couponInfo.data-v-1fe2e8ea {
+  background-image: url(https://dsplatweb.oss-cn-chengdu.aliyuncs.com/songzan/images/couponBg.jpg);
+  background-size: 100% 100%;
+  height: 100vh;
+  min-height: 100vh;
+  position: relative;
+  width: 100%;
+}
+.ui_couponInfo .couponBg.data-v-1fe2e8ea {
+  left: 0;
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: -1;
+}
+.ui_couponInfo .couponItemBox.data-v-1fe2e8ea {
+  background: #fff;
+  border-radius: 24rpx;
+  left: calc((100% - 654rpx) / 2);
+  margin: auto;
+  overflow-y: auto;
+  padding: 32rpx;
+  position: absolute;
+  top: 0;
+  width: 654rpx;
+}
+.ui_couponInfo .couponItemBox .exchangeCoupon.data-v-1fe2e8ea {
+  padding-top: 32rpx;
+}
+.ui_couponInfo .couponItemBox .exchangeCoupon .couponNo.data-v-1fe2e8ea {
+  align-items: center;
+  background: #f8f8f8;
+  border-radius: 24rpx;
+  display: flex;
+  justify-content: center;
+  padding: 32rpx 0;
+}
+.ui_couponInfo .couponItemBox .exchangeCoupon .couponNo .tag.data-v-1fe2e8ea {
+  color: gray;
+  font-size: 24rpx;
+  margin-right: 16rpx;
+}
+.ui_couponInfo .couponItemBox .exchangeCoupon .couponNo .no.data-v-1fe2e8ea {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 32rpx;
+  font-weight: 400;
+}
+.ui_couponInfo
+  .couponItemBox
+  .exchangeCoupon
+  .couponNo
+  .iconfont.data-v-1fe2e8ea {
+  color: #000;
+  font-size: 24rpx;
+  margin-left: 8rpx;
+}
+.ui_couponInfo .couponItemBox .travelersInfo.data-v-1fe2e8ea {
+  padding: 32rpx 0 0;
+}
+.ui_couponInfo .couponItemBox .travelersInfo .tl.data-v-1fe2e8ea {
+  color: #000;
+  display: flex;
+  font-size: 24rpx;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36rpx;
+}
+.ui_couponInfo .couponItemBox .travelersInfo .open-btn.data-v-1fe2e8ea {
+  align-items: center;
+  color: gray;
+  display: flex;
+  font-size: 24rpx;
+  justify-content: center;
+  margin-top: 32rpx;
+}
+.ui_couponInfo
+  .couponItemBox
+  .travelersInfo
+  .open-btn
+  .icon-a-12_shanglajiantou_hei.data-v-1fe2e8ea,
+.ui_couponInfo
+  .couponItemBox
+  .travelersInfo
+  .open-btn
+  .icon-a-12_xialajiantou_hei.data-v-1fe2e8ea {
+  font-size: 26rpx;
+  margin-left: 10rpx;
+}
+.ui_couponInfo
+  .couponItemBox
+  .travelersInfo
+  .travelersInfo-item.data-v-1fe2e8ea {
+  display: flex;
+  justify-content: space-between;
+  padding: 16rpx 0 0;
+}
+.ui_couponInfo
+  .couponItemBox
+  .travelersInfo
+  .travelersInfo-item
+  .label.data-v-1fe2e8ea {
+  color: gray;
+  font-size: 24rpx;
+  line-height: 1;
+  margin-right: 100rpx;
+  white-space: nowrap;
+}
+.ui_couponInfo
+  .couponItemBox
+  .travelersInfo
+  .travelersInfo-item
+  .val.data-v-1fe2e8ea {
+  align-items: center;
+  color: #000;
+  display: flex;
+  font-size: 24rpx;
+  line-height: 40rpx;
+  text-align: left;
+}
+.ui_couponInfo
+  .couponItemBox
+  .travelersInfo
+  .travelersInfo-item
+  .val
+  .val-txt.data-v-1fe2e8ea {
+  flex: 1;
+  height: 40rpx;
+  line-height: 40rpx;
+  overflow: hidden;
+}
+.ui_couponInfo
+  .couponItemBox
+  .travelersInfo
+  .travelersInfo-item
+  .val
+  .icon-a-12_youlajiantou_hui.data-v-1fe2e8ea {
+  font-size: 24rpx;
+  margin-left: 10rpx;
+}
+.ui_couponInfo
+  .couponItemBox
+  .travelersInfo
+  .travelersInfo-item
+  .val.price.data-v-1fe2e8ea {
+  font-family: Montserrat;
+  font-size: 32rpx;
+  font-weight: 600;
+}
+.ui_couponInfo
+  .couponItemBox
+  .travelersInfo
+  .travelersInfo-item
+  .val.red.data-v-1fe2e8ea {
+  color: #a43127;
+}
+.ui_couponInfo
+  .couponItemBox
+  .travelersInfo
+  .travelersInfo-item
+  .val
+  .icon-a-12_fuzhi.data-v-1fe2e8ea {
+  margin-left: 10rpx;
+}
+.ui_couponInfo .couponItemBox .qrCodeBox.data-v-1fe2e8ea {
+  text-align: center;
+}
+.ui_couponInfo .couponItemBox .qrCodeBox .qrCode.data-v-1fe2e8ea {
+  height: 360rpx;
+  width: 360rpx;
+}
+.ui_couponInfo .couponItemBox .qrCodeBox .barcode.data-v-1fe2e8ea {
+  height: 128rpx;
+  width: 100%;
+}
+.ui_couponInfo .couponItemBox .topBox .couponType.data-v-1fe2e8ea {
+  background: rgba(219, 137, 0, 0.12);
+  border-radius: 8rpx;
+  color: #db8900;
+  display: inline-block;
+  font-size: 24rpx;
+  margin-bottom: 32rpx;
+  padding: 8rpx;
+}
+.ui_couponInfo .couponItemBox .topBox .couponType.GIFTCOUPON.data-v-1fe2e8ea {
+  background: rgba(164, 49, 39, 0.12);
+  color: #a43127;
+}
+.ui_couponInfo
+  .couponItemBox
+  .topBox
+  .couponType.EXPERIENCECOUPON.data-v-1fe2e8ea {
+  background: rgba(0, 67, 85, 0.12);
+  color: #004355;
+}
+.ui_couponInfo
+  .couponItemBox
+  .topBox
+  .couponType.EXCHANGECOUPON.data-v-1fe2e8ea {
+  background: #000;
+  color: #fff;
+}
+.ui_couponInfo .couponItemBox .topBox .couponName.data-v-1fe2e8ea {
+  color: #000;
+  font-size: 32rpx;
+  font-weight: 700;
+  margin-bottom: 20rpx;
+}
+.ui_couponInfo .couponItemBox .topBox .couponSubTitle.data-v-1fe2e8ea {
+  align-items: center;
+  color: gray;
+  display: flex;
+  font-size: 24rpx;
+  margin-bottom: 16rpx;
+}
+.ui_couponInfo
+  .couponItemBox
+  .topBox
+  .couponSubTitle
+  .iconfont.data-v-1fe2e8ea {
+  font-size: 24rpx;
+  margin-left: 10rpx;
+}
+.ui_couponInfo .couponItemBox .topBox .couponPrice.data-v-1fe2e8ea {
+  color: #a43127;
+  font-family: Montserrat;
+  font-size: 48rpx;
+  font-weight: 700;
+  margin-top: 30rpx;
+}
+.ui_couponInfo .couponItemBox .topBox .useLimit.data-v-1fe2e8ea {
+  color: gray;
+  font-size: 24rpx;
+  margin-top: 14rpx;
+}
+.ui_couponInfo .couponItemBox .bottomBox .ruleTitle.data-v-1fe2e8ea {
+  color: #000;
+  font-size: 24rpx;
+  font-weight: 700;
+  margin-bottom: 16rpx;
+  margin-top: 30rpx;
+}
+.ui_couponInfo .couponItemBox .bottomBox .ruleInfo.data-v-1fe2e8ea {
+  color: gray;
+  font-size: 24rpx;
+  line-height: 36rpx;
+}
+.ui_couponInfo .exchangeBtn.data-v-1fe2e8ea {
+  padding-top: 40rpx;
+}
+.ui_couponInfo .btn.data-v-1fe2e8ea {
+  height: 96rpx;
+  line-height: 96rpx;
+}

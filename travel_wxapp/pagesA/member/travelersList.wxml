@@ -1,0 +1,20 @@
+<view class="travelersList_ui data-v-5643c46e">
+    <coustom-head bind:__l="__l" class="data-v-5643c46e" uI="5643c46e-0" uP="{{a}}" wx:if="{{a}}"></coustom-head>
+    <view class="info-list data-v-5643c46e">
+        <view bindtap="{{item.f}}" class="info-item data-v-5643c46e" wx:for="{{b}}" wx:key="e">
+            <view class="info-item-lf data-v-5643c46e">
+                <view class="info-item-lf-info data-v-5643c46e">
+                    <view class="info-item-name data-v-5643c46e">{{item.a}}</view>
+                    <view class="info-item-id-card data-v-5643c46e">{{item.b}} {{item.c}}</view>
+                    <view class="info-item-id-card data-v-5643c46e"> 手机号 {{item.d}}</view>
+                </view>
+            </view>
+            <view class="iconfont icon-a-16_bianji data-v-5643c46e"></view>
+        </view>
+    </view>
+    <empty bind:__l="__l" class="data-v-5643c46e" uI="5643c46e-1" uP="{{d}}" wx:if="{{c}}"></empty>
+    <view class="footer data-v-5643c46e">
+        <view bindtap="{{e}}" class="order-btn data-v-5643c46e">新增</view>
+    </view>
+</view>
+<float-button-kf bind:__l="__l" class="data-v-5643c46e" uI="5643c46e-2"></float-button-kf>

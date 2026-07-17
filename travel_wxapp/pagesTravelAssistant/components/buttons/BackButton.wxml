@@ -1,0 +1,3 @@
+<view bindtap="{{a}}" class="st-close-button__wrapper data-v-e648f339" style="{{'background-color:'+b}}">
+    <view class="iconfont icon-a-20_fanhuianniu data-v-e648f339"></view>
+</view>

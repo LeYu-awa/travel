@@ -1,0 +1,13 @@
+<view class="page data-v-42d3edb0">
+    <navigator bind:__l="__l" class="data-v-42d3edb0" uI="42d3edb0-0" uP="{{a}}" wx:if="{{a}}"></navigator>
+    <view class="error data-v-42d3edb0" wx:if="{{b}}">
+        <error-block bind:__l="__l" class="data-v-42d3edb0" uI="42d3edb0-1" uP="{{e}}" uS="{{['bottom']}}" wx:if="{{e}}">
+            <view bindtap="{{d}}" class="error-button data-v-42d3edb0" slot="bottom">
+                <st-button bind:__l="__l" class="data-v-42d3edb0" uI="42d3edb0-2,42d3edb0-1" uP="{{c}}" uS="{{['d']}}" wx:if="{{c}}"> 刷新 </st-button>
+            </view>
+        </error-block>
+    </view>
+    <block wx:elif="{{f}}">
+        <member-exchange-container bind:__l="__l" bindbgLoadingChange="{{g}}" bindclickButton="{{h}}" class="data-v-42d3edb0" uI="42d3edb0-3" uP="{{i}}" wx:if="{{i}}"></member-exchange-container>
+    </block>
+</view>

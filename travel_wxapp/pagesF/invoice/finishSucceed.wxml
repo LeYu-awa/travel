@@ -1,0 +1,13 @@
+<view class="ui_submitSucceed data-v-cf678390">
+    <view class="topBox data-v-cf678390">
+        <view class="tipBox data-v-cf678390">
+            <view class="icon iconfont icon-a-120_tijiaochenggong data-v-cf678390"></view>
+            <view class="tips data-v-cf678390" wx:if="{{a}}">提交成功</view>
+            <view class="subTips data-v-cf678390" wx:if="{{b}}"> 已收到您的开票信息，我们将尽快为您开具。 </view>
+        </view>
+        <image class="authBg data-v-cf678390" mode="widthFix" src="https://dsplatweb.oss-cn-chengdu.aliyuncs.com/songzan/images/authBg.png"></image>
+    </view>
+    <view class="bottomBox data-v-cf678390">
+        <view bindtap="{{d}}" class="back data-v-cf678390" wx:if="{{c}}">完成</view>
+    </view>
+</view>

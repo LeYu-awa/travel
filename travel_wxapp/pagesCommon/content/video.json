@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "视频播放器",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "float-button-kf": "/components/new/FloatButtonKf"
+  }
+}

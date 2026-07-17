@@ -1,0 +1,14 @@
+{
+  "navigationBarTitleText": "会员登录",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "agreement-checkbox": "../../components/member/AgreementCheckbox",
+    "alert": "../../components/Alert",
+    "bottom-dialog": "../../components/bottomDialog",
+    "float-button-kf": "/components/new/FloatButtonKf",
+    "graph-captcha-dialog": "../../components/new/GraphCaptchaDialog",
+    "navigation": "../../components/new/Navigator",
+    "safe-area": "../../components/new/SafeArea",
+    "st-button": "../../components/new/StButton"
+  }
+}

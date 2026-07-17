@@ -1,0 +1,12 @@
+.display.data-v-422ebb8f {
+  font-size: 32rpx;
+  line-height: 32rpx;
+}
+.picker-view.data-v-422ebb8f {
+  height: 600rpx;
+}
+.picker-view.data-v-422ebb8f .item {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+}

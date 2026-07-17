@@ -1,0 +1,45 @@
+<coustom-head bind:__l="__l" class="data-v-3a1fa5cc" uI="3a1fa5cc-0" uP="{{a}}" wx:if="{{a}}"></coustom-head>
+<view class="diy-main__wrapper data-v-3a1fa5cc">
+    <view class="page-body data-v-3a1fa5cc">
+        <view class="page-section page-section-gap data-v-3a1fa5cc">
+            <view class="diy-tabs-days__wrapper data-v-3a1fa5cc">
+                <view class="tabs__wrapper data-v-3a1fa5cc">
+                    <rect-tabs bind:__l="__l" bindchange="{{b}}" bindupdateModelValue="{{c}}" class="hook-rect-tabs data-v-3a1fa5cc" uI="3a1fa5cc-1" uP="{{d}}" wx:if="{{d}}"></rect-tabs>
+                </view>
+            </view>
+            <map showLocation class="data-v-3a1fa5cc" enableZoom="{{true}}" id="{{f}}" includePoints="{{l}}" latitude="{{j}}" longitude="{{i}}" markers="{{k}}" polyline="{{h}}" ref="map1" scale="{{g}}" style="width:100%;height:100vh;z-index:1" wx:if="{{e}}"></map>
+            <view class="scroll-container-list data-v-3a1fa5cc" wx:if="{{m}}">
+                <view class="scrollable-content-list data-v-3a1fa5cc">
+                    <view class="{{['data-v-3a1fa5cc',o]}}" wx:for="{{n}}" wx:key="q">
+                        <view class="list_item data-v-3a1fa5cc" wx:if="{{item.a}}">
+                            <view class="list_left data-v-3a1fa5cc">
+                                <image class="list_img data-v-3a1fa5cc" src="{{item.b}}"></image>
+                                <view class="list_ind data-v-3a1fa5cc">{{item.c}}</view>
+                            </view>
+                            <view class="list_right data-v-3a1fa5cc">
+                                <view class="list_title data-v-3a1fa5cc">{{item.d}}</view>
+                                <view class="list_time data-v-3a1fa5cc">预计{{item.e}}小时</view>
+                                <view class="{{['data-v-3a1fa5cc',item.g]}}">
+                                    <view class="list_text data-v-3a1fa5cc">{{item.f}}</view>
+                                </view>
+                            </view>
+                        </view>
+                        <view class="{{['data-v-3a1fa5cc',item.p]}}" wx:if="{{item.h}}">
+                            <view class="list_left data-v-3a1fa5cc">
+                                <image class="list_img data-v-3a1fa5cc" src="{{item.i}}"></image>
+                                <view class="list_ind data-v-3a1fa5cc" wx:if="{{item.j}}">{{item.k}}</view>
+                            </view>
+                            <view class="list_right data-v-3a1fa5cc">
+                                <view class="list_title data-v-3a1fa5cc">{{item.l}}</view>
+                                <view class="list_time data-v-3a1fa5cc">{{item.m}}</view>
+                                <view class="{{['data-v-3a1fa5cc',item.o]}}">
+                                    <view class="list_text data-v-3a1fa5cc">{{item.n}}</view>
+                                </view>
+                            </view>
+                        </view>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>

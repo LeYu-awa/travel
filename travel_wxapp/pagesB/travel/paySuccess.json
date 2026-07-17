@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "支付成功",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "float-button-kf": "/components/new/FloatButtonKf",
+    "kf-dialog": "../../components/kfDialog",
+    "progress-bar": "../../components/new/ProgressBar",
+    "recommend-products": "../../components/RecommendProducts",
+    "st-button": "../../components/new/StButton"
+  }
+}

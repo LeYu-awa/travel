@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "余额",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "account-item": "../components/accountItem",
+    "bottom-dialog": "../../components/bottomDialog",
+    "coustom-head": "../../components/coustomHead",
+    "empty": "../../components/empty",
+    "float-button-kf": "/components/new/FloatButtonKf",
+    "switch-bar": "../../components/switchBar"
+  }
+}

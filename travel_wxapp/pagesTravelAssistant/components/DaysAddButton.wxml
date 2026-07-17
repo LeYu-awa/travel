@@ -1,0 +1,6 @@
+<view bindtap="{{b}}" class="days-add-button__wrapper data-v-fee1b827">
+    <view class="iconfont__wrapper data-v-fee1b827">
+        <view class="iconfont icon-a-20_jia data-v-fee1b827"></view>
+    </view>
+    <text class="text data-v-fee1b827">{{a}}</text>
+</view>

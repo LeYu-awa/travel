@@ -1,0 +1,22 @@
+<view class="addressList data-v-31f2ce82">
+    <coustom-head bind:__l="__l" class="data-v-31f2ce82" uI="31f2ce82-0" uP="{{a}}" wx:if="{{a}}"></coustom-head>
+    <view class="paddTop data-v-31f2ce82" style="{{'height:'+b}}"></view>
+    <view class="list data-v-31f2ce82" wx:for="{{c}}" wx:key="h">
+        <view bindtap="{{item.f}}" class="info data-v-31f2ce82">
+            <view class="user data-v-31f2ce82">
+                <view class="name data-v-31f2ce82">{{item.a}}</view>
+                <view class="mobile data-v-31f2ce82">{{item.b}}****{{item.c}}</view>
+                <view class="isDefault data-v-31f2ce82" wx:if="{{item.d}}">默认</view>
+            </view>
+            <view class="address data-v-31f2ce82">{{item.e}}</view>
+        </view>
+        <view bindtap="{{item.g}}" class="icon data-v-31f2ce82">
+            <label class="icon-a-16_bianji iconfont data-v-31f2ce82"></label>
+        </view>
+    </view>
+    <empty bind:__l="__l" class="data-v-31f2ce82" uI="31f2ce82-1" uP="{{e}}" wx:if="{{d}}"></empty>
+    <view class="addressFooter data-v-31f2ce82">
+        <view bindtap="{{f}}" class="addAddress baseBtn data-v-31f2ce82">新增</view>
+    </view>
+</view>
+<float-button-kf bind:__l="__l" class="data-v-31f2ce82" uI="31f2ce82-2"></float-button-kf>

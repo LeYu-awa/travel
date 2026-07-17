@@ -1,0 +1,12 @@
+<center-dialog bind:__l="__l" bindupdateModelValue="{{c}}" class="hook-dialog r data-v-dfa55826" uI="dfa55826-0" uP="{{d}}" uR="confirmationDialog" uS="{{['d']}}" wx:if="{{d}}">
+    <view class="content__wrapper data-v-dfa55826">
+        <view class="icon data-v-dfa55826">
+            <view class="icon iconfont icon-a-20_jieguo_chenggong data-v-dfa55826"></view>
+        </view>
+        <view class="title data-v-dfa55826">咨询单下单成功，待顾问联系</view>
+        <view class="content data-v-dfa55826"> 松赞顾问将在3天内联系您确认具体旅行方案，请保持联系。 </view>
+        <view class="dialog-footer data-v-dfa55826">
+            <view bindtap="{{a}}" class="cancel-btn data-v-dfa55826">我知道了</view>
+        </view>
+    </view>
+</center-dialog>

@@ -1,0 +1,46 @@
+.custom-title__wrapper.data-v-0b580299 {
+  left: 24rpx;
+  position: absolute;
+  top: 24rpx;
+  z-index: 1;
+}
+.steward-tips_dialog__wrapper .cover__wrapper.data-v-0b580299 {
+  background-color: #ccc;
+  border-top-left-radius: 32rpx !important;
+  border-top-right-radius: 32rpx !important;
+  height: 564rpx;
+}
+.steward-tips_dialog__wrapper .cover__wrapper .cover-img.data-v-0b580299 {
+  border-top-left-radius: 32rpx !important;
+  border-top-right-radius: 32rpx !important;
+  height: 100%;
+  width: 100%;
+}
+.steward-tips_dialog__wrapper .tips-main__wrapper.data-v-0b580299 {
+  padding: 32rpx 32rpx 40rpx;
+}
+.steward-tips_dialog__wrapper
+  .tips-main__wrapper
+  .tips-main_title.data-v-0b580299 {
+  color: #000;
+  font-size: 40rpx;
+  font-weight: 500;
+  line-height: 60rpx;
+  margin-bottom: 32rpx;
+}
+.steward-tips_dialog__wrapper
+  .tips-main__wrapper
+  .tips-main_content
+  .content.data-v-0b580299 {
+  color: #000;
+  font-size: 32rpx;
+  font-weight: 400;
+  line-height: 48rpx;
+  margin-bottom: 40rpx;
+}
+.steward-tips_dialog__wrapper
+  .tips-main__wrapper
+  .tips-main_content
+  .content.data-v-0b580299:nth-last-child(1) {
+  margin-bottom: 0;
+}

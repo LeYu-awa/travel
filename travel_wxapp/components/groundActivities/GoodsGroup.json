@@ -1,0 +1,11 @@
+{
+  "component": true,
+  "usingComponents": {
+    "float-button-kf": "/components/new/FloatButtonKf",
+    "line-tab": "./LineTab",
+    "new-st-ad": "../new/StAd",
+    "product-card-list": "../new/ProductCardList",
+    "tabs": "./Tabs",
+    "water": "../water"
+  }
+}

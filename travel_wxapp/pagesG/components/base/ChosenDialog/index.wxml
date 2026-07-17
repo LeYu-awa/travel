@@ -1,0 +1,6 @@
+<bottom-dialog bind:__l="__l" bindopenState="{{c}}" class="data-v-197cfbfb" uI="197cfbfb-0" uP="{{d}}" uS="{{['d']}}" wx:if="{{d}}">
+    <view class="dialog-content data-v-197cfbfb">
+        <good-item bind:__l="__l" binddecrease="{{item.b}}" bindincrease="{{item.a}}" class="data-v-197cfbfb" uI="{{item.c}}" uP="{{item.d}}" wx:for="{{a}}"></good-item>
+        <view class="empty data-v-197cfbfb" wx:if="{{b}}">暂无数据</view>
+    </view>
+</bottom-dialog>

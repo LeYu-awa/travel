@@ -1,0 +1,9 @@
+.ui_couponHistory .switchBox.data-v-fba16d39 {
+  background: #fff;
+}
+.ui_couponHistory .listBox.data-v-fba16d39 {
+  padding: 32rpx;
+}
+.ui_couponHistory .listBox .listItem.data-v-fba16d39 {
+  margin-bottom: 32rpx;
+}

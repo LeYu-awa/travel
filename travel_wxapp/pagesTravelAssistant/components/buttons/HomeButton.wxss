@@ -1,0 +1,11 @@
+.st-home-button__wrapper.data-v-8019ee4d {
+  border-radius: 50%;
+  height: 64rpx;
+  line-height: 64rpx;
+  text-align: center;
+  width: 64rpx;
+}
+.st-home-button__wrapper .icon-home-line.data-v-8019ee4d {
+  color: #000;
+  line-height: 64rpx;
+}

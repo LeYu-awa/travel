@@ -1,0 +1,13 @@
+.scroll-view.data-v-cc77ac15 {
+  background: #f8f8f8;
+  height: 100%;
+  overflow: hidden;
+}
+.list.data-v-cc77ac15 {
+  padding: 32rpx;
+}
+.empty.data-v-cc77ac15 {
+  color: #999;
+  margin-top: 30vh;
+  text-align: center;
+}

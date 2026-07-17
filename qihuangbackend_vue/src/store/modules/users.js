@@ -1,0 +1,61 @@
+/**
+ * 用户信息
+ * */
+export default {
+    namespaced: true,
+    state: {
+        // 用户信息
+        info: {},
+        pageName: ''
+    },
+    mutations: {
+        setPageName(state,id){
+            state.pageName = id
+        },
+    },
+    actions: {
+        getPageName ({ commit }) {
+            let storage = window.localStorage;
+            commit('setPageName', storage.getItem('pageName'));
+        },
+        /**
+         * @description 设置用户数据
+         * @param {Object} state vuex state
+         * @param {Object} dispatch vuex dispatch
+         * @param {*} info info
+         */
+        set ({ state, dispatch }, info) {
+            return new Promise(async resolve => {
+                // store 赋值
+                state.info = info;
+                // 持久化
+                await dispatch('admin/db/set', {
+                    dbName: 'sys',
+                    path: 'user.info',
+                    value: info,
+                    user: true
+                }, { root: true });
+                // end
+                resolve();
+            })
+        },
+        /**
+         * @description 从数据库取用户数据
+         * @param {Object} state vuex state
+         * @param {Object} dispatch vuex dispatch
+         */
+        load ({ state, dispatch }) {
+            return new Promise(async resolve => {
+                // store 赋值
+                state.info = await dispatch('admin/db/get', {
+                    dbName: 'sys',
+                    path: 'user.info',
+                    defaultValue: {},
+                    user: true
+                }, { root: true });
+                // end
+                resolve();
+            })
+        }
+    }
+}

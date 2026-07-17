@@ -1,0 +1,10 @@
+{
+  "component": true,
+  "usingComponents": {
+    "confirmation-dialog": "./ConfirmationDialog",
+    "empty": "../../components/empty",
+    "float-button-kf": "/components/new/FloatButtonKf",
+    "kf-dialog": "../../components/kfDialog",
+    "plan-classify-tabs": "./PlanClassifyTabs"
+  }
+}

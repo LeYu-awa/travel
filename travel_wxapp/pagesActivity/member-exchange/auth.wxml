@@ -1,0 +1,41 @@
+<view class="page data-v-168fe8c3">
+    <navigator bind:__l="__l" class="data-v-168fe8c3" uI="168fe8c3-0" uP="{{a}}" wx:if="{{a}}"></navigator>
+    <view class="error data-v-168fe8c3" wx:if="{{b}}">
+        <error-block bind:__l="__l" class="data-v-168fe8c3" uI="168fe8c3-1" uP="{{e}}" uS="{{['bottom']}}" wx:if="{{e}}">
+            <view bindtap="{{d}}" class="error-button data-v-168fe8c3" slot="bottom">
+                <st-button bind:__l="__l" class="data-v-168fe8c3" uI="168fe8c3-2,168fe8c3-1" uP="{{c}}" uS="{{['d']}}" wx:if="{{c}}"> 刷新 </st-button>
+            </view>
+        </error-block>
+    </view>
+    <block wx:elif="{{f}}">
+        <member-exchange-container bind:__l="__l" bindbgLoadingChange="{{g}}" bindclickButton="{{h}}" class="data-v-168fe8c3" uI="168fe8c3-3" uP="{{i}}" wx:if="{{i}}"></member-exchange-container>
+        <page-container bindbeforeleave="{{z}}" class="data-v-168fe8c3" duration="{{y}}" show="{{x}}">
+            <view class="auth-popup data-v-168fe8c3">
+                <navigator bind:__l="__l" class="data-v-168fe8c3" uI="168fe8c3-4" uP="{{k}}" uS="{{['actions']}}" wx:if="{{k}}">
+                    <view class="action-item data-v-168fe8c3" slot="actions">
+                        <view bindtap="{{j}}" class="iconfont icon-a-20_guanbi action-item__icon data-v-168fe8c3"></view>
+                    </view>
+                </navigator>
+                <view class="body data-v-168fe8c3">
+                    <view class="auth-title data-v-168fe8c3"> 会员信息授权 </view>
+                    <view class="auth-logos data-v-168fe8c3">
+                        <image class="auth-logo data-v-168fe8c3" mode="aspectFill" src="{{l}}"></image>
+                        <image class="icon-exchange data-v-168fe8c3" src="{{m}}"></image>
+                        <image class="auth-logo data-v-168fe8c3" mode="aspectFill" src="{{n}}"></image>
+                    </view>
+                    <view class="auth-buttons data-v-168fe8c3">
+                        <st-button bind:__l="__l" bindclick="{{o}}" class="data-v-168fe8c3" uI="168fe8c3-5" uP="{{p}}" uS="{{['d']}}" wx:if="{{p}}"> 同意授权 </st-button>
+                        <st-button bind:__l="__l" bindclick="{{q}}" class="data-v-168fe8c3" uI="168fe8c3-6" uP="{{r}}" uS="{{['d']}}" wx:if="{{r}}"> 取消 </st-button>
+                    </view>
+                    <view class="auth-desc data-v-168fe8c3">
+                        <view class="auth-desc__radio data-v-168fe8c3">
+                            <st-radio bind:__l="__l" bindupdateModelValue="{{s}}" class="data-v-168fe8c3" uI="168fe8c3-7" uP="{{t}}" wx:if="{{t}}"></st-radio>
+                        </view>
+                        <text class="data-v-168fe8c3">我知悉并授权松赞将会员手机号、会员等级共享给该活动的合作方-{{v}}。</text>
+                    </view>
+                    <safe-area bind:__l="__l" class="data-v-168fe8c3" uI="168fe8c3-8" uP="{{w}}" wx:if="{{w}}"></safe-area>
+                </view>
+            </view>
+        </page-container>
+    </block>
+</view>

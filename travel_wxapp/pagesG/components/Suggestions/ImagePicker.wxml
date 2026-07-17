@@ -1,0 +1,12 @@
+<view bindtap="{{d}}" class="image-picker data-v-e0497351">
+    <pick-trigger bind:__l="__l" class="data-v-e0497351" uI="e0497351-0" uP="{{c}}" uS="{{['display']}}" wx:if="{{c}}">
+        <view class="image-list data-v-e0497351" slot="display">
+            <view class="data-v-e0497351" wx:for="{{a}}" wx:key="d">
+                <view class="image-wrapper data-v-e0497351">
+                    <image alt="" catchtap="{{item.a}}" class="img data-v-e0497351" mode="aspectFit" src="{{item.b}}"></image>
+                    <image alt="" catchtap="{{item.c}}" class="close data-v-e0497351" src="{{b}}"></image>
+                </view>
+            </view>
+        </view>
+    </pick-trigger>
+</view>

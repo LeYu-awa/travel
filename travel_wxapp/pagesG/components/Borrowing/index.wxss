@@ -1,0 +1,32 @@
+.content.data-v-449e067b {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.content .body.data-v-449e067b {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  overflow: auto;
+}
+.content .body .good-list.data-v-449e067b {
+  height: 100%;
+}
+.footer.data-v-449e067b {
+  align-items: center;
+  display: flex;
+  padding: 24rpx 32rpx;
+}
+.footer .chosen.data-v-449e067b {
+  flex-basis: 160rpx;
+  flex-shrink: 0;
+  font-size: 24rpx;
+  margin-right: 20rpx;
+  text-align: center;
+}
+.footer .chosen-label.data-v-449e067b {
+  margin-bottom: 16rpx;
+}
+.footer .primary.data-v-449e067b {
+  flex: 1;
+}

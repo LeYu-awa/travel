@@ -1,0 +1,21 @@
+<bottom-dialog bind:__l="__l" bindopenState="{{f}}" class="change-place_dialog__wrapper r data-v-59163416" uI="59163416-0" uP="{{g}}" uR="hookChangePlaceDialog" uS="{{['d']}}" wx:if="{{g}}">
+    <view class="change-place_dialog__main data-v-59163416">
+        <view class="place-list__wrapper data-v-59163416">
+            <view class="place-list-item data-v-59163416" wx:for="{{a}}" wx:key="e">
+                <view class="place-list-item_type data-v-59163416">
+                    <text class="place-list-item__label data-v-59163416">{{item.a}}</text>
+                    <view bindtap="{{item.d}}" class="data-v-59163416">
+                        <st-radio bind:__l="__l" class="place-list-item__value data-v-59163416" uI="{{item.b}}" uP="{{item.c}}" wx:if="{{item.c}}"></st-radio>
+                    </view>
+                </view>
+            </view>
+        </view>
+        <view class="tips data-v-59163416">为您推荐以上交通便利的地点。</view>
+    </view>
+    <view class="fixed-placeholder data-v-59163416"></view>
+    <fixed-bottom-view bind:__l="__l" class="data-v-59163416" uI="59163416-2,59163416-0" uP="{{d}}" uS="{{['d']}}" wx:if="{{d}}">
+        <view class="footer-right_btn data-v-59163416">
+            <st-button bind:__l="__l" bindclick="{{b}}" class="data-v-59163416" uI="59163416-3,59163416-2" uP="{{c}}" uS="{{['d']}}" wx:if="{{c}}">完成</st-button>
+        </view>
+    </fixed-bottom-view>
+</bottom-dialog>

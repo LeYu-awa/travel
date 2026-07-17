@@ -1,0 +1,81 @@
+<bottom-dialog bind:__l="__l" bindopenState="{{E}}" class="hook-dialog r data-v-9e522052" uI="9e522052-0" uP="{{F}}" uR="hookDetailDialog" uS="{{['title','d']}}" wx:if="{{F}}">
+    <view class="custom-title__wrapper data-v-9e522052" slot="title">
+        <close-button bind:__l="__l" bindonClick="{{a}}" class="data-v-9e522052" uI="9e522052-1,9e522052-0"></close-button>
+    </view>
+    <scroll-view scrollY class="detail-dialog_main__wrapper data-v-9e522052" style="{{h}}" wx:if="{{b}}">
+        <view class="cover__wrapper data-v-9e522052">
+            <image class="cover_image data-v-9e522052" src="{{c}}"></image>
+        </view>
+        <view class="content-main_scroll-view data-v-9e522052">
+            <view class="content-main__wrapper data-v-9e522052">
+                <view class="content-main_title data-v-9e522052">{{d}}</view>
+                <view class="tag data-v-9e522052" wx:if="{{e}}">
+                    <view class="tag_itme data-v-9e522052" wx:for="{{f}}" wx:for-item="tag" wx:key="b">{{tag.a}}</view>
+                </view>
+                <view class="tips-main_content data-v-9e522052">{{g}}</view>
+            </view>
+        </view>
+    </scroll-view>
+    <scroll-view scrollY class="detail-dialog_main__wrapper data-v-9e522052" style="{{q}}" wx:if="{{i}}">
+        <view class="cover__wrapper data-v-9e522052">
+            <swiper-box bind:__l="__l" class="data-v-9e522052" uI="9e522052-2,9e522052-0" uP="{{k}}" uS="{{['item']}}" wx:if="{{k}}">
+                <view slot="{{v0.c}}" wx:for="{{j}}" wx:for-item="v0" wx:key="b">
+                    <image class="cover_image data-v-9e522052" src="{{v0.a}}"></image>
+                </view>
+            </swiper-box>
+        </view>
+        <view class="content-main_scroll-view data-v-9e522052">
+            <view class="content-main__wrapper data-v-9e522052">
+                <view class="content-main_title data-v-9e522052">{{l}}</view>
+                <view class="detail_info data-v-9e522052">
+                    <view class="info_wrap data-v-9e522052">
+                        <view class="info_title data-v-9e522052">酒店海拔</view>
+                        <view class="info_text data-v-9e522052">{{m}}m</view>
+                    </view>
+                    <view class="info_wrap data-v-9e522052">
+                        <view class="info_title data-v-9e522052">联系电话</view>
+                        <view class="info_text data-v-9e522052">{{n}}</view>
+                    </view>
+                    <view class="info_wrap data-v-9e522052">
+                        <view class="info_title data-v-9e522052">酒店地址</view>
+                        <view class="info_text text_justify data-v-9e522052">{{o}}</view>
+                    </view>
+                </view>
+                <view class="tips-main_content text_justify data-v-9e522052">
+                    <rich-text class="data-v-9e522052" nodes="{{p}}"></rich-text>
+                </view>
+            </view>
+        </view>
+    </scroll-view>
+    <scroll-view scrollY class="detail-dialog_main__wrapper data-v-9e522052" style="{{C}}" wx:if="{{r}}">
+        <view class="cover__wrapper data-v-9e522052">
+            <swiper-box bind:__l="__l" class="data-v-9e522052" uI="9e522052-3,9e522052-0" uP="{{t}}" uS="{{['item']}}" wx:if="{{t}}">
+                <view slot="{{v0.c}}" wx:for="{{s}}" wx:for-item="v0" wx:key="b">
+                    <image class="cover_image data-v-9e522052" src="{{v0.a}}"></image>
+                </view>
+            </swiper-box>
+        </view>
+        <view class="content-main_scroll-view data-v-9e522052">
+            <view class="content-main__wrapper data-v-9e522052">
+                <view class="content-main_title data-v-9e522052">{{v}}</view>
+                <view class="detail_info data-v-9e522052">
+                    <view class="info_wrap data-v-9e522052">
+                        <view class="info_title data-v-9e522052">活动时长</view>
+                        <view class="info_text data-v-9e522052">{{w}}小时</view>
+                    </view>
+                    <view class="info_wrap data-v-9e522052">
+                        <view class="info_title data-v-9e522052">活动类型</view>
+                        <view class="info_text data-v-9e522052">{{x}} - {{y}}</view>
+                    </view>
+                    <view class="info_wrap data-v-9e522052" wx:if="{{z}}">
+                        <view class="info_title data-v-9e522052">活动强度</view>
+                        <view class="info_text data-v-9e522052">{{A}}</view>
+                    </view>
+                </view>
+                <view class="tips-main_content text_justify data-v-9e522052">
+                    <rich-text class="data-v-9e522052" nodes="{{B}}"></rich-text>
+                </view>
+            </view>
+        </view>
+    </scroll-view>
+</bottom-dialog>

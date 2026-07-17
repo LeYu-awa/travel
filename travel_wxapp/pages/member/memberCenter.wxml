@@ -1,0 +1,95 @@
+<view class="ui_memberCenter data-v-d8dd45c3">
+    <view bindtap="{{b}}" class="icon iconfont icon-a-20_shezhi settings data-v-d8dd45c3" style="{{'top:'+a}}"></view>
+    <image class="memberCenterBg data-v-d8dd45c3" mode="widthFix" src="{{c}}"></image>
+    <view bindtap="{{g}}" class="memberHead data-v-d8dd45c3" wx:if="{{d}}">
+        <image class="avatar data-v-d8dd45c3" mode="" src="{{e}}"></image>
+        <view class="userName data-v-d8dd45c3">{{f}}</view>
+    </view>
+    <view class="memberHead data-v-d8dd45c3" wx:else>
+        <view bindtap="{{h}}" class="userName userName2 data-v-d8dd45c3"> 点击登录 <view class="icon iconfont icon-a-16_youlajiantou_hei data-v-d8dd45c3"></view>
+        </view>
+    </view>
+    <view class="userAssets data-v-d8dd45c3">
+        <view bindtap="{{l}}" class="userAsset data-v-d8dd45c3">
+            <view class="num data-v-d8dd45c3" wx:if="{{i}}">{{j}}</view>
+            <view class="num data-v-d8dd45c3" wx:else> 0 </view>
+            <view class="title data-v-d8dd45c3">{{k}}</view>
+        </view>
+        <view bindtap="{{p}}" class="userAsset data-v-d8dd45c3">
+            <view class="num data-v-d8dd45c3" wx:if="{{m}}">{{n}}</view>
+            <view class="num data-v-d8dd45c3" wx:else> 0 </view>
+            <view class="title data-v-d8dd45c3">{{o}}</view>
+        </view>
+        <view bindtap="{{t}}" class="userAsset data-v-d8dd45c3">
+            <view class="num data-v-d8dd45c3" wx:if="{{q}}">{{r}}</view>
+            <view class="num data-v-d8dd45c3" wx:else> 0 </view>
+            <view class="title data-v-d8dd45c3">{{s}}</view>
+        </view>
+    </view>
+    <view class="memberTips data-v-d8dd45c3" wx:if="{{v}}">{{w}}</view>
+    <view class="{{['orderWrapper','data-v-d8dd45c3',K&&'hasOrder']}}">
+        <view class="orderListBox data-v-d8dd45c3">
+            <view bindtap="{{y}}" class="orderItem data-v-d8dd45c3">
+                <view class="icon iconfont icon-a-20_jiulvdingdan data-v-d8dd45c3"></view>
+                <view class="orderDesc data-v-d8dd45c3">{{x}}</view>
+            </view>
+            <view bindtap="{{z}}" class="orderItem data-v-d8dd45c3">
+                <view class="icon iconfont icon-a-20_fengwudingdan data-v-d8dd45c3"></view>
+                <view class="orderDesc data-v-d8dd45c3"> 风物订单 </view>
+            </view>
+        </view>
+        <view class="{{['orders','data-v-d8dd45c3',J&&'less']}}" wx:if="{{A}}">
+            <swiper autoplay="{{D}}" bindchange="{{E}}" class="swiper data-v-d8dd45c3" indicatorDots="{{C}}">
+                <swiper-item class="data-v-d8dd45c3" wx:if="{{item.a}}" wx:for="{{B}}" wx:key="x">
+                    <view catchtap="{{item.w}}" class="order data-v-d8dd45c3">
+                        <image alt="" class="logo data-v-d8dd45c3" mode="aspectFill" src="{{item.b}}"></image>
+                        <view class="rightPart data-v-d8dd45c3">
+                            <view class="info data-v-d8dd45c3">
+                                <view class="name data-v-d8dd45c3">{{item.c}}</view>
+                                <view class="{{['countTime','data-v-d8dd45c3',item.g&&'red']}}">{{item.d}}<label class="data-v-d8dd45c3" wx:if="{{item.e}}">{{item.f}}</label>
+                                </view>
+                            </view>
+                            <view catchtap="{{item.i}}" class="operate data-v-d8dd45c3" wx:if="{{item.h}}"> 去付款 </view>
+                            <view catchtap="{{item.k}}" class="operate data-v-d8dd45c3" wx:elif="{{item.j}}"> 添加出行人 </view>
+                            <view catchtap="{{item.m}}" class="operate data-v-d8dd45c3" wx:elif="{{item.l}}"> 立即签约 </view>
+                            <view catchtap="{{item.o}}" class="operate data-v-d8dd45c3" wx:elif="{{item.n}}"> 填写接送信息 </view>
+                            <view catchtap="{{item.q}}" class="operate data-v-d8dd45c3" wx:elif="{{item.p}}"> 申请开票 </view>
+                            <view catchtap="{{item.s}}" class="operate data-v-d8dd45c3" wx:elif="{{item.r}}"> 取消订单 </view>
+                            <view catchtap="{{item.v}}" class="operate data-v-d8dd45c3" wx:elif="{{item.t}}"> 在线客服 </view>
+                        </view>
+                    </view>
+                </swiper-item>
+            </swiper>
+            <view bindtap="{{H}}" class="seeMore data-v-d8dd45c3" wx:if="{{F}}">
+                <view class="toSee data-v-d8dd45c3">{{G}}</view>
+                <view class="icon iconfont icon-a-12_youlajiantou_hei data-v-d8dd45c3"></view>
+            </view>
+            <view class="swiper-dots data-v-d8dd45c3">
+                <view class="{{['swiper-dot','data-v-d8dd45c3',order.b&&'active']}}" wx:if="{{order.a}}" wx:for="{{I}}" wx:for-item="order" wx:key="c"></view>
+            </view>
+        </view>
+    </view>
+    <view bindtap="{{S}}" class="userCard data-v-d8dd45c3" style="{{'background-image:'+R}}" wx:if="{{L}}">
+        <view class="cardName data-v-d8dd45c3">{{M}}</view>
+        <view class="cardLimit data-v-d8dd45c3" wx:if="{{N}}">{{O}}</view>
+        <view class="cardProcess data-v-d8dd45c3" wx:if="{{P}}">
+            <view class="process data-v-d8dd45c3" style="{{Q}}"></view>
+        </view>
+    </view>
+    <member-center-url bind:__l="__l" bindinviteClick="{{U}}" class="data-v-d8dd45c3" uI="d8dd45c3-0" uP="{{V}}" wx:if="{{T}}"></member-center-url>
+    <block wx:for="{{W}}" wx:for-item="slot">
+        <block wx:if="{{slot.a}}">
+            <member-center-url bind:__l="__l" bindkfClick="{{slot.c}}" class="data-v-d8dd45c3" key="{{slot.b}}" uI="{{slot.d}}" uP="{{slot.e}}" wx:if="{{slot.e}}"></member-center-url>
+        </block>
+        <block wx:if="{{slot.f}}">
+            <whitespace-line bind:__l="__l" bindkfClick="{{slot.h}}" class="data-v-d8dd45c3" key="{{slot.g}}" uI="{{slot.i}}" uP="{{slot.j}}" wx:if="{{slot.j}}"></whitespace-line>
+        </block>
+    </block>
+    <view class="memberCenterLogo data-v-d8dd45c3">
+        <image class="img data-v-d8dd45c3" src="https://dsplatweb.oss-cn-chengdu.aliyuncs.com/songzan/images/memberCenterLogo.png"></image>
+    </view>
+    <bottom-nav bind:__l="__l" class="data-v-d8dd45c3" uI="d8dd45c3-3"></bottom-nav>
+    <kf-dialog bind:__l="__l" class="r data-v-d8dd45c3" uI="d8dd45c3-4" uP="{{Y}}" uR="kf" wx:if="{{Y}}"></kf-dialog>
+    <float-button-kf bind:__l="__l" class="data-v-d8dd45c3" data-c-h="{{!Z}}" uI="d8dd45c3-5"></float-button-kf>
+    <order-cancel-dialog bind:__l="__l" bindupdateShow="{{aa}}" class="data-v-d8dd45c3" uI="d8dd45c3-6" uP="{{ab}}" wx:if="{{ab}}"></order-cancel-dialog>
+</view>

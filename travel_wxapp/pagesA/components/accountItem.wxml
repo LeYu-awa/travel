@@ -1,0 +1,12 @@
+<view bindtap="{{h}}" class="{{['ui_accountItem','data-v-f125c8af',i&&'isHistory']}}">
+    <image alt="" class="logo data-v-f125c8af" mode="aspectFill" src="{{b}}" wx:if="{{a}}"></image>
+    <view class="innerBox data-v-f125c8af">
+        <view class="history data-v-f125c8af" wx:if="{{c}}">已过期</view>
+        <view class="title data-v-f125c8af">{{d}}</view>
+        <view class="time data-v-f125c8af" wx:if="{{e}}">永久有效</view>
+        <view class="time data-v-f125c8af" wx:else>{{f}} 前可用</view>
+        <view class="accountDesc data-v-f125c8af">余额</view>
+        <view class="price data-v-f125c8af">¥{{g}}</view>
+        <view class="infoBtn data-v-f125c8af">详情</view>
+    </view>
+</view>

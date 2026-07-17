@@ -1,0 +1,9 @@
+.dialog-content.data-v-197cfbfb {
+  height: 500rpx;
+  overflow: auto;
+}
+.empty.data-v-197cfbfb {
+  color: gray;
+  margin-top: 80rpx;
+  text-align: center;
+}

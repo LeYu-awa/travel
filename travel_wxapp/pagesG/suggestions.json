@@ -1,0 +1,7 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "float-button-kf": "/components/new/FloatButtonKf",
+    "suggestions": "./components/Suggestions/index"
+  }
+}

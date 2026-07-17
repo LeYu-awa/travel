@@ -1,0 +1,52 @@
+<view class="header data-v-3c1ed642">
+    <view class="header-img data-v-3c1ed642" style="{{'top:'+d}}">
+        <view bindtap="{{b}}" class="header-flex data-v-3c1ed642" wx:if="{{a}}">
+            <view class="icon iconfont icon-fanhuishouye data-v-3c1ed642" style="color:#fff"></view>
+        </view>
+        <view bindtap="{{c}}" class="header-flex data-v-3c1ed642" style="width:100px" wx:else>
+            <view class="iconfont icon-a-16_youlajiantou_hei1 data-v-3c1ed642" style="color:#fff"></view>
+        </view>
+    </view>
+</view>
+<view class="video data-v-3c1ed642">
+    <video autoplay enablePlayGesture bindcontrolstoggle="{{e}}" bindended="{{f}}" bindpause="{{g}}" bindplay="{{h}}" class="myVideo data-v-3c1ed642" id="myVideo" showCenterPlayBtn="{{false}}" showFullscreenBtn="{{false}}" showPlayBtn="{{false}}" src="{{i}}"></video>
+</view>
+<view bindtap="{{k}}" class="collection data-v-3c1ed642" wx:if="{{j}}">
+    <view class="colon-flex data-v-3c1ed642">
+        <view class="iconfont icon-a-16_quangou data-v-3c1ed642" style="color:#fff"></view>
+        <view class="left data-v-3c1ed642">已加入我的收藏-内容</view>
+    </view>
+    <view class="colon-flex data-v-3c1ed642">
+        <view class="right data-v-3c1ed642">去看看</view>
+        <view class="iconfont icon-a-12_youlajiantou_hui data-v-3c1ed642" style="color:#fff"></view>
+    </view>
+</view>
+<view bindtap="{{m}}" class="play-bu data-v-3c1ed642" wx:if="{{l}}">
+    <view class="iconfont icon-a-20_bofang data-v-3c1ed642"></view>
+</view>
+<view bindtap="{{o}}" class="play-bu data-v-3c1ed642" wx:if="{{n}}">
+    <view class="iconfont icon-a-20_zanting data-v-3c1ed642"></view>
+</view>
+<view class="video-bun data-v-3c1ed642">
+    <view class="but-title data-v-3c1ed642">{{p}}</view>
+    <view class="but-right data-v-3c1ed642">
+        <view bindtap="{{B}}" class="but-con data-v-3c1ed642">
+            <view class="data-v-3c1ed642">
+                <view class="iconfont icon-a-20_shoucang_yishoucang data-v-3c1ed642" style="color:#a43127" wx:if="{{q}}"></view>
+                <view class="iconfont icon-a-20_shoucang_weishoucang data-v-3c1ed642" wx:else></view>
+            </view>
+            <view class="con-number data-v-3c1ed642">
+                <text class="number-left data-v-3c1ed642" wx:if="{{r}}">收藏</text>
+                <text class="number-left data-v-3c1ed642" wx:if="{{s}}">{{t}}</text>
+                <text class="number-left data-v-3c1ed642" wx:if="{{v}}">{{w}}千</text>
+                <text class="number-left data-v-3c1ed642" wx:if="{{x}}">{{y}}万</text>
+                <text class="number-left data-v-3c1ed642" wx:if="{{z}}">{{A}}万</text>
+            </view>
+        </view>
+        <view class="but-con data-v-3c1ed642">
+            <button class="but-share data-v-3c1ed642" data-name="shareBtn" openType="share" type="default">
+                <view class="iconfont icon-a-20_shaixuan1 data-v-3c1ed642" style="color:#fff"></view>
+            </button>
+        </view>
+    </view>
+</view>

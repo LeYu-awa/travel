@@ -1,0 +1,12 @@
+<view class="collect-success__wrapper data-v-9da1674f" wx:if="{{a}}">
+    <view class="colon-flex data-v-9da1674f">
+        <view class="icon-gou__wrapper data-v-9da1674f">
+            <view class="iconfont icon-gou data-v-9da1674f"></view>
+        </view>
+        <view class="left data-v-9da1674f">{{b}}</view>
+    </view>
+    <view bindtap="{{d}}" class="colon-flex data-v-9da1674f">
+        <view class="right data-v-9da1674f">{{c}}</view>
+        <view class="iconfont icon-a-12_youlajiantou_hui data-v-9da1674f"></view>
+    </view>
+</view>

@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "选择出行人",
+  "usingComponents": {
+    "fixed-bottom-view": "../../components/new/FixedBottomView",
+    "float-button-kf": "/components/new/FloatButtonKf",
+    "safe-area": "../../components/new/SafeArea",
+    "st-button": "../../components/new/StButton",
+    "st-checkbox": "../../components/new/StCheckbox",
+    "st-dialog": "../../components/new/StDialog",
+    "st-radio": "../../components/new/StRadio"
+  }
+}

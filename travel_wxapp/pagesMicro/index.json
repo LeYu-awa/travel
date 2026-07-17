@@ -1,0 +1,14 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "collect": "./components/Collect",
+    "comp-list": "./components/CompList",
+    "error-block": "../components/new/ErrorBlock",
+    "float-button-kf": "/components/new/FloatButtonKf",
+    "limiting-retry": "../components/new/LimitingRetry/index",
+    "navigator": "../components/new/Navigator",
+    "spin": "../components/new/Spin",
+    "st-button": "../components/new/StButton",
+    "subscribe-message": "./components/SubscribeMessage"
+  }
+}

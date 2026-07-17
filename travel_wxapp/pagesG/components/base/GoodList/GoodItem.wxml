@@ -1,0 +1,22 @@
+<view class="good data-v-1d347428">
+    <image alt="" bindtap="{{b}}" class="image data-v-1d347428" src="{{a}}"></image>
+    <view class="info data-v-1d347428">
+        <view class="title data-v-1d347428">
+            <rich-text class="data-v-1d347428" nodes="{{c}}"></rich-text>
+        </view>
+        <view class="bottom data-v-1d347428">
+            <label class="data-v-1d347428">
+                <label class="data-v-1d347428" wx:if="{{d}}">{{e}}</label>
+                <label class="{{['data-v-1d347428','stock',h&&'zero']}}" wx:if="{{f}}"> 余{{g}}</label>
+            </label>
+            <view class="{{['data-v-1d347428','counter',r&&'empty']}}">
+                <block wx:if="{{i}}">
+                    <image alt="" bindtap="{{j}}" class="icon data-v-1d347428" src="{{k}}"></image>
+                    <label class="quantity data-v-1d347428">{{l}}</label>
+                </block>
+                <image alt="" bindtap="{{n}}" class="icon data-v-1d347428" src="{{o}}" wx:if="{{m}}"></image>
+                <image alt="" class="icon data-v-1d347428" src="{{q}}" wx:if="{{p}}"></image>
+            </view>
+        </view>
+    </view>
+</view>

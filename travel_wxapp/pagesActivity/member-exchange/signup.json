@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "error-block": "../../components/new/ErrorBlock",
+    "float-button-kf": "/components/new/FloatButtonKf",
+    "member-exchange-container": "../components/MemberExchangeContainer",
+    "navigator": "../../components/new/Navigator",
+    "st-button": "../../components/new/StButton"
+  }
+}

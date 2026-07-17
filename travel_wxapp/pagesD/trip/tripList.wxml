@@ -1,0 +1,24 @@
+<coustom-head bind:__l="__l" class="data-v-910aa7b7" uI="910aa7b7-0" uP="{{a}}" wx:if="{{a}}"></coustom-head>
+<view class="{{['tabs_warp','data-v-910aa7b7',d&&'fixed']}}" style="{{'top:'+e}}">
+    <switch-bar bind:__l="__l" bindchangeIndex="{{b}}" class="data-v-910aa7b7" uI="910aa7b7-1" uP="{{c}}" wx:if="{{c}}"></switch-bar>
+</view>
+<view class="data-v-910aa7b7" style="height:45px"></view>
+<view class="ui_tripList my-trip_page data-v-910aa7b7" hidden="{{!f}}">
+    <my-trip-page bind:__l="__l" class="data-v-910aa7b7" uI="910aa7b7-2"></my-trip-page>
+</view>
+<view class="ui_tripList data-v-910aa7b7" wx:if="{{g}}">
+    <view class="tripList data-v-910aa7b7" wx:if="{{h}}">
+        <view bindtap="{{item.f}}" class="{{['trip-item','data-v-910aa7b7',item.g&&'active']}}" wx:for="{{i}}" wx:key="e">
+            <image class="trip-img data-v-910aa7b7" mode="aspectFill" src="{{item.b}}" wx:if="{{item.a}}"></image>
+            <view class="trip-info data-v-910aa7b7">
+                <view class="trip-date data-v-910aa7b7">{{item.c}}</view>
+                <view class="trip-name data-v-910aa7b7">{{item.d}}<view class="iconfont icon-a-12_youlajiantou_hui data-v-910aa7b7"></view>
+                </view>
+            </view>
+        </view>
+    </view>
+    <block wx:else>
+        <empty bind:__l="__l" class="data-v-910aa7b7" uI="910aa7b7-3" uP="{{j}}" wx:if="{{j}}"></empty>
+    </block>
+</view>
+<float-button-kf bind:__l="__l" class="data-v-910aa7b7" uI="910aa7b7-4"></float-button-kf>

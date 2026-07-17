@@ -1,0 +1,36 @@
+.good-item.data-v-89121a4c {
+  display: flex;
+  margin-bottom: 32rpx;
+}
+.image.data-v-89121a4c {
+  flex-shrink: 0;
+}
+.info.data-v-89121a4c {
+  flex: 1;
+}
+.top.data-v-89121a4c {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8rpx;
+}
+.img.data-v-89121a4c {
+  background: #eee;
+  border-radius: 16rpx;
+  height: 160rpx;
+  margin-right: 24rpx;
+  width: 160rpx;
+}
+.amount.data-v-89121a4c,
+.name.data-v-89121a4c {
+  font-size: 28rpx;
+  line-height: 44rpx;
+}
+.name.data-v-89121a4c {
+  font-weight: 700;
+}
+.price.data-v-89121a4c {
+  color: gray;
+  font-size: 28rpx;
+  line-height: 36rpx;
+}

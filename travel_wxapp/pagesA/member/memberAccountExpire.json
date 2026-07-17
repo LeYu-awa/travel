@@ -1,0 +1,11 @@
+{
+  "enablePullDownRefresh": false,
+  "navigationBarTitleText": "已过期余额",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "account-item": "../components/accountItem",
+    "coustom-head": "../../components/coustomHead",
+    "empty": "../../components/empty",
+    "float-button-kf": "/components/new/FloatButtonKf"
+  }
+}

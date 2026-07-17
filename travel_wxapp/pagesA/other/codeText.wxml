@@ -1,0 +1,7 @@
+<view class="ui_codeTextShow data-v-9c0d179a">
+    <coustom-head bind:__l="__l" class="data-v-9c0d179a" uI="9c0d179a-0" uP="{{a}}" wx:if="{{a}}"></coustom-head>
+    <view class="codeTextShow data-v-9c0d179a">
+        <mp-html bind:__l="__l" class="textInfo data-v-9c0d179a" uI="9c0d179a-1" uP="{{b}}" wx:if="{{b}}"></mp-html>
+    </view>
+</view>
+<float-button-kf bind:__l="__l" class="data-v-9c0d179a" uI="9c0d179a-2"></float-button-kf>

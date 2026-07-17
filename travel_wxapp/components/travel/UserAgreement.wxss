@@ -1,0 +1,9 @@
+.user-agreement-content.data-v-e3c594ea {
+  color: gray;
+  font-size: 28rpx;
+  line-height: 44rpx;
+  text-align: left;
+}
+.user-agreement-link.data-v-e3c594ea {
+  color: #a43127;
+}

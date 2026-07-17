@@ -1,0 +1,16 @@
+{
+  "navigationBarTitleText": "产品详情",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "back-to-top": "../../components/backToTop",
+    "collapse": "../../components/collapse",
+    "coustom-head": "../../components/coustomHead",
+    "error-limiting": "../../components/new/ErrorLimiting",
+    "exchange-list-box": "../components/ExchangeListBox",
+    "float-button-kf": "/components/new/FloatButtonKf",
+    "kf-dialog": "../../components/kfDialog",
+    "mp-html": "../../uni_modules/mp-html/components/mp-html/mp-html",
+    "swiper-box": "../../components/swiperBox",
+    "travel-dialog": "../../components/travelDialog"
+  }
+}

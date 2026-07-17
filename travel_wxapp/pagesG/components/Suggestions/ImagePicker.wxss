@@ -1,0 +1,26 @@
+.image-picker.data-v-e0497351 {
+  width: 100%;
+}
+.img.data-v-e0497351 {
+  background: #eee;
+  border-radius: 8rpx;
+  height: 120rpx;
+  overflow: hidden;
+  width: 120rpx;
+}
+.image-wrapper.data-v-e0497351 {
+  position: relative;
+}
+.close.data-v-e0497351 {
+  height: 32rpx;
+  position: absolute;
+  right: -16rpx;
+  top: -16rpx;
+  width: 32rpx;
+}
+.image-list.data-v-e0497351 {
+  align-items: flex-start;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16rpx;
+}

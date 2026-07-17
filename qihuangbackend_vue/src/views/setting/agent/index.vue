@@ -1,0 +1,274 @@
+<template>
+  <div class="divBox">
+    <div class="selCard">
+      <el-form
+        :model="tableFrom"
+        ref="searchForm"
+        size="small"
+        label-width="85px"
+        :inline="true"
+      >
+        <el-form-item label="选择时间：">
+          <el-date-picker
+            v-model="timeVal"
+            type="daterange"
+            placeholder="选择日期"
+            format="yyyy/MM/dd"
+            value-format="yyyy/MM/dd"
+            clearable
+            style="width: 280px;"
+            :picker-options="pickerOptions"
+            @change="onchangeTime"
+          />
+        </el-form-item>
+        <el-form-item label="显示状态：" prop="status">
+          <el-select
+            v-model="tableFrom.status"
+            clearable
+            placeholder="请选择"
+            class="selWidth"
+            @change="getList(1)"
+          >
+            <el-option label="显示" value="1" />
+            <el-option label="隐藏" value="0" />
+          </el-select>
+        </el-form-item>
+        <el-form-item label="关键字：" prop="keyword">
+          <el-input
+            v-model="tableFrom.keyword"
+            @keyup.enter.native="getList(1)"
+            placeholder="请输入账号/呢称/关键字"
+            clearable
+            class="selWidth"
+          />
+        </el-form-item>
+        <el-form-item>
+          <el-button type="primary" size="small" @click="getList(1)"
+            >搜索</el-button
+          >
+          <el-button size="small" @click="searchReset()">重置</el-button>
+        </el-form-item>
+      </el-form>
+    </div>
+    <el-card class="mt14">
+      <div class="mb20">
+        <el-button size="small" type="primary" @click="onAdd"
+          >添加代理</el-button
+        >
+      </div>
+      <el-table
+        v-loading="listLoading"
+        :data="tableData.data"
+        style="width: 100%"
+        size="small"
+      >
+        <el-table-column prop="area_id" label="ID" min-width="120" />
+        <el-table-column prop="real_name" label="管理员姓名" min-width="150" />
+        <el-table-column prop="account" label="账号" min-width="200" />
+        <el-table-column prop="phone" label="手机号码" min-width="200" />
+        <el-table-column prop="status" label="是否显示" min-width="150">
+          <template slot-scope="scope">
+            <el-switch
+              v-model="scope.row.status"
+              :active-value="1"
+              :inactive-value="0"
+              active-text="显示"
+              inactive-text="隐藏"
+              :width="55"
+              @change="onchangeIsShow(scope.row)"
+            />
+          </template>
+        </el-table-column>
+        <el-table-column prop="create_time" label="创建时间" min-width="150" />
+        <el-table-column label="操作" min-width="200" fixed="right">
+          <template slot-scope="scope">
+            <el-button type="text" size="small" @click="onPassword(scope.row)"
+              >修改密码</el-button
+            >
+            <el-button type="text" size="small" @click="onEdit(scope.row)"
+              >编辑</el-button
+            >
+            <el-button
+              type="text"
+              size="small"
+              @click="handleDelete(scope.row.area_id, scope.$index)"
+              >删除</el-button
+            >
+          </template>
+        </el-table-column>
+      </el-table>
+      <div class="block">
+        <el-pagination
+          background
+          :page-size="tableFrom.limit"
+          :current-page="tableFrom.page"
+          layout="total, prev, pager, next, jumper"
+          :total="tableData.total"
+          @size-change="handleSizeChange"
+          @current-change="pageChange"
+        />
+      </div>
+    </el-card>
+    <editpopUp
+      v-if="editshow"
+      :dialog-visible="editshow"
+      :from-data="fromData"
+      @cancel="editshow = false"
+      @confirm="onConfirm"
+      @close="editshow = false"
+    />
+    <updatePWD
+      v-if="showPwd"
+      :from-data="fromData"
+      :dialog-visible="showPwd"
+      @cancel="showPwd = false"
+      @confirm="onConfirm"
+      @close="showPwd = false"
+    />
+  </div>
+</template>
+
+<script>
+import {
+  areaAdminList,
+  areaAdminAdd,
+  areaAdminEdit,
+  areaAdminDelete,
+  adminStatusApi,
+  areaAdminChangePwd
+} from "@/api/setting";
+import { fromList } from "@/libs/constants.js";
+import editpopUp from "./editpopUp.vue";
+import updatePWD from "./updatePWD.vue";
+import timeOptions from "@/utils/timeOptions";
+export default {
+  name: "SystemRole",
+  components: {
+    editpopUp,
+    updatePWD
+  },
+  data() {
+    return {
+      showPwd: false,
+      updatePwdId: "",
+      pickerOptions: timeOptions,
+      fromList: fromList,
+      grid: {
+        xl: 7,
+        lg: 7,
+        md: 12,
+        sm: 24,
+        xs: 24
+      },
+      tableData: {
+        data: [],
+        total: 0
+      },
+      editshow: false,
+      fromData: {},
+      listLoading: true,
+      tableFrom: {
+        page: 1,
+        limit: 20,
+        keyword: "",
+        status: "",
+        date: ""
+      },
+      timeVal: []
+    };
+  },
+  mounted() {
+    this.getList();
+  },
+  methods: {
+    /**重置 */
+    searchReset() {
+      this.timeVal = [];
+      this.tableFrom.date = "";
+      this.$refs.searchForm.resetFields();
+      this.getList(1);
+    },
+    // 具体日期
+    onchangeTime(e) {
+      this.timeVal = e;
+      this.tableFrom.date = this.timeVal ? this.timeVal.join("-") : "";
+      this.tableFrom.page = 1;
+      this.getList();
+    },
+    // 列表
+    getList(num) {
+      this.listLoading = true;
+      this.tableFrom.page = num ? num : this.tableFrom.page;
+      areaAdminList(this.tableFrom)
+        .then(res => {
+          this.tableData.data = res.data.list;
+          this.tableData.total = res.data.count;
+          this.listLoading = false;
+        })
+        .catch(res => {
+          this.tableData.data = [];
+          this.tableData.total = 0;
+          this.listLoading = false;
+          this.$message.error(res.message);
+        });
+    },
+    pageChange(page) {
+      this.tableFrom.page = page;
+      this.getList();
+    },
+    handleSizeChange(val) {
+      this.tableFrom.limit = val;
+      this.getList();
+    },
+    onchangeIsShow(row) {
+      areaAdminEdit({ ...row })
+        .then(({ message }) => {
+          this.$message.success(message);
+        })
+        .catch(({ message }) => {
+          this.$message.error(message);
+        });
+    },
+    onConfirm() {
+      this.editshow = false;
+      this.showPwd = false;
+      this.getList(1);
+    },
+    // 添加
+    onAdd() {
+      // this.$modalForm(areaAdminAdd()).then(() => this.getList());
+      this.editshow = true;
+      this.fromData = {};
+    },
+    // 编辑
+    onEdit(row) {
+      // this.$modalForm(areaAdminEdit(id)).then(() => this.getList());
+      this.fromData = { ...row };
+      this.editshow = true;
+    },
+    // 修改密码表单
+    onPassword(row) {
+      this.fromData = { ...row };
+      // this.$modalForm(areaAdminChangePwd(id));
+      this.showPwd = true;
+    },
+    // 删除
+    handleDelete(id, idx) {
+      this.$modalSure("删除该管理员").then(() => {
+        areaAdminDelete(id)
+          .then(({ message }) => {
+            this.$message.success(message);
+            this.tableData.data.splice(idx, 1);
+          })
+          .catch(({ message }) => {
+            this.$message.error(message);
+          });
+      });
+    }
+  }
+};
+</script>
+
+<style scoped lang="scss">
+@import "@/styles/form.scss";
+</style>

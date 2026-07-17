@@ -1,0 +1,14 @@
+{
+  "enablePullDownRefresh": false,
+  "navigationBarTitleText": "我的收藏",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "bottom-dialog": "../../components/bottomDialog",
+    "coustom-head": "../../components/coustomHead",
+    "empty": "../../components/empty",
+    "float-button-kf": "/components/new/FloatButtonKf",
+    "radio-box": "../../components/radioBox",
+    "switch-bar": "../../components/switchBar",
+    "wersal": "../../components/wersal"
+  }
+}

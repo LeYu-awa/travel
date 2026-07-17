@@ -1,0 +1,10 @@
+<coustom-head bind:__l="__l" class="data-v-449e067b" uI="449e067b-0" uP="{{a}}" wx:if="{{a}}"></coustom-head>
+<layout bind:__l="__l" class="data-v-449e067b" uI="449e067b-1" uP="{{h}}" uS="{{['header','d']}}" wx:if="{{h}}">
+    <base-header bind:__l="__l" class="data-v-449e067b" slot="header" uI="449e067b-2,449e067b-1" uP="{{b}}"></base-header>
+    <view class="content data-v-449e067b">
+        <view class="body data-v-449e067b">
+            <good-list bind:__l="__l" binddecrease="{{e}}" bindincrease="{{d}}" class="good-list data-v-449e067b" uI="449e067b-3,449e067b-1" uP="{{f}}" wx:if="{{c}}"></good-list>
+        </view>
+        <page-footer bind:__l="__l" class="data-v-449e067b" uI="449e067b-4,449e067b-1" uP="{{g}}" wx:if="{{g}}"></page-footer>
+    </view>
+</layout>

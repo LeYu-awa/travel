@@ -1,0 +1,125 @@
+<view class="ui_chooseInvoice">
+    <coustom-head bind:__l="__l" uI="59294620-0" uP="{{a}}" wx:if="{{a}}"></coustom-head>
+    <view class="invoiceBox">
+        <view class="InvoiceTitle">开票信息</view>
+        <view class="row">
+            <view class="title">发票类型</view>
+            <view class="invoiceWays">
+                <view>增值税普通发票</view>
+            </view>
+        </view>
+        <view bindtap="{{h}}" class="row-in">
+            <view class="title">发票抬头</view>
+            <view class="desc chooseTitle">
+                <view class="check-info" wx:if="{{b}}">
+                    <view class="info-item-name">{{c}}</view>
+                    <view wx:if="{{d}}">
+                        <view class="info-item-id-card">身份证 {{e}}</view>
+                        <view class="info-item-id-card">类型 个人</view>
+                    </view>
+                    <view wx:else>
+                        <view class="info-item-id-card">税号 {{f}}</view>
+                        <view class="info-item-id-card">类型 公司</view>
+                    </view>
+                </view>
+                <view class="select_place" wx:if="{{g}}">请选择发票抬头</view>
+            </view>
+            <view class="icon_more iconfont icon-a-16_youlajiantou_hei"></view>
+        </view>
+    </view>
+    <view class="invoiceBox">
+        <view class="InvoiceTitle">接收方式</view>
+        <view>
+            <view class="row row_height">
+                <view class="title">发票形式</view>
+                <view class="invoiceWays">
+                    <view bindtap="{{k}}" class="invoiceWay" wx:if="{{i}}">
+                        <view class="{{['invoice_type',j&&'active']}}">电子</view>
+                    </view>
+                    <view bindtap="{{n}}" class="invoiceWay" wx:if="{{l}}">
+                        <view class="{{['invoice_type',m&&'active']}}">纸质</view>
+                    </view>
+                </view>
+            </view>
+        </view>
+        <view bindtap="{{y}}" class="row-in" wx:if="{{o}}">
+            <view class="title">收件地址</view>
+            <view class="desc chooseTitle">
+                <view class="check-info" wx:if="{{p}}">
+                    <view class="info-item-name" style="line-height:22px;margin-top:-3px">{{q}} {{r}}{{s}}</view>
+                    <view>
+                        <view class="info-item-id-card">{{t}} {{v}}****{{w}}</view>
+                    </view>
+                </view>
+                <view class="select_place" wx:if="{{x}}">请选择收件地址</view>
+            </view>
+            <view class="icon_more iconfont icon-a-16_youlajiantou_hei"></view>
+        </view>
+        <view class="row" wx:if="{{z}}">
+            <view class="title">邮箱</view>
+            <input bindinput="{{B}}" placeholder="用来接收电子发票邮件" type="text" value="{{A}}"></input>
+        </view>
+    </view>
+    <view class="tips">
+        <view wx:if="{{C}}">推荐使用电子发票，开票后自动发至电子邮箱。</view>
+        <view wx:if="{{D}}">开票后发至您的收件地址，您需承担到付运费。</view>
+    </view>
+    <view bindtap="{{E}}" class="sendInvoice">提交</view>
+    <bottom-dialog bind:__l="__l" class="r" uI="59294620-1" uP="{{J}}" uR="checkIn" uS="{{['d']}}" wx:if="{{J}}">
+        <view class="layer-box">
+            <view bindtap="{{F}}" class="add-btn">
+                <view class="icon icon-add">+</view> 新增 </view>
+            <view class="info-list">
+                <view class="info-item" wx:for="{{G}}" wx:for-item="invoice" wx:key="h">
+                    <view class="info-item-lf">
+                        <view bindtap="{{invoice.a}}" class="iconfont icon-a-16_bianji"></view>
+                        <view class="info-item-lf-info">
+                            <view class="info-item-name">{{invoice.b}}</view>
+                            <view wx:if="{{invoice.c}}">
+                                <view class="info-item-id-card"> 身份证 {{invoice.d}}</view>
+                                <view class="info-item-id-card">类型 个人</view>
+                            </view>
+                            <view wx:else>
+                                <view class="info-item-id-card">税号 {{invoice.e}}</view>
+                                <view class="info-item-id-card">类型 公司</view>
+                            </view>
+                        </view>
+                    </view>
+                    <view bindtap="{{invoice.g}}">
+                        <view class="icon-danxuan_yixuan iconfont" wx:if="{{invoice.f}}"></view>
+                        <view class="icon-danxuan_weixuan iconfont" wx:else></view>
+                    </view>
+                </view>
+            </view>
+            <view class="layer-footer">
+                <view bindtap="{{H}}" class="layer-btn baseBtn">完成</view>
+            </view>
+        </view>
+    </bottom-dialog>
+    <bottom-dialog bind:__l="__l" class="r" uI="59294620-2" uP="{{O}}" uR="checkAddress" uS="{{['d']}}" wx:if="{{O}}">
+        <view class="layer-box">
+            <view bindtap="{{K}}" class="add-btn">
+                <view class="icon icon-add">+</view> 新增 </view>
+            <view class="info-list">
+                <view class="info-item" wx:for="{{L}}" wx:key="h">
+                    <view class="info-item-lf">
+                        <view bindtap="{{item.a}}" class="iconfont icon-a-16_bianji"></view>
+                        <view class="info-item-lf-info">
+                            <view class="info-item-name">{{item.b}} {{item.c}}****{{item.d}}</view>
+                            <view>
+                                <view class="info-item-id-card">{{item.e}}</view>
+                            </view>
+                        </view>
+                    </view>
+                    <view bindtap="{{item.g}}">
+                        <view class="icon-danxuan_yixuan iconfont" wx:if="{{item.f}}"></view>
+                        <view class="icon-danxuan_weixuan iconfont" wx:else></view>
+                    </view>
+                </view>
+            </view>
+            <view class="layer-footer">
+                <view bindtap="{{M}}" class="layer-btn baseBtn">完成</view>
+            </view>
+        </view>
+    </bottom-dialog>
+</view>

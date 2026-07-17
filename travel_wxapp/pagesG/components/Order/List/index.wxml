@@ -1,0 +1,12 @@
+<coustom-head bind:__l="__l" class="data-v-cc22906b" uI="cc22906b-0" uP="{{a}}" wx:if="{{a}}"></coustom-head>
+<view class="page data-v-cc22906b" style="{{'padding-top:'+h}}">
+    <tabs bind:__l="__l" bindclickTab="{{b}}" class="data-v-cc22906b" uI="cc22906b-1" uP="{{c}}" wx:if="{{c}}"></tabs>
+    <swiper bindchange="{{g}}" class="swiper data-v-cc22906b" current="{{f}}">
+        <swiper-item class="data-v-cc22906b">
+            <scroll-list bind:__l="__l" class="data-v-cc22906b" uI="cc22906b-2" uP="{{d}}" wx:if="{{d}}"></scroll-list>
+        </swiper-item>
+        <swiper-item class="data-v-cc22906b">
+            <scroll-list bind:__l="__l" class="data-v-cc22906b" uI="cc22906b-3" uP="{{e}}" wx:if="{{e}}"></scroll-list>
+        </swiper-item>
+    </swiper>
+</view>

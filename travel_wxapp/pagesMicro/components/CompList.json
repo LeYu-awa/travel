@@ -1,0 +1,13 @@
+{
+  "component": true,
+  "usingComponents": {
+    "carousel": "./Carousel",
+    "coupons": "./Coupons",
+    "float-button-kf": "/components/new/FloatButtonKf",
+    "micro-tabs": "./Tabs",
+    "micro-video": "./MicroVideo",
+    "paragraph": "./Paragraph",
+    "st-image": "../../components/new/StImage",
+    "st-products": "../../components/new/ProductCardList"
+  }
+}

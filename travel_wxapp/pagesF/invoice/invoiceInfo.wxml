@@ -1,0 +1,88 @@
+<view class="invoiceInfo_ui data-v-972ca183">
+    <coustom-head bind:__l="__l" class="data-v-972ca183" uI="972ca183-0" uP="{{a}}" wx:if="{{a}}"></coustom-head>
+    <view class="form-infos data-v-972ca183">
+        <view class="form-info data-v-972ca183">
+            <view class="form-inline first_type data-v-972ca183" wx:if="{{b}}">
+                <view class="label data-v-972ca183">抬头类型</view>
+                <view class="val data-v-972ca183">
+                    <view class="invoiceWays data-v-972ca183">
+                        <view bindtap="{{d}}" class="invoiceWay mr8 data-v-972ca183">
+                            <view class="{{['invoice_type','data-v-972ca183',c&&'active']}}">公司</view>
+                        </view>
+                        <view bindtap="{{f}}" class="invoiceWay data-v-972ca183">
+                            <view class="{{['invoice_type','data-v-972ca183',e&&'active']}}">个人</view>
+                        </view>
+                    </view>
+                </view>
+            </view>
+            <view class="form-inline data-v-972ca183" wx:if="{{g}}">
+                <view class="label data-v-972ca183">抬头类型</view>
+                <view class="val data-v-972ca183">{{h}}</view>
+            </view>
+            <view class="form-inline data-v-972ca183" wx:if="{{i}}">
+                <view class="label data-v-972ca183">发票抬头</view>
+                <view class="val data-v-972ca183">{{j}}</view>
+            </view>
+            <view class="form-inline data-v-972ca183" wx:if="{{k}}">
+                <view class="label data-v-972ca183">发票抬头</view>
+                <view class="val data-v-972ca183">
+                    <input bindinput="{{m}}" class="input-text data-v-972ca183" placeholder="请输入发票抬头" placeholderStyle="color: #CCCCCC;" type="text" value="{{l}}"></input>
+                </view>
+            </view>
+            <view class="form-inline data-v-972ca183" wx:if="{{n}}">
+                <view class="label data-v-972ca183">税号</view>
+                <view class="val data-v-972ca183">
+                    <input bindinput="{{p}}" class="input-text data-v-972ca183" placeholder="请输入税号" placeholderStyle="color: #CCCCCC;" type="text" value="{{o}}"></input>
+                </view>
+            </view>
+            <view class="form-inline data-v-972ca183" wx:if="{{q}}">
+                <view class="label data-v-972ca183">身份证号</view>
+                <view class="val data-v-972ca183">
+                    <input bindinput="{{s}}" class="input-text data-v-972ca183" placeholder="请输入身份证号" placeholderStyle="color: #CCCCCC;" type="text" value="{{r}}"></input>
+                </view>
+            </view>
+            <view class="form-inline data-v-972ca183">
+                <view class="label data-v-972ca183">收件邮箱</view>
+                <view class="val data-v-972ca183">
+                    <input bindinput="{{v}}" class="input-text data-v-972ca183" placeholder="请输入邮箱地址" placeholderStyle="color: #CCCCCC;" type="text" value="{{t}}"></input>
+                </view>
+            </view>
+        </view>
+        <view class="form-info data-v-972ca183" style="margin-top:12px" wx:if="{{w}}">
+            <view class="form-inline data-v-972ca183">
+                <view class="label data-v-972ca183">注册地址</view>
+                <view class="val data-v-972ca183">
+                    <input bindinput="{{y}}" class="input-text data-v-972ca183" placeholder="请输入注册地址，选填" placeholderStyle="color: #CCCCCC;" type="text" value="{{x}}"></input>
+                </view>
+            </view>
+            <view class="form-inline data-v-972ca183">
+                <view class="label data-v-972ca183">注册电话</view>
+                <view class="val data-v-972ca183">
+                    <input bindinput="{{A}}" class="input-text data-v-972ca183" placeholder="请输入注册电话，选填" placeholderStyle="color: #CCCCCC;" type="text" value="{{z}}"></input>
+                </view>
+            </view>
+            <view class="form-inline data-v-972ca183">
+                <view class="label data-v-972ca183">开户银行</view>
+                <view class="val data-v-972ca183">
+                    <input bindinput="{{C}}" class="input-text data-v-972ca183" placeholder="请输入开户银行，选填" placeholderStyle="color: #CCCCCC;" type="text" value="{{B}}"></input>
+                </view>
+            </view>
+            <view class="form-inline data-v-972ca183">
+                <view class="label data-v-972ca183">银行账号</view>
+                <view class="val data-v-972ca183">
+                    <input bindinput="{{E}}" class="input-text data-v-972ca183" placeholder="请输入银行账号，选填" placeholderStyle="color: #CCCCCC;" type="text" value="{{D}}"></input>
+                </view>
+            </view>
+        </view>
+        <view bindtap="{{G}}" class="more_msg data-v-972ca183" wx:if="{{F}}"> 详细信息 <view class="icon_more iconfont icon-a-12_xialajiantou_hei data-v-972ca183"></view>
+        </view>
+    </view>
+    <view class="footer data-v-972ca183" wx:if="{{H}}">
+        <view bindtap="{{I}}" class="footer-btn baseBtn data-v-972ca183">保存</view>
+        <view bindtap="{{J}}" class="del data-v-972ca183">
+            <view class="iconfont icon-a-16_shanchulishijilu data-v-972ca183"></view> 删除 </view>
+    </view>
+    <view class="footer data-v-972ca183" wx:else>
+        <view bindtap="{{K}}" class="footer-btn baseBtn data-v-972ca183">保存</view>
+    </view>
+</view>

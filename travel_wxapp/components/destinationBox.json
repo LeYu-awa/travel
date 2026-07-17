@@ -1,0 +1,8 @@
+{
+  "component": true,
+  "usingComponents": {
+    "collapse": "./collapse",
+    "float-button-kf": "/components/new/FloatButtonKf",
+    "search-input": "./searchInput"
+  }
+}

@@ -1,0 +1,6 @@
+.ui_memberAccountExpire .memberAccountExpireBox.data-v-2a7fd859 {
+  padding: 32rpx;
+}
+.ui_memberAccountExpire .accountList .accountItem.data-v-2a7fd859 {
+  margin-bottom: 24rpx;
+}

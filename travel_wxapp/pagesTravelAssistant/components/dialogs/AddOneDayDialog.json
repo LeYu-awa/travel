@@ -1,0 +1,16 @@
+{
+  "component": true,
+  "usingComponents": {
+    "add-and-sub": "../AddAndSub",
+    "bottom-dialog": "./BottomDialog",
+    "detail-dialog": "./DetailDialog",
+    "empty": "../../../components/empty",
+    "fixed-bottom-view": "../../../components/new/FixedBottomView",
+    "float-button-kf": "/components/new/FloatButtonKf",
+    "line-tabs": "../LineTabs",
+    "msg-card": "../../../components/Alert",
+    "rect-tabs": "../RectTabs",
+    "st-button": "../../../components/new/StButton",
+    "st-radio": "../../../components/new/StRadio"
+  }
+}

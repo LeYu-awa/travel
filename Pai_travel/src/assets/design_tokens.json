@@ -1,0 +1,1824 @@
+{
+  "psd_size": {
+    "width": 1080,
+    "height": 7552
+  },
+  "total_layers": 585,
+  "color_tokens": [],
+  "font_tokens": [],
+  "all_text_layers": [
+    {
+      "name": "修行营",
+      "type": "TypeLayer",
+      "bbox": [
+        551,
+        3001,
+        567,
+        3043
+      ],
+      "visible": true,
+      "text": "修行营"
+    },
+    {
+      "name": "内蒙古·赤峰",
+      "type": "TypeLayer",
+      "bbox": [
+        489,
+        3207,
+        618,
+        3233
+      ],
+      "visible": true,
+      "text": "内蒙古·赤峰"
+    },
+    {
+      "name": "  天  晚",
+      "type": "TypeLayer",
+      "bbox": [
+        527,
+        3239,
+        600,
+        3262
+      ],
+      "visible": true,
+      "text": "  天  晚"
+    },
+    {
+      "name": "5",
+      "type": "TypeLayer",
+      "bbox": [
+        501,
+        3236,
+        519,
+        3262
+      ],
+      "visible": true,
+      "text": "5"
+    },
+    {
+      "name": "4",
+      "type": "TypeLayer",
+      "bbox": [
+        555,
+        3236,
+        572,
+        3262
+      ],
+      "visible": true,
+      "text": "4"
+    },
+    {
+      "name": "-三境植福 生肖开运之旅-",
+      "type": "TypeLayer",
+      "bbox": [
+        448,
+        3322,
+        650,
+        3338
+      ],
+      "visible": true,
+      "text": "-三境植福 生肖开运之旅-"
+    },
+    {
+      "name": "5",
+      "type": "TypeLayer",
+      "bbox": [
+        431,
+        3157,
+        454,
+        3187
+      ],
+      "visible": true,
+      "text": "5"
+    },
+    {
+      "name": "29",
+      "type": "TypeLayer",
+      "bbox": [
+        471,
+        3156,
+        516,
+        3187
+      ],
+      "visible": true,
+      "text": "29"
+    },
+    {
+      "name": "月      日",
+      "type": "TypeLayer",
+      "bbox": [
+        449,
+        3167,
+        534,
+        3188
+      ],
+      "visible": true,
+      "text": "月      日"
+    },
+    {
+      "name": "6",
+      "type": "TypeLayer",
+      "bbox": [
+        564,
+        3156,
+        585,
+        3187
+      ],
+      "visible": true,
+      "text": "6"
+    },
+    {
+      "name": "2",
+      "type": "TypeLayer",
+      "bbox": [
+        604,
+        3157,
+        627,
+        3188
+      ],
+      "visible": true,
+      "text": "2"
+    },
+    {
+      "name": "月   日",
+      "type": "TypeLayer",
+      "bbox": [
+        584,
+        3167,
+        646,
+        3188
+      ],
+      "visible": true,
+      "text": "月   日"
+    },
+    {
+      "name": "师承",
+      "type": "TypeLayer",
+      "bbox": [
+        933,
+        2986,
+        956,
+        3036
+      ],
+      "visible": true,
+      "text": "师承"
+    },
+    {
+      "name": "中医外治 正统师承班",
+      "type": "TypeLayer",
+      "bbox": [
+        792,
+        3001,
+        832,
+        3088
+      ],
+      "visible": true,
+      "text": "中医外治\r正统师承班"
+    },
+    {
+      "name": "5",
+      "type": "TypeLayer",
+      "bbox": [
+        799,
+        3188,
+        817,
+        3213
+      ],
+      "visible": true,
+      "text": "5"
+    },
+    {
+      "name": "4",
+      "type": "TypeLayer",
+      "bbox": [
+        838,
+        3187,
+        855,
+        3212
+      ],
+      "visible": true,
+      "text": "4"
+    },
+    {
+      "name": "天   晚",
+      "type": "TypeLayer",
+      "bbox": [
+        816,
+        3194,
+        876,
+        3213
+      ],
+      "visible": true,
+      "text": "天   晚"
+    },
+    {
+      "name": "湖南·湘西南",
+      "type": "TypeLayer",
+      "bbox": [
+        701,
+        6136,
+        817,
+        6155
+      ],
+      "visible": true,
+      "text": "湖南·湘西南"
+    },
+    {
+      "name": "5",
+      "type": "TypeLayer",
+      "bbox": [
+        45,
+        3218,
+        61,
+        3239
+      ],
+      "visible": true,
+      "text": "5"
+    },
+    {
+      "name": "19",
+      "type": "TypeLayer",
+      "bbox": [
+        70,
+        3218,
+        99,
+        3239
+      ],
+      "visible": true,
+      "text": "19"
+    },
+    {
+      "name": "月     日",
+      "type": "TypeLayer",
+      "bbox": [
+        59,
+        3225,
+        113,
+        3239
+      ],
+      "visible": true,
+      "text": "月     日"
+    },
+    {
+      "name": "5",
+      "type": "TypeLayer",
+      "bbox": [
+        135,
+        3217,
+        151,
+        3238
+      ],
+      "visible": true,
+      "text": "5"
+    },
+    {
+      "name": "20",
+      "type": "TypeLayer",
+      "bbox": [
+        164,
+        3218,
+        194,
+        3239
+      ],
+      "visible": true,
+      "text": "20"
+    },
+    {
+      "name": "月      日",
+      "type": "TypeLayer",
+      "bbox": [
+        150,
+        3225,
+        208,
+        3239
+      ],
+      "visible": true,
+      "text": "月      日"
+    },
+    {
+      "name": "AI智能系统",
+      "type": "TypeLayer",
+      "bbox": [
+        64,
+        2992,
+        330,
+        3042
+      ],
+      "visible": true,
+      "text": "AI智能系统"
+    },
+    {
+      "name": "一站式AI全案运营 助您企业腾飞",
+      "type": "TypeLayer",
+      "bbox": [
+        208,
+        3120,
+        326,
+        3154
+      ],
+      "visible": true,
+      "text": "一站式AI全案运营\r助您企业腾飞"
+    },
+    {
+      "name": "一站式AI工具培训 助您就业升职",
+      "type": "TypeLayer",
+      "bbox": [
+        208,
+        3170,
+        326,
+        3204
+      ],
+      "visible": true,
+      "text": "一站式AI工具培训\r助您就业升职"
+    },
+    {
+      "name": "*自营亲测，拒绝纯搬运",
+      "type": "TypeLayer",
+      "bbox": [
+        235,
+        3232,
+        333,
+        3243
+      ],
+      "visible": true,
+      "text": "*自营亲测，拒绝纯搬运"
+    },
+    {
+      "name": "培训",
+      "type": "TypeLayer",
+      "bbox": [
+        223,
+        2961,
+        269,
+        2984
+      ],
+      "visible": true,
+      "text": "培训"
+    },
+    {
+      "name": "悦享会员包",
+      "type": "TypeLayer",
+      "bbox": [
+        61,
+        3281,
+        189,
+        3307
+      ],
+      "visible": true,
+      "text": "悦享会员包"
+    },
+    {
+      "name": "980",
+      "type": "TypeLayer",
+      "bbox": [
+        78,
+        3318,
+        131,
+        3339
+      ],
+      "visible": true,
+      "text": "980"
+    },
+    {
+      "name": "享3重会员权益",
+      "type": "TypeLayer",
+      "bbox": [
+        150,
+        3321,
+        247,
+        3336
+      ],
+      "visible": true,
+      "text": "享3重会员权益"
+    },
+    {
+      "name": "悦享会员包",
+      "type": "TypeLayer",
+      "bbox": [
+        755,
+        3281,
+        883,
+        3307
+      ],
+      "visible": true,
+      "text": "悦享会员包"
+    },
+    {
+      "name": "19800",
+      "type": "TypeLayer",
+      "bbox": [
+        774,
+        3318,
+        861,
+        3339
+      ],
+      "visible": true,
+      "text": "19800"
+    },
+    {
+      "name": "享9重会员权益",
+      "type": "TypeLayer",
+      "bbox": [
+        880,
+        3321,
+        977,
+        3336
+      ],
+      "visible": true,
+      "text": "享9重会员权益"
+    },
+    {
+      "name": "悦享会员包 拷贝",
+      "type": "TypeLayer",
+      "bbox": [
+        406,
+        3302,
+        553,
+        3330
+      ],
+      "visible": true,
+      "text": "悦享会员包"
+    },
+    {
+      "name": "4980",
+      "type": "TypeLayer",
+      "bbox": [
+        426,
+        3343,
+        507,
+        3367
+      ],
+      "visible": true,
+      "text": "4980"
+    },
+    {
+      "name": "享4重会员权益",
+      "type": "TypeLayer",
+      "bbox": [
+        532,
+        3347,
+        644,
+        3364
+      ],
+      "visible": true,
+      "text": "享4重会员权益"
+    },
+    {
+      "name": "点击购买 >",
+      "type": "TypeLayer",
+      "bbox": [
+        261,
+        2825,
+        327,
+        2839
+      ],
+      "visible": true,
+      "text": "点击购买 >"
+    },
+    {
+      "name": "会员礼包",
+      "type": "TypeLayer",
+      "bbox": [
+        74,
+        2692,
+        159,
+        2713
+      ],
+      "visible": true,
+      "text": "会员礼包"
+    },
+    {
+      "name": "980",
+      "type": "TypeLayer",
+      "bbox": [
+        73,
+        2734,
+        214,
+        2792
+      ],
+      "visible": true,
+      "text": "980"
+    },
+    {
+      "name": "元",
+      "type": "TypeLayer",
+      "bbox": [
+        208,
+        2776,
+        219,
+        2785
+      ],
+      "visible": true,
+      "text": "元"
+    },
+    {
+      "name": "享3重会员权益",
+      "type": "TypeLayer",
+      "bbox": [
+        81,
+        2827,
+        189,
+        2844
+      ],
+      "visible": true,
+      "text": "享3重会员权益"
+    },
+    {
+      "name": "总价值：2960元",
+      "type": "TypeLayer",
+      "bbox": [
+        75,
+        2799,
+        193,
+        2816
+      ],
+      "visible": true,
+      "text": "总价值：2960元"
+    },
+    {
+      "name": "点击购买 >",
+      "type": "TypeLayer",
+      "bbox": [
+        592,
+        2825,
+        658,
+        2839
+      ],
+      "visible": true,
+      "text": "点击购买 >"
+    },
+    {
+      "name": "会员礼包",
+      "type": "TypeLayer",
+      "bbox": [
+        409,
+        2692,
+        495,
+        2713
+      ],
+      "visible": true,
+      "text": "会员礼包"
+    },
+    {
+      "name": "4980",
+      "type": "TypeLayer",
+      "bbox": [
+        410,
+        2734,
+        598,
+        2792
+      ],
+      "visible": true,
+      "text": "4980"
+    },
+    {
+      "name": "元",
+      "type": "TypeLayer",
+      "bbox": [
+        593,
+        2776,
+        604,
+        2785
+      ],
+      "visible": true,
+      "text": "元"
+    },
+    {
+      "name": "享4重会员权益",
+      "type": "TypeLayer",
+      "bbox": [
+        417,
+        2827,
+        526,
+        2844
+      ],
+      "visible": true,
+      "text": "享4重会员权益"
+    },
+    {
+      "name": "总价值：14000元",
+      "type": "TypeLayer",
+      "bbox": [
+        410,
+        2799,
+        540,
+        2816
+      ],
+      "visible": true,
+      "text": "总价值：14000元"
+    },
+    {
+      "name": "点击购买 >",
+      "type": "TypeLayer",
+      "bbox": [
+        929,
+        2825,
+        994,
+        2839
+      ],
+      "visible": true,
+      "text": "点击购买 >"
+    },
+    {
+      "name": "旅行架构师 会员礼包",
+      "type": "TypeLayer",
+      "bbox": [
+        745,
+        2669,
+        853,
+        2716
+      ],
+      "visible": true,
+      "text": "旅行架构师\r会员礼包"
+    },
+    {
+      "name": "元",
+      "type": "TypeLayer",
+      "bbox": [
+        959,
+        2776,
+        969,
+        2785
+      ],
+      "visible": true,
+      "text": "元"
+    },
+    {
+      "name": "享9重会员权益",
+      "type": "TypeLayer",
+      "bbox": [
+        754,
+        2827,
+        862,
+        2844
+      ],
+      "visible": true,
+      "text": "享9重会员权益"
+    },
+    {
+      "name": "总价值：60000元",
+      "type": "TypeLayer",
+      "bbox": [
+        746,
+        2799,
+        876,
+        2816
+      ],
+      "visible": true,
+      "text": "总价值：60000元"
+    },
+    {
+      "name": "礼遇逐阶增",
+      "type": "TypeLayer",
+      "bbox": [
+        261,
+        2531,
+        424,
+        2563
+      ],
+      "visible": true,
+      "text": "礼遇逐阶增"
+    },
+    {
+      "name": "会员包",
+      "type": "TypeLayer",
+      "bbox": [
+        43,
+        2505,
+        227,
+        2564
+      ],
+      "visible": true,
+      "text": "会员包"
+    },
+    {
+      "name": "pai travel ",
+      "type": "TypeLayer",
+      "bbox": [
+        972,
+        2530,
+        1038,
+        2561
+      ],
+      "visible": true,
+      "text": "pai\rtravel\r"
+    },
+    {
+      "name": "匠心主打款",
+      "type": "TypeLayer",
+      "bbox": [
+        335,
+        3607,
+        499,
+        3639
+      ],
+      "visible": true,
+      "text": "匠心主打款"
+    },
+    {
+      "name": "主推产品",
+      "type": "TypeLayer",
+      "bbox": [
+        44,
+        3581,
+        287,
+        3640
+      ],
+      "visible": true,
+      "text": "主推产品"
+    },
+    {
+      "name": "更多",
+      "type": "TypeLayer",
+      "bbox": [
+        916,
+        3597,
+        980,
+        3628
+      ],
+      "visible": true,
+      "text": "更多"
+    },
+    {
+      "name": "逃离城市计划启动哈哈哈哈哈哈...",
+      "type": "TypeLayer",
+      "bbox": [
+        588,
+        4437,
+        1001,
+        4513
+      ],
+      "visible": true,
+      "text": "逃离城市计划启动哈哈哈哈哈哈..."
+    },
+    {
+      "name": "5日行程",
+      "type": "TypeLayer",
+      "bbox": [
+        612,
+        4529,
+        693,
+        4551
+      ],
+      "visible": true,
+      "text": "5日行程"
+    },
+    {
+      "name": "最多12人",
+      "type": "TypeLayer",
+      "bbox": [
+        751,
+        4529,
+        844,
+        4552
+      ],
+      "visible": true,
+      "text": "最多12人"
+    },
+    {
+      "name": "含4晚住宿",
+      "type": "TypeLayer",
+      "bbox": [
+        898,
+        4529,
+        1001,
+        4551
+      ],
+      "visible": true,
+      "text": "含4晚住宿"
+    },
+    {
+      "name": "4980",
+      "type": "TypeLayer",
+      "bbox": [
+        800,
+        4592,
+        930,
+        4631
+      ],
+      "visible": true,
+      "text": "4980"
+    },
+    {
+      "name": "￥",
+      "type": "TypeLayer",
+      "bbox": [
+        669,
+        4614,
+        685,
+        4633
+      ],
+      "visible": true,
+      "text": "￥"
+    },
+    {
+      "name": "8900",
+      "type": "TypeLayer",
+      "bbox": [
+        690,
+        4611,
+        760,
+        4632
+      ],
+      "visible": true,
+      "text": "8900"
+    },
+    {
+      "name": "湖南·安化",
+      "type": "TypeLayer",
+      "bbox": [
+        644,
+        3870,
+        811,
+        3902
+      ],
+      "visible": true,
+      "text": "湖南·安化"
+    },
+    {
+      "name": "逃离城市计划启动哈哈哈哈哈哈...",
+      "type": "TypeLayer",
+      "bbox": [
+        73,
+        4879,
+        486,
+        4955
+      ],
+      "visible": true,
+      "text": "逃离城市计划启动哈哈哈哈哈哈..."
+    },
+    {
+      "name": "3日行程",
+      "type": "TypeLayer",
+      "bbox": [
+        97,
+        4971,
+        178,
+        4993
+      ],
+      "visible": true,
+      "text": "3日行程"
+    },
+    {
+      "name": "最多12人",
+      "type": "TypeLayer",
+      "bbox": [
+        236,
+        4971,
+        329,
+        4994
+      ],
+      "visible": true,
+      "text": "最多12人"
+    },
+    {
+      "name": "含2晚住宿",
+      "type": "TypeLayer",
+      "bbox": [
+        383,
+        4971,
+        486,
+        4993
+      ],
+      "visible": true,
+      "text": "含2晚住宿"
+    },
+    {
+      "name": "4980",
+      "type": "TypeLayer",
+      "bbox": [
+        285,
+        5034,
+        415,
+        5073
+      ],
+      "visible": true,
+      "text": "4980"
+    },
+    {
+      "name": "￥",
+      "type": "TypeLayer",
+      "bbox": [
+        154,
+        5055,
+        170,
+        5074
+      ],
+      "visible": true,
+      "text": "￥"
+    },
+    {
+      "name": "8900",
+      "type": "TypeLayer",
+      "bbox": [
+        175,
+        5052,
+        245,
+        5073
+      ],
+      "visible": true,
+      "text": "8900"
+    },
+    {
+      "name": "湖南·湘西",
+      "type": "TypeLayer",
+      "bbox": [
+        129,
+        4252,
+        296,
+        4283
+      ],
+      "visible": true,
+      "text": "湖南·湘西"
+    },
+    {
+      "name": "逃离城市计划启动哈哈哈哈哈哈...",
+      "type": "TypeLayer",
+      "bbox": [
+        588,
+        5403,
+        1001,
+        5479
+      ],
+      "visible": true,
+      "text": "逃离城市计划启动哈哈哈哈哈哈..."
+    },
+    {
+      "name": "3日行程",
+      "type": "TypeLayer",
+      "bbox": [
+        612,
+        5495,
+        693,
+        5517
+      ],
+      "visible": true,
+      "text": "3日行程"
+    },
+    {
+      "name": "最多12人",
+      "type": "TypeLayer",
+      "bbox": [
+        751,
+        5495,
+        844,
+        5518
+      ],
+      "visible": true,
+      "text": "最多12人"
+    },
+    {
+      "name": "含2晚住宿",
+      "type": "TypeLayer",
+      "bbox": [
+        898,
+        5495,
+        1001,
+        5517
+      ],
+      "visible": true,
+      "text": "含2晚住宿"
+    },
+    {
+      "name": "4980",
+      "type": "TypeLayer",
+      "bbox": [
+        800,
+        5558,
+        930,
+        5597
+      ],
+      "visible": true,
+      "text": "4980"
+    },
+    {
+      "name": "￥",
+      "type": "TypeLayer",
+      "bbox": [
+        669,
+        5580,
+        685,
+        5599
+      ],
+      "visible": true,
+      "text": "￥"
+    },
+    {
+      "name": "8900",
+      "type": "TypeLayer",
+      "bbox": [
+        690,
+        5577,
+        760,
+        5598
+      ],
+      "visible": true,
+      "text": "8900"
+    },
+    {
+      "name": "湖南·湘西",
+      "type": "TypeLayer",
+      "bbox": [
+        644,
+        4776,
+        811,
+        4807
+      ],
+      "visible": true,
+      "text": "湖南·湘西"
+    },
+    {
+      "name": "逃离城市计划启动哈哈哈哈哈哈...",
+      "type": "TypeLayer",
+      "bbox": [
+        72,
+        5838,
+        485,
+        5914
+      ],
+      "visible": true,
+      "text": "逃离城市计划启动哈哈哈哈哈哈..."
+    },
+    {
+      "name": "5日行程",
+      "type": "TypeLayer",
+      "bbox": [
+        96,
+        5930,
+        177,
+        5952
+      ],
+      "visible": true,
+      "text": "5日行程"
+    },
+    {
+      "name": "最多12人",
+      "type": "TypeLayer",
+      "bbox": [
+        235,
+        5930,
+        328,
+        5953
+      ],
+      "visible": true,
+      "text": "最多12人"
+    },
+    {
+      "name": "含4晚住宿",
+      "type": "TypeLayer",
+      "bbox": [
+        382,
+        5930,
+        485,
+        5952
+      ],
+      "visible": true,
+      "text": "含4晚住宿"
+    },
+    {
+      "name": "4980",
+      "type": "TypeLayer",
+      "bbox": [
+        284,
+        5993,
+        414,
+        6032
+      ],
+      "visible": true,
+      "text": "4980"
+    },
+    {
+      "name": "￥",
+      "type": "TypeLayer",
+      "bbox": [
+        153,
+        6015,
+        169,
+        6034
+      ],
+      "visible": true,
+      "text": "￥"
+    },
+    {
+      "name": "8900",
+      "type": "TypeLayer",
+      "bbox": [
+        174,
+        6012,
+        244,
+        6033
+      ],
+      "visible": true,
+      "text": "8900"
+    },
+    {
+      "name": "湖南·安化",
+      "type": "TypeLayer",
+      "bbox": [
+        128,
+        5201,
+        295,
+        5233
+      ],
+      "visible": true,
+      "text": "湖南·安化"
+    },
+    {
+      "name": "逃离城市计划启动哈哈哈哈哈哈...",
+      "type": "TypeLayer",
+      "bbox": [
+        588,
+        7257,
+        1001,
+        7333
+      ],
+      "visible": true,
+      "text": "逃离城市计划启动哈哈哈哈哈哈..."
+    },
+    {
+      "name": "5日行程",
+      "type": "TypeLayer",
+      "bbox": [
+        612,
+        7349,
+        693,
+        7371
+      ],
+      "visible": true,
+      "text": "5日行程"
+    },
+    {
+      "name": "最多12人",
+      "type": "TypeLayer",
+      "bbox": [
+        751,
+        7349,
+        844,
+        7372
+      ],
+      "visible": true,
+      "text": "最多12人"
+    },
+    {
+      "name": "含4晚住宿",
+      "type": "TypeLayer",
+      "bbox": [
+        898,
+        7349,
+        1001,
+        7371
+      ],
+      "visible": true,
+      "text": "含4晚住宿"
+    },
+    {
+      "name": "4980",
+      "type": "TypeLayer",
+      "bbox": [
+        800,
+        7412,
+        930,
+        7451
+      ],
+      "visible": true,
+      "text": "4980"
+    },
+    {
+      "name": "￥",
+      "type": "TypeLayer",
+      "bbox": [
+        669,
+        7434,
+        685,
+        7453
+      ],
+      "visible": true,
+      "text": "￥"
+    },
+    {
+      "name": "8900",
+      "type": "TypeLayer",
+      "bbox": [
+        690,
+        7431,
+        760,
+        7452
+      ],
+      "visible": true,
+      "text": "8900"
+    },
+    {
+      "name": "湖南·安化",
+      "type": "TypeLayer",
+      "bbox": [
+        644,
+        6620,
+        811,
+        6652
+      ],
+      "visible": true,
+      "text": "湖南·安化"
+    },
+    {
+      "name": "逃离城市计划启动哈哈哈哈哈哈...",
+      "type": "TypeLayer",
+      "bbox": [
+        588,
+        6297,
+        1001,
+        6373
+      ],
+      "visible": true,
+      "text": "逃离城市计划启动哈哈哈哈哈哈..."
+    },
+    {
+      "name": "5日行程",
+      "type": "TypeLayer",
+      "bbox": [
+        612,
+        6389,
+        693,
+        6411
+      ],
+      "visible": true,
+      "text": "5日行程"
+    },
+    {
+      "name": "最多12人",
+      "type": "TypeLayer",
+      "bbox": [
+        751,
+        6389,
+        844,
+        6412
+      ],
+      "visible": true,
+      "text": "最多12人"
+    },
+    {
+      "name": "含4晚住宿",
+      "type": "TypeLayer",
+      "bbox": [
+        898,
+        6389,
+        1001,
+        6411
+      ],
+      "visible": true,
+      "text": "含4晚住宿"
+    },
+    {
+      "name": "4980",
+      "type": "TypeLayer",
+      "bbox": [
+        800,
+        6452,
+        930,
+        6491
+      ],
+      "visible": true,
+      "text": "4980"
+    },
+    {
+      "name": "￥",
+      "type": "TypeLayer",
+      "bbox": [
+        669,
+        6473,
+        685,
+        6492
+      ],
+      "visible": true,
+      "text": "￥"
+    },
+    {
+      "name": "8900",
+      "type": "TypeLayer",
+      "bbox": [
+        690,
+        6470,
+        760,
+        6491
+      ],
+      "visible": true,
+      "text": "8900"
+    },
+    {
+      "name": "湖南·安化",
+      "type": "TypeLayer",
+      "bbox": [
+        644,
+        5730,
+        811,
+        5762
+      ],
+      "visible": true,
+      "text": "湖南·安化"
+    },
+    {
+      "name": "逃离城市计划启动哈哈哈哈哈哈...",
+      "type": "TypeLayer",
+      "bbox": [
+        73,
+        6736,
+        486,
+        6812
+      ],
+      "visible": true,
+      "text": "逃离城市计划启动哈哈哈哈哈哈..."
+    },
+    {
+      "name": "5日行程",
+      "type": "TypeLayer",
+      "bbox": [
+        97,
+        6828,
+        178,
+        6850
+      ],
+      "visible": true,
+      "text": "5日行程"
+    },
+    {
+      "name": "最多12人",
+      "type": "TypeLayer",
+      "bbox": [
+        236,
+        6828,
+        329,
+        6851
+      ],
+      "visible": true,
+      "text": "最多12人"
+    },
+    {
+      "name": "含4晚住宿",
+      "type": "TypeLayer",
+      "bbox": [
+        383,
+        6828,
+        486,
+        6850
+      ],
+      "visible": true,
+      "text": "含4晚住宿"
+    },
+    {
+      "name": "4980",
+      "type": "TypeLayer",
+      "bbox": [
+        285,
+        6891,
+        415,
+        6930
+      ],
+      "visible": true,
+      "text": "4980"
+    },
+    {
+      "name": "￥",
+      "type": "TypeLayer",
+      "bbox": [
+        154,
+        6912,
+        170,
+        6931
+      ],
+      "visible": true,
+      "text": "￥"
+    },
+    {
+      "name": "8900",
+      "type": "TypeLayer",
+      "bbox": [
+        175,
+        6909,
+        245,
+        6930
+      ],
+      "visible": true,
+      "text": "8900"
+    },
+    {
+      "name": "湖南·安化",
+      "type": "TypeLayer",
+      "bbox": [
+        129,
+        6169,
+        296,
+        6201
+      ],
+      "visible": true,
+      "text": "湖南·安化"
+    },
+    {
+      "name": "12个目的地",
+      "type": "TypeLayer",
+      "bbox": [
+        89,
+        4086,
+        252,
+        4116
+      ],
+      "visible": true,
+      "text": "12个目的地"
+    },
+    {
+      "name": "派旅行推荐人气榜",
+      "type": "TypeLayer",
+      "bbox": [
+        89,
+        4040,
+        369,
+        4074
+      ],
+      "visible": true,
+      "text": "派旅行推荐人气榜"
+    },
+    {
+      "name": "派旅行排行榜",
+      "type": "TypeLayer",
+      "bbox": [
+        90,
+        3966,
+        295,
+        4000
+      ],
+      "visible": true,
+      "text": "派旅行排行榜"
+    },
+    {
+      "name": "全部",
+      "type": "TypeLayer",
+      "bbox": [
+        85,
+        3724,
+        158,
+        3760
+      ],
+      "visible": true,
+      "text": "全部"
+    },
+    {
+      "name": "近期主推产品",
+      "type": "TypeLayer",
+      "bbox": [
+        263,
+        3724,
+        468,
+        3756
+      ],
+      "visible": true,
+      "text": "近期主推产品"
+    },
+    {
+      "name": "文旅派",
+      "type": "TypeLayer",
+      "bbox": [
+        557,
+        3724,
+        659,
+        3756
+      ],
+      "visible": true,
+      "text": "文旅派"
+    },
+    {
+      "name": "健康生活系列",
+      "type": "TypeLayer",
+      "bbox": [
+        762,
+        3724,
+        967,
+        3756
+      ],
+      "visible": true,
+      "text": "健康生活系列"
+    },
+    {
+      "name": "健康生活系列",
+      "type": "TypeLayer",
+      "bbox": [
+        1063,
+        3724,
+        1268,
+        3756
+      ],
+      "visible": true,
+      "text": "健康生活系列"
+    },
+    {
+      "name": "丁山河",
+      "type": "TypeLayer",
+      "bbox": [
+        93,
+        1991,
+        179,
+        2019
+      ],
+      "visible": true,
+      "text": "丁山河"
+    },
+    {
+      "name": "锋味",
+      "type": "TypeLayer",
+      "bbox": [
+        315,
+        1991,
+        372,
+        2019
+      ],
+      "visible": true,
+      "text": "锋味"
+    },
+    {
+      "name": "新雅",
+      "type": "TypeLayer",
+      "bbox": [
+        514,
+        1991,
+        571,
+        2019
+      ],
+      "visible": true,
+      "text": "新雅"
+    },
+    {
+      "name": "美心",
+      "type": "TypeLayer",
+      "bbox": [
+        721,
+        1991,
+        778,
+        2018
+      ],
+      "visible": true,
+      "text": "美心"
+    },
+    {
+      "name": "十月初五",
+      "type": "TypeLayer",
+      "bbox": [
+        894,
+        1991,
+        1009,
+        2019
+      ],
+      "visible": true,
+      "text": "十月初五"
+    },
+    {
+      "name": "GODIVA",
+      "type": "TypeLayer",
+      "bbox": [
+        86,
+        2243,
+        186,
+        2261
+      ],
+      "visible": true,
+      "text": "GODIVA"
+    },
+    {
+      "name": "南纬三七",
+      "type": "TypeLayer",
+      "bbox": [
+        286,
+        2237,
+        401,
+        2265
+      ],
+      "visible": true,
+      "text": "南纬三七"
+    },
+    {
+      "name": "徐福记",
+      "type": "TypeLayer",
+      "bbox": [
+        498,
+        2237,
+        585,
+        2265
+      ],
+      "visible": true,
+      "text": "徐福记"
+    },
+    {
+      "name": "赤之帽子",
+      "type": "TypeLayer",
+      "bbox": [
+        692,
+        2237,
+        807,
+        2265
+      ],
+      "visible": true,
+      "text": "赤之帽子"
+    },
+    {
+      "name": "好想你",
+      "type": "TypeLayer",
+      "bbox": [
+        908,
+        2237,
+        995,
+        2265
+      ],
+      "visible": true,
+      "text": "好想你"
+    },
+    {
+      "name": "严选优品",
+      "type": "TypeLayer",
+      "bbox": [
+        315,
+        1732,
+        445,
+        1763
+      ],
+      "visible": true,
+      "text": "严选优品"
+    },
+    {
+      "name": "品牌专区",
+      "type": "TypeLayer",
+      "bbox": [
+        46,
+        1706,
+        289,
+        1765
+      ],
+      "visible": true,
+      "text": "品牌专区"
+    },
+    {
+      "name": "更多",
+      "type": "TypeLayer",
+      "bbox": [
+        916,
+        1722,
+        980,
+        1753
+      ],
+      "visible": true,
+      "text": "更多"
+    },
+    {
+      "name": "文旅派",
+      "type": "TypeLayer",
+      "bbox": [
+        53,
+        1544,
+        152,
+        1569
+      ],
+      "visible": true,
+      "text": "文旅派"
+    },
+    {
+      "name": "成长派",
+      "type": "TypeLayer",
+      "bbox": [
+        220,
+        1544,
+        320,
+        1569
+      ],
+      "visible": true,
+      "text": "成长派"
+    },
+    {
+      "name": "国学派",
+      "type": "TypeLayer",
+      "bbox": [
+        412,
+        1544,
+        508,
+        1569
+      ],
+      "visible": true,
+      "text": "国学派"
+    },
+    {
+      "name": "健康派",
+      "type": "TypeLayer",
+      "bbox": [
+        596,
+        1543,
+        697,
+        1569
+      ],
+      "visible": true,
+      "text": "健康派"
+    },
+    {
+      "name": "疗愈派",
+      "type": "TypeLayer",
+      "bbox": [
+        767,
+        1543,
+        866,
+        1569
+      ],
+      "visible": true,
+      "text": "疗愈派"
+    },
+    {
+      "name": "商旅派",
+      "type": "TypeLayer",
+      "bbox": [
+        934,
+        1543,
+        1034,
+        1569
+      ],
+      "visible": true,
+      "text": "商旅派"
+    },
+    {
+      "name": "搜索",
+      "type": "TypeLayer",
+      "bbox": [
+        323,
+        245,
+        390,
+        278
+      ],
+      "visible": true,
+      "text": "搜索"
+    },
+    {
+      "name": "发布",
+      "type": "TypeLayer",
+      "bbox": [
+        978,
+        107,
+        1027,
+        130
+      ],
+      "visible": true,
+      "text": "发布"
+    },
+    {
+      "name": "小派",
+      "type": "TypeLayer",
+      "bbox": [
+        510,
+        7424,
+        567,
+        7452
+      ],
+      "visible": true,
+      "text": "小派"
+    },
+    {
+      "name": "首页",
+      "type": "TypeLayer",
+      "bbox": [
+        75,
+        7430,
+        131,
+        7458
+      ],
+      "visible": true,
+      "text": "首页"
+    },
+    {
+      "name": "众创空间",
+      "type": "TypeLayer",
+      "bbox": [
+        264,
+        7430,
+        377,
+        7458
+      ],
+      "visible": true,
+      "text": "众创空间"
+    },
+    {
+      "name": "直播",
+      "type": "TypeLayer",
+      "bbox": [
+        726,
+        7430,
+        784,
+        7458
+      ],
+      "visible": true,
+      "text": "直播"
+    },
+    {
+      "name": "我的",
+      "type": "TypeLayer",
+      "bbox": [
+        947,
+        7431,
+        1003,
+        7459
+      ],
+      "visible": true,
+      "text": "我的"
+    }
+  ],
+  "unique_colors": {}
+}

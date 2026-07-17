@@ -1,0 +1,26 @@
+.trigger.data-v-4430a3e7 {
+  align-items: flex-start;
+  background: #fff;
+  border-radius: 24rpx;
+  display: flex;
+  font-size: 28rpx;
+  justify-content: space-between;
+  padding: 32rpx 24rpx;
+}
+.placeholder.data-v-4430a3e7 {
+  color: #999;
+  line-height: 32rpx;
+}
+.left.data-v-4430a3e7 {
+  align-items: flex-start;
+  display: flex;
+}
+.title.data-v-4430a3e7 {
+  flex-shrink: 0;
+  font-size: 32rpx;
+  line-height: 32rpx;
+  margin-right: 64rpx;
+}
+.iconfont.data-v-4430a3e7 {
+  font-size: 32rpx;
+}

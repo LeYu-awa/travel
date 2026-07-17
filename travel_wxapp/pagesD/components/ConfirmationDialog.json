@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "center-dialog": "../../components/centerDialog",
+    "float-button-kf": "/components/new/FloatButtonKf"
+  }
+}

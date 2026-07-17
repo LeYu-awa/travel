@@ -1,0 +1,40 @@
+<view catchtap="{{G}}" class="{{['ui_couponItem','data-v-1da7b597',F&&'isHistory']}}">
+    <view class="topBox data-v-1da7b597">
+        <view class="{{['couponType','data-v-1da7b597',c]}}" wx:if="{{a}}">{{b}}</view>
+        <view class="data-v-1da7b597" wx:else></view>
+        <view class="data-v-1da7b597" wx:if="{{d}}">
+            <view catchtap="{{f}}" class="couponInfo data-v-1da7b597" wx:if="{{e}}"> 使用规则<view class="icon iconfont icon-a-12_youlajiantou_hei data-v-1da7b597"></view>
+            </view>
+            <view class="couponInfo data-v-1da7b597" wx:else>{{g}}</view>
+        </view>
+    </view>
+    <view class="couponName data-v-1da7b597">{{h}}</view>
+    <view class="couponVaildTime data-v-1da7b597" wx:if="{{i}}"> 有效期：{{j}} 至 {{k}}</view>
+    <block wx:if="{{l}}">
+        <view class="couponPrice data-v-1da7b597" wx:if="{{m}}">{{n}}折 </view>
+        <view class="couponPrice data-v-1da7b597" wx:elif="{{o}}">{{p}}折 </view>
+        <view class="couponPrice data-v-1da7b597" wx:else> ¥{{q}}</view>
+    </block>
+    <view class="useLimit data-v-1da7b597" wx:if="{{r}}"> 满 ¥{{s}} 使用 </view>
+    <view class="selectBox data-v-1da7b597" wx:if="{{t}}">
+        <block wx:if="{{v}}">
+            <view class="icon-duoxuan_yixuan iconfont data-v-1da7b597" wx:if="{{w}}"></view>
+            <view class="icon-duoxuan_weixuan iconfont data-v-1da7b597" wx:else></view>
+        </block>
+        <block wx:else>
+            <image class="iconfont data-v-1da7b597" src="https://dsplatweb.oss-cn-chengdu.aliyuncs.com/songzan/images/select.png" wx:if="{{x}}"></image>
+            <image class="iconfont data-v-1da7b597" src="https://dsplatweb.oss-cn-chengdu.aliyuncs.com/songzan/images/unSelect.png" wx:else></image>
+        </block>
+    </view>
+    <view catchtap="{{B}}" class="selectBox data-v-1da7b597" wx:if="{{y}}">
+        <st-button bind:__l="__l" class="data-v-1da7b597" uI="1da7b597-0" uP="{{A}}" uS="{{['d']}}" wx:if="{{A}}">{{z}}</st-button>
+    </view>
+    <view class="btn-row data-v-1da7b597">
+        <view catchtap="{{D}}" class="select data-v-1da7b597" wx:if="{{C}}">
+            <view class="exchangeBtn data-v-1da7b597"> 去兑换 </view>
+        </view>
+        <view class="select data-v-1da7b597" wx:if="{{E}}">
+            <view class="exchangeBtn data-v-1da7b597"> 转赠好友 </view>
+        </view>
+    </view>
+</view>

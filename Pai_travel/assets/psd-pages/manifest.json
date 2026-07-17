@@ -1,0 +1,127 @@
+{
+  "home.png": {
+    "source": "首页.psd",
+    "width": 1080,
+    "height": 7552
+  },
+  "follow.png": {
+    "source": "关注.psd",
+    "width": 1080,
+    "height": 3901
+  },
+  "cart.png": {
+    "source": "购物车.psd",
+    "width": 1080,
+    "height": 1995
+  },
+  "message.png": {
+    "source": "消息中心.psd",
+    "width": 1080,
+    "height": 2297
+  },
+  "mine.png": {
+    "source": "我的板块.psd",
+    "width": 1080,
+    "height": 2297
+  },
+  "product-list.png": {
+    "source": "商品页面.psd",
+    "width": 1080,
+    "height": 4297
+  },
+  "product-detail.png": {
+    "source": "产品详情.psd",
+    "width": 1079,
+    "height": 7989
+  },
+  "live.png": {
+    "source": "直播.psd",
+    "width": 1080,
+    "height": 5602
+  },
+  "live-room.png": {
+    "source": "直播间.psd",
+    "width": 1080,
+    "height": 2244
+  },
+  "brand.png": {
+    "source": "品牌专区.psd",
+    "width": 1080,
+    "height": 3927
+  },
+  "custom.png": {
+    "source": "定制板块.psd",
+    "width": 1080,
+    "height": 4594
+  },
+  "thinktank.png": {
+    "source": "智囊团.psd",
+    "width": 1080,
+    "height": 8343
+  },
+  "guide.png": {
+    "source": "更多导游板块.psd",
+    "width": 1080,
+    "height": 2824
+  },
+  "fun.png": {
+    "source": "趣味玩法二级.psd",
+    "width": 1079,
+    "height": 3882
+  },
+  "publish.png": {
+    "source": "发布界面.psd",
+    "width": 1080,
+    "height": 2297
+  },
+  "sixschools.png": {
+    "source": "六大派产品界面.psd",
+    "width": 1079,
+    "height": 4297
+  },
+  "cocreate.png": {
+    "source": "众创空间.psd",
+    "width": 1080,
+    "height": 2713
+  },
+  "vip-980.png": {
+    "source": "VIP会员980(1.psd",
+    "width": 1080,
+    "height": 4228
+  },
+  "vip-1980.png": {
+    "source": "VIP会员1980(1.psd",
+    "width": 1080,
+    "height": 5028
+  },
+  "svip-4980.png": {
+    "source": "SVIP会员4980.psd",
+    "width": 1080,
+    "height": 4481
+  },
+  "up-detail.png": {
+    "source": "UP主详情界面.psd",
+    "width": 1080,
+    "height": 4363
+  },
+  "up-video.png": {
+    "source": "up主视频板块.psd",
+    "width": 1080,
+    "height": 2395
+  },
+  "up-edit.png": {
+    "source": "up主我的编辑资料板块.psd",
+    "width": 1080,
+    "height": 2297
+  },
+  "up-profile.png": {
+    "source": "up主我的板块.psd",
+    "width": 1080,
+    "height": 2297
+  },
+  "ai.png": {
+    "source": "AI智能体.psd",
+    "width": 1080,
+    "height": 4039
+  }
+}

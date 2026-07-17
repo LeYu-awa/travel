@@ -1,0 +1,20 @@
+<view class="centerDialogBox data-v-53c45944" hidden="{{!l}}">
+    <view catchtap="{{a}}" class="{{['centerDialogMask','data-v-53c45944',b&&'fadeIn',c&&'animated']}}"></view>
+    <view class="{{['centerDialog','data-v-53c45944',h&&'slideInUp',i&&'slideInRight',j&&'animated']}}" style="{{'max-height:'+k}}">
+        <view class="title data-v-53c45944">
+            <view class="theTitle data-v-53c45944">{{d}}</view>
+            <view class="titleBorder data-v-53c45944" wx:if="{{e}}"></view>
+        </view>
+        <view class="dialogWarp data-v-53c45944" style="{{g}}" wx:if="{{f}}">
+            <view class="dialogBox data-v-53c45944">
+                <slot></slot>
+            </view>
+        </view>
+        <block wx:else>
+            <view class="dialogBox data-v-53c45944">
+                <slot></slot>
+            </view>
+            <view class="bottomFooter data-v-53c45944"></view>
+        </block>
+    </view>
+</view>

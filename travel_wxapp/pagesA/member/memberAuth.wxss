@@ -1,0 +1,199 @@
+.line-clamp-1.data-v-302a5ef9 {
+  line-clamp: 1;
+}
+.line-clamp-1.data-v-302a5ef9,
+.line-clamp-2.data-v-302a5ef9 {
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  overflow: hidden;
+  white-space: normal;
+}
+.line-clamp-2.data-v-302a5ef9 {
+  line-clamp: 2;
+}
+.line-clamp-3.data-v-302a5ef9 {
+  line-clamp: 3;
+}
+.line-clamp-3.data-v-302a5ef9,
+.line-clamp-4.data-v-302a5ef9 {
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  overflow: hidden;
+  white-space: normal;
+}
+.line-clamp-4.data-v-302a5ef9 {
+  line-clamp: 4;
+}
+.line-clamp-5.data-v-302a5ef9 {
+  line-clamp: 5;
+}
+.line-clamp-5.data-v-302a5ef9,
+.line-clamp-6.data-v-302a5ef9 {
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  overflow: hidden;
+  white-space: normal;
+}
+.line-clamp-6.data-v-302a5ef9 {
+  line-clamp: 6;
+}
+.line-clamp-7.data-v-302a5ef9 {
+  line-clamp: 7;
+}
+.line-clamp-7.data-v-302a5ef9,
+.line-clamp-8.data-v-302a5ef9 {
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  overflow: hidden;
+  white-space: normal;
+}
+.line-clamp-8.data-v-302a5ef9 {
+  line-clamp: 8;
+}
+.line-clamp-9.data-v-302a5ef9 {
+  -webkit-box-orient: vertical;
+  line-clamp: 9;
+  display: -webkit-box;
+  overflow: hidden;
+  white-space: normal;
+}
+.ui_memberAuth .memberAuthBox.data-v-302a5ef9 {
+  min-height: 100vh;
+  overflow-x: hidden;
+  padding: 32rpx;
+  width: 100%;
+}
+.ui_memberAuth .userInfoList.data-v-302a5ef9 {
+  background: #fff;
+  border-radius: 16rpx;
+  margin-bottom: 32rpx;
+  padding: 0 24rpx;
+}
+.ui_memberAuth .userInfoList .userInfoItem.data-v-302a5ef9 {
+  align-items: center;
+  display: flex;
+  height: 96rpx;
+  position: relative;
+}
+.ui_memberAuth .userInfoList .userInfoItem.big.data-v-302a5ef9 {
+  height: 160rpx;
+}
+.ui_memberAuth .userInfoList .userInfoItem .userInfoTitle.data-v-302a5ef9 {
+  color: #000;
+  font-size: 28rpx;
+  width: 176rpx;
+}
+.ui_memberAuth .userInfoList .userInfoItem .userInfoDesc.data-v-302a5ef9 {
+  align-items: center;
+  color: #000;
+  display: flex;
+  flex: 1;
+  font-size: 28rpx;
+  height: 100%;
+}
+.ui_memberAuth .userInfoList .userInfoItem .userInfoDesc input.data-v-302a5ef9 {
+  flex: 1;
+}
+.ui_memberAuth
+  .userInfoList
+  .userInfoItem
+  .userInfoDesc
+  .btn_yanzheng.data-v-302a5ef9 {
+  border-radius: 8rpx;
+  color: #000;
+  font-size: 24rpx;
+  padding: 16rpx 24rpx;
+  position: relative;
+}
+.ui_memberAuth
+  .userInfoList
+  .userInfoItem
+  .userInfoDesc
+  .btn_yanzheng.data-v-302a5ef9:after {
+  border: 1px solid #000;
+  border-radius: 16rpx;
+  content: "";
+  height: 200%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  transform: scale(0.5);
+  transform-origin: 0 0;
+  width: 200%;
+}
+.ui_memberAuth
+  .userInfoList
+  .userInfoItem
+  .userInfoDesc
+  .btn_yanzheng.disabled.data-v-302a5ef9 {
+  border: none;
+  color: #ccc;
+  position: relative;
+}
+.ui_memberAuth
+  .userInfoList
+  .userInfoItem
+  .userInfoDesc
+  .btn_yanzheng.disabled.data-v-302a5ef9:after {
+  border: 1px solid #ccc;
+  border-radius: 16rpx;
+  content: "";
+  height: 200%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  transform: scale(0.5);
+  transform-origin: 0 0;
+  width: 200%;
+}
+.ui_memberAuth
+  .userInfoList
+  .userInfoItem
+  .userInfoDesc.tofill.data-v-302a5ef9 {
+  color: #ccc;
+}
+.ui_memberAuth
+  .userInfoList
+  .userInfoItem
+  .userInfoDesc
+  .avatar.data-v-302a5ef9 {
+  border: 1px solid #eee;
+  border-radius: 50%;
+  height: 96rpx;
+  width: 96rpx;
+}
+.ui_memberAuth .agreeBox.data-v-302a5ef9 {
+  color: gray;
+  font-size: 28rpx;
+  margin-top: 48rpx;
+  width: 100vw;
+}
+.ui_memberAuth .agreeBox .agreeDesc.data-v-302a5ef9 {
+  align-items: center;
+  display: flex;
+}
+.ui_memberAuth .agreeBox .agreeDesc .iconfont.data-v-302a5ef9 {
+  font-size: 32rpx;
+  height: 32rpx;
+  margin-right: 10rpx;
+  width: 32rpx;
+}
+.ui_memberAuth .agreeBox .agreeDesc .icon-danxuan_yixuan.data-v-302a5ef9 {
+  color: #a43127;
+}
+.ui_memberAuth .agreeBox .userRule.data-v-302a5ef9 {
+  color: #000;
+}
+.ui_memberAuth .authBtn.data-v-302a5ef9 {
+  background-color: #000;
+  background-image: url(https://dsplatweb.oss-cn-chengdu.aliyuncs.com/songzan/images/btnBlack.png);
+  background-repeat: repeat;
+  background-size: 80rpx 75rpx;
+  border-radius: 8rpx;
+  color: #fff;
+  height: 96rpx;
+  line-height: 96rpx;
+  margin-top: 32rpx;
+  text-align: center;
+  width: 100%;
+}

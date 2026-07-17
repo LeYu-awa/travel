@@ -1,0 +1,84 @@
+<coustom-head bind:__l="__l" class="data-v-089b1a6e" uI="089b1a6e-0" uP="{{a}}" wx:if="{{a}}"></coustom-head>
+<view class="destination data-v-089b1a6e">
+    <view class="destination-title data-v-089b1a6e" style="{{'padding-top:'+b}}">您想去哪里？</view>
+    <scroll-view class="scroll-view data-v-089b1a6e" scrollIntoView="{{d}}" scrollWithAnimation="true" scrollX="true" showScrollbar="{{false}}">
+        <view bindtap="{{item.h}}" class="content-item data-v-089b1a6e" id="{{item.f}}" wx:for="{{c}}" wx:key="g">
+            <view class="tab_img data-v-089b1a6e">
+                <view class="mask_layer_active data-v-089b1a6e" wx:if="{{item.a}}"></view>
+                <view class="mask_layer data-v-089b1a6e" wx:else></view>
+                <image class="img1 data-v-089b1a6e" src="https://songtsam-internal-static.oss-cn-chengdu.aliyuncs.com/mobile/assets/travel-assistant/tableImg_active.png" wx:if="{{item.b}}"></image>
+                <image class="img2 data-v-089b1a6e" src="{{item.c}}" wx:else></image>
+            </view>
+            <view class="tab_content data-v-089b1a6e">
+                <view class="tab_title data-v-089b1a6e">{{item.d}}</view>
+                <view class="tab_text data-v-089b1a6e">{{item.e}}</view>
+            </view>
+        </view>
+    </scroll-view>
+    <view class="tabs data-v-089b1a6e" id="tabs" wx:if="{{e}}">
+        <view class="tabs_inner data-v-089b1a6e" wx:if="{{f}}">
+            <view class="tabs_inner_box data-v-089b1a6e" wx:if="{{g}}"></view>
+        </view>
+        <view class="{{['tabs_warp','data-v-089b1a6e',k&&'fixed']}}" style="{{'top:'+l}}">
+            <line-tabs bind:__l="__l" bindclickTab="{{i}}" class="data-v-089b1a6e" uI="089b1a6e-1" uP="{{j}}" wx:if="{{h}}"></line-tabs>
+        </view>
+    </view>
+    <view class="{{['data-v-089b1a6e',n]}}">
+        <view bindtap="{{item.k}}" class="data-list-item data-v-089b1a6e" wx:for="{{m}}" wx:key="j">
+            <view class="data_list_content data-v-089b1a6e">
+                <view class="list-img data-v-089b1a6e">
+                    <image class="data-v-089b1a6e" src="{{item.a}}"></image>
+                </view>
+                <view class="list-content data-v-089b1a6e">
+                    <view class="content-title data-v-089b1a6e">{{item.b}}</view>
+                    <view class="content-tag data-v-089b1a6e">
+                        <view class="tag-list data-v-089b1a6e" wx:for="{{item.c}}" wx:for-item="tag" wx:key="b">{{tag.a}}</view>
+                    </view>
+                    <view class="content-texts data-v-089b1a6e">{{item.d}}</view>
+                </view>
+            </view>
+            <view class="select-icon data-v-089b1a6e">
+                <view catchtap="{{item.f}}" class="icon data-v-089b1a6e" wx:if="{{item.e}}">
+                    <view class="icon iconfont icon-danxuan_weixuan data-v-089b1a6e"></view>
+                </view>
+                <view catchtap="{{item.h}}" class="icon data-v-089b1a6e" wx:if="{{item.g}}">
+                    <view class="icon iconfont icon-danxuan_yixuan1 data-v-089b1a6e"></view>
+                </view>
+                <view class="icon data-v-089b1a6e" wx:if="{{item.i}}">
+                    <view class="icon iconfont icon-danxuan_bukexuan data-v-089b1a6e"></view>
+                </view>
+            </view>
+        </view>
+    </view>
+    <view class="data-v-089b1a6e"></view>
+    <view class="footer data-v-089b1a6e" wx:if="{{o}}">
+        <view class="{{['selected_wrap','data-v-089b1a6e',y&&'cant_scroll']}}">
+            <view class="selected-list data-v-089b1a6e">
+                <view class="sort data-v-089b1a6e">已选目的地</view>
+                <block wx:if="{{p}}">
+                    <view class="{{['selected-list-item','data-v-089b1a6e',item.e&&'base-drag-wrapper-active']}}" data-idx="{{item.g}}" style="{{'margin-right:8px'+';'+item.d}}" wx:for="{{q}}" wx:key="f">
+                        <view class="num data-v-089b1a6e">{{item.a}}</view>
+                        <view class="name data-v-089b1a6e">{{item.b}}</view>
+                        <view bindtap="{{item.c}}" class="icon iconfont icon-a-16_guanbi_ciji data-v-089b1a6e"></view>
+                    </view>
+                    <view class="{{['selected-list-item','shadow','data-v-089b1a6e',t&&'show_shadow']}}" style="{{v}}">
+                        <view class="num data-v-089b1a6e">{{r}}</view>
+                        <view class="name data-v-089b1a6e">{{s}}</view>
+                        <view class="icon iconfont icon-a-16_guanbi_ciji data-v-089b1a6e"></view>
+                    </view>
+                </block>
+                <view class="{{['selected-list-item','data-v-089b1a6e',item.d&&'base-drag-wrapper-active']}}" data-idx="{{item.f}}" style="{{'margin-right:8px'+';'+'opacity:'+x}}" wx:for="{{w}}" wx:key="e">
+                    <view class="num data-v-089b1a6e">{{item.a}}</view>
+                    <view class="name data-v-089b1a6e">{{item.b}}</view>
+                    <view bindtap="{{item.c}}" class="icon iconfont icon-a-16_guanbi_ciji data-v-089b1a6e"></view>
+                </view>
+            </view>
+        </view>
+        <view bindtap="{{z}}" class="btn baseBtn data-v-089b1a6e">创建行程</view>
+    </view>
+    <view class="show-toast data-v-089b1a6e" wx:if="{{A}}">
+        <text class="data-v-089b1a6e">普洱线由于旅行线路规划，暂不支持与其他线路组合</text>
+    </view>
+    <detail-dialog bind:__l="__l" bindupdateModelValue="{{B}}" class="data-v-089b1a6e" uI="089b1a6e-2" uP="{{C}}" wx:if="{{C}}"></detail-dialog>
+</view>
+<float-button-kf bind:__l="__l" class="data-v-089b1a6e" uI="089b1a6e-3"></float-button-kf>

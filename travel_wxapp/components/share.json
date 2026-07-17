@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "float-button-kf": "/components/new/FloatButtonKf",
+    "l-painter": "../uni_modules/lime-painter/components/l-painter/l-painter"
+  }
+}

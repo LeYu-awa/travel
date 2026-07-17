@@ -1,0 +1,9 @@
+{
+  "component": true,
+  "usingComponents": {
+    "bottom-dialog": "./BottomDialog",
+    "close-button": "../buttons/CloseButton",
+    "float-button-kf": "/components/new/FloatButtonKf",
+    "swiper-box": "../../../components/swiperBox"
+  }
+}

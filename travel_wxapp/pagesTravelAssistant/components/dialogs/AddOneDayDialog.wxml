@@ -1,0 +1,152 @@
+<bottom-dialog bind:__l="__l" bindopenState="{{T}}" class="add-one-day_dialog__wrapper r data-v-fef2d936" uI="fef2d936-0" uP="{{U}}" uR="hookAddOneDayDialog" uS="{{['title','d']}}" wx:if="{{U}}">
+    <view class="custom-title__wrapper data-v-fef2d936" ref="hookCustomTitleWrap" slot="title">
+        <view class="custom-title data-v-fef2d936">
+            <view bindtap="{{a}}" class="icon-content data-v-fef2d936"></view>
+            <view class="icon iconfont icon-a-16_guanbi_ciji data-v-fef2d936"></view>
+            <text class="day data-v-fef2d936">{{b}}</text>
+            <view class="data-v-fef2d936">
+                <text bindtap="{{d}}" class="complete-btn data-v-fef2d936" wx:if="{{c}}">完成</text>
+            </view>
+        </view>
+        <view class="dialog-tabs__wrapper data-v-fef2d936">
+            <line-tabs bind:__l="__l" bindclickTab="{{g}}" class="r data-v-fef2d936" uI="fef2d936-1,fef2d936-0" uP="{{h}}" uR="hookTabs" wx:if="{{e}}"></line-tabs>
+        </view>
+    </view>
+    <view class="add-one-day_dialog__main data-v-fef2d936" style="{{K}}">
+        <view class="tab-view_destination__wrapper data-v-fef2d936" hidden="{{!p}}">
+            <view class="msg-card__wrapper data-v-fef2d936" wx:if="{{i}}">
+                <msg-card bind:__l="__l" bindclose="{{j}}" class="data-v-fef2d936" uI="fef2d936-2,fef2d936-0" uP="{{k}}" uS="{{['prefix']}}" wx:if="{{k}}">
+                    <view class="iconfont icon-a-16_tishi_huangse data-v-fef2d936" slot="prefix"></view>
+                </msg-card>
+            </view>
+            <view class="destination-list__wrapper data-v-fef2d936">
+                <scroll-view scrollY class="data-v-fef2d936" style="{{o}}">
+                    <view class="list-item__wrapper data-v-fef2d936">
+                        <view class="list-item data-v-fef2d936" wx:for="{{l}}" wx:key="i">
+                            <view bindtap="{{item.e}}" class="list-item_content data-v-fef2d936">
+                                <view class="list-img__wrapper data-v-fef2d936">
+                                    <image class="list-img data-v-fef2d936" src="{{item.a}}"></image>
+                                </view>
+                                <view class="list-content data-v-fef2d936">
+                                    <view class="content-title data-v-fef2d936">{{item.b}}</view>
+                                    <view class="content-tag data-v-fef2d936">
+                                        <view class="tag-list data-v-fef2d936" wx:for="{{item.c}}" wx:for-item="tag" wx:key="b">{{tag.a}}</view>
+                                    </view>
+                                    <view class="content-texts data-v-fef2d936">{{item.d}}</view>
+                                </view>
+                            </view>
+                            <view bindtap="{{item.h}}" class="select-icon data-v-fef2d936">
+                                <view class="icon data-v-fef2d936">
+                                    <st-radio bind:__l="__l" class="data-v-fef2d936" uI="{{item.f}}" uP="{{item.g}}" wx:if="{{item.g}}"></st-radio>
+                                </view>
+                            </view>
+                        </view>
+                        <view class="empty__wrapper data-v-fef2d936" hidden="{{!n}}">
+                            <empty bind:__l="__l" class="data-v-fef2d936" uI="fef2d936-4,fef2d936-0" uP="{{m}}" wx:if="{{m}}"></empty>
+                        </view>
+                    </view>
+                </scroll-view>
+            </view>
+            <view class="tips data-v-fef2d936">出于酒店可到达性、出行体验考虑，建议您选择以上目的地</view>
+        </view>
+        <view class="tab-view_hotel__wrapper data-v-fef2d936" hidden="{{!A}}">
+            <view class="msg-card__wrapper data-v-fef2d936" wx:if="{{q}}">
+                <msg-card bind:__l="__l" bindclose="{{r}}" class="data-v-fef2d936" uI="fef2d936-5,fef2d936-0" uP="{{s}}" uS="{{['prefix']}}" wx:if="{{s}}">
+                    <view class="iconfont icon-a-16_tishi_huangse data-v-fef2d936" slot="prefix"></view>
+                </msg-card>
+            </view>
+            <scroll-view scrollY class="data-v-fef2d936" style="{{z}}">
+                <view class="list-item__wrapper data-v-fef2d936">
+                    <view class="list-item data-v-fef2d936" wx:for="{{t}}" wx:key="k">
+                        <view bindtap="{{item.g}}" class="list-item_content data-v-fef2d936">
+                            <view class="list-img__wrapper data-v-fef2d936">
+                                <image class="list-img data-v-fef2d936" src="{{item.a}}"></image>
+                            </view>
+                            <view class="list-content data-v-fef2d936">
+                                <view class="content-title data-v-fef2d936">{{item.b}}</view>
+                                <view class="content-texts data-v-fef2d936">{{item.c}}</view>
+                                <view class="content-back-tag content-tag data-v-fef2d936">
+                                    <block wx:if="{{item.d}}">
+                                        <view class="tag-list data-v-fef2d936" wx:if="{{item.e}}">可抵达</view>
+                                        <view class="tag-list data-v-fef2d936" wx:else>可返程</view>
+                                    </block>
+                                    <block wx:else>
+                                        <view class="tag-list data-v-fef2d936" wx:if="{{item.f}}">不可抵达</view>
+                                        <view class="tag-list data-v-fef2d936" wx:else>不可返程</view>
+                                    </block>
+                                </view>
+                            </view>
+                        </view>
+                        <view bindtap="{{item.j}}" class="select-icon data-v-fef2d936">
+                            <view class="icon data-v-fef2d936">
+                                <st-radio bind:__l="__l" class="data-v-fef2d936" uI="{{item.h}}" uP="{{item.i}}" wx:if="{{item.i}}"></st-radio>
+                            </view>
+                        </view>
+                    </view>
+                    <view class="empty__wrapper data-v-fef2d936" hidden="{{!w}}">
+                        <empty bind:__l="__l" class="data-v-fef2d936" uI="fef2d936-7,fef2d936-0" uP="{{v}}" wx:if="{{v}}"></empty>
+                    </view>
+                </view>
+                <view class="data-v-fef2d936" wx:if="{{x}}">
+                    <view class="bed-type__wrapper data-v-fef2d936">
+                        <view class="bed-type-item data-v-fef2d936" wx:for="{{y}}" wx:for-item="itm" wx:key="j">
+                            <view bindtap="{{itm.d}}" class="bed-type-item_type data-v-fef2d936">
+                                <text class="bed-type-item__label data-v-fef2d936">{{itm.a}}</text>
+                                <view class="data-v-fef2d936">
+                                    <st-radio bind:__l="__l" class="bed-type-item__value data-v-fef2d936" uI="{{itm.b}}" uP="{{itm.c}}" wx:if="{{itm.c}}"></st-radio>
+                                </view>
+                            </view>
+                            <view class="bed-type-item_num data-v-fef2d936" wx:if="{{itm.e}}">
+                                <text class="bed-type-item_label data-v-fef2d936">房间数量</text>
+                                <add-and-sub bind:__l="__l" bindchange="{{itm.f}}" bindupdateModelValue="{{itm.h}}" class="bed-type-item__value data-v-fef2d936" uI="{{itm.g}}" uP="{{itm.i}}" wx:if="{{itm.i}}"></add-and-sub>
+                            </view>
+                        </view>
+                    </view>
+                </view>
+            </scroll-view>
+            <view class="bed-tips__wrapper data-v-fef2d936">实际入住房型请以顾问安排为准</view>
+        </view>
+        <view class="tab-view_activity__wrapper data-v-fef2d936" hidden="{{!J}}">
+            <view class="rect-tabs data-v-fef2d936" wx:if="{{B}}">
+                <rect-tabs bind:__l="__l" bindchange="{{C}}" bindupdateModelValue="{{D}}" class="data-v-fef2d936" uI="fef2d936-10,fef2d936-0" uP="{{E}}" wx:if="{{E}}"></rect-tabs>
+            </view>
+            <scroll-view scrollY class="data-v-fef2d936" style="{{I}}">
+                <view class="list-item__wrapper data-v-fef2d936">
+                    <view class="list-item data-v-fef2d936" wx:for="{{F}}" wx:key="j">
+                        <view bindtap="{{item.f}}" class="list-item_content data-v-fef2d936">
+                            <view class="list-img__wrapper data-v-fef2d936">
+                                <image class="list-img data-v-fef2d936" src="{{item.a}}"></image>
+                                <view class="list-recommend data-v-fef2d936" wx:if="{{item.b}}">推荐</view>
+                            </view>
+                            <view class="list-content data-v-fef2d936">
+                                <view class="content-title data-v-fef2d936">{{item.c}}</view>
+                                <view class="content-texts data-v-fef2d936">{{item.d}}</view>
+                                <view class="content-back-tag content-tag data-v-fef2d936">
+                                    <view class="tag-list data-v-fef2d936">从酒店开车约{{item.e}}小时</view>
+                                </view>
+                            </view>
+                        </view>
+                        <view bindtap="{{item.i}}" class="select-icon data-v-fef2d936">
+                            <view class="icon data-v-fef2d936">
+                                <st-radio bind:__l="__l" class="data-v-fef2d936" uI="{{item.g}}" uP="{{item.h}}" wx:if="{{item.h}}"></st-radio>
+                            </view>
+                        </view>
+                    </view>
+                    <view class="empty__wrapper data-v-fef2d936" hidden="{{!H}}">
+                        <empty bind:__l="__l" class="data-v-fef2d936" uI="fef2d936-12,fef2d936-0" uP="{{G}}" wx:if="{{G}}"></empty>
+                    </view>
+                </view>
+            </scroll-view>
+        </view>
+    </view>
+    <view class="fixed-placeholder data-v-fef2d936"></view>
+    <fixed-bottom-view bind:__l="__l" class="data-v-fef2d936" uI="fef2d936-13,fef2d936-0" uP="{{O}}" uS="{{['d']}}" wx:if="{{O}}">
+        <view class="footer-right_btn data-v-fef2d936">
+            <st-button bind:__l="__l" bindclick="{{M}}" class="data-v-fef2d936" uI="fef2d936-14,fef2d936-13" uP="{{N}}" uS="{{['d']}}" wx:if="{{N}}">{{L}}</st-button>
+        </view>
+    </fixed-bottom-view>
+    <detail-dialog bind:__l="__l" bindupdateModelValue="{{P}}" class="destination-detail_dialog data-v-fef2d936" uI="fef2d936-15,fef2d936-0" uP="{{Q}}" wx:if="{{Q}}"></detail-dialog>
+    <view class="show-toast data-v-fef2d936" wx:if="{{R}}">
+        <text class="data-v-fef2d936">该酒店因交通原因无法作为起始地和离开地，如有特殊需求可直接联系松赞旅行顾问定制安排</text>
+    </view>
+</bottom-dialog>

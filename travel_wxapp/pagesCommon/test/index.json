@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "测试入口",
+  "usingComponents": {
+    "float-button-kf": "/components/new/FloatButtonKf",
+    "link-item": "../../components/linkItem"
+  }
+}

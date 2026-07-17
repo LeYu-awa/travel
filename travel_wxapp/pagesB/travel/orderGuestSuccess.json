@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "float-button-kf": "../../components/new/FloatButtonKf",
+    "navigator": "../../components/new/Navigator",
+    "progress-bar": "../../components/new/ProgressBar",
+    "recommend-products": "../../components/RecommendProducts",
+    "safe-area": "../../components/new/SafeArea",
+    "st-button": "../../components/new/StButton"
+  }
+}

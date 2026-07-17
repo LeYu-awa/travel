@@ -1,0 +1,380 @@
+.baseBtn {
+  background-color: #000;
+  background-image: url(https://dsplatweb.oss-cn-chengdu.aliyuncs.com/songzan/images/btnBlack.png);
+  color: #fff;
+}
+.baseBtn,
+.w-baseBtn {
+  background-repeat: repeat;
+  background-size: 80rpx 75rpx;
+  border-radius: 8rpx;
+  text-align: center;
+}
+.w-baseBtn {
+  background-color: #fff;
+  background-image: url(https://dsplatweb.oss-cn-chengdu.aliyuncs.com/songzan/images/btnWhite.png);
+  color: #000;
+}
+.w-baseBtn[disabled] {
+  color: #000 !important;
+  opacity: 0.8;
+}
+.textHidden {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.expandClick {
+  position: relative;
+}
+.expandClick:after {
+  bottom: -60rpx;
+  content: "";
+  left: -60rpx;
+  position: absolute;
+  right: -60rpx;
+  top: -60rpx;
+  z-index: 9;
+}
+.line-clamp-1 {
+  line-clamp: 1;
+}
+.line-clamp-1,
+.line-clamp-2 {
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  overflow: hidden;
+  white-space: normal;
+}
+.line-clamp-2 {
+  line-clamp: 2;
+}
+.line-clamp-3 {
+  line-clamp: 3;
+}
+.line-clamp-3,
+.line-clamp-4 {
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  overflow: hidden;
+  white-space: normal;
+}
+.line-clamp-4 {
+  line-clamp: 4;
+}
+.line-clamp-5 {
+  line-clamp: 5;
+}
+.line-clamp-5,
+.line-clamp-6 {
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  overflow: hidden;
+  white-space: normal;
+}
+.line-clamp-6 {
+  line-clamp: 6;
+}
+.line-clamp-7 {
+  line-clamp: 7;
+}
+.line-clamp-7,
+.line-clamp-8 {
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  overflow: hidden;
+  white-space: normal;
+}
+.line-clamp-8 {
+  line-clamp: 8;
+}
+.line-clamp-9 {
+  -webkit-box-orient: vertical;
+  line-clamp: 9;
+  display: -webkit-box;
+  overflow: hidden;
+  white-space: normal;
+}
+.ui_chooseInvoice {
+  background-color: #f2f3f5;
+  min-height: 100vh;
+  padding-top: 32rpx;
+}
+.ui_chooseInvoice .myInvoiceWrapper {
+  height: 100vh;
+  left: 0;
+  overflow-y: scroll;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  z-index: 98;
+}
+.ui_chooseInvoice .sendInvoice {
+  background-color: #000;
+  background-image: url(https://dsplatweb.oss-cn-chengdu.aliyuncs.com/songzan/images/btnBlack.png);
+  background-repeat: repeat;
+  background-size: 80rpx 75rpx;
+  border-radius: 8rpx;
+  border-radius: 16rpx;
+  color: #fff;
+  font-size: 32rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  margin: 0 auto;
+  text-align: center;
+  width: calc(100vw - 48rpx);
+}
+.ui_chooseInvoice .invoiceBox {
+  background: #fff;
+  border-radius: 24rpx;
+  box-sizing: border-box;
+  margin: 0 auto 24rpx;
+  padding: 24rpx;
+  width: calc(100vw - 48rpx);
+}
+.ui_chooseInvoice .invoiceBox.notTitle {
+  padding-top: 20rpx;
+}
+.ui_chooseInvoice .invoiceBox .InvoiceTitle {
+  border-bottom: 1px solid #eee;
+  color: #000;
+  font-size: 28rpx;
+  font-weight: 700;
+  height: 92rpx;
+  line-height: 92rpx;
+  margin-top: -20rpx;
+}
+.ui_chooseInvoice .invoiceBox .row {
+  align-items: center;
+  color: #000;
+  display: flex;
+  font-size: 28rpx;
+  min-height: 96rpx;
+}
+.ui_chooseInvoice .invoiceBox .row .title {
+  width: 176rpx;
+}
+.ui_chooseInvoice .invoiceBox .row input {
+  flex: 1;
+}
+.ui_chooseInvoice .invoiceBox .row-in {
+  color: #000;
+  display: flex;
+  font-size: 28rpx;
+  min-height: 96rpx;
+  padding-top: 24rpx;
+}
+.ui_chooseInvoice .invoiceBox .row-in .title {
+  width: 176rpx;
+}
+.ui_chooseInvoice .invoiceBox .row-in input {
+  flex: 1;
+}
+.ui_chooseInvoice .invoiceBox .chooseTitle .check-info .info-item-name {
+  color: #000;
+  font-size: 28rpx;
+  font-weight: 700;
+}
+.ui_chooseInvoice .invoiceBox .chooseTitle .check-info .info-item-id-card {
+  color: gray;
+  font-size: 24rpx;
+  margin-top: 24rpx;
+}
+.ui_chooseInvoice .invoiceBox .select_place {
+  color: #ccc;
+  font-size: 28rpx;
+  letter-spacing: 0;
+  text-align: left;
+}
+.ui_chooseInvoice .invoiceBox .invoiceWays {
+  align-items: center;
+  display: flex;
+  flex: 1;
+  height: 100%;
+}
+.ui_chooseInvoice .invoiceBox .invoiceWays .invoiceWay {
+  align-items: center;
+  display: flex;
+}
+.ui_chooseInvoice .invoiceBox .invoiceWays .invoiceWay:nth-of-type(1) {
+  width: 250rpx;
+}
+.ui_chooseInvoice .invoiceBox .invoiceWays .invoiceWay:nth-of-type(2) {
+  width: 200rpx;
+}
+.ui_chooseInvoice .invoiceBox .invoiceWays .invoiceWay .invoice_type {
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 8rpx;
+  color: #000;
+  display: flex;
+  height: 76rpx;
+  justify-content: center;
+  width: 224rpx;
+}
+.ui_chooseInvoice .invoiceBox .invoiceWays .invoiceWay .active {
+  align-items: center;
+  border: 1px solid #a43127;
+  border-radius: 8rpx;
+  color: #000;
+  display: flex;
+  font-weight: 700;
+  height: 76rpx;
+  justify-content: center;
+  width: 224rpx;
+}
+.ui_chooseInvoice .invoiceBox .row_height {
+  height: 140rpx;
+}
+.ui_chooseInvoice .icon_more {
+  color: #000;
+  font-size: 36rpx;
+  margin-left: auto;
+}
+.ui_chooseInvoice .tips {
+  color: gray;
+  font-size: 28rpx;
+  line-height: 44rpx;
+  margin: 32rpx 32rpx 64rpx;
+}
+.ui_chooseInvoice .layer-box {
+  background: #f8f8f8;
+  height: 1100rpx;
+  padding-top: 32rpx;
+  width: 100%;
+}
+.ui_chooseInvoice .layer-box .title {
+  align-items: center;
+  border-bottom: 1px solid #eee;
+  color: #000;
+  display: flex;
+  font-family: PingFang SC;
+  font-size: 32rpx;
+  font-style: normal;
+  font-weight: 600;
+  height: 112rpx;
+  justify-content: center;
+  position: relative;
+}
+.ui_chooseInvoice .layer-box .title .icon-a-20_guanbi {
+  font-size: 36rpx;
+  left: 44rpx;
+  position: absolute;
+  top: 40rpx;
+}
+.ui_chooseInvoice .layer-box .add-btn {
+  align-items: center;
+  border: 0.5px solid #000;
+  border-radius: 8rpx;
+  box-sizing: border-box;
+  display: flex;
+  font-size: 32rpx;
+  height: 96rpx;
+  justify-content: center;
+  margin: 0 32rpx 32rpx;
+}
+.ui_chooseInvoice .layer-box .add-btn .icon-add {
+  font-size: 44rpx;
+  margin-right: 24rpx;
+}
+.ui_chooseInvoice .layer-box .info-list {
+  max-height: calc(100% - 300rpx);
+  overflow-y: scroll;
+  padding: 0 32rpx 64rpx;
+}
+.ui_chooseInvoice .layer-box .info-list .info-item {
+  align-items: center;
+  background: #fff;
+  border-radius: 16rpx;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 32rpx;
+  padding: 32rpx 24rpx;
+}
+.ui_chooseInvoice .layer-box .info-list .info-item .info-item-lf {
+  align-items: center;
+  display: flex;
+}
+.ui_chooseInvoice
+  .layer-box
+  .info-list
+  .info-item
+  .info-item-lf
+  .icon-a-16_bianji {
+  font-size: 30rpx;
+  margin-right: 24rpx;
+}
+.ui_chooseInvoice
+  .layer-box
+  .info-list
+  .info-item
+  .info-item-lf
+  .info-item-lf-info
+  .info-item-name {
+  color: #000;
+  font-size: 32rpx;
+  font-weight: 700;
+  line-height: 1;
+}
+.ui_chooseInvoice
+  .layer-box
+  .info-list
+  .info-item
+  .info-item-lf
+  .info-item-lf-info
+  .info-item-id-card {
+  color: gray;
+  font-size: 24rpx;
+  margin-top: 24rpx;
+}
+.ui_chooseInvoice .layer-box .info-list .info-item .icon-danxuan_bukexuan,
+.ui_chooseInvoice .layer-box .info-list .info-item .icon-danxuan_weixuan,
+.ui_chooseInvoice .layer-box .info-list .info-item .icon-danxuan_yixuan {
+  font-size: 44rpx;
+}
+.ui_chooseInvoice
+  .layer-box
+  .info-list
+  .info-item
+  .icon-danxuan_bukexuan.icon-danxuan_weixuan,
+.ui_chooseInvoice
+  .layer-box
+  .info-list
+  .info-item
+  .icon-danxuan_weixuan.icon-danxuan_weixuan,
+.ui_chooseInvoice
+  .layer-box
+  .info-list
+  .info-item
+  .icon-danxuan_yixuan.icon-danxuan_weixuan {
+  color: gray;
+}
+.ui_chooseInvoice
+  .layer-box
+  .info-list
+  .info-item
+  .icon-danxuan_bukexuan.icon-danxuan_yixuan,
+.ui_chooseInvoice
+  .layer-box
+  .info-list
+  .info-item
+  .icon-danxuan_weixuan.icon-danxuan_yixuan,
+.ui_chooseInvoice
+  .layer-box
+  .info-list
+  .info-item
+  .icon-danxuan_yixuan.icon-danxuan_yixuan {
+  color: #a43127;
+}
+.ui_chooseInvoice .layer-footer {
+  background: #fff;
+  padding: 32rpx;
+  z-index: 10;
+}
+.ui_chooseInvoice .layer-footer .layer-btn {
+  align-items: center;
+  display: flex;
+  height: 96rpx;
+  justify-content: center;
+}

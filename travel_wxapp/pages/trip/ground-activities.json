@@ -1,0 +1,13 @@
+{
+  "enablePullDownRefresh": true,
+  "navigationBarTitleText": "行程",
+  "navigationStyle": "custom",
+  "onReachBottomDistance": 50,
+  "usingComponents": {
+    "banner": "../../components/groundActivities/Banner",
+    "bottom-nav": "../../components/bottomNav",
+    "float-button-kf": "/components/new/FloatButtonKf",
+    "goods-group": "../../components/groundActivities/GoodsGroup",
+    "navigator": "../../components/new/Navigator"
+  }
+}

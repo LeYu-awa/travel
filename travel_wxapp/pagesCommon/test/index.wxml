@@ -1,0 +1,10 @@
+<view class="test data-v-0d986a7d">
+    <view class="card data-v-0d986a7d" wx:for="{{a}}" wx:for-item="group" wx:key="d">
+        <view class="card-title data-v-0d986a7d" wx:if="{{group.a}}">{{group.b}}</view>
+        <view class="card-content data-v-0d986a7d">
+            <view class="card-item data-v-0d986a7d" wx:for="{{group.c}}" wx:for-item="menu" wx:key="d">
+                <link-item bind:__l="__l" bindchooseLink="{{menu.a}}" class="data-v-0d986a7d" uI="{{menu.b}}" uP="{{menu.c}}" wx:if="{{menu.c}}"></link-item>
+            </view>
+        </view>
+    </view>
+</view>

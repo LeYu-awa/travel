@@ -1,0 +1,30 @@
+.page.data-v-6c30ec99 {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.top.data-v-6c30ec99 {
+  height: 424rpx;
+  position: relative;
+  width: 100%;
+}
+.image.data-v-6c30ec99 {
+  background: #ccc;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+.header-content.data-v-6c30ec99 {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.12));
+  box-sizing: border-box;
+  color: #fff;
+  height: 100%;
+  position: relative;
+  z-index: 2;
+}
+.content.data-v-6c30ec99 {
+  flex: 1;
+  overflow: auto;
+}

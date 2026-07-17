@@ -1,0 +1,17 @@
+.ghost-button.data-v-f0d122b5 {
+  background: #fff;
+  border: 1px solid #000;
+  border-radius: 8rpx;
+  font-size: 28rpx;
+  line-height: 28rpx;
+  margin: 0;
+  padding: 24rpx 40rpx;
+}
+.ghost-button.data-v-f0d122b5:last-of-type {
+  margin-left: 16rpx;
+}
+.ghost-button.disabled.data-v-f0d122b5 {
+  background: #eee;
+  border: none;
+  color: #ccc;
+}

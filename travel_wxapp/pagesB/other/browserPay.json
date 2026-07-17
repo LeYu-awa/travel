@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "浏览器支付",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "coustom-head": "../../components/coustomHead",
+    "float-button-kf": "/components/new/FloatButtonKf"
+  }
+}

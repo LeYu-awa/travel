@@ -1,0 +1,15 @@
+{
+  "navigationBarTitleText": "搜索结果",
+  "navigationStyle": "custom",
+  "onReachBottomDistance": 30,
+  "usingComponents": {
+    "banner-swiper": "../../components/bannerSwiper",
+    "bottom-dialog": "../../components/bottomDialog",
+    "calendar": "../../components/calendar",
+    "coustom-head": "../../components/coustomHead",
+    "destination-box": "../../components/destinationBox",
+    "empty": "../../components/empty",
+    "float-button-kf": "/components/new/FloatButtonKf",
+    "product-card-list": "../../components/new/ProductCardList"
+  }
+}

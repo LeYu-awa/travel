@@ -1,0 +1,349 @@
+import request from "@/utils/request.js";
+/**
+ * 公共接口 ，优惠券接口 , 行业此讯 , 手机号码注册
+ * 
+*/
+/**
+ * 获取主页数据 无需授权
+ * 
+*/
+export function getIndexData() {
+  return request.get("common/home", {}, { noAuth: true });
+}
+/**
+ * 获取app版本
+ */
+export function getAppVersion() {
+  return request.get('appVersion', {}, { noAuth: true });
+}
+/**
+ * 获取登录授权login
+ * 
+*/
+export function getLogo() {
+  return request.get('wechat/get_logo', {}, { noAuth: true });
+}
+/**
+ * 保存form_id
+ * @param string formId 
+ */
+export function setFormId(formId) {
+  return request.post("wechat/set_form_id", { formId: formId });
+}
+/**
+ * 领取优惠卷
+ * @param int couponId
+ * 
+*/
+export function setCouponReceive(couponId) {
+  return request.post('coupon/receive/' + couponId);
+}
+/**
+ * 商铺优惠券列表
+ * @param object data
+*/
+export function getShopCoupons(id) {
+  return request.get('coupon/store/' + id, {}, { noAuth: true })
+}
+/**
+ * 商品优惠券列表
+ * @param object data
+*/
+export function getCoupons(data) {
+  return request.get('coupon/product', data, { noAuth: true })
+}
+/**
+ * 我的优惠券
+ * @param int types 0全部  1未使用 2已使用
+*/
+export function getUserCoupons(data) {
+  return request.get('coupon/list', data)
+}
+/**
+ * 文章分类列表
+ * 
+*/
+export function getArticleCategoryList() {
+  return request.get('article/category/lst', {}, { noAuth: true })
+}
+/**
+ * 文章列表
+ * @param int cid
+ * 
+*/
+export function getArticleList(cid, data) {
+  return request.get('article/lst/' + cid, data, { noAuth: true })
+}
+/**
+ * 文章 热门列表
+ * 
+*/
+export function getArticleHotList() {
+  return request.get('article/hot/list', {}, { noAuth: true });
+}
+/**
+ * 文章 轮播列表
+ * 
+*/
+export function getArticleBannerList() {
+  return request.get('article/banner/list', {}, { noAuth: true })
+}
+/**
+ * 文章详情
+ * @param int id 
+ * 
+*/
+export function getArticleDetails(id) {
+  return request.get('article/detail/' + id, {}, { noAuth: true });
+}
+/**
+ * 手机号+验证码登录接口
+ * @param object data
+*/
+export function loginMobile(data) {
+  return request.post('login/mobile', data, { noAuth: true })
+}
+/**
+ * 获取短信KEY
+ * @param object phone
+*/
+export function verifyCode() {
+  return request.get('verify_code', {}, { noAuth: true })
+}
+/**
+ * 验证码发送
+ * @param object phone
+*/
+export function registerVerify(phone, reset, key, code) {
+  return request.post('register/verify', { phone: phone, type: reset === undefined ? 'reset' : reset, key: key, code: code }, { noAuth: true })
+}
+/**
+ * 手机号注册
+ * @param object data
+ * 
+*/
+export function phoneRegister(data) {
+  return request.post('register', data, { noAuth: true });
+}
+/**
+ * 手机号修改密码
+ * @param object data
+ * 
+*/
+export function phoneRegisterReset(data) {
+  return request.post('register/reset', data, { noAuth: true })
+}
+/**
+ * 手机号+密码登录
+ * @param object data
+ * 
+*/
+export function phoneLogin(data) {
+  return request.post('login', data, { noAuth: true })
+}
+/* h5切换公众号登陆 */
+export function switchH5Login(data) {
+  return request.post("user/switch", data);
+}
+/** 绑定手机号 */
+export function bindingPhone(data) {
+  return request.post('user/binding', data);
+}
+/** 修改手机号 */
+export function modifyPhone(data) {
+  return request.post('user/change/phone', data);
+}
+/** 修改密码 */
+export function modifyPassword(data) {
+  return request.post('user/change/password', data);
+}
+/** 退出登錄 */
+export function logout() {
+  return request.get('logout');
+}
+/** 获取订阅消息id */
+export function getTemlIds() {
+  return request.get('wechat/teml_ids', {}, { noAuth: true });
+}
+/** 首页拼团数据 */
+export function pink() {
+  return request.get('pink', {}, { noAuth: true });
+}
+/** 获取城市信息 */
+export function getCity() {
+  return request.get('system/city/lst', {}, { noAuth: true });
+}
+export function getCityV2(pid) {
+  return request.get('v2/system/city/lst/' + pid, {}, { noAuth: true });
+}
+export function getCityList(address) {
+  return request.get('v2/system/city', { address }, { noAuth: true });
+}
+/** 获取小程序直播列表 */
+export function getLiveList(page, limit) {
+  return request.get('wechat/live', { page, limit }, { noAuth: true });
+}
+/* APP登录 */
+export function wechatAppAuth(data) {
+  return request.post("auth/app", data, { noAuth: true });
+}
+/* APPLE登录 */
+export function appleAppAuth(data) {
+  return request.post("auth/apple", data, { noAuth: true });
+}
+/* 小程序获取手机号解密 */
+export function appletsDecrypt(data) {
+  return request.post("user/mp/binding", data);
+}
+/**
+ * 获取首页DIY；
+ */
+export function getDiy(data) {
+  return request.get('diy', data, { noAuth: true });
+}
+/**
+ * 获取首页微页面；
+ */
+export function getPageDiy(data) {
+  return request.get(`micro`, data, {
+    noAuth: true
+  });
+}
+/**
+ * 滑块信息
+ * @param {Object} data
+ */
+export function getAjcaptcha(data) {
+  return request.get("ajcaptcha", data, {
+    noAuth: true
+  });
+}
+/**
+ * 滑块验证
+ * @param {Object} data
+ */
+export function ajcaptchaCheck(data) {
+  return request.post("ajcheck", data, {
+    noAuth: true
+  });
+}
+/**
+ * 滑块信息
+ * @param {Object} data
+ */
+export function getOpenAdv() {
+  return request.get("open_screen", {}, {
+    noAuth: true
+  });
+}
+/**
+ * diy-秒杀
+ * @param {Object} data
+ */
+export function getSeckillData(data) {
+  return request.get("diy/seckill", data, {
+    noAuth: true
+  });
+}
+/**
+ * diy-预售
+ * @param {Object} data
+ */
+export function getPresellData(data) {
+  return request.get("diy/presell", data, {
+    noAuth: true
+  });
+}
+/**
+ * diy-助力
+ * @param {Object} data
+ */
+export function getAssistData(data) {
+  return request.get("diy/assist", data, {
+    noAuth: true
+  });
+}
+/**
+ * diy-拼团
+ * @param {Object} data
+ */
+export function getCombinationData(data) {
+  return request.get("diy/group", data, {
+    noAuth: true
+  });
+}
+/**
+ * diy-商品列表
+ * @param {Object} data
+ */
+export function getProductData(data) {
+  return request.get("diy/spu", data, {
+    noAuth: true
+  });
+}
+/**
+ * diy-社区列表
+ * @param {Object} data
+ */
+export function graphicLstData(data) {
+  return request.get("diy/community", data, {
+    noAuth: true
+  });
+}
+/**
+ * diy-商户列表
+ * @param {Object} data
+ */
+export function storeList(data) {
+  return request.get("diy/store", data, {
+    noAuth: true
+  });
+}
+/**
+ * diy-优惠券列表
+ * @param {Object} data
+ */
+export function getCouponData(data) {
+  return request.get("diy/coupon", data, {
+    noAuth: true
+  });
+}
+/**
+ * diy-小程序直播
+ * @param {Object} data
+ */
+export function getLiveData(data) {
+  return request.get("diy/broadcast", data, {
+    noAuth: true
+  });
+}
+/**
+ * diy-热卖排行
+ * @param {Object} data
+ */
+export function hotRankingList(data) {
+  return request.get("diy/hot_top", data, {
+    noAuth: true
+  });
+}
+/**
+ * diy-首页二级分类
+ * @param {Object} data
+ */
+export function getCateData(data) {
+  return request.get("diy/category", data, {
+    noAuth: true
+  });
+}
+
+// 新首页内容接口
+/**
+ * 获取首页跳转
+ * 
+*/
+export function getHotSector(data) {
+  return request.get('getHotSector', data, { noAuth: true })
+}
+export function getHeadPageConfig(data) {
+  return request.get('getHeadPageConfig', data, { noAuth: true })
+}

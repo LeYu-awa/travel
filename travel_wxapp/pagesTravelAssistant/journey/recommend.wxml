@@ -1,0 +1,44 @@
+<coustom-head bind:__l="__l" class="data-v-f459a678" uI="f459a678-0" uP="{{a}}" wx:if="{{a}}"></coustom-head>
+<view class="recommend data-v-f459a678">
+    <view class="recommend-title data-v-f459a678" style="{{'padding-top:'+b}}">为您推荐</view>
+    <view class="data-list data-v-f459a678" style="{{'padding-top:'+d}}">
+        <view bindtap="{{item.o}}" class="data-list-item data-v-f459a678" wx:for="{{c}}" wx:key="p">
+            <view class="data_list_content data-v-f459a678">
+                <view class="list-img data-v-f459a678">
+                    <view class="tag_icon data-v-f459a678">
+                        <view class="label-icon-red data-v-f459a678" wx:if="{{item.a}}">
+                            <view class="icon iconfont icon-a-20_shoucang_yishoucang data-v-f459a678"></view>
+                            <view class="data-v-f459a678">最佳推荐</view>
+                        </view>
+                        <view class="label-icon-black data-v-f459a678">
+                            <image class="travel-icon data-v-f459a678" src="{{item.b}}"></image>
+                            <text class="travel-text data-v-f459a678">{{item.c}}</text>
+                        </view>
+                        <view class="label-icon-wrap data-v-f459a678" wx:if="{{item.d}}">
+                            <view class="label-icon-green data-v-f459a678" wx:for="{{item.e}}" wx:for-item="tag" wx:key="b">{{tag.a}}</view>
+                        </view>
+                    </view>
+                    <image class="data-v-f459a678" src="{{item.f}}"></image>
+                </view>
+                <view class="list-content data-v-f459a678">
+                    <view class="content-title data-v-f459a678">{{item.g}}</view>
+                    <view class="content-title-small data-v-f459a678">{{item.h}}</view>
+                    <view class="content-texts data-v-f459a678">{{item.i}}</view>
+                    <view class="tags product-header__tags data-v-f459a678" wx:if="{{item.j}}">
+                        <view class="tag data-v-f459a678" wx:for="{{item.k}}" wx:for-item="it" wx:key="b">{{it.a}}</view>
+                    </view>
+                    <view class="list-price data-v-f459a678">
+                        <view class="list-price-unit data-v-f459a678">
+                            <view class="data-v-f459a678">¥{{item.l}}</view>
+                            <view class="data-v-f459a678">/{{item.m}}起</view>
+                        </view>
+                        <view catchtap="{{item.n}}" class="list-detail data-v-f459a678">查看详情</view>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+    <view class="footer data-v-f459a678">
+        <view bindtap="{{e}}" class="btn baseBtn data-v-f459a678">跳过推荐，继续创建</view>
+    </view>
+</view>

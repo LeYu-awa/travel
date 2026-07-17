@@ -1,0 +1,42 @@
+.content.data-v-72efa162 {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.content .body.data-v-72efa162 {
+  background: #f8f8f8;
+  flex: 1;
+  overflow: auto;
+  padding: 32rpx;
+}
+.footer.data-v-72efa162 {
+  padding: 24rpx 32rpx;
+}
+.row.data-v-72efa162 {
+  margin-bottom: 24rpx;
+}
+.textarea.data-v-72efa162 {
+  font-size: 28rpx;
+  margin-top: 24rpx;
+  width: 100%;
+}
+.room-info.data-v-72efa162 {
+  background: #fff;
+  border-radius: 16rpx;
+  display: flex;
+  padding: 32rpx 24rpx;
+}
+.room-info .label.data-v-72efa162 {
+  margin-right: 92rpx;
+}
+.detail.data-v-72efa162 {
+  background: #fff;
+  border-radius: 16rpx;
+  padding: 32rpx 24rpx;
+}
+.count-tip.data-v-72efa162 {
+  color: #999;
+  display: block;
+  font-size: 24rpx;
+  text-align: right;
+}

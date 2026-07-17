@@ -1,0 +1,14 @@
+.safe-bottom .bottomDialogBox .bottomDialog,
+.safe-bottom .bottomDialogBox .bottomDialogMask {
+  bottom: calc(constant(safe-area-inset-bottom) + 146rpx) !important;
+  bottom: calc(env(safe-area-inset-bottom) + 146rpx) !important;
+  display: flex;
+  flex-direction: column;
+  top: auto !important;
+}
+.safe-bottom .dialogWarp {
+  flex: 1;
+}
+page {
+  height: 100vh;
+}

@@ -1,0 +1,25 @@
+.kv.data-v-2d45ed34 {
+  align-items: flex-start;
+  display: flex;
+  margin-bottom: 32rpx;
+}
+.kv.data-v-2d45ed34:last-of-type {
+  margin-bottom: 0;
+}
+.separate.data-v-2d45ed34 {
+  justify-content: space-between;
+}
+.label.data-v-2d45ed34,
+.value.data-v-2d45ed34 {
+  font-size: 28rpx;
+  line-height: 28rpx;
+}
+.label.data-v-2d45ed34 {
+  color: gray;
+  flex-basis: 160rpx;
+  flex-shrink: 0;
+  margin-right: 16rpx;
+}
+.flex.data-v-2d45ed34 {
+  flex: 1;
+}

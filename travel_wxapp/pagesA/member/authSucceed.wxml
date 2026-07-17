@@ -1,0 +1,29 @@
+<view class="ui_authSucceed data-v-1b3f426b">
+    <coustom-head bind:__l="__l" class="data-v-1b3f426b" uI="1b3f426b-0" uP="{{a}}" wx:if="{{a}}"></coustom-head>
+    <view class="topBox data-v-1b3f426b">
+        <view class="tipBox data-v-1b3f426b">
+            <view class="icon iconfont icon-a-120_tijiaochenggong data-v-1b3f426b" style="{{'margin-top:'+b}}"></view>
+            <view class="tips data-v-1b3f426b" wx:if="{{c}}">认证成功</view>
+            <view class="subTips data-v-1b3f426b" wx:if="{{d}}">恭喜你，完成了身份验证</view>
+            <view class="tips data-v-1b3f426b" wx:if="{{e}}">已完成认证</view>
+        </view>
+        <image class="authBg data-v-1b3f426b" mode="widthFix" src="https://dsplatweb.oss-cn-chengdu.aliyuncs.com/songzan/images/authBg.png"></image>
+    </view>
+    <view class="bottomBox data-v-1b3f426b">
+        <view class="innerBox data-v-1b3f426b">
+            <view class="topArea data-v-1b3f426b">认证信息</view>
+            <view class="bottomArea data-v-1b3f426b">
+                <view class="row data-v-1b3f426b">
+                    <view class="title data-v-1b3f426b">姓名</view>
+                    <view class="desc data-v-1b3f426b">{{f}}</view>
+                </view>
+                <view class="row data-v-1b3f426b">
+                    <view class="title data-v-1b3f426b">身份证</view>
+                    <view class="desc data-v-1b3f426b">{{g}}</view>
+                </view>
+            </view>
+        </view>
+        <view bindtap="{{i}}" class="back data-v-1b3f426b" wx:if="{{h}}">返回</view>
+        <view bindtap="{{k}}" class="back data-v-1b3f426b" wx:if="{{j}}">重新认证</view>
+    </view>
+</view>

@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "alert": "../../components/Alert",
+    "bottom-dialog": "../../components/bottomDialog",
+    "float-button-kf": "/components/new/FloatButtonKf",
+    "img-code": "../../components/imgCode"
+  }
+}

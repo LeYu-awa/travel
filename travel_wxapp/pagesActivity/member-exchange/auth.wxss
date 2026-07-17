@@ -1,0 +1,53 @@
+.page .error-button.data-v-168fe8c3 {
+  margin-top: 64rpx;
+}
+.page .auth-popup.data-v-168fe8c3 {
+  height: 100vh;
+}
+.page .auth-popup .action-item.data-v-168fe8c3 {
+  padding: 8rpx;
+}
+.page .auth-popup .action-item__icon.data-v-168fe8c3 {
+  font-size: 40rpx;
+}
+.page .auth-popup .body.data-v-168fe8c3 {
+  padding: 32rpx;
+}
+.page .auth-popup .body .auth-title.data-v-168fe8c3 {
+  font-size: 40rpx;
+  font-weight: 700;
+  line-height: 60rpx;
+}
+.page .auth-popup .body .auth-desc.data-v-168fe8c3 {
+  align-items: flex-start;
+  display: flex;
+  font-size: 28rpx;
+  gap: 20rpx;
+  line-height: 44rpx;
+  margin-top: 60rpx;
+}
+.page .auth-popup .body .auth-desc__radio.data-v-168fe8c3 {
+  align-items: center;
+  display: flex;
+  height: 44rpx;
+  justify-content: center;
+  width: 44rpx;
+}
+.page .auth-popup .body .auth-logos.data-v-168fe8c3 {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 260rpx;
+}
+.page .auth-popup .body .auth-logos .auth-logo.data-v-168fe8c3 {
+  height: 160rpx;
+  width: 160rpx;
+}
+.page .auth-popup .body .auth-logos .icon-exchange.data-v-168fe8c3 {
+  height: 48rpx;
+  margin: 0 56rpx;
+  width: 48rpx;
+}
+.page .auth-popup .body .auth-buttons.data-v-168fe8c3 {
+  margin-top: 200rpx;
+}

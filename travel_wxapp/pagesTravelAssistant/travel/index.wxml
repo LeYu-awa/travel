@@ -1,0 +1,216 @@
+<view>
+    <coustom-head bind:__l="__l" uI="411a47fe-0" uP="{{b}}" wx:if="{{a}}"></coustom-head>
+</view>
+<block wx:if="{{c}}">
+    <view class="header" wx:if="{{d}}">
+        <view class="header-img" style="{{'top:'+f}}">
+            <view bindtap="{{e}}" class="header-flex">
+                <view class="iconfont icon-a-20_fanhuianniu" style="color:#000"></view>
+            </view>
+        </view>
+    </view>
+    <view>
+        <view class="welcome">
+            <image src="{{g}}" style="width:100%;height:100%"></image>
+            <view class="wel-left">
+                <view class="wel-title">欢迎来到松赞</view>
+                <view class="wel-text">{{h}}</view>
+            </view>
+        </view>
+        <view class="{{['tabs_warp',l&&'fixed']}}" style="{{'top:'+m}}">
+            <scroll-view bindscroll="{{j}}" class="scroll-view" scrollLeft="{{k}}" scrollWithAnimation="true" scrollX="true" showScrollbar="{{false}}">
+                <view class="scroll-div">
+                    <view bindtap="{{item.e}}" class="scroll-flex" id="{{item.d}}" wx:for="{{i}}">
+                        <view class="{{['name',item.b&&'sc-name']}}">{{item.a}}</view>
+                        <view class="scroll-top" wx:if="{{item.c}}"></view>
+                    </view>
+                </view>
+            </scroll-view>
+        </view>
+    </view>
+    <view class="details" id="box0" wx:if="{{n}}">
+        <view class="details-edge">
+            <view class="details-title">旅行地图</view>
+            <view class="map-container">
+                <map class="map" latitude="{{o}}" longitude="{{q}}" markers="{{r}}" polyline="{{p}}" scale="4"></map>
+            </view>
+            <view class="details-route">
+                <view class="details-left" wx:for="{{s}}" wx:key="i">
+                    <view class="details-eg">
+                        <view class="details-number">{{item.a}}</view>
+                        <view class="det-startHotelName">{{item.b}}</view>
+                        <view class="det-startHotelAltitude"> 海拔 {{item.c}}m </view>
+                    </view>
+                    <view class="det-iconfont" wx:if="{{item.d}}">
+                        <view class="iconfont icon-a-12_youlajiantou_hei" style="color:#ccc"></view>
+                    </view>
+                    <view class="details-eg" wx:if="{{item.e}}">
+                        <view>
+                            <view class="iconfont icon-car-line" style="color:#000000"></view>
+                        </view>
+                        <view class="det-distance">{{item.f}}km</view>
+                        <view class="det-useTime">{{item.g}}小时</view>
+                    </view>
+                    <view class="det-iconfont" wx:if="{{item.h}}">
+                        <view class="iconfont icon-a-12_youlajiantou_hei" style="color:#ccc"></view>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+    <view class="details" id="box1">
+        <view class="details-edge">
+            <view class="details-title">抵达与离开</view>
+            <block wx:if="{{t}}">
+                <view class="title-arrive">抵达-离开</view>
+                <view class="det-tips">
+                    <rich-text nodes="{{v}}"></rich-text>
+                </view>
+            </block>
+            <block wx:else>
+                <view class="title-arrive">抵达</view>
+                <view class="det-tips">
+                    <rich-text nodes="{{w}}"></rich-text>
+                </view>
+                <view class="title-arrive">离开</view>
+                <view class="det-tips">
+                    <rich-text nodes="{{x}}"></rich-text>
+                </view>
+            </block>
+        </view>
+    </view>
+    <view class="details" id="box2">
+        <view class="details-edge">
+            <view class="details-title">气候与天气</view>
+            <view class="weather">
+                <view class="weather-situation" wx:for="{{y}}" wx:key="l">
+                    <view class="weat-date">
+                        <view>{{item.a}}</view>
+                        <view class="weat-rays">{{item.b}}</view>
+                    </view>
+                    <view class="weat-lows">{{item.c}}°</view>
+                    <view class="weat-lows">{{item.d}}°</view>
+                    <view class="weat-humidity">
+                        <view>{{item.e}}</view>
+                        <view class="weat-rays"> 湿度{{item.f}}% · <text wx:if="{{item.g}}">紫外线最弱</text>
+                            <text wx:if="{{item.h}}">紫外线弱</text>
+                            <text wx:if="{{item.i}}">紫外线中等</text>
+                            <text wx:if="{{item.j}}">紫外线强</text>
+                            <text wx:if="{{item.k}}">紫外线很强</text>
+                        </view>
+                    </view>
+                </view>
+            </view>
+            <view hidden="{{!item.c}}" wx:for="{{z}}" wx:key="b">
+                <view class="det-tips" wx:for="{{item.a}}" wx:for-item="node" wx:key="c">
+                    <text class="title-arrive">{{node.a}}</text>
+                    <rich-text nodes="{{node.b}}"></rich-text>
+                </view>
+            </view>
+        </view>
+    </view>
+    <view class="details" id="box3">
+        <view class="details-edge">
+            <view class="details-title">高原反应与健康</view>
+            <view class="title-arrive">行程海拔</view>
+            <view class="details-altitude" wx:for="{{A}}" wx:key="e">
+                <view class="{{['det-name',item.b&&'bottomBtn']}}">{{item.a}}</view>
+                <view class="{{['det-altude',item.d&&'bottomBtn']}}">{{item.c}}米 </view>
+            </view>
+            <block wx:if="{{B}}">
+                <view class="title-arrive">认识高原反应</view>
+                <view class="det-top">
+                    <view class="det-tips"> 您入住的酒店海拔均低于2700米，不用担心会有高原反应。 </view>
+                </view>
+            </block>
+            <block wx:else>
+                <view hidden="{{!item.c}}" wx:for="{{C}}" wx:key="b">
+                    <view wx:for="{{item.a}}" wx:for-item="node" wx:key="c">
+                        <view class="title-arrive">{{node.a}}</view>
+                        <view class="det-top">
+                            <view class="det-tips">
+                                <rich-text nodes="{{node.b}}"></rich-text>
+                            </view>
+                        </view>
+                    </view>
+                </view>
+            </block>
+        </view>
+    </view>
+    <view class="details" id="box4">
+        <view class="details-edge">
+            <view class="details-title">行前准备清单</view>
+            <view hidden="{{!item.c}}" wx:for="{{D}}" wx:key="b">
+                <view wx:for="{{item.a}}" wx:for-item="node" wx:key="c">
+                    <view class="title-arrive">{{node.a}}</view>
+                    <view class="det-top">
+                        <view class="det-tips">
+                            <rich-text nodes="{{node.b}}"></rich-text>
+                        </view>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+    <view class="details" hidden="{{!F}}" id="box5">
+        <view class="details-edge">
+            <view class="details-title">推荐旅行前阅读与观影</view>
+            <view class="movies-flex">
+                <view class="moves-hote" wx:for="{{E}}" wx:key="f">
+                    <image class="moves-image" src="{{item.a}}"></image>
+                    <view class="moves-name">{{item.b}}</view>
+                    <view class="moves-type" wx:if="{{item.c}}"> 书籍 </view>
+                    <view class="moves-type" wx:if="{{item.d}}"> 电影 </view>
+                    <view class="moves-type" wx:if="{{item.e}}"> 纪录片 </view>
+                </view>
+            </view>
+        </view>
+    </view>
+    <view class="details" id="box6">
+        <view class="details-edge">
+            <view class="details-title">旅行亮点</view>
+            <view class="details-bg">
+                <view bindtap="{{item.f}}" class="deta-marke" wx:for="{{G}}" wx:key="e">
+                    <view class="mark-flex">
+                        <view class="no-page">
+                            <image class="deta-image" src="{{item.a}}"></image>
+                            <view class="no-video" wx:if="{{item.b}}">
+                                <view class="video-icon">
+                                    <view class="iconfont icon-a-20_bofang"></view>
+                                </view>
+                            </view>
+                            <view class="no-video" wx:if="{{item.c}}">
+                                <view class="video-icon" style="margin-left:-1px">
+                                    <view class="iconfont icon-audio-fill"></view>
+                                </view>
+                            </view>
+                        </view>
+                        <view class="mark-title">{{item.d}}</view>
+                    </view>
+                    <view>
+                        <view class="iconfont icon-a-12_youlajiantou_hei" style="color:#000"></view>
+                    </view>
+                </view>
+            </view>
+            <view bindtap="{{H}}" class="more-bg">去出发页查看更多</view>
+        </view>
+    </view>
+    <view class="details" id="box7">
+        <view class="details-edge">
+            <view class="details-title">其他事项</view>
+            <view hidden="{{!item.c}}" wx:for="{{I}}" wx:key="b">
+                <view wx:for="{{item.a}}" wx:for-item="node" wx:key="c">
+                    <view class="title-arrive">{{node.a}}</view>
+                    <view class="det-top">
+                        <view class="det-tips">
+                            <rich-text nodes="{{node.b}}"></rich-text>
+                        </view>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+</block>
+<block wx:else>
+    <empty bind:__l="__l" uI="411a47fe-1" uP="{{J}}" wx:if="{{J}}"></empty>
+</block>

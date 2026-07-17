@@ -1,0 +1,119 @@
+<view class="ui_myCollection data-v-7bcaaeed">
+    <coustom-head bind:__l="__l" class="data-v-7bcaaeed" uI="7bcaaeed-0" uP="{{a}}" wx:if="{{a}}"></coustom-head>
+    <view class="tabs_warp data-v-7bcaaeed" style="{{'top:'+d}}">
+        <switch-bar bind:__l="__l" bindchangeIndex="{{b}}" class="data-v-7bcaaeed" uI="7bcaaeed-1" uP="{{c}}" wx:if="{{c}}"></switch-bar>
+    </view>
+    <view class="data-v-7bcaaeed" style="height:60px"></view>
+    <block wx:if="{{e}}">
+        <view class="recd data-v-7bcaaeed" wx:if="{{f}}">
+            <view class="recd-box data-v-7bcaaeed">
+                <view class="recd-water data-v-7bcaaeed" wx:for="{{g}}" wx:key="b">
+                    <view class="data-v-7bcaaeed" wx:for="{{item.a}}" wx:for-item="node" wx:key="d">
+                        <wersal bind:__l="__l" bindimageLoad="{{node.a}}" class="data-v-7bcaaeed" uI="{{node.b}}" uP="{{node.c}}" wx:if="{{node.c}}"></wersal>
+                    </view>
+                </view>
+            </view>
+        </view>
+        <view class="data-v-7bcaaeed" wx:else>
+            <empty bind:__l="__l" class="data-v-7bcaaeed" uI="7bcaaeed-3" uP="{{h}}" wx:if="{{h}}"></empty>
+        </view>
+    </block>
+    <block wx:if="{{i}}">
+        <view class="collect-list data-v-7bcaaeed">
+            <view bindtap="{{item.g}}" class="product-box data-v-7bcaaeed" wx:for="{{j}}" wx:key="f">
+                <view class="product-img data-v-7bcaaeed">
+                    <image class="img data-v-7bcaaeed" mode="aspectFill" src="{{item.a}}"></image>
+                </view>
+                <view class="product-info data-v-7bcaaeed">
+                    <view class="product-name data-v-7bcaaeed">{{item.b}}</view>
+                    <view class="desc data-v-7bcaaeed">{{item.c}}</view>
+                    <view class="product-price data-v-7bcaaeed" wx:if="{{item.d}}">满房</view>
+                    <view class="product-price data-v-7bcaaeed" wx:else> ¥{{item.e}} <view class="unit data-v-7bcaaeed">/起</view>
+                    </view>
+                </view>
+            </view>
+            <view bindtap="{{l}}" class="invalid-btn data-v-7bcaaeed" wx:if="{{k}}"> 查看已失效产品<view class="iconfont icon-a-12_xialajiantou_hei data-v-7bcaaeed"></view>
+            </view>
+            <block wx:if="{{m}}">
+                <view class="product-box data-v-7bcaaeed" wx:for="{{n}}" wx:key="d">
+                    <view class="product-img data-v-7bcaaeed">
+                        <image class="img data-v-7bcaaeed" mode="aspectFill" src="{{item.a}}"></image>
+                    </view>
+                    <view class="product-info data-v-7bcaaeed">
+                        <view class="product-name data-v-7bcaaeed">{{item.b}}</view>
+                        <view class="desc data-v-7bcaaeed">{{item.c}}</view>
+                        <view class="lose data-v-7bcaaeed">已失效</view>
+                    </view>
+                </view>
+            </block>
+        </view>
+        <empty bind:__l="__l" class="data-v-7bcaaeed" uI="7bcaaeed-4" uP="{{p}}" wx:if="{{o}}"></empty>
+        <empty bind:__l="__l" class="data-v-7bcaaeed" uI="7bcaaeed-5" uP="{{r}}" wx:elif="{{q}}"></empty>
+        <bottom-dialog bind:__l="__l" class="r data-v-7bcaaeed" uI="7bcaaeed-6" uP="{{z}}" uR="filterComponent" uS="{{['d']}}" wx:if="{{z}}">
+            <view class="filterBox data-v-7bcaaeed">
+                <view class="topFilterBox data-v-7bcaaeed">
+                    <radio-box bind:__l="__l" bindupdateVal="{{t}}" class="r data-v-7bcaaeed" uI="7bcaaeed-7,7bcaaeed-6" uP="{{v}}" uR="radio" wx:if="{{v}}"></radio-box>
+                </view>
+                <view class="bottomFilterBox data-v-7bcaaeed">
+                    <view bindtap="{{w}}" class="resetBtn data-v-7bcaaeed">
+                        <view class="icon iconfont icon-a-20_zhongzhi data-v-7bcaaeed"></view>
+                        <view class="resetDesc data-v-7bcaaeed">重置</view>
+                    </view>
+                    <view bindtap="{{x}}" class="finishBtn data-v-7bcaaeed">完成</view>
+                </view>
+            </view>
+        </bottom-dialog>
+    </block>
+    <block wx:if="{{A}}">
+        <view class="recd data-v-7bcaaeed" wx:if="{{B}}">
+            <view class="recd-box data-v-7bcaaeed" style="flex-wrap:wrap;margin-top:-12px">
+                <view bindtap="{{item.e}}" class="recd-water data-v-7bcaaeed" hidden="{{!item.c}}" style="margin-left:14px;margin-top:10px;width:46%" wx:for="{{C}}" wx:key="d">
+                    <view class="content data-v-7bcaaeed">
+                        <view class="no-page data-v-7bcaaeed">
+                            <image class="imageList data-v-7bcaaeed" src="{{item.a}}"></image>
+                            <view class="rend data-v-7bcaaeed">
+                                <view class="rend-flex data-v-7bcaaeed">
+                                    <view class="data-v-7bcaaeed"></view>
+                                    <view class="flex-text data-v-7bcaaeed">
+                                        <view class="data-v-7bcaaeed">
+                                            <view class="iconfont icon-a-20_shoucang_yishoucang data-v-7bcaaeed"></view>
+                                        </view>
+                                        <view class="data-v-7bcaaeed">{{item.b}}</view>
+                                    </view>
+                                </view>
+                            </view>
+                        </view>
+                    </view>
+                </view>
+            </view>
+            <view bindtap="{{E}}" class="invalid-btn data-v-7bcaaeed" wx:if="{{D}}"> 查看已失效产品<view class="iconfont icon-a-12_xialajiantou_hei data-v-7bcaaeed"></view>
+            </view>
+            <view class="recd-box data-v-7bcaaeed" style="flex-wrap:wrap;margin-top:10px" wx:if="{{F}}">
+                <view bindtap="{{item.e}}" class="recd-water data-v-7bcaaeed" hidden="{{!item.c}}" style="margin-left:14px;margin-top:10px;width:46%" wx:for="{{G}}" wx:key="d">
+                    <view class="content data-v-7bcaaeed">
+                        <view class="no-page data-v-7bcaaeed">
+                            <image class="imageList data-v-7bcaaeed" src="{{item.a}}" style="opacity:0.8;filter:alpha(opacity=9);border-radius:8px"></image>
+                            <view class="invalid data-v-7bcaaeed">已失效</view>
+                            <view class="rend data-v-7bcaaeed">
+                                <view class="rend-flex data-v-7bcaaeed">
+                                    <view class="data-v-7bcaaeed"></view>
+                                    <view class="flex-text data-v-7bcaaeed">
+                                        <view class="data-v-7bcaaeed">
+                                            <view class="iconfont icon-a-20_shoucang_yishoucang data-v-7bcaaeed"></view>
+                                        </view>
+                                        <view class="data-v-7bcaaeed">{{item.b}}</view>
+                                    </view>
+                                </view>
+                            </view>
+                        </view>
+                    </view>
+                </view>
+            </view>
+        </view>
+        <view class="data-v-7bcaaeed" wx:else>
+            <empty bind:__l="__l" class="data-v-7bcaaeed" uI="7bcaaeed-8" uP="{{H}}" wx:if="{{H}}"></empty>
+        </view>
+    </block>
+    <view class="data-v-7bcaaeed" style="height:100px"></view>
+</view>
+<float-button-kf bind:__l="__l" class="data-v-7bcaaeed" uI="7bcaaeed-9"></float-button-kf>

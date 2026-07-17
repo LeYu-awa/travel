@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "float-button-kf": "/components/new/FloatButtonKf",
+    "good-item": "./GoodItem"
+  }
+}

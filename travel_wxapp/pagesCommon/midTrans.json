@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": " ",
+  "usingComponents": {
+    "float-button-kf": "/components/new/FloatButtonKf",
+    "st-button": "../components/new/StButton"
+  }
+}
